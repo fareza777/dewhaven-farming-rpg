@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "method": "Supplied generation credential marker in UTF-8 and UTF-16LE; every APK ZIP entry decompressed. Marker value is not recorded.",
+  "markerCharacters": 8,
+  "sourceRoots": [
+    "unity/Dewhaven/Assets/Dewhaven",
+    "unity/Dewhaven/Assets/Plugins",
+    "unity/Dewhaven/Packages",
+    "unity/Dewhaven/ProjectSettings",
+    "tools",
+    "docs",
+    "art/voice",
+    "art/portraits",
+    "art/audio"
+  ],
+  "sourceFiles": 305,
+  "sourceBytes": 2255595,
+  "sourceMatches": [],
+  "sourceScanExcludes": "Tool caches, binary source masters and generated runtime logs/intermediates; the shipping payload is inspected separately in full.",
+  "apkEntries": 1255,
+  "apkUncompressedBytes": 220711781,
+  "apkBytes": 79944601,
+  "apkSha256": "d7290de5e81434e5569f3f759bb8990a73dabd685d39873d28b0f3bc7ecb5865",
+  "apkMatches": [],
+  "tokenRuntimeRequired": false
+}

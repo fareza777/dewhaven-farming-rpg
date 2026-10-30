@@ -1,0 +1,17 @@
+{
+    "passed": true,
+    "error": "",
+    "day": 2,
+    "gold": 545,
+    "checks": [
+        "till-plant-water physical impacts",
+        "automatic ripe harvest",
+        "real shop purchase UI",
+        "daily social credit once",
+        "physical shipping and sleep UI",
+        "one-day growth/payment and reload",
+        "fence blocks a long movement step",
+        "failed save preserves feedback and current game",
+        "background invalidates shop and releases pause once"
+    ]
+}

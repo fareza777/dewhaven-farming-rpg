@@ -1,0 +1,1364 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "new-game",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "onboarding",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "journal",
+    "tab": "main",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "journal",
+    "tab": "side",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "journal",
+    "tab": "achievements",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "market",
+    "tab": "seeds",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "market",
+    "tab": "supplies",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "market",
+    "tab": "animals",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "backpack",
+    "tab": "all",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "craft",
+    "tab": "food",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "craft",
+    "tab": "workshop",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "person",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "calendar",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "calendar",
+    "tab": "gatherings",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "map",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "map",
+    "tab": "far",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "almanac",
+    "tab": "crops",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "almanac",
+    "tab": "fish",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "almanac",
+    "tab": "skills",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "animals",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "home",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "home",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "ad-previews",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "about",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "upgrade",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "shipping",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "controls",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "controls:response",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "controls:actions",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "sound",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "display",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "game",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "settings",
+    "tab": "saves",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "about",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "share",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "rate",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "help",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "tools",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "actions",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "fishing",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "bond",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "discovery",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "chapter",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "gathering",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "new-game",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "onboarding",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "journal",
+    "tab": "main",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "journal",
+    "tab": "side",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "journal",
+    "tab": "achievements",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "market",
+    "tab": "seeds",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "market",
+    "tab": "supplies",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "market",
+    "tab": "animals",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "backpack",
+    "tab": "all",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "craft",
+    "tab": "food",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "craft",
+    "tab": "workshop",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "person",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "calendar",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "calendar",
+    "tab": "gatherings",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "map",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "map",
+    "tab": "far",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "almanac",
+    "tab": "crops",
+    "scrollY": 23,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "almanac",
+    "tab": "fish",
+    "scrollY": 15,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "almanac",
+    "tab": "skills",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "animals",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "home",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "home",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "ad-previews",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "about",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "upgrade",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "shipping",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "controls",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "controls:response",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "controls:actions",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "sound",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "display",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "game",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "settings",
+    "tab": "saves",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "about",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "share",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "rate",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "help",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "tools",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "actions",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "fishing",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "bond",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "discovery",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "chapter",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "gathering",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "new-game",
+    "tab": "",
+    "scrollY": 23,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "onboarding",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "journal",
+    "tab": "main",
+    "scrollY": 135,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "journal",
+    "tab": "side",
+    "scrollY": 3,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "journal",
+    "tab": "achievements",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "market",
+    "tab": "seeds",
+    "scrollY": 1,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "market",
+    "tab": "supplies",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "market",
+    "tab": "animals",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "backpack",
+    "tab": "all",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "craft",
+    "tab": "food",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "craft",
+    "tab": "workshop",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "person",
+    "tab": "",
+    "scrollY": 65,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "calendar",
+    "tab": "",
+    "scrollY": 135,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "calendar",
+    "tab": "gatherings",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "map",
+    "tab": "",
+    "scrollY": 104,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "map",
+    "tab": "far",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "almanac",
+    "tab": "crops",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "almanac",
+    "tab": "fish",
+    "scrollY": 2,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "almanac",
+    "tab": "skills",
+    "scrollY": 94,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "animals",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "home",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "home",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "ad-previews",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "about",
+    "tab": "ads",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "upgrade",
+    "tab": "",
+    "scrollY": 51,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "shipping",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "controls",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "controls:response",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "controls:actions",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "sound",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "display",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "game",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "settings",
+    "tab": "saves",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "about",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "share",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "rate",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "help",
+    "tab": "",
+    "scrollY": 157,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "tools",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "actions",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "fishing",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "bond",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "discovery",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "chapter",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "gathering",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "errors": []
+  }
+]

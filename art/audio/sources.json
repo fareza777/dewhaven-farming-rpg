@@ -1,0 +1,52 @@
+[
+  {
+    "file": "park_ambience_birds.wav",
+    "url": "https://opengameart.org/sites/default/files/park_ambience_birds.wav",
+    "author": "Thimras",
+    "page": "https://opengameart.org/content/park-ambiences",
+    "license": "CC0",
+    "sourceRange": "master prefix, bytes 0-80740351",
+    "bytes": 80740352,
+    "sha256": "19c5cd3371ab2e6c2ee90bac730d38dc4f0b3e9a8a86a60c9bc5cfc59705be65"
+  },
+  {
+    "file": "park_ambience_river.wav",
+    "url": "https://opengameart.org/sites/default/files/park_ambience_river.wav",
+    "author": "Thimras",
+    "page": "https://opengameart.org/content/park-ambiences",
+    "license": "CC0",
+    "sourceRange": "master prefix, bytes 0-75497471",
+    "bytes": 75497472,
+    "sha256": "22e4fa8090d9f7bf5df58323501019bd8e77fae82d2e294ad08afe53e5a87c86"
+  },
+  {
+    "file": "park_ambience_wind.wav",
+    "url": "https://opengameart.org/sites/default/files/park_ambience_wind.wav",
+    "author": "Thimras",
+    "page": "https://opengameart.org/content/park-ambiences",
+    "license": "CC0",
+    "sourceRange": "master prefix, bytes 0-73960095",
+    "bytes": 73960096,
+    "sha256": "5c381856745b4706e7eba55eb9271a61a530e90c05df8126adb2db89ecfa6c5a"
+  },
+  {
+    "file": "rain-ogg.zip",
+    "url": "https://opengameart.org/sites/default/files/Rain%20OGG.zip",
+    "author": "Ylmir",
+    "page": "https://opengameart.org/content/rain-loopable",
+    "license": "CC0",
+    "sourceRange": "full archive",
+    "bytes": 2736596,
+    "sha256": "e68f3e1c77493cf43bec84cebff5043bff6be9ce16d59b24caa988cd460aa75b"
+  },
+  {
+    "file": "water-sfx.zip",
+    "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip",
+    "author": "rubberduck",
+    "page": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+    "license": "CC0",
+    "sourceRange": "full archive",
+    "bytes": 2259262,
+    "sha256": "7cd39abb49d4362a37ba18dc0e454c7dc1d08029d4e5b683149046bc237b2eba"
+  }
+]

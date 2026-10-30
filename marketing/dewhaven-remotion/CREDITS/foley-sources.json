@@ -1,0 +1,62 @@
+{
+  "source": "https://kenney.nl/assets/rpg-audio",
+  "license": "CC0",
+  "selection": "Physical foley only; no music, instruments, or preview mix.",
+  "files": [
+    {
+      "source": "chop.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\axe.ogg",
+      "sha256": "d00c2b3c9fff07e376145c8c8c45c90e5084ec192f6ce0387db233f7b86f1486"
+    },
+    {
+      "source": "footstep07.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\hoe.ogg",
+      "sha256": "42924cdbf998d5b3db180a339fd74afc94c570d594a536687e337ef1bdfdb346"
+    },
+    {
+      "source": "metalClick.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\pick.ogg",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "source": "handleSmallLeather.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\seed.ogg",
+      "sha256": "ae3cbf695aa0a8b98b5a80a835be5a3ccbd5446a24db2235cd4c3cd6fc92ed96"
+    },
+    {
+      "source": "cloth2.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\hand.ogg",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201"
+    },
+    {
+      "source": "doorOpen_1.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\door.ogg",
+      "sha256": "4ab93bab96522d8eb109ff96dc57cb6765deb02448fe14c10472084be5bb2a0b"
+    },
+    {
+      "source": "handleCoins2.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\coin.ogg",
+      "sha256": "4b857968d64f9ac9336a10ffac6694d7547e1f01566ad6857b30bc8db3ee6c32"
+    },
+    {
+      "source": "footstep00.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\step-0.ogg",
+      "sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
+    },
+    {
+      "source": "footstep02.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\step-1.ogg",
+      "sha256": "2d9575b7dead6e1217ca113991fc5229e9b6d998ea0726ebbb277e7398ab888f"
+    },
+    {
+      "source": "footstep04.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\step-2.ogg",
+      "sha256": "fd264d72a7cd622b82abde202f4ed09fa7de95d34c36473ee938ce66cdf39830"
+    },
+    {
+      "source": "footstep06.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\step-3.ogg",
+      "sha256": "6cabfe7ae95d227a84066c6e17014ac31cc7c89b14ef51d7877e98352d4a64fb"
+    }
+  ]
+}

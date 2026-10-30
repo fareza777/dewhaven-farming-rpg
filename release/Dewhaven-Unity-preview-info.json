@@ -1,0 +1,43 @@
+{
+  "name": "Dewhaven",
+  "kind": "Native Unity development preview",
+  "file": "E:\\Harvest Moon GPT 61\\release\\Dewhaven-Unity-preview.apk",
+  "bytes": 104570868,
+  "sha256": "b63c0748062a390d9349eaea81d5f3cefe71afe091f74dbd685f4b0374281c13",
+  "builtAtUtc": "2026-10-15T00:06:50.2657274Z",
+  "package": "com.fajar.dewhaven.unity",
+  "version": "2.0.0",
+  "versionCode": 10,
+  "minimumAndroidApi": 26,
+  "targetAndroidApi": 36,
+  "architecture": "arm64-v8a",
+  "orientation": "portrait",
+  "signature": "APK Signature Scheme v2, verified with bundled apksigner",
+  "theme": "Bright sandstone and champagne, espresso text, bronze accents",
+  "generatedIcons": 14,
+  "hudTextureMaxPixels": 256,
+  "packagedHudResourceNames": [
+    "hoe",
+    "water",
+    "seed",
+    "axe",
+    "pick",
+    "bag",
+    "hand",
+    "rod",
+    "door",
+    "talk",
+    "map",
+    "journal",
+    "menu",
+    "coin"
+  ],
+  "compressedZipPayloadBytes": 76042453,
+  "packagingOverheadBytes": 28528415,
+  "preservedWebApkSha256": "f6858e64404dd911b224f1689be5cfec76aa8ce94c123e8fe4a16c749f612f92",
+  "remaining": [
+    "Finish expanded town interiors, story, events, bonds and authored vault mechanics",
+    "Integrate Unity AdMob and legacy save import/export",
+    "Measure physical-device performance and finish production packaging"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "runner": "Direct invocation of actual NUnit test methods, before final regression fixes",
+  "rows": [
+    {
+      "name": "CompactTownsKeepEveryBuildingAndReachableFrontDoor",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EveryExteriorRoadHasAnOpposingReciprocalSafeArrival",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "RoadCrossingRequiresOutwardMotionAndRespectsPauseBusyAndCooldown",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QuestStatusAndSideFiltersNeverAcceptOrPayWhileBrowsing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "RoadArrivalRetainsMovementAvailabilityAndHonorsOtherPauseOwners",
+      "passed": false,
+      "error": "  The next TouchInput.Update must not clear a held finger after an ordinary road arrival.\r\n  Expected: True\r\n  But was:  False\r\n"
+    },
+    {
+      "name": "AQuestWithoutRestorationDoesNotPromiseARestorationReward",
+      "passed": false,
+      "error": "  Expected: not String containing \"Valley restoration\"\r\n  But was:  \"150 gold · 4 × Carrot seeds · Valley restoration\"\r\n"
+    }
+  ]
+}

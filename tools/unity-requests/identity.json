@@ -1,0 +1,8 @@
+{
+  "name": "script-execute",
+  "arguments": {
+    "csharpCode": "using UnityEngine; using UnityEditor; public static class DewhavenIdentity { public static string Inspect() { return Application.dataPath + \" | \" + Application.unityVersion + \" | compiling=\" + EditorApplication.isCompiling + \" | playing=\" + EditorApplication.isPlaying; } }",
+    "className": "DewhavenIdentity",
+    "methodName": "Inspect"
+  }
+}

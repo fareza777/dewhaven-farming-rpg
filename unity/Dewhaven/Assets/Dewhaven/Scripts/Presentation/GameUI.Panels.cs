@@ -1,0 +1,286 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Newtonsoft.Json.Linq;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using static Dewhaven.UIFactory;
+namespace Dewhaven
+{
+    public sealed partial class GameUI
+    {
+        public void Bag(bool shipping=false,int pageIndex=0)
+        {
+            if(game.State==null)return;
+            if(shipping&&(game.Context()?.kind!="shipping")){Toast("Use the homestead shipping crate.");return;}
+            var p=Open(shipping?"Shipping crate":"Your bag");
+            Text(p,shipping?"Payment arrives at dawn.":game.State.inventory.Count+" / "+game.State.capacity+" spaces",24,112,W-48,32,16,Muted);
+            var items=game.State.inventory.OrderBy(x=>ContentRegistry.Items[x.Key]?["category"].ToString()).ThenBy(x=>x.Key).ToArray();
+            int perPage=H<780?4:6;
+            for(int i=pageIndex*perPage;i<Mathf.Min(items.Length,pageIndex*perPage+perPage);i++)
+            {
+                var item=items[i];int index=i-pageIndex*perPage;float x=24+index%2*(W-40)/2,y=164+index/2*180;
+                var b=Button(p,"",x,y,(W-56)/2,166,()=>ItemDetails(item.Key,shipping));b.GetComponent<Image>().color=Color.clear;
+                var art=Image(b.transform,"Item",((W-56)/2-88)/2,0,88,88,ArtBank.Item(item.Key));art.preserveAspect=true;
+                Text(b.transform,ContentRegistry.ItemName(item.Key),4,92,(W-56)/2-8,52,16,Ink,false,TextAlignmentOptions.Top);
+                Text(b.transform,"×"+item.Value,4,144,(W-56)/2-8,24,14,Muted,false,TextAlignmentOptions.Top);
+            }
+            if(items.Length==0)Text(p,"Your bag is empty.",24,240,W-48,60,18,Muted);
+            if(shipping&&(string)QuestService.ActiveMain(game.State)?["id"]=="first-convoy")Button(p,"Pack the convoy deliveries",24,H-146,W-48,48,()=>Convoy(),true);
+            Pager(p,pageIndex,Mathf.CeilToInt(items.Length/(float)perPage),n=>Bag(shipping,n));
+        }
+        private void ItemDetails(string id,bool shipping)
+        {
+            var p=Open(ContentRegistry.ItemName(id));
+            var art=Image(p,"Item illustration",W/2-90,132,180,180,ArtBank.Item(id));art.preserveAspect=true;
+            int owned=InventoryRules.Count(game.State,id);Text(p,"Owned  ·  "+owned,24,342,W-48,42,20,Muted,false,TextAlignmentOptions.Center);
+            var item=ContentRegistry.Items[id];
+            if(shipping)
+            {
+                int price=ContentRegistry.SellPrice(id);Text(p,"Shipping value  ·  "+price+" gold each",24,414,W-48,54,18,Ink,false,TextAlignmentOptions.Center);
+                if(price>0)
+                {
+                    Action<int> ship=count=>
+                    {
+                        if(game.Context()?.kind!="shipping"){Toast("Return to the shipping crate.");return;}
+                        int waiting=game.State.shipping.TryGetValue(id,out var total)?total:0;
+                        if(waiting+count>999){Toast("This shipment is already full.");return;}
+                        if(!InventoryRules.Remove(game.State,id,count))return;
+                        game.State.shipping[id]=(game.State.shipping.TryGetValue(id,out var n)?n:0)+count;
+                        bool saved=game.Save();Bag(true);if(saved)Toast("Shipment added.");
+                    };
+                    Button(p,"Ship one",24,H-148,W-48,52,()=>ship(1),true);
+                    Button(p,"Ship all "+owned,24,H-82,W-48,48,()=>ship(owned));
+                }
+                else Text(p,"Keep this item for your journey.",24,520,W-48,80,18,Muted,false,TextAlignmentOptions.Center);
+            }
+            else if(id.EndsWith("_seed"))
+            {
+                string crop=id.Substring(0,id.Length-5);var c=ContentRegistry.Crops[crop];
+                Text(p,"Ready in "+(int)c["days"]+" watered days.",24,414,W-48,60,18,Muted,false,TextAlignmentOptions.Center);
+                Button(p,"Select these seeds",24,H-82,W-48,52,()=>{game.State.selectedSeed=crop;game.State.selectedTool="seed";ClosePanel();Toast(ContentRegistry.ItemName(id)+" selected.");},true);
+            }
+            else if((int?)item["energy"]>0)
+            {
+                int energy=(int)item["energy"];Text(p,"Restores "+energy+" energy.",24,414,W-48,60,18,Muted,false,TextAlignmentOptions.Center);
+                Button(p,"Eat one",24,H-82,W-48,52,()=>{if(InventoryRules.Remove(game.State,id)){game.State.energy=Mathf.Min(game.State.maxEnergy,game.State.energy+energy);bool saved=game.Save();ClosePanel();if(saved)Toast("Energy restored.");}},true);
+            }
+            else if(id=="fertilizer"||id=="sprinkler"||id=="scarecrow")
+            {
+                string description=id=="fertilizer"?"Doubles growth on watered nights in one bed.":id=="sprinkler"?"Waters nine nearby beds automatically at dawn.":"Every fifth harvest within six beds yields an extra crop.";
+                Text(p,description,24,414,W-48,110,18,Muted,false,TextAlignmentOptions.Center);
+                Button(p,id=="fertilizer"?"Enrich the nearest bed":"Place beside the nearest bed",24,H-82,W-48,52,()=>
+                {
+                    var plot=game.State.plots.OrderBy(q=>Vector2.Distance(WorldView.PlotPosition(q,game.State)+Vector2.one*.5f,game.Player.MapPosition)).FirstOrDefault();
+                    if(FarmEquipment.Place(game.State,id,plot,game.Player.MapPosition,out var message)){game.RefreshWorld();game.Save();ClosePanel();}Toast(message,4);
+                },true);
+            }
+            else Text(p,(string)item["category"]=="material"?"Useful for making and repairing things.":"A thoughtful gift or something to keep.",24,414,W-48,100,18,Muted,false,TextAlignmentOptions.Center);
+        }
+        public void Shop(WorldAnchor anchor,int pageIndex=0)
+        {
+            var shop=ContentRegistry.Find(ContentRegistry.Shops,anchor.target);
+            if(shop==null)return;
+            string room=(string)shop["room"];
+            float distance=Vector2.Distance(game.Player.MapPosition,anchor.position);
+            if(game.State.area!=room||distance>1.5f){Toast("Walk up to the shop counter.");return;}
+            if(game.State.minute<(int)shop["open"]||game.State.minute>=(int)shop["close"]){Toast("Open "+((int)shop["open"]/60).ToString("00")+":00–"+((int)shop["close"]/60).ToString("00")+":00.");return;}
+            var p=Open((string)shop["name"]);
+            Text(p,game.State.gold.ToString("N0")+" gold",24,109,W-48,30,18,Bronze,false,TextAlignmentOptions.MidlineRight);
+            string owner=(string)shop["owner"];var merchant=ContentRegistry.Find(ContentRegistry.Residents,owner);
+            if(merchant!=null)Button(p,"Talk to "+(string)merchant["name"],24,108,180,48,()=>Conversation(owner));
+            var state=game.State;var stock=shop["stock"].ToDictionary(x=>(string)x["id"],x=>(int)x["price"]);
+            var session=new TradeSession(state,game.State.area,room,distance,game.State.minute,stock,(int)shop["open"],(int)shop["close"],()=>game.State==state&&game.State.area==room&&Vector2.Distance(game.Player.MapPosition,anchor.position)<=1.5f);
+            closed=()=>session.Dispose();
+            var products=shop["stock"].ToArray();
+            int perPage=H<780?1:2;
+            for(int i=pageIndex*perPage;i<Mathf.Min(products.Length,pageIndex*perPage+perPage);i++)
+            {
+                var product=products[i];string id=(string)product["id"];int quantity=1;float y=178+(i-pageIndex*perPage)*244;
+                var art=Image(p,"Product",24,y+12,112,116,ArtBank.Item(id));art.preserveAspect=true;
+                Text(p,ContentRegistry.ItemName(id),156,y,W-180,66,20);
+                Text(p,(int)product["price"]+" gold  ·  "+InventoryRules.Count(state,id)+" owned",156,y+76,W-180,52,16,Muted);
+                var quantityText=Text(p,"1",206,y+134,50,48,18,Ink,false,TextAlignmentOptions.Center);
+                Button(p,"−",156,y+134,48,48,()=>{quantity=Math.Max(1,quantity-1);quantityText.text=quantity.ToString();});
+                Button(p,"+",W-72,y+134,48,48,()=>{quantity=Math.Min(99,quantity+1);quantityText.text=quantity.ToString();});
+                Button(p,"Buy",156,y+192,W-180,48,()=>
+                {
+                    if(session.Buy(id,quantity,out var reason)){bool saved=game.Save();Shop(anchor,pageIndex);if(saved)Toast("Purchased "+ContentRegistry.ItemName(id)+".");coinPulse=.6f;}else Toast(reason);
+                },true);
+            }
+            if(shop["upgrades"].Any())Button(p,"Upgrade orders",24,H-146,W-48,48,()=>Upgrades(anchor));
+            if((string)shop["id"]=="ranch")Button(p,"Meet the animals",24,H-146,W-48,48,()=>Adoption());
+            Pager(p,pageIndex,Mathf.CeilToInt(products.Length/(float)perPage),n=>Shop(anchor,n));
+        }
+        private void Upgrades(WorldAnchor anchor,int pageIndex=0)
+        {
+            var shop=ContentRegistry.Find(ContentRegistry.Shops,anchor.target);var upgrades=shop["upgrades"].ToArray();
+            if(upgrades.Length==0)return;
+            var p=Open("Upgrade orders");var upgrade=upgrades[pageIndex];string id=upgrade.Type==JTokenType.String?(string)upgrade:(string)upgrade["id"];
+            int level=game.State.upgrades.TryGetValue(id,out int n)?n:0,cost=500*(level+1),limit=id=="house"?1:3;
+            Text(p,id=="tools"?"Better working tools":id=="house"?"A room to grow into":id=="expansion"?"More growing beds":"A roomier bag",24,142,W-48,104,30,Ink,true);
+            Text(p,"Current level  ·  "+level+" / "+limit,24,252,W-48,40,18,Muted);
+            string benefit=id=="tools"?"Work "+((level+1)*12)+"% faster. Tilling, chopping and mining use less energy.":id=="house"?"A furnished studio and workbench are added to your farmhouse.":id=="expansion"?"Adds 18 growing beds beside your first field.":"Adds 8 spaces for different items.";
+            Text(p,level>=limit?"All improvements are complete.":benefit,24,310,W-48,90,16,Muted);
+            var materials=new Dictionary<string,int>{{"wood",10*(level+1)},{"stone",5*(level+1)}};
+            if(level<limit)Text(p,cost+" gold\n"+materials["wood"]+" timber\n"+materials["stone"]+" stone",24,416,W-48,104,20);
+            Button(p,level>=limit?"Fully improved":"Order upgrade",24,H-148,W-48,52,()=>
+            {
+                int current=game.State.upgrades.TryGetValue(id,out int currentLevel)?currentLevel:0;if(current!=level||current>=limit)return;
+                if(game.State.area!=(string)shop["room"]||Vector2.Distance(game.Player.MapPosition,anchor.position)>1.5f){Toast("Return to the counter.");return;}
+                if(!FarmingService.Exchange(game.State,materials,new Dictionary<string,int>(),cost,0,out var reason)){Toast(reason);return;}
+                game.State.upgrades[id]=level+1;
+                if(id=="backpack"||id=="bag")game.State.capacity=Math.Min(100,game.State.capacity+8);
+                if(id=="expansion")for(int i=0;i<18;i++)game.State.plots.Add(new PlotState{id="extra-"+(level*18+i)});
+                game.State.Count("restored");bool saved=game.Save();ClosePanel();if(saved)Toast(id=="house"?"Your farmhouse studio is ready.":"Your upgrade is ready.");
+            },true).interactable=level<limit;
+            Pager(p,pageIndex,upgrades.Length,n=>Upgrades(anchor,n));
+        }
+        public void Crafting(WorldAnchor anchor,int pageIndex=0)
+        {
+            var recipes=ContentRegistry.Read("simulation")["recipes"].Where(r=>anchor.kind=="cook"?((string)ContentRegistry.Items[(string)r["output"]]["category"])=="food":((string)ContentRegistry.Items[(string)r["output"]]["category"])!="food").ToArray();
+            var p=Open(anchor.kind=="cook"?"In the kitchen":"At the workbench");if(recipes.Length==0)return;
+            var recipe=recipes[Mathf.Min(pageIndex,recipes.Length-1)];string id=(string)recipe["output"];
+            var art=Image(p,"Recipe",W/2-60,128,120,120,ArtBank.Item(id));art.preserveAspect=true;
+            Text(p,ContentRegistry.ItemName(id),24,274,W-48,70,28,Ink,true,TextAlignmentOptions.Center);
+            float y=368;
+            foreach(var ingredient in ((JObject)recipe["ingredients"]).Properties())
+            {Text(p,ContentRegistry.ItemName(ingredient.Name),24,y,W-130,44,18);Text(p,InventoryRules.Count(game.State,ingredient.Name)+" / "+ingredient.Value,W-116,y,92,44,18,Muted,false,TextAlignmentOptions.TopRight);y+=48;}
+            Button(p,anchor.kind=="cook"?"Cook":"Make",24,H-148,W-48,52,()=>
+            {
+                if(game.State.area!=game.World.Area.id||Vector2.Distance(game.Player.MapPosition,anchor.position)>1.5f){Toast("Return to this work surface.");return;}
+                bool changed=FarmingService.Craft(game.State,recipe,out var message);bool saved=!changed||game.Save();Crafting(anchor,pageIndex);if(saved)Toast(message);
+            },true);
+            Pager(p,pageIndex,recipes.Length,n=>Crafting(anchor,n));
+        }
+        public void Animals(int pageIndex=0)
+        {
+            if(game.State.area!="barn"){Toast("Use the barn's care station.");return;}
+            var p=Open("Your animals");if(game.State.animals.Count==0){Text(p,"Meet Nora at the ranch to bring home an animal.",24,160,W-48,110,18,Muted);return;}
+            var animal=game.State.animals[Mathf.Clamp(pageIndex,0,game.State.animals.Count-1)];var art=Image(p,"Animal",W/2-40,132,80,100,ArtBank.Get((animal.kind=="pig"?"pig":animal.kind=="rabbit"?"rabbit":"bird")+"/down/1"));art.preserveAspect=true;
+            Text(p,animal.name,24,258,W-48,54,30,Ink,true,TextAlignmentOptions.Center);
+            Text(p,animal.fed?"Fed and comfortable":"Ready for breakfast",24,326,W-48,54,18,Muted,false,TextAlignmentOptions.Center);
+            string[] acts={"feed","pet","collect"},labels={"Feed","Pet","Collect produce"};
+            for(int i=0;i<3;i++){int k=i;Button(p,labels[i],24,412+i*62,W-48,52,()=>{bool changed=FarmingService.Care(game.State,animal,acts[k],out var m);bool saved=!changed||game.Save();Animals(pageIndex);if(saved)Toast(m);},i==0);}
+            Pager(p,pageIndex,game.State.animals.Count,n=>Animals(n));
+        }
+        private void Slots(bool save)
+        {
+            var p=Open(save?"Keep your day":"Choose a homestead");
+            for(int i=0;i<3;i++)
+            {
+                int slot=i;var state=game.Saves.Load(i,out var error);float y=140+i*172;
+                Text(p,"0"+(i+1),24,y,48,36,20,Bronze);
+                Text(p,state==null?"An empty homestead":state.farmName+" Homestead",80,y,W-104,44,22,Ink,true);
+                Text(p,state==null?(string.IsNullOrEmpty(error)?"Begin a new story here.":error):state.playerName+" · Year "+state.year+" · Day "+state.day,80,y+47,W-104,50,16,Muted);
+                Button(p,save?"Save here":"Continue",80,y+106,W-104,48,()=>
+                {
+                    if(save)
+                    {
+                        if(game.Saves.HasSlot(slot)&&game.State.slot!=slot)Confirm("Replace this homestead?","The selected slot will hold your current farm.",()=>SaveToSlot(slot));
+                        else SaveToSlot(slot);
+                    }
+                    else if(state!=null)game.Continue(slot);else NewGamePage();
+                },true).interactable=save||state!=null;
+            }
+        }
+        private void SaveToSlot(int slot)
+        {
+            int previous=game.State.slot;game.State.slot=slot;
+            if(!game.Save()){game.State.slot=previous;return;}
+            ClosePanel();Toast("Your day is saved.");
+        }
+        private void Settings(int tab)
+        {
+            var p=Open("Settings");string[] tabs={"Input","Audio","View","Game","Saves"};
+            for(int i=0;i<5;i++){int t=i;var button=Button(p,tabs[i],24+i*(W-48)/5,112,(W-48)/5-3,54,()=>Settings(t),t==(tab==7?1:tab));foreach(var text in button.GetComponentsInChildren<TextMeshProUGUI>())text.fontSize=14*FontScale;}
+            var pref=game.Preferences;
+            Action save=()=>{pref.Save();Application.targetFrameRate=pref.frameRate;};
+            Action<string,float,Action> toggle=(label,y,click)=>Button(p,label,24,y,W-48,54,()=>{click();save();Settings(tab);});
+            if(tab==0)
+            {
+                toggle(pref.floating?"Joystick · Flexible":"Joystick · Fixed",196,()=>pref.floating=!pref.floating);
+                toggle(pref.leftHanded?"Actions · Left hand":"Actions · Right hand",262,()=>pref.leftHanded=!pref.leftHanded);
+                toggle(pref.autoRun?"Run · At full thumb reach":"Run · Walk only",328,()=>pref.autoRun=!pref.autoRun);
+                Slider(p,"Joystick size",24,410,W-48,.8f,1.3f,pref.joystickSize,v=>{pref.joystickSize=v;save();});
+                Button(p,"Response & camera",24,H-146,W-48,48,()=>Settings(5));
+            }
+            if(tab==5)
+            {
+                Slider(p,"Dead zone",24,200,W-48,.05f,.3f,pref.deadZone,v=>{pref.deadZone=v;save();});
+                Slider(p,"Sensitivity",24,320,W-48,.7f,1.4f,pref.sensitivity,v=>{pref.sensitivity=v;save();});
+                Slider(p,"Camera response",24,440,W-48,.6f,1.6f,pref.cameraResponse,v=>{pref.cameraResponse=v;save();});
+                Button(p,"Control height",24,H-146,W-48,48,()=>Settings(6));
+                Button(p,"Back to controls",24,H-82,W-48,52,()=>Settings(0));
+            }
+            if(tab==6)
+            {
+                Slider(p,"Control height",24,220,W-48,.8f,1.3f,pref.controlHeight,v=>{pref.controlHeight=v;save();});
+                Button(p,"Back to controls",24,H-82,W-48,52,()=>Settings(0));
+            }
+            if(tab==1)
+            {
+                bool preview=H>=700;
+                float top=H<660?176:H<780?184:200;
+                float footer=H-(preview?208:146);
+                float gap=Mathf.Min(H<780?88:110,(footer-16-top-70)*.5f);
+                Slider(p,"Music",24,top,W-48,0,1,pref.musicVolume,v=>{pref.musicVolume=v;save();});
+                Slider(p,"Nature ambience",24,top+gap,W-48,0,1,pref.natureVolume,v=>{pref.natureVolume=v;save();if(game.State!=null)game.Sound.Environment(game.State.area,game.State.weather);});
+                Slider(p,"Activity sounds",24,top+gap*2,W-48,0,1,pref.foleyVolume,v=>{pref.foleyVolume=v;save();});
+                if(preview)Button(p,"Preview a water splash",24,H-208,W-48,48,()=>game.Sound.Play("water"));
+                Button(p,"Voiceover & narration",24,H-146,W-48,48,()=>Settings(7));
+            }
+            if(tab==7)
+            {
+                Slider(p,"Voice volume",24,220,W-48,0,1,pref.voiceVolume,v=>{pref.voiceVolume=v;save();});
+                toggle(pref.voiceOver?"Voiceover · On":"Voiceover · Off",372,()=>pref.voiceOver=!pref.voiceOver);
+                Button(p,"Preview the narrator",24,460,W-48,52,()=>game.Sound.Voice.Play("intro-0"));
+                Button(p,"Back to sound",24,H-82,W-48,52,()=>Settings(1));
+            }
+            if(tab==2)
+            {
+                var preview=Text(p,"Room to read. Room to play.",24,340,W-48,128,22,Ink,true);
+                Slider(p,"Text size",24,220,W-48,1,1.35f,pref.fontScale,v=>{pref.fontScale=v;preview.fontSize=22*v;save();});
+                toggle(pref.reducedMotion?"Motion · Reduced":"Motion · Full",500,()=>pref.reducedMotion=!pref.reducedMotion);
+                Button(p,"Apply text size",24,H-82,W-48,52,()=>{FontScale=pref.fontScale;if(game.Playing)ShowHud();Settings(2);},true);
+            }
+            if(tab==3)
+            {
+                toggle(pref.instantText?"Dialogue · Instant":"Dialogue · Fast reveal",220,()=>pref.instantText=!pref.instantText);
+                toggle(pref.frameRate==30?"Frame rate · 30 fps":"Frame rate · 60 fps",300,()=>pref.frameRate=pref.frameRate==30?60:30);
+                Text(p,"Language  ·  English",24,420,W-48,54,18,Muted);
+                float actionY=Mathf.Min(600f,H-146f);
+                Button(p,"Controls guide",24,actionY-80,W-48,52,()=>Help(0));
+                Button(p,game.Ads.RemoveAdsLabel,24,actionY,W-48,52,()=>game.Ads.BuyRemoveAds()).interactable=!game.Ads.Removed;
+            }
+            if(tab==4)
+            {
+                Button(p,"Save this day",24,220,W-48,54,()=>Slots(true),true).interactable=game.Playing;
+                Button(p,"Load a homestead",24,300,W-48,54,()=>Slots(false));
+                Button(p,"Import a homestead",24,380,W-48,54,ImportFile);
+                Button(p,"Export this homestead",24,460,W-48,54,ExportFile).interactable=game.State!=null;
+                Button(p,"Ad privacy options",24,540,W-48,54,()=>game.Ads.Privacy());
+            }
+            if(game.Playing&&tab!=2&&tab!=5&&tab!=6&&tab!=7)Button(p,"Done",24,H-82,W-48,52,()=>{ClosePanel();ShowHud();},true);
+        }
+        private void Help(int pageIndex=0)
+        {
+            var p=Open("At the homestead");
+            string[] lines={"Move with the flexible joystick on the left.","Choose a tool on the right. The large button works in front of you.","Till → plant → water. Gather ripe crops with your hands.","Put crops in the shipping crate. Sleep in your bed to grow crops and receive payment.","Visit shop counters for supplies and upgrades. Use the map to find a door."};
+            int perPage=H<780?2:3;
+            for(int i=pageIndex*perPage;i<Math.Min(lines.Length,pageIndex*perPage+perPage);i++){float y=140+(i-pageIndex*perPage)*180;Text(p,"0"+(i+1),24,y,42,44,18,Bronze);Text(p,lines[i],80,y,W-104,150,18);}
+            Pager(p,pageIndex,Mathf.CeilToInt(lines.Length/(float)perPage),n=>Help(n));
+        }
+        private void Almanac(int pageIndex=0)
+        {
+            var p=Open("Growing notes");var crops=ContentRegistry.Crops.Properties().ToArray();var crop=crops[pageIndex].Value;string id=crops[pageIndex].Name;
+            var art=Image(p,"Crop",W/2-80,142,160,160,ArtBank.Item(id));art.preserveAspect=true;
+            Text(p,ContentRegistry.ItemName(id),24,334,W-48,68,30,Ink,true,TextAlignmentOptions.Center);
+            string[] seasons={"Spring","Summer","Autumn","Winter"};
+            Text(p,(int)crop["days"]+" watered days\n"+string.Join(" · ",crop["seasons"].Values<int>().Select(i=>seasons[i]))+"\nSeed packet  "+(int)crop["seed"]+" gold\nHarvest value  "+(int)crop["sell"]+" gold",40,442,W-80,228,18,Muted,false,TextAlignmentOptions.TopLeft);
+            Pager(p,pageIndex,crops.Length,n=>Almanac(n));
+        }
+    }
+}

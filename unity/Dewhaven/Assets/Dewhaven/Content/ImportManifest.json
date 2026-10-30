@@ -1,0 +1,639 @@
+[
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\pack\\actors.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\actors.png",
+    "category": "world",
+    "sha256": "2802740f117bb7567f6ac78c73fd01c75c4644d26f24e94990fca12b1bc2fda4",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\pack\\actors.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\actors.json",
+    "category": "world",
+    "sha256": "14818d67bd4a1f7e0cd74cb790f2f2270ed4b5a4ee128324bc06362cac472d03",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\pack\\props.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\props.png",
+    "category": "world",
+    "sha256": "6a1a51519357f409ab3a74a3c6887704e84b78ddf30f8c2d604e06a8d3dea403",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\pack\\props.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\props.json",
+    "category": "world",
+    "sha256": "192d7a1b35972eb962c6d46472f496354cc95c2cd137f8b6f7019f451a8b318c",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\world\\world.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\world.png",
+    "category": "world",
+    "sha256": "97b085c253d853172be42c6e5073518ced7a9ea90df7c01cbdf70df10f05fcfc",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\world\\world.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\world.json",
+    "category": "world",
+    "sha256": "a06969aa58500d5633af239c043eade862f16c6f7857d7d08f2f9f224a93bc5f",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\world\\furnishings.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\furnishings.png",
+    "category": "world",
+    "sha256": "252cf6def565ce983c5e2840ec4341be2c4f5c382199e1b989f186cc820090d0",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\world\\furnishings.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\furnishings.json",
+    "category": "world",
+    "sha256": "d351fe154e8dbbeeaf10469dd2c970db1ed5fd879ac8b79b67723a1faae9f197",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\world\\terrain.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Atlases\\terrain.png",
+    "category": "world",
+    "sha256": "64f4b2566eae3eee87f6170773a23dce4c8d2690e79b7fbf57093605979d5c08",
+    "pixelsPerUnit": 16
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\bonds.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\bonds.json",
+    "category": "definition",
+    "sha256": "878e8256d14f441bea93954b8e0f57811a9a51dd223f779705ae7f33cfaac1d8",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\dungeons.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\dungeons.json",
+    "category": "definition",
+    "sha256": "d36008cb2287e7429db4ab15fb1bbe9abc0dc5a5ed6acb9642a59c4095b53b0d",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\interiors.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\interiors.json",
+    "category": "definition",
+    "sha256": "897896d996388dbd9abfbbf39d7f298029ebc3acc317416501b650a5ce1ff529",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\quests.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\quests.json",
+    "category": "definition",
+    "sha256": "dedad2ca122148f8cbc2a4565227bc9c7ab73675eb7f118e0384659dfd474c11",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\residents.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\residents.json",
+    "category": "definition",
+    "sha256": "991f3e6c9d78c186a45d2107d323acf88a70cfdadb9e21ba95dea6e761e043d1",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\shops.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\shops.json",
+    "category": "definition",
+    "sha256": "9500113f139b7d82ced65627ee6a14be99f594e39cb47121c41c39172f631d1d",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\towns.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\towns.json",
+    "category": "definition",
+    "sha256": "1f6c87edf64042b4624a76597f745c2e8b3f9193fd190b74cba2073be339634e",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\unity\\data\\world.json",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Content\\world.json",
+    "category": "definition",
+    "sha256": "9cfb8b3d2d7f7f12be400a3beacba0eccda33010e4a71bec1d98a11c232b29aa",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\cinematic\\dawn.webp",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Cinematics\\dawn.png",
+    "category": "painting",
+    "derivedLocally": true
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\cinematic\\homestead.webp",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Cinematics\\homestead.png",
+    "category": "painting",
+    "derivedLocally": true
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\cinematic\\letter.webp",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Cinematics\\letter.png",
+    "category": "painting",
+    "derivedLocally": true
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\cinematic\\valley.webp",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Cinematics\\valley.png",
+    "category": "painting",
+    "derivedLocally": true
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\public\\assets\\brand\\icon-512.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Brand\\icon.png",
+    "category": "painting",
+    "sha256": "b3cf1bf5f5b4c6b756ff7b13ded868e6c67c54f32f47668f3950e5575b41e47d",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\turnip.png",
+    "category": "item",
+    "alpha": true,
+    "index": 0
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\potato.png",
+    "category": "item",
+    "alpha": true,
+    "index": 1
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\carrot.png",
+    "category": "item",
+    "alpha": true,
+    "index": 2
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\cabbage.png",
+    "category": "item",
+    "alpha": true,
+    "index": 3
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\radish.png",
+    "category": "item",
+    "alpha": true,
+    "index": 4
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\corn.png",
+    "category": "item",
+    "alpha": true,
+    "index": 5
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\pumpkin.png",
+    "category": "item",
+    "alpha": true,
+    "index": 6
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\cauliflower.png",
+    "category": "item",
+    "alpha": true,
+    "index": 7
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\berry.png",
+    "category": "item",
+    "alpha": true,
+    "index": 8
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\mushroom.png",
+    "category": "item",
+    "alpha": true,
+    "index": 9
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\flower.png",
+    "category": "item",
+    "alpha": true,
+    "index": 10
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\egg.png",
+    "category": "item",
+    "alpha": true,
+    "index": 11
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\wool.png",
+    "category": "item",
+    "alpha": true,
+    "index": 12
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\truffle.png",
+    "category": "item",
+    "alpha": true,
+    "index": 13
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\feed.png",
+    "category": "item",
+    "alpha": true,
+    "index": 14
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\garden.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\fertilizer.png",
+    "category": "item",
+    "alpha": true,
+    "index": 15
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\wood.png",
+    "category": "item",
+    "alpha": true,
+    "index": 0
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\stone.png",
+    "category": "item",
+    "alpha": true,
+    "index": 1
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\copper.png",
+    "category": "item",
+    "alpha": true,
+    "index": 2
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\iron.png",
+    "category": "item",
+    "alpha": true,
+    "index": 3
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\crystal.png",
+    "category": "item",
+    "alpha": true,
+    "index": 4
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\sprinkler.png",
+    "category": "item",
+    "alpha": true,
+    "index": 5
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\bouquet.png",
+    "category": "item",
+    "alpha": true,
+    "index": 6
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\ring.png",
+    "category": "item",
+    "alpha": true,
+    "index": 7
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\soup.png",
+    "category": "item",
+    "alpha": true,
+    "index": 8
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\omelet.png",
+    "category": "item",
+    "alpha": true,
+    "index": 9
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\stew.png",
+    "category": "item",
+    "alpha": true,
+    "index": 10
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\fish_dinner.png",
+    "category": "item",
+    "alpha": true,
+    "index": 11
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\jam.png",
+    "category": "item",
+    "alpha": true,
+    "index": 12
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\brass_compass.png",
+    "category": "item",
+    "alpha": true,
+    "index": 13
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\glass_lens.png",
+    "category": "item",
+    "alpha": true,
+    "index": 14
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\docs\\art-source\\workshop.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Items\\ancient_chart.png",
+    "category": "item",
+    "alpha": true,
+    "index": 15
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_5.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_5.png",
+    "category": "world",
+    "sha256": "f4b0f4a57b81318ca229050c57ac556d44e4001fdd003a8e0c1f03c816f1e1da",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "cc522578696abfb47af441ba56e6783f"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_17.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_17.png",
+    "category": "world",
+    "sha256": "7c8ea0b95aec7fd8d796d5f51bce8137c1bd218c370965d6aa26535a5252fe87",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "a6e2e40c49c211047b044613202a1ccb"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_26.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_26.png",
+    "category": "world",
+    "sha256": "7bc9d612126e06991bba121723ff46ced769839f5c6ed2182ef9dc8db613b38e",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "2219d9e148b910d489d2b52a186ccf48"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_13.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_13.png",
+    "category": "world",
+    "sha256": "316be93974be9f3ed2336ed348075a10d8d10fcb5c6f2e34175441fb45779fb0",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "57677e483dc1aa544be50cdc9b09adb3"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_3.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_3.png",
+    "category": "world",
+    "sha256": "6336a4b989caa0ffc2ac7a59af1b804c739cf709ce6ad1cbe1cf0b0489e74735",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "ffc093f1038367e47b9fcb994faf58e8"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_18.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_18.png",
+    "category": "world",
+    "sha256": "426478d7cf8abaa2e7e0264d2f01233724b6b1b576ec3af9940828352800bf8a",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "bee3cc6c80197e8489f1871f6acdda85"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_4.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_4.png",
+    "category": "world",
+    "sha256": "10934b77686a7090ea2b9e34a72b4f56edd7e6585983dc4f4db33308956aa309",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "6f7350bca1dc25a46adcd5183daa33d3"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_1.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_1.png",
+    "category": "world",
+    "sha256": "6e372db7c3db751f369f931998babdd15970faa0bb2bdff3fa59ea9d716f7a1e",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "99c3bfc96fe7dd04b904c4b5a86f7a49"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_2.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_2.png",
+    "category": "world",
+    "sha256": "fe1a2a5a215a2c9f68ef09c1ac6ba72d982e56cd7bf0a05b337a0817f2658380",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "a652388039de29e42b64eb88b2ccb6c8"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_7.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_7.png",
+    "category": "world",
+    "sha256": "a65d49efa79bd18831fc1c16ed4364f632b5b13e3984f4e264b39d6b13be361e",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "db15ee68cb8b6284dbd432d1ac01df71"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_8.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_8.png",
+    "category": "world",
+    "sha256": "4f68aea11b96e4d691dfa8f5a1f6b7bb577825974b5f5145037a7b49831f3abb",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "808e9ae0baf53fc44bf1a57a2328f48a"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_6.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_6.png",
+    "category": "world",
+    "sha256": "2b6323b4a046d58b5ebb12e3a47d47e15d95d6cc88ceb97ebc855b493479969a",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "735925f1d035d3746a19869a1005be67"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_9.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_9.png",
+    "category": "world",
+    "sha256": "6c0b3a94dba051294fe7117b258e32f201593cdd7f9c20a86fbd8cb49afabfbc",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "ef0fd23cee1220a48b1078f19163554a"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_10.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_10.png",
+    "category": "world",
+    "sha256": "83c3496f594a73f40b3fb09679fa2a50ee22443f0af2f3670ac7b6efd1eb23c4",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "eff987eab074bde468e42e1f5ac2187a"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_12.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_12.png",
+    "category": "world",
+    "sha256": "0403da80c6d332c070b36ff09ca2a58abece3b8f4fb3cd4e7f416aaeac077fe8",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "29141cc3481d7374eb8807661c35704c"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_15.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_15.png",
+    "category": "world",
+    "sha256": "206d202174ba0d7ae544f601b9bfd7c977f6f53518df5f6cb1eb2319fafe0c35",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "f4c870e3b21ba22419df528d731793d2"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_14.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_14.png",
+    "category": "world",
+    "sha256": "940b9d706ae52d4e7ea5104813d698e64c2e5ce84c6598bfe24a6822c64d4e38",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "7e972af515e8c7d49b1b26247a391b51"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_16.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_16.png",
+    "category": "world",
+    "sha256": "796da4d36de06b7d48113333cdb787eca7eb1f4a63c029da5208b69811e2bdb6",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "51eab5f04c8a74245aacc0c64a57407e"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_28.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_28.png",
+    "category": "world",
+    "sha256": "fbf9bd26f77f084f4fe85e6109e7c6c5fe448b6391c81c46afc1be15bca1a5c3",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "07dc0f4ee8f3b754cb051dd479a80a05"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_19.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_19.png",
+    "category": "world",
+    "sha256": "14ea7150bad8b032693e05426eff4fe91ac985c46ae332e117b603ba38c94f1a",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "472d6ea79b1948942b1ba85a268921df"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_20.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_20.png",
+    "category": "world",
+    "sha256": "c4a122f9fc60dcc6cd320a476cde0683d6b5c2578a0687dcb98c3d58a1f5601b",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "2e360fce671feee44a11e56f2acee504"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_30.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_30.png",
+    "category": "world",
+    "sha256": "62fa2127025587d2cd5ef45a4c7f3cabcaf0152bbf44abee8cb4c6503f9df923",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "3a6460213cf63d64cbfa8b14b13395a2"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_21.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_21.png",
+    "category": "world",
+    "sha256": "c3328f1ca803a1f87e0a4c1481280163a39db242a9a4dd11e22a060ff5207bd2",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "0b0c3c158e357bb4194865518eb6a5b3"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_22.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_22.png",
+    "category": "world",
+    "sha256": "8549cc1f190e7c40acf1fcbbcd3738b849f64dcb2dfea4a9e67b4f65261140b6",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "3223284f1635a9e43a2924de01e3fc45"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_25.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_25.png",
+    "category": "world",
+    "sha256": "6b776a1adbca29df8a561ab2faac356ccbea6e8d67399a7a0b1b4c393cc2d3db",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "828a34701b4038e4f85f32d2ae00c7d2"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_31.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_31.png",
+    "category": "world",
+    "sha256": "0fee0de2585b494ab5d5571cb84ff2ab07689a88df04b38e85036807e0166632",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "aa9b93fa4e3c28744a2988d7aaa45371"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_29.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_29.png",
+    "category": "world",
+    "sha256": "29fe563175d0b836637abcde617c946c450d12bf4957d1a26b9eea85a8946644",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "b907f4d078f3e4e49983825189cbbd03"
+  },
+  {
+    "source": "E:\\Pixel Games Asset Master\\Assets\\Gif\\Super_Retro_Collection\\Resources\\Characters\\Characters\\chara_23.png",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\OriginalCharacters\\chara_23.png",
+    "category": "world",
+    "sha256": "321cfb76a4871a037de10dc2eefa317b4ccfee9a38e5463d3bf2cd716ce90e2d",
+    "pixelsPerUnit": 16,
+    "sourceGuid": "e4e1247ccf49cd449bbe375c1a62a111"
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\nunito\\LICENSE",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\nunito-LICENSE.txt",
+    "category": "license",
+    "sha256": "40991bfa02ac620aae16dc527f3c47765a25e43f270d4c301ee6ab663a8d9015",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\nunito\\files\\nunito-latin-400-normal.woff2",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\nunito-400.ttf",
+    "category": "font",
+    "license": "SIL Open Font License"
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\nunito\\LICENSE",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\nunito-LICENSE.txt",
+    "category": "license",
+    "sha256": "40991bfa02ac620aae16dc527f3c47765a25e43f270d4c301ee6ab663a8d9015",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\nunito\\files\\nunito-latin-700-normal.woff2",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\nunito-700.ttf",
+    "category": "font",
+    "license": "SIL Open Font License"
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\fraunces\\LICENSE",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\fraunces-LICENSE.txt",
+    "category": "license",
+    "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+    "pixelsPerUnit": null
+  },
+  {
+    "source": "E:\\Harvest Moon GPT 61\\node_modules\\@fontsource\\fraunces\\files\\fraunces-latin-400-normal.woff2",
+    "destination": "Assets\\Dewhaven\\Resources\\Dewhaven\\Art\\Fonts\\fraunces-400.ttf",
+    "category": "font",
+    "license": "SIL Open Font License"
+  }
+]

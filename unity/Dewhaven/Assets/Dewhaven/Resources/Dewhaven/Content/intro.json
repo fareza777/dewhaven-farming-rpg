@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "art": "letter",
+      "title": "A key. A garden. A beginning.",
+      "text": "Your grandmother left you the homestead—and a key wrapped in a delivery ledger. Her note is brief: “The garden can feed more than one household. Start there.”",
+      "voiceKey": "intro-0"
+    },
+    {
+      "art": "valley",
+      "title": "The roads between us.",
+      "text": "Beyond Dewhaven, three towns still rely on roads the winter storms have damaged. Aya, the valley courier, brings you as far as the old bridge.",
+      "voiceKey": "intro-1"
+    },
+    {
+      "art": "homestead",
+      "title": "What she left growing.",
+      "text": "The farmhouse is standing. The beds need tending, the shipping crate needs a hinge, and a few of Grandmother's crops are ready to gather.",
+      "voiceKey": "intro-2"
+    },
+    {
+      "art": "dawn",
+      "title": "Your first morning.",
+      "text": "At six, sunlight reaches the bedroom floor. Mira opens the seedhouse at eight. There is time to plant your first rows before walking into town.",
+      "voiceKey": "intro-3"
+    }
+  ]
+}

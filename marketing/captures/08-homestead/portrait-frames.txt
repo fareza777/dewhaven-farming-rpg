@@ -1,0 +1,101 @@
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00000.jpg'
+duration 0.09887695
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00001.jpg'
+duration 0.13757325
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00002.jpg'
+duration 0.08709716
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00003.jpg'
+duration 0.09637451
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00004.jpg'
+duration 0.08605957
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00005.jpg'
+duration 0.10101316
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00006.jpg'
+duration 0.09826663
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00007.jpg'
+duration 0.17492677
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00008.jpg'
+duration 0.06915280
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00009.jpg'
+duration 0.06829836
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00010.jpg'
+duration 0.07861328
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00011.jpg'
+duration 0.07897949
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00012.jpg'
+duration 0.07275391
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00013.jpg'
+duration 0.08129883
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00014.jpg'
+duration 0.09039306
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00015.jpg'
+duration 0.09271241
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00016.jpg'
+duration 0.10839843
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00017.jpg'
+duration 0.10357666
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00018.jpg'
+duration 0.10467530
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00019.jpg'
+duration 0.12121582
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00020.jpg'
+duration 0.12725830
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00021.jpg'
+duration 0.06884765
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00022.jpg'
+duration 0.10278321
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00023.jpg'
+duration 0.06689449
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00024.jpg'
+duration 0.09387200
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00025.jpg'
+duration 0.14434825
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00026.jpg'
+duration 0.14074707
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00027.jpg'
+duration 0.07495118
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00028.jpg'
+duration 0.13586425
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00029.jpg'
+duration 0.16674805
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00030.jpg'
+duration 0.13262940
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00031.jpg'
+duration 0.07330322
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00032.jpg'
+duration 0.07104492
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00033.jpg'
+duration 0.11682129
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00034.jpg'
+duration 0.06695557
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00035.jpg'
+duration 0.06719980
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00036.jpg'
+duration 0.07122800
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00037.jpg'
+duration 0.06231682
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00038.jpg'
+duration 0.06164551
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00039.jpg'
+duration 0.06463623
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00040.jpg'
+duration 0.06488044
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00041.jpg'
+duration 0.06811517
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00042.jpg'
+duration 0.06866455
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00043.jpg'
+duration 0.07220459
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00044.jpg'
+duration 0.08343506
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00045.jpg'
+duration 0.06488037
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00046.jpg'
+duration 0.06317126
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00047.jpg'
+duration 0.07476800
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00048.jpg'
+duration 0.08636500
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00049.jpg'
+duration 0.09252900
+file 'E:/Harvest Moon GPT 61/marketing/captures/08-homestead/portrait/00049.jpg'

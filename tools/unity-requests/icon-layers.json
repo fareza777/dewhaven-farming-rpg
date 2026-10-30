@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"using System.Linq; using UnityEditor; public static class DewhavenIconLayers { public static string Run() { return string.Join(\"\\n\",typeof(PlatformIcon).GetMethods().Where(m=>m.Name.Contains(\"Texture\")||m.Name.Contains(\"Layer\")).Select(m=>m.ToString())); } }","className":"DewhavenIconLayers","methodName":"Run"}}

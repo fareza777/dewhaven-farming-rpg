@@ -1,0 +1,25 @@
+{
+  "runner": "Direct invocation of actual NUnit test methods, before implementation",
+  "rows": [
+    {
+      "name": "CompactTownsKeepEveryBuildingAndReachableFrontDoor",
+      "passed": false,
+      "error": "  village\r\n  Expected: less than or equal to 76\r\n  But was:  160\r\n"
+    },
+    {
+      "name": "EveryExteriorRoadHasAnOpposingReciprocalSafeArrival",
+      "passed": false,
+      "error": "  WorldPassages is required.\r\n  Expected: not null\r\n  But was:  null\r\n"
+    },
+    {
+      "name": "RoadCrossingRequiresOutwardMotionAndRespectsPauseBusyAndCooldown",
+      "passed": false,
+      "error": "  RoadTravelPolicy is required.\r\n  Expected: not null\r\n  But was:  null\r\n"
+    },
+    {
+      "name": "QuestStatusAndSideFiltersNeverAcceptOrPayWhileBrowsing",
+      "passed": false,
+      "error": "  QuestPresentation is required.\r\n  Expected: not null\r\n  But was:  null\r\n"
+    }
+  ]
+}

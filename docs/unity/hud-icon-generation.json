@@ -1,0 +1,120 @@
+{
+  "mode": "built-in image_gen",
+  "transparent": true,
+  "created": "2026-10-15",
+  "runtimeMaxPixels": 256,
+  "icons": [
+    {
+      "id": "hoe",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-0d8b2112-7827-4a4d-8df2-1229f315fe17.png",
+      "prompt": "Use case: stylized-concept. Create ONE production game UI icon for Dewhaven, a premium cozy farming game on an Android portrait screen. Subject: one beautifully crafted FARM HOE, a long warm walnut handle with a brass ferrule and one broad flat forged-steel hoe blade clearly perpendicular to the handle. Diagonal silhouette, head upper right, handle lower left. Hand-painted 3D illustration, restrained detail, sculpted clean shapes, strong dark espresso edge, warm ivory highlights, bronze hardware, muted steel. The tool must be instantly legible at 40 pixels. Single centered isolated object filling about 80% of a square canvas, generous transparent edge margin, crisp alpha. No tile, no circle, no card, no frame, no floor, no scenery, no text or labels, no hands, no humans, no animals, no face, no watermark. True transparent background. Match a warm ivory/charcoal/bronze interface. Soft studio lighting from upper left, minimal shadow attached to the object only.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/hoe.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/hoe.png"
+    },
+    {
+      "id": "water",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-4813a4e5-8e60-44c4-a433-bbdd07e272fe.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: a beautifully crafted compact WATERING CAN. Muted midnight blue enamel body with bronze rim and handle, broad round body, curved top handle, distinct long spout pointing upper right and a big perforated brass sprinkler rose. Three tiny ivory water droplets at the spout. Show the full can, not a bucket. Cozy artisan tool, elegant and solid.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/water.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/water.png"
+    },
+    {
+      "id": "seed",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-6bb3b6a3-6253-4fa8-98c8-d32223506e4b.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: an open folded kraft-paper SEED PACKET, cream paper with a wide bronze seal bearing a simple embossed wheat sprig WITHOUT any lettering. Three large warm golden seeds visible beside the open packet. Strong simple packet silhouette, slight three-quarter angle. No writing anywhere.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/seed.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/seed.png"
+    },
+    {
+      "id": "axe",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-3db219f8-f2ec-4813-940c-e83eaf25d5e9.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: one beautifully crafted AXE, warm walnut handle with brass ferrule, large broad silver-steel curved chopping head. Diagonal composition, blade upper right and handle lower left. Clearly an axe with ONE large wedge blade, not a pickaxe or hoe. Thick purposeful handle, broad readable blade.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/axe.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/axe.png"
+    },
+    {
+      "id": "pick",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-2e52f735-f7f6-4cb7-b6ef-891f611564d9.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE PICKAXE with a thick walnut shaft and brass join, symmetrical curved dark silver steel head with two long tapered points, easily distinguished from an axe. Diagonal shaft lower left to upper right. Clear stout silhouette.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/pick.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/pick.png"
+    },
+    {
+      "id": "bag",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-74361d34-b758-49bd-b76d-1542d17ab414.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE handsome FARMER'S SATCHEL backpack, warm cognac leather and canvas, broad compact rounded shape, big flap with single brass clasp, two substantial straps and ivory seam accents. Front three-quarter view, all straps contained in the icon. No text or badges.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/bag.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/bag.png"
+    },
+    {
+      "id": "hand",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-30bab6db-e637-4ccc-b413-824a6f02088c.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE EMPTY ivory leather WORK GLOVE lying alone, palm facing viewer, five fingers gently relaxed in a friendly open-hand interaction gesture, bronze cuff and brown stitched edging. It is an unoccupied item of clothing; no hand, skin, arm, person or body inside or near it. Strong open-glove silhouette for the Use/Harvest button.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/hand.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/hand.png"
+    },
+    {
+      "id": "rod",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-3ddab09a-7aca-4fb6-900b-f6c02a47dbaa.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE FISHING ROD, elegant walnut and brass grip, a large visible bronze reel and a gently curved dark pole, fine line contained within the composition ending in a small red-and-ivory float. Diagonal graceful silhouette, thick simplified forms for tiny UI, no fish.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/rod.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/rod.png"
+    },
+    {
+      "id": "door",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-82c08945-0e51-4386-bbe8-b7627fe61719.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE welcoming OPEN WOODEN DOOR within a compact warm stone doorway, aged walnut, brass handle, door slightly ajar revealing a warm pale golden interior glow. Strong clear doorway silhouette. This is an interaction icon, no background room or surrounding building.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/door.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/door.png"
+    },
+    {
+      "id": "talk",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-9a568688-7e86-4fb5-97c7-2e9b6e471d5b.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: TWO overlapping SPEECH BUBBLES sculpted as warm ivory parchment plaques with thick bronze edges, the front bubble with three simple dark bronze circular dots. Clear familiar speech silhouette, no lettering, no faces, no surrounding frame.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/talk.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/talk.png"
+    },
+    {
+      "id": "map",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-a47464fd-4423-4ec5-b2c1-80643060f39f.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE open tri-fold PARCHMENT MAP, ivory and honey edges, visible simple blue river curve, bronze dotted walking route and one red location pin. Rounded folded paper silhouette with clear highlights. No lettering, no landscape behind it, no compass frame.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/map.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/map.png"
+    },
+    {
+      "id": "journal",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-6858a161-cc01-4205-9ef1-f67e0385cb2e.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE closed substantial JOURNAL, rich burgundy leather cover, brass corner protectors, big golden wheat-sprig clasp, thick ivory page edges and one small ribbon bookmark. Front three-quarter view with easy-to-read book silhouette. No writing or letters.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/journal.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/journal.png"
+    },
+    {
+      "id": "menu",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-4493aa2a-2d29-4fc4-9570-c348b246bc60.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE MENU SYMBOL composed of exactly THREE short parallel horizontal sculpted bronze bars with warm ivory inset highlights and rounded ends. Bars equally spaced, bold, elegant, familiar three-line menu. Freestanding on transparency, no enclosing tile, plaque, frame or circle.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/menu.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/menu.png"
+    },
+    {
+      "id": "coin",
+      "source": "C:\\Users\\FAJAR\\.codex\\generated_images\\01a103ca-7673-7361-a514-47acaae3a367\\exec-fc1ffd2d-0f10-45db-a33f-b76f09522b73.png",
+      "prompt": "Use case: stylized-concept. ONE isolated production UI icon for Dewhaven, a premium cozy Android farming game. Hand-painted 3D game illustration with clean sculpted shapes, strong dark espresso contours, warm ivory highlights, walnut, aged brass and muted metal. Designed to read instantly at 40 pixels: bold silhouette, restrained large details. Single object centered, fills 80% of a square, crisp alpha, true transparent background. Lighting upper left. No tile, circle, card, frame, floor, scenery, letters, labels, hands, humans, animals, faces or watermark. No decorative background or cast shadow beyond the object. Cohesive family with the walnut-and-brass farm hoe.\nSubject: ONE valuable GOLD COIN, large front face angled very slightly to reveal a thick milled edge, rich warm gold and bronze shadows, a beautifully embossed single WHEAT SPRIG in the center and a clean raised rim. Bright ivory metallic glint at upper left. No human profile, portrait, face, letters or numbers; one coin only.",
+      "builtIn": true,
+      "file": "E:/Harvest Moon GPT 61/art/generated/hud-v1/coin.png",
+      "unityFile": "E:/Harvest Moon GPT 61/unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Hud/coin.png"
+    }
+  ]
+}

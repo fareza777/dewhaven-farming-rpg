@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"public static class DewhavenAdsSetup { public static string Run() { Dewhaven.Editor.EditorBridge.EnsureProject(); return Dewhaven.Editor.ConfigureAds.Run(); }}","className":"DewhavenAdsSetup","methodName":"Run"}}

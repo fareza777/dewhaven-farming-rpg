@@ -1,0 +1,542 @@
+[
+  {
+    "id": "bond-mira-chapter-1",
+    "person": "mira",
+    "chapter": 1,
+    "points": 100,
+    "title": "The packet shelf",
+    "outline": "Help sort the seed packets and learn why Mira records where each variety came from.",
+    "legacyId": null,
+    "choices": [
+      "Sort the packets by growing season.",
+      "Ask which varieties need saving."
+    ],
+    "memoryKey": "mira-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-mira-chapter-2",
+    "person": "mira",
+    "chapter": 2,
+    "points": 200,
+    "title": "Flowers by the well",
+    "outline": "Replant the old well garden together; Mira shares a memory of Grandmother.",
+    "legacyId": "bond-mira-0",
+    "choices": [
+      "Plant the flowers she remembers.",
+      "Leave space for something she chooses."
+    ],
+    "memoryKey": "mira-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-mira-chapter-3",
+    "person": "mira",
+    "chapter": 3,
+    "points": 350,
+    "title": "After closing",
+    "outline": "Mend a warped shelf while Mira decides whether to expand the seedhouse.",
+    "legacyId": null,
+    "choices": [
+      "Help measure the new shelf.",
+      "Ask what she wants the seedhouse to become."
+    ],
+    "memoryKey": "mira-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-mira-chapter-4",
+    "person": "mira",
+    "chapter": 4,
+    "points": 450,
+    "title": "The winter trays",
+    "outline": "Choose which seedlings the conservatory should save for the outlying homes.",
+    "legacyId": "bond-mira-1",
+    "choices": [
+      "Save more trays for the outer farms.",
+      "Teach the neighbours to start their own."
+    ],
+    "memoryKey": "mira-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-mira-chapter-5",
+    "person": "mira",
+    "chapter": 5,
+    "points": 600,
+    "title": "A place at the table",
+    "outline": "Mira asks whether the homestead could host the first spring seed exchange.",
+    "legacyId": null,
+    "choices": [
+      "Host the exchange at the homestead.",
+      "Build a shared space beside the seedhouse."
+    ],
+    "memoryKey": "mira-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-mira-chapter-6",
+    "person": "mira",
+    "chapter": 6,
+    "points": 700,
+    "title": "Next spring",
+    "outline": "Plan a shared garden while acknowledging the work and space each person needs.",
+    "legacyId": "bond-mira-2",
+    "choices": [
+      "Plan a garden together.",
+      "Make room for both of your separate projects."
+    ],
+    "memoryKey": "mira-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-1",
+    "person": "rowan",
+    "chapter": 1,
+    "points": 100,
+    "title": "The ranger's loop",
+    "outline": "Walk the short woodland loop and learn Rowan's trail marks.",
+    "legacyId": null,
+    "choices": [
+      "Learn the marks before setting out.",
+      "Ask which route needs another pair of hands."
+    ],
+    "memoryKey": "rowan-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-2",
+    "person": "rowan",
+    "chapter": 2,
+    "points": 200,
+    "title": "A sheltered clearing",
+    "outline": "Restore a picnic shelter and talk about the responsibility of keeping a route safe.",
+    "legacyId": "bond-rowan-0",
+    "choices": [
+      "Repair the shelter roof first.",
+      "Clear a safe path to the shelter."
+    ],
+    "memoryKey": "rowan-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-3",
+    "person": "rowan",
+    "chapter": 3,
+    "points": 350,
+    "title": "After the rain",
+    "outline": "Clear fallen branches together and choose which side trail can wait.",
+    "legacyId": null,
+    "choices": [
+      "Reopen the main trail today.",
+      "Protect the old trees and use the detour."
+    ],
+    "memoryKey": "rowan-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-4",
+    "person": "rowan",
+    "chapter": 4,
+    "points": 450,
+    "title": "The long way home",
+    "outline": "Rowan explains why he returned to the valley instead of taking a distant post.",
+    "legacyId": "bond-rowan-1",
+    "choices": [
+      "Ask what brought him home.",
+      "Tell him what you were hoping to find here."
+    ],
+    "memoryKey": "rowan-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-5",
+    "person": "rowan",
+    "chapter": 5,
+    "points": 600,
+    "title": "Two sets of plans",
+    "outline": "Compare the farm calendar and patrol schedule before committing to more time together.",
+    "legacyId": null,
+    "choices": [
+      "Set aside one evening each week.",
+      "Join a patrol when the farm work allows."
+    ],
+    "memoryKey": "rowan-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-rowan-chapter-6",
+    "person": "rowan",
+    "chapter": 6,
+    "points": 700,
+    "title": "A path we know",
+    "outline": "Choose a shared trail project and make a practical promise to keep showing up.",
+    "legacyId": "bond-rowan-2",
+    "choices": [
+      "Keep the woodland route together.",
+      "Start a new path between the cabin and farm."
+    ],
+    "memoryKey": "rowan-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-1",
+    "person": "cleo",
+    "chapter": 1,
+    "points": 100,
+    "title": "Before breakfast",
+    "outline": "Prepare vegetables at the Copper Kettle and learn Cleo's opening routine.",
+    "legacyId": null,
+    "choices": [
+      "Prepare the vegetables beside her.",
+      "Set the tables before the doors open."
+    ],
+    "memoryKey": "cleo-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-2",
+    "person": "cleo",
+    "chapter": 2,
+    "points": 200,
+    "title": "A table by the window",
+    "outline": "Choose a seasonal meal for neighbours who cannot travel to the café.",
+    "legacyId": "bond-cleo-0",
+    "choices": [
+      "Cook a meal that travels well.",
+      "Invite the neighbours for a quieter breakfast."
+    ],
+    "memoryKey": "cleo-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-3",
+    "person": "cleo",
+    "chapter": 3,
+    "points": 350,
+    "title": "The recipe drawer",
+    "outline": "Read a family recipe and talk about changes Cleo wants to make to the kitchen.",
+    "legacyId": null,
+    "choices": [
+      "Keep the family recipe as it is.",
+      "Try her new seasonal variation."
+    ],
+    "memoryKey": "cleo-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-4",
+    "person": "cleo",
+    "chapter": 4,
+    "points": 450,
+    "title": "A full dining room",
+    "outline": "Help with the evening rush and discuss what support feels useful to each of you.",
+    "legacyId": "bond-cleo-1",
+    "choices": [
+      "Take over the dishes.",
+      "Ask which job would help her most."
+    ],
+    "memoryKey": "cleo-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-5",
+    "person": "cleo",
+    "chapter": 5,
+    "points": 600,
+    "title": "A quieter morning",
+    "outline": "Share breakfast after the deliveries and make room for life outside work.",
+    "legacyId": null,
+    "choices": [
+      "Leave the ledger closed for breakfast.",
+      "Talk about one change that would free more time."
+    ],
+    "memoryKey": "cleo-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-cleo-chapter-6",
+    "person": "cleo",
+    "chapter": 6,
+    "points": 700,
+    "title": "The next menu",
+    "outline": "Plan meals from the homestead's next season and discuss a future shared household.",
+    "legacyId": "bond-cleo-2",
+    "choices": [
+      "Plan the next season's crops with her.",
+      "Make space for her kitchen ideas at the farm."
+    ],
+    "memoryKey": "cleo-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-1",
+    "person": "finn",
+    "chapter": 1,
+    "points": 100,
+    "title": "The first cast",
+    "outline": "Learn Finn's patient way of reading the water at the near pier.",
+    "legacyId": null,
+    "choices": [
+      "Watch the water before casting.",
+      "Ask him to show you the current."
+    ],
+    "memoryKey": "finn-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-2",
+    "person": "finn",
+    "chapter": 2,
+    "points": 200,
+    "title": "The quiet bridge",
+    "outline": "Repair a loose plank and share a conversation without a fishing contest.",
+    "legacyId": "bond-finn-0",
+    "choices": [
+      "Sit and listen for a while.",
+      "Tell him about your first week at the farm."
+    ],
+    "memoryKey": "finn-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-3",
+    "person": "finn",
+    "chapter": 3,
+    "points": 350,
+    "title": "A shore after rain",
+    "outline": "Walk the marsh edge and compare the places each of you calls home.",
+    "legacyId": null,
+    "choices": [
+      "Ask which shore feels like home.",
+      "Show him your favourite view of the valley."
+    ],
+    "memoryKey": "finn-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-4",
+    "person": "finn",
+    "chapter": 4,
+    "points": 450,
+    "title": "The evening catch",
+    "outline": "Cook a meal and hear why Finn keeps returning to Moonwater.",
+    "legacyId": "bond-finn-1",
+    "choices": [
+      "Cook the catch together.",
+      "Invite him to the farmhouse kitchen."
+    ],
+    "memoryKey": "finn-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-5",
+    "person": "finn",
+    "chapter": 5,
+    "points": 600,
+    "title": "A boat kept ready",
+    "outline": "Help maintain the small boat while talking about dependable daily commitments.",
+    "legacyId": null,
+    "choices": [
+      "Help maintain the boat regularly.",
+      "Keep a shared list of the work it needs."
+    ],
+    "memoryKey": "finn-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-finn-chapter-6",
+    "person": "finn",
+    "chapter": 6,
+    "points": 700,
+    "title": "A place to return",
+    "outline": "Choose a shore walk together and discuss making the homestead a shared home.",
+    "legacyId": "bond-finn-2",
+    "choices": [
+      "Make the shore walk a weekly habit.",
+      "Ask about sharing a home after the season."
+    ],
+    "memoryKey": "finn-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-1",
+    "person": "sera",
+    "chapter": 1,
+    "points": 100,
+    "title": "The workbench ledger",
+    "outline": "Help label a timber delivery and learn the boatworks routine.",
+    "legacyId": null,
+    "choices": [
+      "Label the timber by destination.",
+      "Ask who is waiting for each delivery."
+    ],
+    "memoryKey": "sera-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-2",
+    "person": "sera",
+    "chapter": 2,
+    "points": 200,
+    "title": "A sound hull",
+    "outline": "Fit the last plank while Sera talks about reopening the winter delivery route.",
+    "legacyId": "bond-sera-0",
+    "choices": [
+      "Help fit the final plank.",
+      "Check the cargo space against the ledger."
+    ],
+    "memoryKey": "sera-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-3",
+    "person": "sera",
+    "chapter": 3,
+    "points": 350,
+    "title": "Waiting for the tide",
+    "outline": "Check the launch schedule and discuss the difference between caution and delay.",
+    "legacyId": null,
+    "choices": [
+      "Wait for the safer tide.",
+      "Use the time to finish the route checks."
+    ],
+    "memoryKey": "sera-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-4",
+    "person": "sera",
+    "chapter": 4,
+    "points": 450,
+    "title": "The first crossing",
+    "outline": "Join a safe local delivery and decide how to share responsibility.",
+    "legacyId": "bond-sera-1",
+    "choices": [
+      "Take responsibility for the cargo list.",
+      "Work beside her on the landing."
+    ],
+    "memoryKey": "sera-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-5",
+    "person": "sera",
+    "chapter": 5,
+    "points": 600,
+    "title": "A workshop door",
+    "outline": "Sera asks for help arranging a workspace that leaves room for another person.",
+    "legacyId": null,
+    "choices": [
+      "Bring a bench from the homestead.",
+      "Ask how she wants the room arranged."
+    ],
+    "memoryKey": "sera-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-sera-chapter-6",
+    "person": "sera",
+    "chapter": 6,
+    "points": 700,
+    "title": "A shore and a home",
+    "outline": "Plan the next season's deliveries around time together at the homestead.",
+    "legacyId": "bond-sera-2",
+    "choices": [
+      "Keep a day free after each delivery.",
+      "Plan the farm and harbour work together."
+    ],
+    "memoryKey": "sera-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-1",
+    "person": "tamsin",
+    "chapter": 1,
+    "points": 100,
+    "title": "The lower rows",
+    "outline": "Walk the orchard and learn how Tamsin judges the trees after winter.",
+    "legacyId": null,
+    "choices": [
+      "Learn the signs on the older trees.",
+      "Help check the newly planted rows."
+    ],
+    "memoryKey": "tamsin-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-2",
+    "person": "tamsin",
+    "chapter": 2,
+    "points": 200,
+    "title": "Blankets in the cupboard",
+    "outline": "Prepare the orchard gathering and hear about the years the table stayed empty.",
+    "legacyId": "bond-tamsin-0",
+    "choices": [
+      "Lay out the blankets with her.",
+      "Invite a neighbour who has not returned yet."
+    ],
+    "memoryKey": "tamsin-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-3",
+    "person": "tamsin",
+    "chapter": 3,
+    "points": 350,
+    "title": "The first preserves",
+    "outline": "Work a batch at the presshouse and discuss a plan that went wrong.",
+    "legacyId": null,
+    "choices": [
+      "Ask what she learned from that season.",
+      "Share a mistake from your own first harvest."
+    ],
+    "memoryKey": "tamsin-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-4",
+    "person": "tamsin",
+    "chapter": 4,
+    "points": 450,
+    "title": "The long table",
+    "outline": "Host neighbours together and choose how to make visitors feel included.",
+    "legacyId": "bond-tamsin-1",
+    "choices": [
+      "Prepare an extra place at the table.",
+      "Welcome the late arrivals together."
+    ],
+    "memoryKey": "tamsin-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-5",
+    "person": "tamsin",
+    "chapter": 5,
+    "points": 600,
+    "title": "An orchard in winter",
+    "outline": "Repair the conservatory beds and talk about making plans beyond the harvest.",
+    "legacyId": null,
+    "choices": [
+      "Repair the beds before planting.",
+      "Make a plan that leaves time to rest."
+    ],
+    "memoryKey": "tamsin-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  },
+  {
+    "id": "bond-tamsin-chapter-6",
+    "person": "tamsin",
+    "chapter": 6,
+    "points": 700,
+    "title": "Room to grow together",
+    "outline": "Choose a shared orchard project and discuss a home that respects both people's work.",
+    "legacyId": "bond-tamsin-2",
+    "choices": [
+      "Grow a new orchard row together.",
+      "Plan a shared home without giving up either garden."
+    ],
+    "memoryKey": "tamsin-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward."
+  }
+]

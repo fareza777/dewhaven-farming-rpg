@@ -1,0 +1,282 @@
+[
+  {
+    "area": "tide-vault-2",
+    "name": "The intake wheel",
+    "kind": "combination",
+    "hint": "The maintenance plate shows: side channel, then release the intake. Keep the archive pipe closed.",
+    "controls": [
+      {
+        "label": "Diverter",
+        "states": [
+          "Archive pipe",
+          "Closed",
+          "Side channel"
+        ]
+      },
+      {
+        "label": "Intake brake",
+        "states": [
+          "Held",
+          "Released"
+        ]
+      }
+    ],
+    "target": [
+      2,
+      1
+    ],
+    "success": "Water settles into the side channel. The maintenance gate is raised."
+  },
+  {
+    "area": "tide-vault-3",
+    "name": "The loaded carts",
+    "kind": "combination",
+    "hint": "A floor sketch marks the heavy cart at rail position 2, and the light cart at position 1. Carts stay on their rails.",
+    "controls": [
+      {
+        "label": "Heavy cart",
+        "states": [
+          "Bay 0",
+          "Bay 1",
+          "Bay 2",
+          "Bay 3"
+        ]
+      },
+      {
+        "label": "Light cart",
+        "states": [
+          "Bay 0",
+          "Bay 1",
+          "Bay 2",
+          "Bay 3"
+        ]
+      }
+    ],
+    "target": [
+      2,
+      1
+    ],
+    "success": "Both plates settle. The counterweight lifts the archive grille."
+  },
+  {
+    "area": "tide-vault-4",
+    "name": "The three sluices",
+    "kind": "combination",
+    "hint": "The pump diagram has two open branches around a closed centre: open, closed, open. A wrong release drains only this lock.",
+    "controls": [
+      {
+        "label": "West sluice",
+        "states": [
+          "Closed",
+          "Open"
+        ]
+      },
+      {
+        "label": "Centre sluice",
+        "states": [
+          "Closed",
+          "Open"
+        ]
+      },
+      {
+        "label": "East sluice",
+        "states": [
+          "Closed",
+          "Open"
+        ]
+      }
+    ],
+    "target": [
+      1,
+      0,
+      1
+    ],
+    "success": "The salt lock drains. A dry passage leads to the chart room."
+  },
+  {
+    "area": "ember-vault-2",
+    "name": "The freight balance",
+    "kind": "combination",
+    "hint": "The maker's scale reads: two blocks left, one block right. The lift stays parked until the load is balanced.",
+    "controls": [
+      {
+        "label": "Left ballast",
+        "states": [
+          "Empty",
+          "One block",
+          "Two blocks",
+          "Three blocks"
+        ]
+      },
+      {
+        "label": "Right ballast",
+        "states": [
+          "Empty",
+          "One block",
+          "Two blocks",
+          "Three blocks"
+        ]
+      }
+    ],
+    "target": [
+      2,
+      1
+    ],
+    "success": "The lift rises evenly. Its brake locks onto the upper landing."
+  },
+  {
+    "area": "ember-vault-3",
+    "name": "The cooling ducts",
+    "kind": "sequence",
+    "hint": "Follow the numbered workshop plates: east vent, north vent, west vent. A wrong vent resets the sequence safely.",
+    "controls": [
+      {
+        "label": "West vent",
+        "states": [
+          "Pull"
+        ]
+      },
+      {
+        "label": "North vent",
+        "states": [
+          "Pull"
+        ]
+      },
+      {
+        "label": "East vent",
+        "states": [
+          "Pull"
+        ]
+      }
+    ],
+    "target": [
+      2,
+      1,
+      0
+    ],
+    "success": "Cool air crosses the floor. The insulated shutter is safe to approach."
+  },
+  {
+    "area": "ember-vault-4",
+    "name": "The reflector rail",
+    "kind": "combination",
+    "hint": "The rail mark is 1. Face the reflector west. Its beam must meet the shutter sensor, never the wrapped lens.",
+    "controls": [
+      {
+        "label": "Rail position",
+        "states": [
+          "Mark 0",
+          "Mark 1",
+          "Mark 2",
+          "Mark 3"
+        ]
+      },
+      {
+        "label": "Reflector",
+        "states": [
+          "North",
+          "East",
+          "South",
+          "West"
+        ]
+      }
+    ],
+    "target": [
+      1,
+      3
+    ],
+    "success": "The sensor warms and the storage shutter slides aside."
+  },
+  {
+    "area": "sky-vault-2",
+    "name": "The wind shutters",
+    "kind": "combination",
+    "hint": "The sheltered crossing is marked: west half open, east fully open. Wait for the blue wind ribbons before crossing.",
+    "controls": [
+      {
+        "label": "West shutter",
+        "states": [
+          "Closed",
+          "Half open",
+          "Open"
+        ]
+      },
+      {
+        "label": "East shutter",
+        "states": [
+          "Closed",
+          "Half open",
+          "Open"
+        ]
+      }
+    ],
+    "target": [
+      1,
+      2
+    ],
+    "success": "The wind takes the upper channel. The gallery crossing is sheltered."
+  },
+  {
+    "area": "sky-vault-3",
+    "name": "The captive gears",
+    "kind": "combination",
+    "hint": "The large gear seats at notch 2; the small gear at notch 3. Both remain captive on the work rails.",
+    "controls": [
+      {
+        "label": "Large gear",
+        "states": [
+          "Notch 0",
+          "Notch 1",
+          "Notch 2",
+          "Notch 3"
+        ]
+      },
+      {
+        "label": "Small gear",
+        "states": [
+          "Notch 0",
+          "Notch 1",
+          "Notch 2",
+          "Notch 3"
+        ]
+      }
+    ],
+    "target": [
+      2,
+      3
+    ],
+    "success": "The gears mesh without strain. The meridian platform unlocks."
+  },
+  {
+    "area": "sky-vault-4",
+    "name": "The meridian plates",
+    "kind": "sequence",
+    "hint": "The survey note reads north, west, east. Touch each fixed plate in that order; the escape stair is independent.",
+    "controls": [
+      {
+        "label": "North plate",
+        "states": [
+          "Align"
+        ]
+      },
+      {
+        "label": "East plate",
+        "states": [
+          "Align"
+        ]
+      },
+      {
+        "label": "West plate",
+        "states": [
+          "Align"
+        ]
+      }
+    ],
+    "target": [
+      0,
+      2,
+      1
+    ],
+    "success": "The meridian marks align. The compass gallery opens to the morning sky."
+  }
+]

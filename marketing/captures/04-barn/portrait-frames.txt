@@ -1,0 +1,123 @@
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00000.jpg'
+duration 0.06884766
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00001.jpg'
+duration 0.06323242
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00002.jpg'
+duration 0.05975342
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00003.jpg'
+duration 0.06005860
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00004.jpg'
+duration 0.08135985
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00005.jpg'
+duration 0.07489015
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00006.jpg'
+duration 0.13031005
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00007.jpg'
+duration 0.07476805
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00008.jpg'
+duration 0.08447270
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00009.jpg'
+duration 0.16436765
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00010.jpg'
+duration 0.06341555
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00011.jpg'
+duration 0.14129636
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00012.jpg'
+duration 0.16522217
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00013.jpg'
+duration 0.11163330
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00014.jpg'
+duration 0.08581543
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00015.jpg'
+duration 0.07611084
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00016.jpg'
+duration 0.06530762
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00017.jpg'
+duration 0.06640625
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00018.jpg'
+duration 0.07226562
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00019.jpg'
+duration 0.06359863
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00020.jpg'
+duration 0.07647706
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00021.jpg'
+duration 0.06213378
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00022.jpg'
+duration 0.06072998
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00023.jpg'
+duration 0.06170655
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00024.jpg'
+duration 0.06457531
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00025.jpg'
+duration 0.06860340
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00026.jpg'
+duration 0.06201160
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00027.jpg'
+duration 0.06335461
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00028.jpg'
+duration 0.07745361
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00029.jpg'
+duration 0.06390378
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00030.jpg'
+duration 0.06250000
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00031.jpg'
+duration 0.07006839
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00032.jpg'
+duration 0.06268311
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00033.jpg'
+duration 0.08746338
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00034.jpg'
+duration 0.13592529
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00035.jpg'
+duration 0.07812500
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00036.jpg'
+duration 0.06121826
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00037.jpg'
+duration 0.06451416
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00038.jpg'
+duration 0.06365967
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00039.jpg'
+duration 0.06256103
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00040.jpg'
+duration 0.05987549
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00041.jpg'
+duration 0.06304922
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00042.jpg'
+duration 0.06182871
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00043.jpg'
+duration 0.06097412
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00044.jpg'
+duration 0.05993653
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00045.jpg'
+duration 0.06243896
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00046.jpg'
+duration 0.06018068
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00047.jpg'
+duration 0.05975340
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00048.jpg'
+duration 0.06213379
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00049.jpg'
+duration 0.06390381
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00050.jpg'
+duration 0.05920400
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00051.jpg'
+duration 0.06103526
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00052.jpg'
+duration 0.06481933
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00053.jpg'
+duration 0.06237793
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00054.jpg'
+duration 0.06427002
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00055.jpg'
+duration 0.06225586
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00056.jpg'
+duration 0.05993660
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00057.jpg'
+duration 0.06121800
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00058.jpg'
+duration 0.06146259
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00059.jpg'
+duration 0.09588641
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00060.jpg'
+duration 0.11480700
+file 'E:/Harvest Moon GPT 61/marketing/captures/04-barn/portrait/00060.jpg'

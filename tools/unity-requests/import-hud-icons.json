@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"public static class DewhavenHudImport { public static string Run() { return Dewhaven.Editor.ImportSettings.ApplyHudIcons(); } }","className":"DewhavenHudImport","methodName":"Run"}}

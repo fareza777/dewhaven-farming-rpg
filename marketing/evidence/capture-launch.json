@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"name\":\"result\",\"typeName\":\"System.String\",\"value\":\"Dedicated native campaign capture started. Shipping sources, preferences on disk and player saves are preserved.\"}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "name": "result",
+      "typeName": "System.String",
+      "value": "Dedicated native campaign capture started. Shipping sources, preferences on disk and player saves are preserved."
+    }
+  },
+  "isError": false
+}

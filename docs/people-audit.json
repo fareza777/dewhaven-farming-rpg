@@ -1,0 +1,44 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 1440,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 390,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "height": 667,
+    "type": "people",
+    "tab": "",
+    "scrollY": 0,
+    "scrollX": 0,
+    "tiny": [],
+    "clipped": []
+  },
+  {
+    "width": 320,
+    "errors": []
+  }
+]

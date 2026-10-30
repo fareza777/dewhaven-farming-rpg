@@ -1,0 +1,175 @@
+{
+  "reason": "Third-party licensed raw sprites and standalone embedded-asset previews remain local in this public source export.",
+  "files": [
+    {
+      "path": "public/assets/pack/actors.json",
+      "bytes": 9502,
+      "sha256": "14818d67bd4a1f7e0cd74cb790f2f2270ed4b5a4ee128324bc06362cac472d03"
+    },
+    {
+      "path": "public/assets/pack/actors.png",
+      "bytes": 7615,
+      "sha256": "2802740f117bb7567f6ac78c73fd01c75c4644d26f24e94990fca12b1bc2fda4"
+    },
+    {
+      "path": "public/assets/pack/props.json",
+      "bytes": 12182,
+      "sha256": "192d7a1b35972eb962c6d46472f496354cc95c2cd137f8b6f7019f451a8b318c"
+    },
+    {
+      "path": "public/assets/pack/props.png",
+      "bytes": 18770,
+      "sha256": "6a1a51519357f409ab3a74a3c6887704e84b78ddf30f8c2d604e06a8d3dea403"
+    },
+    {
+      "path": "public/assets/pack/terrain.png",
+      "bytes": 14207,
+      "sha256": "8b63256629bfe089d28d5895e286affa26535d19889982ede419db1b6bd34a36"
+    },
+    {
+      "path": "public/assets/pack/tiles.png",
+      "bytes": 527,
+      "sha256": "8837ea541ef0d446b4122d5b46cf5d3db99b47eba5df12c8519c180b31053d6f"
+    },
+    {
+      "path": "public/assets/world/furnishings.json",
+      "bytes": 7650,
+      "sha256": "d351fe154e8dbbeeaf10469dd2c970db1ed5fd879ac8b79b67723a1faae9f197"
+    },
+    {
+      "path": "public/assets/world/furnishings.png",
+      "bytes": 14382,
+      "sha256": "252cf6def565ce983c5e2840ec4341be2c4f5c382199e1b989f186cc820090d0"
+    },
+    {
+      "path": "public/assets/world/terrain.png",
+      "bytes": 36151,
+      "sha256": "64f4b2566eae3eee87f6170773a23dce4c8d2690e79b7fbf57093605979d5c08"
+    },
+    {
+      "path": "public/assets/world/world.json",
+      "bytes": 125276,
+      "sha256": "a06969aa58500d5633af239c043eade862f16c6f7857d7d08f2f9f224a93bc5f"
+    },
+    {
+      "path": "public/assets/world/world.png",
+      "bytes": 185697,
+      "sha256": "97b085c253d853172be42c6e5073518ced7a9ea90df7c01cbdf70df10f05fcfc"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/actors.json",
+      "bytes": 9502,
+      "sha256": "14818d67bd4a1f7e0cd74cb790f2f2270ed4b5a4ee128324bc06362cac472d03"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/actors.json.meta",
+      "bytes": 158,
+      "sha256": "005c524b3ef2b5db839625d6775f26b2e4e0bf46a0705b1c95f7c8f988dbfb60"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/actors.png",
+      "bytes": 7615,
+      "sha256": "2802740f117bb7567f6ac78c73fd01c75c4644d26f24e94990fca12b1bc2fda4"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/actors.png.meta",
+      "bytes": 31910,
+      "sha256": "bdaeb73165cb33906db7c0534ef47e149a143857ecbabf63137ee56e63942103"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/furnishings.json",
+      "bytes": 7650,
+      "sha256": "d351fe154e8dbbeeaf10469dd2c970db1ed5fd879ac8b79b67723a1faae9f197"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/furnishings.json.meta",
+      "bytes": 158,
+      "sha256": "f0cfe345d781a4d7c2991dc59ac6312ae075800acf41a928a628652e4804d21a"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/furnishings.png",
+      "bytes": 14382,
+      "sha256": "252cf6def565ce983c5e2840ec4341be2c4f5c382199e1b989f186cc820090d0"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/furnishings.png.meta",
+      "bytes": 39423,
+      "sha256": "b66f438739762b5e236de5621b532c5320751c6b80b110004642bdc03cc7cf20"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/props.json",
+      "bytes": 12182,
+      "sha256": "192d7a1b35972eb962c6d46472f496354cc95c2cd137f8b6f7019f451a8b318c"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/props.json.meta",
+      "bytes": 158,
+      "sha256": "4daddcd220a31f1a37aa5815556846e6e958da316a8e410ce9a86fb05b8ef63c"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/props.png",
+      "bytes": 18770,
+      "sha256": "6a1a51519357f409ab3a74a3c6887704e84b78ddf30f8c2d604e06a8d3dea403"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/props.png.meta",
+      "bytes": 39545,
+      "sha256": "b12b1a3ef6ec92fd32e071a898e1802934da57c8ed3d659355465bc4e47f3d1c"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/terrain.png",
+      "bytes": 36151,
+      "sha256": "64f4b2566eae3eee87f6170773a23dce4c8d2690e79b7fbf57093605979d5c08"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/terrain.png.meta",
+      "bytes": 3602,
+      "sha256": "aa945c0c915ec7ae40a6eb0f528513de8588cac94c9b0e4a74bbf607b9cbcf9f"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/world.json",
+      "bytes": 125276,
+      "sha256": "a06969aa58500d5633af239c043eade862f16c6f7857d7d08f2f9f224a93bc5f"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/world.json.meta",
+      "bytes": 158,
+      "sha256": "564094c280a3dea9d646aec18824040794b91d12afcdd559b785686a4307b696"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/world.png",
+      "bytes": 185697,
+      "sha256": "97b085c253d853172be42c6e5073518ced7a9ea90df7c01cbdf70df10f05fcfc"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/world.png.meta",
+      "bytes": 404817,
+      "sha256": "6d4f15b93052e4bf18ef19909ab315f6db5f154feea3528fc23f490c076a6a89"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Animals/rabbit.png",
+      "bytes": 1599,
+      "sha256": "ef0f42f99aabfd06983085c72322b4b1f4566c490e85d9a26ca6a804557c0bb7"
+    },
+    {
+      "path": "unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Animals/rabbit.png.meta",
+      "bytes": 10198,
+      "sha256": "8288ece593ba25eba23de88cc1ed71718fed0c3027967cf984823197ac02a551"
+    },
+    {
+      "path": "docs/unity/atlas.html",
+      "bytes": 607801,
+      "sha256": "fb42950b60466ff289a73ca69cb2a5ea1151e732a90dd41bf92a03087c44d54d"
+    },
+    {
+      "path": "tools/asset-reference.png",
+      "bytes": 23267,
+      "sha256": "d5df5a2a46effe6900f65442b42aaf990b7fcd9e50bf615fca7dc35a5b03a4d2"
+    },
+    {
+      "path": "asset-houses-inspection.png",
+      "bytes": 224988,
+      "sha256": "6b652ae1269231e08fba0c5d8d5dfa994f6961a363b97f18b8b16c022f012477"
+    }
+  ]
+}

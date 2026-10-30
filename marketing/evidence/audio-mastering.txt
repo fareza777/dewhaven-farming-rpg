@@ -1,0 +1,32 @@
+[aist#0:0/pcm_s24le @ 0000022605e60240] Guessed Channel Layout: stereo
+Input #0, wav, from 'E:\Harvest Moon GPT 61\marketing\production\trailer-mix-unmastered.wav':
+  Duration: 00:00:30.00, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'E:\Harvest Moon GPT 61\marketing\dewhaven-remotion\public\audio\dewhaven-trailer-master.wav':
+  Metadata:
+    ISFT            : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s24le
+size=    1280KiB time=00:00:05.49 bitrate=1906.6kbits/s speed=10.5x    
+size=    3328KiB time=00:00:11.99 bitrate=2272.0kbits/s speed=11.2x    
+size=    5120KiB time=00:00:18.99 bitrate=2207.6kbits/s speed=  12x    
+size=    7424KiB time=00:00:27.09 bitrate=2244.2kbits/s speed=12.9x    
+[Parsed_loudnorm_0 @ 0000022605e5e180] 
+{
+	"input_i" : "-16.92",
+	"input_tp" : "-4.84",
+	"input_lra" : "7.50",
+	"input_thresh" : "-26.92",
+	"output_i" : "-16.83",
+	"output_tp" : "-6.41",
+	"output_lra" : "6.30",
+	"output_thresh" : "-26.83",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.83"
+}
+[out#0/wav @ 0000022605e5f880] video:0KiB audio:8438KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.001181%
+size=    8438KiB time=00:00:30.00 bitrate=2304.0kbits/s speed=13.4x    

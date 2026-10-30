@@ -1,0 +1,215 @@
+{
+  "instruments": false,
+  "sourceLicense": "CC0",
+  "processing": "32 kHz, measured headroom; ambience circular crossfade; transient edge fades",
+  "sources": [
+    {
+      "file": "park_ambience_birds.wav",
+      "url": "https://opengameart.org/sites/default/files/park_ambience_birds.wav",
+      "author": "Thimras",
+      "page": "https://opengameart.org/content/park-ambiences",
+      "license": "CC0",
+      "sourceRange": "master prefix, bytes 0-80740351",
+      "bytes": 80740352,
+      "sha256": "19c5cd3371ab2e6c2ee90bac730d38dc4f0b3e9a8a86a60c9bc5cfc59705be65"
+    },
+    {
+      "file": "park_ambience_river.wav",
+      "url": "https://opengameart.org/sites/default/files/park_ambience_river.wav",
+      "author": "Thimras",
+      "page": "https://opengameart.org/content/park-ambiences",
+      "license": "CC0",
+      "sourceRange": "master prefix, bytes 0-75497471",
+      "bytes": 75497472,
+      "sha256": "22e4fa8090d9f7bf5df58323501019bd8e77fae82d2e294ad08afe53e5a87c86"
+    },
+    {
+      "file": "park_ambience_wind.wav",
+      "url": "https://opengameart.org/sites/default/files/park_ambience_wind.wav",
+      "author": "Thimras",
+      "page": "https://opengameart.org/content/park-ambiences",
+      "license": "CC0",
+      "sourceRange": "master prefix, bytes 0-73960095",
+      "bytes": 73960096,
+      "sha256": "5c381856745b4706e7eba55eb9271a61a530e90c05df8126adb2db89ecfa6c5a"
+    },
+    {
+      "file": "rain-ogg.zip",
+      "url": "https://opengameart.org/sites/default/files/Rain%20OGG.zip",
+      "author": "Ylmir",
+      "page": "https://opengameart.org/content/rain-loopable",
+      "license": "CC0",
+      "sourceRange": "full archive",
+      "bytes": 2736596,
+      "sha256": "e68f3e1c77493cf43bec84cebff5043bff6be9ce16d59b24caa988cd460aa75b"
+    },
+    {
+      "file": "water-sfx.zip",
+      "url": "https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip",
+      "author": "rubberduck",
+      "page": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "license": "CC0",
+      "sourceRange": "full archive",
+      "bytes": 2259262,
+      "sha256": "7cd39abb49d4362a37ba18dc0e454c7dc1d08029d4e5b683149046bc237b2eba"
+    }
+  ],
+  "files": [
+    {
+      "name": "birds",
+      "source": "art\\audio\\source\\park_ambience_birds.wav",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Nature\\birds.ogg",
+      "seconds": 32.0,
+      "channels": 2,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0871,
+      "bytes": 537125,
+      "sha256": "4d0c855467a334b17949a1f809f7fb11dcbc11000bb893074c4ef7ee72ed2468"
+    },
+    {
+      "name": "river",
+      "source": "art\\audio\\source\\park_ambience_river.wav",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Nature\\river.ogg",
+      "seconds": 32.0,
+      "channels": 2,
+      "rate": 32000,
+      "peak": 0.6198,
+      "rms": 0.105,
+      "bytes": 494908,
+      "sha256": "78e9d97c8c86d0166582e1324b556aff5446fd398bfe59f787ec5df3797e258a"
+    },
+    {
+      "name": "wind",
+      "source": "art\\audio\\source\\park_ambience_wind.wav",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Nature\\wind.ogg",
+      "seconds": 32.0,
+      "channels": 2,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0563,
+      "bytes": 539082,
+      "sha256": "835846071dedea18b4eb4257ca575edcd7c4853c338b792ff1d7f5d8e52e1167"
+    },
+    {
+      "name": "rain",
+      "source": "art\\audio\\source\\rain-ogg\\3.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Nature\\rain.ogg",
+      "seconds": 32.0,
+      "channels": 2,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0712,
+      "bytes": 536169,
+      "sha256": "d04afdbea5bc04c378d293aabf93b904001c5f7779e9fd9f238631e11f3b8ad1"
+    },
+    {
+      "name": "cavern-water",
+      "source": "art\\audio\\source\\water-sfx\\loop_water_02.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Nature\\cavern-water.ogg",
+      "seconds": 6.137,
+      "channels": 2,
+      "rate": 32000,
+      "peak": 0.5753,
+      "rms": 0.105,
+      "bytes": 72026,
+      "sha256": "7c691de84241f6f390c08b0652a0fdf7001ba1dd50cf1440573ac4a228e8f064"
+    },
+    {
+      "name": "water-0",
+      "source": "art\\audio\\source\\water-sfx\\splash_02.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\water-0.ogg",
+      "seconds": 0.718,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0299,
+      "bytes": 10861,
+      "sha256": "147a91cefa6d0aabb0d22bfc868cac17b84ca9f864d34adf3da57ff119120cc1"
+    },
+    {
+      "name": "water-1",
+      "source": "art\\audio\\source\\water-sfx\\splash_03.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\water-1.ogg",
+      "seconds": 0.772,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0207,
+      "bytes": 10324,
+      "sha256": "f8e937ce28c9a79367a55655d6f488d0013c92b66b34a2ef8ff72fbdd33dc149"
+    },
+    {
+      "name": "water-2",
+      "source": "art\\audio\\source\\water-sfx\\splash_08.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\water-2.ogg",
+      "seconds": 0.693,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0461,
+      "bytes": 11130,
+      "sha256": "945b0bd4fb43a727bfab4dfb145ee0b2f19fd43347a77d1888a03e1be0ab65a3"
+    },
+    {
+      "name": "hoe-1",
+      "source": "tools\\.cache\\kenney-rpg-audio\\Audio\\footstep08.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\hoe-1.ogg",
+      "seconds": 0.256,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0789,
+      "bytes": 6330,
+      "sha256": "fffcdf22f6a28eaaeebcbee0baa8d91f34cd32c5af46c272d2cd6c3205552c67"
+    },
+    {
+      "name": "pick-1",
+      "source": "tools\\.cache\\kenney-rpg-audio\\Audio\\metalPot1.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\pick-1.ogg",
+      "seconds": 1.46,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.091,
+      "bytes": 17195,
+      "sha256": "9979d68572650b25290358a0923133c58a64dfeae76cfb324f566638f00399aa"
+    },
+    {
+      "name": "door-1",
+      "source": "tools\\.cache\\kenney-rpg-audio\\Audio\\doorClose_1.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\door-1.ogg",
+      "seconds": 0.675,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.076,
+      "bytes": 9966,
+      "sha256": "a85bdedaae5ccc85dcec09ae5261bd002f95b03999e94a6f1cc055316b2c192d"
+    },
+    {
+      "name": "ui",
+      "source": "tools\\.cache\\kenney-rpg-audio\\Audio\\handleSmallLeather2.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\ui.ogg",
+      "seconds": 0.307,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0499,
+      "bytes": 7021,
+      "sha256": "65ddb4ad8529de4e27d4bf16e98d14678785faaebea437f4afc2b63f0286e3c3"
+    },
+    {
+      "name": "page",
+      "source": "tools\\.cache\\kenney-rpg-audio\\Audio\\bookFlip2.ogg",
+      "destination": "unity\\Dewhaven\\Assets\\Dewhaven\\Resources\\Dewhaven\\Audio\\Foley\\page.ogg",
+      "seconds": 0.43,
+      "channels": 1,
+      "rate": 32000,
+      "peak": 0.68,
+      "rms": 0.0283,
+      "bytes": 8398,
+      "sha256": "e446f5b05a030f07f3afb36a4307d55422621bbfdf46c12b3c84e77069d10832"
+    }
+  ]
+}

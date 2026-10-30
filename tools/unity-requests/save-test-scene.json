@@ -1,0 +1,8 @@
+{
+  "name": "script-execute",
+  "arguments": {
+    "csharpCode": "using UnityEngine; using UnityEditor; using UnityEditor.SceneManagement; public static class DewhavenTestScene { public static string Prepare() { if(Application.dataPath.Replace('\\\\','/').ToLowerInvariant()!=\"e:/harvest moon gpt 61/unity/dewhaven/assets\") throw new System.Exception(\"Wrong project\"); var scene=EditorSceneManager.GetActiveScene(); if(scene.path==\"\" && scene.rootCount==0) EditorSceneManager.SaveScene(scene,\"Assets/Dewhaven/Scenes/Bootstrap.unity\"); return scene.path; } }",
+    "className": "DewhavenTestScene",
+    "methodName": "Prepare"
+  }
+}

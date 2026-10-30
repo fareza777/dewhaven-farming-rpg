@@ -1,0 +1,73 @@
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00000.jpg'
+duration 0.13537598
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00001.jpg'
+duration 0.09020996
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00002.jpg'
+duration 0.09130859
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00003.jpg'
+duration 0.08850097
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00004.jpg'
+duration 0.13159180
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00005.jpg'
+duration 0.08850100
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00006.jpg'
+duration 0.11035154
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00007.jpg'
+duration 0.25732422
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00008.jpg'
+duration 0.11547852
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00009.jpg'
+duration 0.15588379
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00010.jpg'
+duration 0.09069824
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00011.jpg'
+duration 0.09582519
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00012.jpg'
+duration 0.10156250
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00013.jpg'
+duration 0.11547852
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00014.jpg'
+duration 0.09143066
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00015.jpg'
+duration 0.10693360
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00016.jpg'
+duration 0.13757324
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00017.jpg'
+duration 0.14892568
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00018.jpg'
+duration 0.13415538
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00019.jpg'
+duration 0.07910162
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00020.jpg'
+duration 0.15759271
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00021.jpg'
+duration 0.11499029
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00022.jpg'
+duration 0.11596674
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00023.jpg'
+duration 0.10205078
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00024.jpg'
+duration 0.66760248
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00025.jpg'
+duration 0.07910163
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00026.jpg'
+duration 0.08898937
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00027.jpg'
+duration 0.07324200
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00028.jpg'
+duration 0.10961921
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00029.jpg'
+duration 0.09948731
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00030.jpg'
+duration 0.09460448
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00031.jpg'
+duration 0.08557130
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00032.jpg'
+duration 0.14306640
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00033.jpg'
+duration 0.07666030
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00034.jpg'
+duration 0.09692369
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00035.jpg'
+duration 0.09619131
+file 'E:/Harvest Moon GPT 61/marketing/captures/01-farm/landscape/00035.jpg'

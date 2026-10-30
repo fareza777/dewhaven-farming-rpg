@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "public static class CompactNativeFlow{public static string Run(){Dewhaven.Editor.EditorBridge.EnsureProject();return Dewhaven.Editor.CompactCheck.Start();}}", "className": "CompactNativeFlow", "methodName": "Run"}}

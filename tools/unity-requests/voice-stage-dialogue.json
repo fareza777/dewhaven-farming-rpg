@@ -1,0 +1,8 @@
+{
+  "name": "script-execute",
+  "arguments": {
+    "csharpCode": "using System; using System.IO; using System.Linq; using System.Reflection; using UnityEngine; using UnityEngine.UI; using TMPro; public static class DewhavenVoiceStage { public static string Run(){ Dewhaven.Editor.EditorBridge.EnsureProject(); var game=Dewhaven.DewhavenGame.Instance; game.BeginDay(false); game.EnterArea(\"farmhouse\",new Vector2(16.4f,9.8f)); game.UI.Requests(\"letter\"); var b=game.UI.Canvas.GetComponentsInChildren<Button>(false).First(x=>x.interactable&&x.GetComponentsInChildren<TextMeshProUGUI>().Any(t=>t.text==\"Hear the story\")); b.onClick.Invoke(); return \"Grandmother voiced dialogue at 135% text\"; }}",
+    "className": "DewhavenVoiceStage",
+    "methodName": "Run"
+  }
+}

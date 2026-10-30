@@ -1,0 +1,902 @@
+{
+  "main": [
+    {
+      "id": "new-roots",
+      "title": "New roots",
+      "giver": "Grandmother's letter",
+      "act": "I",
+      "order": 1,
+      "prerequisite": null,
+      "objective": "Plant three seeds and leave the house by the garden door.",
+      "beat": "The first rows make the inherited place yours.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "first-harvest",
+      "title": "First harvest",
+      "giver": "Mira",
+      "act": "I",
+      "order": 2,
+      "prerequisite": "new-roots",
+      "objective": "Harvest five crops and bring a basket to Mira's counter.",
+      "beat": "Mira recognises an old seed variety and the farm's name.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "good-neighbors",
+      "title": "Meet the valley",
+      "giver": "Elias",
+      "act": "I",
+      "order": 3,
+      "prerequisite": "first-harvest",
+      "objective": "Meet six residents at work or along their daily routes.",
+      "beat": "The player learns the town through people and useful places.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "market-day",
+      "title": "Market day",
+      "giver": "Cleo",
+      "act": "I",
+      "order": 4,
+      "prerequisite": "good-neighbors",
+      "objective": "Earn 1,000 gold through the physical shipping bin.",
+      "beat": "Cleo puts the homestead's produce on the kitchen menu.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "mend-bridge",
+      "title": "The old bridge",
+      "giver": "Rowan",
+      "act": "I",
+      "order": 5,
+      "prerequisite": "market-day",
+      "objective": "Deliver twenty timber and fifteen stone to the bridge work site.",
+      "beat": "Repair opens a shorter route rather than a cosmetic quest flag.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "garden-awakens",
+      "title": "Community garden",
+      "giver": "Orin",
+      "act": "I",
+      "order": 6,
+      "prerequisite": "mend-bridge",
+      "objective": "Craft three items and deliver six copper to the conservatory repair.",
+      "beat": "A functioning shared garden reveals a letter with a harbour stamp.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "lantern-promise",
+      "title": "The lantern promise",
+      "giver": "Elias",
+      "act": "II",
+      "order": 7,
+      "prerequisite": "garden-awakens",
+      "objective": "Supply the first village feast and meet the courier at Letter Court.",
+      "beat": "The old delivery ledger points beyond Dewhaven.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "letters-across-water",
+      "title": "Letters across water",
+      "giver": "Sera",
+      "act": "II",
+      "order": 8,
+      "prerequisite": "lantern-promise",
+      "objective": "Visit Aster Quay and examine Sera's delivery ledger.",
+      "beat": "Winter food deliveries once connected all four towns.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "safe-harbour",
+      "title": "Safe harbour",
+      "giver": "Basil",
+      "act": "II",
+      "order": 9,
+      "prerequisite": "letters-across-water",
+      "objective": "Repair the landing winch with four copper and ten timber.",
+      "beat": "A safe cliff landing becomes a visible route upgrade.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "under-the-cliffs",
+      "title": "Under the cliffs",
+      "giver": "Marin",
+      "act": "II",
+      "order": 10,
+      "prerequisite": "safe-harbour",
+      "objective": "Walk the Saltwind trail and inspect the vault's water diagram.",
+      "beat": "The dungeon belongs to the coastal landscape and the delivery story.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "tide-remembers",
+      "title": "The tide remembers",
+      "giver": "Sera",
+      "act": "II",
+      "order": 11,
+      "prerequisite": "under-the-cliffs",
+      "objective": "Complete the Tide Vault and return its chart to the boatworks.",
+      "beat": "The chart reveals the orchard delivery route.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "orchard-road",
+      "title": "The orchard road",
+      "giver": "Tamsin",
+      "act": "II",
+      "order": 12,
+      "prerequisite": "tide-remembers",
+      "objective": "Follow Cedar Downs to Sunridge and visit the orchard kitchen.",
+      "beat": "The player finds the family that used to prepare the autumn cargo.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "a-long-table",
+      "title": "A long table",
+      "giver": "Tamsin",
+      "act": "III",
+      "order": 13,
+      "prerequisite": "orchard-road",
+      "objective": "Bring two preserves and four corn for the orchard table.",
+      "beat": "Neighbours start using the shared table again.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "the-quarry-gate",
+      "title": "The quarry gate",
+      "giver": "Pavel",
+      "act": "III",
+      "order": 14,
+      "prerequisite": "a-long-table",
+      "objective": "Clear and repair the glassworks approach using six timber and ten stone.",
+      "beat": "The old industrial route becomes a real place to explore.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "warm-glass",
+      "title": "Warm glass",
+      "giver": "Orin",
+      "act": "III",
+      "order": 15,
+      "prerequisite": "the-quarry-gate",
+      "objective": "Recover the protected lens from the Ember Gallery.",
+      "beat": "The lens was made for weather instruments and safer winter travel.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "weather-not-wishes",
+      "title": "Reading the weather",
+      "giver": "Orin",
+      "act": "III",
+      "order": 16,
+      "prerequisite": "warm-glass",
+      "objective": "Fit the lens to a bench instrument and compare its markings with the chart.",
+      "beat": "Observation and engineering explain the observatory's purpose.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "unwritten-atlas",
+      "title": "The unwritten atlas",
+      "giver": "Ilan",
+      "act": "III",
+      "order": 17,
+      "prerequisite": "weather-not-wishes",
+      "objective": "Bring the chart and lens to the Briar Archive.",
+      "beat": "The atlas's missing section is the upper mountain road.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "the-upper-road",
+      "title": "The upper road",
+      "giver": "Vesper",
+      "act": "III",
+      "order": 18,
+      "prerequisite": "unwritten-atlas",
+      "objective": "Repair the sheltered stair with eight timber and two iron.",
+      "beat": "Wayfinding, rest landings and an escape route precede the climb.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "sky-road",
+      "title": "The sky road",
+      "giver": "Ilan",
+      "act": "IV",
+      "order": 19,
+      "prerequisite": "the-upper-road",
+      "objective": "Complete the Observatory and recover the brass compass.",
+      "beat": "The three instruments form a practical map of the valley.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "the-winter-trial",
+      "title": "A safe passage",
+      "giver": "Jun",
+      "act": "IV",
+      "order": 20,
+      "prerequisite": "sky-road",
+      "objective": "Trace three marked route checks with Jun in one visit.",
+      "beat": "The route is tested without waiting for a real winter season.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "rooms-for-everyone",
+      "title": "Rooms for everyone",
+      "giver": "Elias",
+      "act": "IV",
+      "order": 21,
+      "prerequisite": "the-winter-trial",
+      "objective": "Participate in the harbour, orchard and archive gatherings.",
+      "beat": "Each town contributes a different kind of welcome.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "four-open-doors",
+      "title": "Four open doors",
+      "giver": "Marin",
+      "act": "IV",
+      "order": 22,
+      "prerequisite": "rooms-for-everyone",
+      "objective": "Reopen one shared public room in each town with local deliveries.",
+      "beat": "Restoration changes furnished interiors and resident routines.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "first-convoy",
+      "title": "The first convoy",
+      "giver": "Aya",
+      "act": "IV",
+      "order": 23,
+      "prerequisite": "four-open-doors",
+      "objective": "Prepare three labelled deliveries, ship them and meet the convoy next morning.",
+      "beat": "Goods move along routes the player repaired.",
+      "legacy": false,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    },
+    {
+      "id": "farther-lights",
+      "title": "Farther lights",
+      "giver": "Elias",
+      "act": "IV",
+      "order": 24,
+      "prerequisite": "first-convoy",
+      "objective": "Return the finished atlas to the village table and complete the homecoming.",
+      "beat": "The ending opens everyday life, partner stories and repeatable town events.",
+      "legacy": true,
+      "turnIn": "Physical giver, work site or letter desk; no journal reward claim."
+    }
+  ],
+  "side": [
+    {
+      "id": "miras-basket",
+      "title": "Mira's market basket",
+      "giver": "Mira",
+      "objective": "Mira needs 3 turnips for a neighbor who cannot make it to the market.",
+      "rewardGold": 300,
+      "legacy": true
+    },
+    {
+      "id": "breakfast-club",
+      "title": "The breakfast club",
+      "giver": "Cleo",
+      "objective": "Bring Cleo 3 eggs. Tomorrow's breakfast is on you.",
+      "rewardGold": 250,
+      "legacy": true
+    },
+    {
+      "id": "woodland-kindness",
+      "title": "A little woodland kindness",
+      "giver": "Rowan",
+      "objective": "Bring Rowan 5 berries and 2 mushrooms for the woodland picnic.",
+      "rewardGold": 320,
+      "legacy": true
+    },
+    {
+      "id": "finns-catch",
+      "title": "The one that got away",
+      "giver": "Finn",
+      "objective": "Catch 5 fish. Finn thinks you might be a natural.",
+      "rewardGold": 350,
+      "legacy": true
+    },
+    {
+      "id": "stone-song",
+      "title": "Safe moorings",
+      "giver": "Orin",
+      "objective": "Deliver eight iron for the bridge anchors.",
+      "rewardGold": 800,
+      "legacy": true
+    },
+    {
+      "id": "wild-flowers",
+      "title": "Flowers on the windowsill",
+      "giver": "Elias",
+      "objective": "A dozen daisies would brighten up the town hall. Bring 6.",
+      "rewardGold": 220,
+      "legacy": true
+    },
+    {
+      "id": "animal-friend",
+      "title": "Small paws, big hearts",
+      "giver": "Mira",
+      "objective": "Care for your animals 12 times. They notice every little kindness.",
+      "rewardGold": 450,
+      "legacy": true
+    },
+    {
+      "id": "kitchen-stories",
+      "title": "Stories from the kitchen",
+      "giver": "Cleo",
+      "objective": "Make 5 recipes. Good food brings people together.",
+      "rewardGold": 550,
+      "legacy": true
+    },
+    {
+      "id": "big-little-farm",
+      "title": "Room to grow",
+      "giver": "Rowan",
+      "objective": "Expand your growing patch. There is room for a bigger dream.",
+      "rewardGold": 500,
+      "legacy": true
+    },
+    {
+      "id": "moonlit-secret",
+      "title": "A moonlit secret",
+      "giver": "Finn",
+      "objective": "Bring Finn a moonfish, found at the lake after 6 pm.",
+      "rewardGold": 850,
+      "legacy": true
+    },
+    {
+      "id": "quay-timber",
+      "title": "A boat worth building",
+      "giver": "Sera",
+      "objective": "Sera needs twelve timber and four copper ore for a little delivery boat.",
+      "rewardGold": 420,
+      "legacy": true
+    },
+    {
+      "id": "quay-supper",
+      "title": "Supper by the water",
+      "giver": "Sera",
+      "objective": "Bring two lakeside dinners for the boatbuilders working late.",
+      "rewardGold": 550,
+      "legacy": true
+    },
+    {
+      "id": "orchard-preserves",
+      "title": "A taste of summer",
+      "giver": "Tamsin",
+      "objective": "Tamsin would like four jars of preserves for the winter pantry.",
+      "rewardGold": 500,
+      "legacy": true
+    },
+    {
+      "id": "orchard-flowers",
+      "title": "Flowers at every place",
+      "giver": "Tamsin",
+      "objective": "Bring eight daisies for the next orchard picnic.",
+      "rewardGold": 360,
+      "legacy": true
+    },
+    {
+      "id": "archive-crystals",
+      "title": "Clear as glass",
+      "giver": "Ilan",
+      "objective": "Bring three moon crystals for Ilan's magnifying instruments.",
+      "rewardGold": 800,
+      "legacy": true
+    },
+    {
+      "id": "archive-stew",
+      "title": "A warm evening",
+      "giver": "Ilan",
+      "objective": "Bring two woodland stews for the volunteers repairing the archive.",
+      "rewardGold": 500,
+      "legacy": true
+    },
+    {
+      "id": "closer-stories",
+      "title": "Time, freely given",
+      "giver": "Cleo",
+      "objective": "Share two friendship moments. Some stories need a little time together.",
+      "rewardGold": 450,
+      "legacy": true
+    },
+    {
+      "id": "every-table",
+      "title": "Every table, a welcome",
+      "giver": "Elias",
+      "objective": "Join six community gatherings across the new towns.",
+      "rewardGold": 900,
+      "legacy": true
+    },
+    {
+      "id": "deep-discoveries",
+      "title": "A patient explorer",
+      "giver": "Ilan",
+      "objective": "Recover the chart, lens and compass from all three vaults.",
+      "rewardGold": 1200,
+      "legacy": true
+    },
+    {
+      "id": "nora-request-1",
+      "title": "A dry feed store",
+      "giver": "Nora",
+      "objective": "Deliver twelve feed and six timber.",
+      "rewardGold": 180,
+      "legacy": false
+    },
+    {
+      "id": "nora-request-2",
+      "title": "The first spring brood",
+      "giver": "Nora",
+      "objective": "Collect six fresh eggs from well-fed animals.",
+      "rewardGold": 260,
+      "legacy": false
+    },
+    {
+      "id": "gareth-request-1",
+      "title": "A straight grain",
+      "giver": "Gareth",
+      "objective": "Deliver twenty timber for the village benches.",
+      "rewardGold": 195,
+      "legacy": false
+    },
+    {
+      "id": "gareth-request-2",
+      "title": "A gate that closes",
+      "giver": "Gareth",
+      "objective": "Bring ten stone and two copper for the meadow gate.",
+      "rewardGold": 275,
+      "legacy": false
+    },
+    {
+      "id": "ellis-request-1",
+      "title": "A stronger seam",
+      "giver": "Ellis",
+      "objective": "Deliver four wool and six timber for pack frames.",
+      "rewardGold": 210,
+      "legacy": false
+    },
+    {
+      "id": "ellis-request-2",
+      "title": "The delivery sacks",
+      "giver": "Ellis",
+      "objective": "Bring two wool and a bouquet for the courier team.",
+      "rewardGold": 290,
+      "legacy": false
+    },
+    {
+      "id": "aya-request-1",
+      "title": "The right doorstep",
+      "giver": "Aya",
+      "objective": "Deliver letters to Mira, Marin and Ilan in person.",
+      "rewardGold": 225,
+      "legacy": false
+    },
+    {
+      "id": "aya-request-2",
+      "title": "A parcel from home",
+      "giver": "Aya",
+      "objective": "Bring a soup and three berries to the Courier Lodge.",
+      "rewardGold": 305,
+      "legacy": false
+    },
+    {
+      "id": "marin-request-1",
+      "title": "The windowsill jars",
+      "giver": "Marin",
+      "objective": "Deliver three preserves to the inn pantry.",
+      "rewardGold": 240,
+      "legacy": false
+    },
+    {
+      "id": "marin-request-2",
+      "title": "One more place",
+      "giver": "Marin",
+      "objective": "Bring eight timber and two flowers for the guest dining room.",
+      "rewardGold": 320,
+      "legacy": false
+    },
+    {
+      "id": "cato-request-1",
+      "title": "Before the ice melts",
+      "giver": "Cato",
+      "objective": "Deliver three carp to the fish counter.",
+      "rewardGold": 255,
+      "legacy": false
+    },
+    {
+      "id": "cato-request-2",
+      "title": "The quiet morning catch",
+      "giver": "Cato",
+      "objective": "Catch two trout at the harbour fishing bend.",
+      "rewardGold": 335,
+      "legacy": false
+    },
+    {
+      "id": "nemi-request-1",
+      "title": "The outer farms",
+      "giver": "Nemi",
+      "objective": "Deliver four carrot seeds and six feed for the weekly cart.",
+      "rewardGold": 270,
+      "legacy": false
+    },
+    {
+      "id": "nemi-request-2",
+      "title": "A shelf for every season",
+      "giver": "Nemi",
+      "objective": "Bring six fertilizer and eight timber to the exchange.",
+      "rewardGold": 350,
+      "legacy": false
+    },
+    {
+      "id": "basil-request-1",
+      "title": "Sound moorings",
+      "giver": "Basil",
+      "objective": "Deliver six iron for the pier rings.",
+      "rewardGold": 285,
+      "legacy": false
+    },
+    {
+      "id": "basil-request-2",
+      "title": "The clear hauling lane",
+      "giver": "Basil",
+      "objective": "Move three marked cargo crates to the warehouse bays.",
+      "rewardGold": 365,
+      "legacy": false
+    },
+    {
+      "id": "lyra-request-1",
+      "title": "Long stems",
+      "giver": "Lyra",
+      "objective": "Deliver eight daisies for the town planters.",
+      "rewardGold": 300,
+      "legacy": false
+    },
+    {
+      "id": "lyra-request-2",
+      "title": "Flowers on the trail",
+      "giver": "Lyra",
+      "objective": "Place three bouquets at the sheltered rest stops.",
+      "rewardGold": 380,
+      "legacy": false
+    },
+    {
+      "id": "pavel-request-1",
+      "title": "The potting benches",
+      "giver": "Pavel",
+      "objective": "Bring twelve timber and four stone to the garden house.",
+      "rewardGold": 315,
+      "legacy": false
+    },
+    {
+      "id": "pavel-request-2",
+      "title": "A second tray",
+      "giver": "Pavel",
+      "objective": "Deliver four cabbage seeds and four cauliflower seeds.",
+      "rewardGold": 395,
+      "legacy": false
+    },
+    {
+      "id": "ada-request-1",
+      "title": "Breakfast for the orchard",
+      "giver": "Ada",
+      "objective": "Deliver four eggs and two potatoes.",
+      "rewardGold": 330,
+      "legacy": false
+    },
+    {
+      "id": "ada-request-2",
+      "title": "Saved for a colder day",
+      "giver": "Ada",
+      "objective": "Bring three preserves for the shared pantry.",
+      "rewardGold": 410,
+      "legacy": false
+    },
+    {
+      "id": "cedar-request-1",
+      "title": "Space for the roots",
+      "giver": "Cedar",
+      "objective": "Clear three marked fallen branches in Cedar Downs.",
+      "rewardGold": 345,
+      "legacy": false
+    },
+    {
+      "id": "cedar-request-2",
+      "title": "The last basket",
+      "giver": "Cedar",
+      "objective": "Deliver four corn and two pumpkins to the orchard barn.",
+      "rewardGold": 425,
+      "legacy": false
+    },
+    {
+      "id": "bea-request-1",
+      "title": "The drying rafters",
+      "giver": "Bea",
+      "objective": "Bring eight mushrooms and four berries.",
+      "rewardGold": 360,
+      "legacy": false
+    },
+    {
+      "id": "bea-request-2",
+      "title": "A warm trail meal",
+      "giver": "Bea",
+      "objective": "Prepare two stews for the mountain guides.",
+      "rewardGold": 440,
+      "legacy": false
+    },
+    {
+      "id": "tobin-request-1",
+      "title": "Straps that hold",
+      "giver": "Tobin",
+      "objective": "Deliver four wool and four iron.",
+      "rewardGold": 375,
+      "legacy": false
+    },
+    {
+      "id": "tobin-request-2",
+      "title": "The spare repair kit",
+      "giver": "Tobin",
+      "objective": "Bring six timber, six stone and two copper.",
+      "rewardGold": 455,
+      "legacy": false
+    },
+    {
+      "id": "vesper-request-1",
+      "title": "Shelter before the wind",
+      "giver": "Vesper",
+      "objective": "Deliver twelve timber to the upper rest landing.",
+      "rewardGold": 390,
+      "legacy": false
+    },
+    {
+      "id": "vesper-request-2",
+      "title": "The way back",
+      "giver": "Vesper",
+      "objective": "Mark three safe descent points on Observatory Rise.",
+      "rewardGold": 470,
+      "legacy": false
+    },
+    {
+      "id": "jun-request-1",
+      "title": "A page kept dry",
+      "giver": "Jun",
+      "objective": "Deliver six timber for the archive's map cases.",
+      "rewardGold": 405,
+      "legacy": false
+    },
+    {
+      "id": "jun-request-2",
+      "title": "Names beside the roads",
+      "giver": "Jun",
+      "objective": "Meet all twenty-five named residents.",
+      "rewardGold": 485,
+      "legacy": false
+    },
+    {
+      "id": "ranger-trail",
+      "title": "The ranger's loop",
+      "giver": "Rowan",
+      "objective": "Visit four woodland trail markers.",
+      "rewardGold": 320,
+      "legacy": false
+    },
+    {
+      "id": "reedwater-bridges",
+      "title": "Above the reeds",
+      "giver": "Finn",
+      "objective": "Repair two boardwalk gaps with twelve timber.",
+      "rewardGold": 365,
+      "legacy": false
+    },
+    {
+      "id": "cedar-picnic",
+      "title": "A place to sit",
+      "giver": "Cedar",
+      "objective": "Bring soup and a bouquet to the Cedar Downs picnic clearing.",
+      "rewardGold": 410,
+      "legacy": false
+    },
+    {
+      "id": "quay-cargo",
+      "title": "The missing cargo tag",
+      "giver": "Basil",
+      "objective": "Find the labelled crate in the delivery storehouse.",
+      "rewardGold": 455,
+      "legacy": false
+    },
+    {
+      "id": "cliff-lanterns",
+      "title": "Lights on the stair",
+      "giver": "Sera",
+      "objective": "Repair three fixed lantern brackets on Saltwind Cliffs.",
+      "rewardGold": 500,
+      "legacy": false
+    },
+    {
+      "id": "quarry-drain",
+      "title": "After the rain",
+      "giver": "Pavel",
+      "objective": "Clear the blocked quarry drainage channel.",
+      "rewardGold": 545,
+      "legacy": false
+    },
+    {
+      "id": "archive-case",
+      "title": "The fourth map case",
+      "giver": "Ilan",
+      "objective": "Bring ten timber and two crystal to the archive.",
+      "rewardGold": 590,
+      "legacy": false
+    },
+    {
+      "id": "winter-rooms",
+      "title": "The guest room blankets",
+      "giver": "Marin",
+      "objective": "Deliver six wool for the four towns' shared rooms.",
+      "rewardGold": 635,
+      "legacy": false
+    },
+    {
+      "id": "valley-loop",
+      "title": "The whole valley",
+      "giver": "Aya",
+      "objective": "Visit all thirteen outdoor regions.",
+      "rewardGold": 680,
+      "legacy": false
+    }
+  ],
+  "events": [
+    {
+      "id": "blossom-picnic",
+      "name": "Blossom Picnic",
+      "area": "village",
+      "date": "Spring 14",
+      "activity": "Flowers, a picnic and reopening the garden."
+    },
+    {
+      "id": "lakefire-evening",
+      "name": "Lakefire Evening",
+      "area": "lake",
+      "date": "Summer 14",
+      "activity": "Fishing, cooking and lanterns reflected on water; no music."
+    },
+    {
+      "id": "harvest-gathering",
+      "name": "Harvest Gathering",
+      "area": "sunridge",
+      "date": "Autumn 14",
+      "activity": "Crops, shared baskets and a community meal."
+    },
+    {
+      "id": "starlight-night",
+      "name": "Starlight Night",
+      "area": "briar-hollow",
+      "date": "Winter 14",
+      "activity": "Warm meals and a quiet lantern walk."
+    },
+    {
+      "id": "seed-exchange",
+      "name": "Seed Exchange",
+      "area": "village",
+      "date": "Spring 7",
+      "activity": "Swap surplus seeds for seasonal packets."
+    },
+    {
+      "id": "harbour-opening",
+      "name": "Harbour Opening",
+      "area": "aster-quay",
+      "date": "Spring 21",
+      "activity": "Load the first spring delivery and meet the harbour crews."
+    },
+    {
+      "id": "quay-supper",
+      "name": "Quayside Supper",
+      "area": "aster-quay",
+      "date": "Summer 7",
+      "activity": "Prepare a shared meal from the day's catch."
+    },
+    {
+      "id": "glasshouse-open-day",
+      "name": "Glasshouse Open Day",
+      "area": "sunridge",
+      "date": "Summer 21",
+      "activity": "Tend seed beds and learn the conservatory's water system."
+    },
+    {
+      "id": "presshouse-day",
+      "name": "Presshouse Day",
+      "area": "sunridge",
+      "date": "Autumn 7",
+      "activity": "Prepare preserves and fruit baskets."
+    },
+    {
+      "id": "mapmakers-walk",
+      "name": "Mapmakers' Walk",
+      "area": "briar-hollow",
+      "date": "Autumn 21",
+      "activity": "Compare routes with Jun and Ilan."
+    },
+    {
+      "id": "winter-delivery",
+      "name": "Winter Delivery",
+      "area": "village",
+      "date": "Winter 7",
+      "activity": "Pack food for the outlying homes."
+    },
+    {
+      "id": "lowlight-evening",
+      "name": "Lowlight Evening",
+      "area": "aster-quay",
+      "date": "Winter 21",
+      "activity": "Repair lanterns and share soup at the lighthouse."
+    }
+  ],
+  "weekly": [
+    {
+      "id": "village-table",
+      "name": "The Village Table",
+      "area": "village",
+      "weekday": 1,
+      "host": "cleo",
+      "from": 1080,
+      "to": 1200,
+      "rule": "Visit the physical shared table and contribute one listed food item; once per game day."
+    },
+    {
+      "id": "quay-fair",
+      "name": "The Harbour Table",
+      "area": "aster-quay",
+      "weekday": 2,
+      "host": "sera",
+      "from": 1080,
+      "to": 1200,
+      "rule": "Visit the physical shared table and contribute one listed food item; once per game day."
+    },
+    {
+      "id": "orchard-fair",
+      "name": "The Orchard Picnic",
+      "area": "sunridge",
+      "weekday": 4,
+      "host": "tamsin",
+      "from": 1080,
+      "to": 1200,
+      "rule": "Visit the physical shared table and contribute one listed food item; once per game day."
+    },
+    {
+      "id": "archive-fair",
+      "name": "Mapmakers' Evening",
+      "area": "briar-hollow",
+      "weekday": 6,
+      "host": "ilan",
+      "from": 1080,
+      "to": 1200,
+      "rule": "Visit the physical shared table and contribute one listed food item; once per game day."
+    }
+  ]
+}

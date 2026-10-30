@@ -1,0 +1,5 @@
+# ninja log v5
+2	273	8144555691447310	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	8d48d3573eef07e2
+274	892	8144555695644014	E:/Harvest Moon GPT 61/unity/Dewhaven/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/374x2f5l/obj/arm64-v8a/libswappywrapper.so	eace43eccda44c2
+3	3064	8144611741483009	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	8d48d3573eef07e2
+3067	5068	8144611761483488	E:/Harvest Moon GPT 61/unity/Dewhaven/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/374x2f5l/obj/arm64-v8a/libswappywrapper.so	eace43eccda44c2

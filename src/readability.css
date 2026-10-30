@@ -1,0 +1,363 @@
+/* Comfortable type sizes are the default, with layouts that make room for them. */
+:root { font-size: 16px; }
+button, input, select, textarea { line-height: 1.4; }
+.button { font-size: 15px; }
+.button-small, .text-button, .pill { font-size: 14px; }
+.eyebrow { font-size: 12px; letter-spacing: 1.5px; }
+.nav-link { font-size: 14px; }
+.quick-actions .button { font-size: 14px; }
+.app-header.on-title { background: transparent; }
+.title-description { font-size: 17px; line-height: 1.7; }
+.title-save-note, .title-footer, .title-footer .text-button { font-size: 14px; }
+.title-eyebrow { font-size: 12px; letter-spacing: 2px; }
+.title-buttons .button { font-size: 16px; }
+.title-leaf { display: none; }
+.play-layout { grid-template-columns: minmax(0, 1fr) 300px; gap: 22px; }
+.welcome-row > div:first-child { min-width: 0; }
+.welcome-row h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.quick-actions { flex-shrink: 0; }
+.time-card { min-width: 182px; }
+.time-card strong, .hud-clock { font-size: 15px; }
+.hud-year { opacity: .72; font-size: 12px; }
+.hud-clock span span { font-size: 12px; }
+.gold-pill strong { font-size: 17px; }
+.energy-card { width: 135px; }
+.energy-card > span:first-child { font-size: 14px; }
+.energy-track { height: 5px; }
+.world-location { font-size: 12px; letter-spacing: .6px; max-width: calc(100% - 80px); }
+#hud-location { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#hud-season { white-space: nowrap; }
+.tool-label { font-size: 13px; }
+.tool-key { font-size: 11px; left: 6px; top: 3px; }
+.tool-button { padding: 15px 4px 10px; gap: 9px; }
+.bag-button { min-width: 165px; padding: 12px 15px; }
+.bag-button > span { font-size: 15px; }
+.bag-button small, .bag-button kbd { font-size: 12px; }
+.under-world, .under-world .text-button { font-size: 13px; }
+.under-world > span { min-width: 0; }
+.chapter-top .eyebrow { font-size: 11px; }
+.chapter-number { font-size: 14px; }
+.chapter-panel h2 { margin-top: 17px; font-size: 27px; }
+.quest-track { margin-top: 18px; }
+.quest-requirements > span { font-size: 14px; line-height: 1.5; gap: 8px; }
+.quest-requirements > span > .ph, .quest-requirements b { flex-shrink: 0; }
+.quest-requirements b { white-space: nowrap; font-size: 14px; }
+.chapter-button { font-size: 14px; }
+.sidebar-heading h3, .daily-check { font-size: 15px; }
+.daily-check { line-height: 1.5; }
+.minimap-panel > span { font-size: 14px; }
+.modal-body { font-size: 16px; }
+.modal-body h2 { font-size: 35px; }
+.modal-body > .eyebrow, .modal-body .eyebrow { font-size: 12px; }
+.modal-body p, .modal-intro, .modal-body label { font-size: 15px; line-height: 1.65; }
+.modal-body small { font-size: 13px; line-height: 1.5; }
+.modal-body .button, .modal-actions .button { font-size: 15px; }
+.modal-body .button-small { font-size: 14px; }
+.modal-body .text-button, .modal-body .pill { font-size: 14px; }
+.modal-tabs { gap: 3px; margin: 20px 0; flex-wrap: wrap; overflow: visible; }
+.tab { font-size: 15px; padding: 11px 13px; }
+.modal-close { width: 40px; height: 40px; }
+.modal-title-row { padding-right: 24px; }
+.modal-title-row > div { min-width: 0; }
+.field-label { font-size: 14px; }
+.form-grid > label { min-width: 0; }
+.avatar-options label { flex: 1; min-width: 0; }
+input:not([type]), input[type=text], select, textarea { font-size: 16px; }
+.save-choice span { height: auto; min-height: 104px; padding: 12px 9px; }
+.save-choice b { font-size: 12px; }
+.save-choice strong { font-size: 14px; }
+.save-choice small { font-size: 12px; }
+.onboarding-copy { font-size: 17px; }
+.handwritten { font-size: 19px; }
+.quest-card { gap: 12px; padding: 20px; min-width: 0; }
+.quest-card h3 { font-size: 27px; }
+.quest-card p { font-size: 15px; }
+.quest-giver, .quest-card .pill, .quest-reward-items { font-size: 13px; }
+.story-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.chapter-list { display: flex; flex-direction: column; gap: 7px; list-style: none; padding: 0; margin: 0; }
+.chapter-list li { display: flex; gap: 10px; padding: 12px; border-radius: 7px; background: #eae5dc; font-size: 15px; align-items: center; color: #7c7d75; }
+.chapter-list li.current { background: #ded2bc; color: #51493d; }
+.chapter-list li.done { color: #665f4b; }
+.chapter-list li .ph { font-size: 18px; flex-shrink: 0; }
+.chapter-list li b { width: 23px; font-size: 13px; flex-shrink: 0; }
+.pagination { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 20px; }
+.pagination > span { color: #7a7c72; font-size: 14px; white-space: nowrap; }
+.pagination .button { min-height: 42px; padding: 8px 12px; }
+.inventory-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.inventory-item { min-height: 149px; gap: 9px; padding: 14px 8px 11px; }
+.inventory-item strong { font-size: 14px; max-width: 120px; min-height: 38px; }
+.inventory-item > small, .quantity { font-size: 13px; }
+.quantity { padding: 2px 6px; }
+.inventory-empty { display: none; }
+.item-details { gap: 12px; }
+.item-details > div { min-width: 0; }
+.item-details p { font-size: 14px; }
+.item-details > div:last-child { flex-shrink: 0; flex-wrap: wrap; }
+.item-details ~ .modal-actions { display: none; }
+.inventory-help { font-size: 14px; }
+.market-banner { gap: 16px; }
+.market-banner > div { min-width: 0; }
+.market-banner h2 { font-size: 31px; }
+.market-banner p:not(.eyebrow) { font-size: 15px; }
+.market-item { gap: 12px; align-items: center; padding: 16px; min-width: 0; }
+.market-item > div:not(.market-price) { min-width: 0; flex: 1; }
+.market-item h3 { font-size: 16px; overflow-wrap: anywhere; }
+.market-item p, .market-item small, .out-season { font-size: 13px; }
+.market-price { flex-shrink: 0; gap: 8px; }
+.market-price .button { font-size: 14px; padding: 7px 10px; min-height: 36px; }
+.market-price strong { font-size: 17px; }
+.market-item .item-art.large { width: 50px; height: 50px; }
+.market-item .item-art.large img { width: 48px; height: 48px; }
+.market-note { display: none; }
+.recipe-card { padding: 18px; gap: 15px; }
+.recipe-card > div { min-width: 0; }
+.recipe-card h3 { font-size: 25px; }
+.recipe-card p { font-size: 14px; }
+.recipe-ingredients { gap: 5px; }
+.recipe-ingredients > span { font-size: 12px; line-height: 1.5; }
+.animal-row h3 { font-size: 27px; }
+.animal-row small, .animal-shop-card p { font-size: 14px; }
+.animal-actions { flex-wrap: wrap; gap: 7px; }
+.people-grid { margin-top: 20px; }
+.person-card { padding: 17px 12px; gap: 7px; }
+.person-card h3 { font-size: 25px; }
+.person-card p, .person-card small { font-size: 14px; }
+.person-card .portrait { width: 55px; height: 55px; }
+.portrait, .portrait.large { display: flex; align-items: center; justify-content: center; }
+.portrait img, .portrait.large img { width: 88%; height: 88%; padding: 0; object-fit: contain; }
+.person-meta, .favorites > span { font-size: 14px; }
+.person-hearts { flex-wrap: wrap; }
+.favorite-title { font-size: 13px; }
+.achievement { padding: 20px 12px; }
+.achievement h3 { font-size: 21px; }
+.achievement small { font-size: 14px; }
+.calendar-weekday { font-size: 12px; }
+.calendar-day { min-width: 0; height: 90px; padding: 9px; }
+.calendar-day > b { font-size: 16px; }
+.calendar-day small { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.calendar-note b { font-size: 15px; }
+.calendar-note p { font-size: 14px; }
+.travel-place { min-width: 0; }
+.travel-place b { font-size: 16px; }
+.travel-place small { font-size: 14px; }
+.crop-entry { min-width: 0; padding: 18px 12px; }
+.crop-entry h3 { font-size: 23px; }
+.crop-entry p, .crop-entry small, .crop-entry > span { font-size: 14px; }
+.field-note { font-size: 14px; line-height: 1.6; }
+.upgrade-card > div { min-width: 0; }
+.upgrade-card h3 { font-size: 25px; }
+.upgrade-card p { font-size: 15px; }
+.setting-row { gap: 20px; }
+.setting-row label { font-size: 16px; min-width: 0; }
+.setting-row label small { font-size: 13px; }
+.setting-row select { font-size: 15px; width: 170px; flex-shrink: 0; }
+.setting-row input { flex-shrink: 0; }
+.home-details > span { font-size: 14px; padding: 16px 8px; }
+.home-details b { font-size: 23px; overflow-wrap: anywhere; }
+.home-note, .rating-note, .about-credits, .save-slot-card small { font-size: 14px; }
+.about-credits summary { font-size: 15px; cursor: pointer; color: #7b796f; }
+.about-credits p { margin-top: 15px; }
+.shipping-row { display: grid; grid-template-columns: 45px minmax(0, 1fr) auto auto; gap: 10px; }
+.shipping-row > div { min-width: 0; }
+.shipping-row b { font-size: 15px; }
+.shipping-row small { font-size: 13px; }
+.shipping-row .button { font-size: 14px; }
+.shipping-total span { font-size: 14px; }
+.share-card textarea { font-size: 15px; line-height: 1.6; }
+.help-section kbd { font-size: 13px; }
+.onboarding-sheet .modal-actions .button { font-size: 15px; }
+.toast { font-size: 15px; line-height: 1.5; }
+.game-running #toast-container { bottom: 160px; width: min(450px, 90vw); }
+.large-text .modal-body p, .large-text .modal-body label { font-size: 18px; }
+.large-text .daily-check, .large-text .quest-requirements > span { font-size: 16px; }
+.large-text .tool-label { font-size: 14px; }
+.boot-screen { background: linear-gradient(#141c25b8,#151c25e8), url('/assets/brand/valley-v2.png') center / cover; }
+.boot-screen p { font-size: 17px; color: #ddd8cb; }
+.boot-screen small { font-size: 13px; color: #b4a891; }
+@media (max-width: 1120px) and (min-width: 901px) {
+  .play-layout { grid-template-columns: minmax(0, 1fr) 275px; gap: 18px; }
+  .bag-button { min-width: 115px; padding: 10px; }
+  .bag-button > span { font-size: 14px; }
+  .bag-button > .ph, .bag-button kbd { display: none; }
+  .tool-label { font-size: 12px; }
+}
+@media (max-height: 760px) and (min-width: 901px) {
+  .game-running .welcome-row { margin-bottom: 13px; }
+  .game-running .tool-button { padding: 11px 3px 8px; }
+  .game-running .daily-plan { display: none; }
+  .game-running .chapter-panel h2 { font-size: 25px; }
+}
+@media (max-width: 900px) {
+  .play-layout { grid-template-columns: minmax(0, 1fr); }
+  .tool-label { font-size: 13px; }
+  .story-layout { gap: 16px; }
+  .bag-button > span { font-size: 15px; }
+  .quick-actions .button { font-size: 14px; }
+}
+@media (max-width: 640px) {
+  :root { font-size: 16px; }
+  .app-header { padding: 0 12px; gap: 5px; }
+  .brand { gap: 5px; }
+  .brand-mark { width: 25px; }
+  .main-nav .nav-link { width: 33px; height: 38px; justify-content: center; padding: 6px; }
+  .nav-link .ph { font-size: 21px; }
+  .header-actions .icon-button { width: 32px; height: 38px; }
+  .header-actions .icon-button .ph { font-size: 21px; }
+  .game-running .welcome-row h1 { font-size: 23px; }
+  .quick-actions { gap: 4px; }
+  .quick-actions .button { width: 33px; min-height: 33px; height: 33px; }
+  .quick-actions .button .ph { font-size: 20px; }
+  .world-hud { top: 10px; left: 10px; right: 10px; gap: 8px; }
+  .time-card { min-width: 150px; padding: 9px; gap: 4px; }
+  .time-card strong, .hud-clock { font-size: 13px; }
+  .hud-clock span span { font-size: 11px; }
+  .gold-pill { min-width: 84px; padding: 8px 10px; }
+  .gold-pill strong { font-size: 15px; }
+  .energy-card { width: 116px; }
+  .energy-card > span:first-child { font-size: 12px; }
+  .world-location { font-size: 11px; padding: 8px 9px; letter-spacing: .2px; left: 10px; }
+  .world-location .ph { font-size: 15px; }
+  .location-line, #hud-season { display: none; }
+  .tool-label, .large-text .tool-label { font-size: 12px; letter-spacing: 0; }
+  .tool-key { font-size: 10px; }
+  .game-running .tool-button { padding: 15px 1px 8px; gap: 7px; }
+  .bag-button > span { font-size: 14px; }
+  .bag-button small, .bag-button kbd { font-size: 12px; }
+  .title-eyebrow { font-size: 11px; letter-spacing: 1.6px; }
+  .title-description { font-size: 16px; margin-top: 19px; }
+  .title-save-note, .title-footer .text-button, .title-footer > span:last-child { font-size: 13px; }
+  .title-buttons .button { font-size: 16px; }
+  .title-footer > div { gap: 23px; }
+  .modal-body { padding: 29px 18px 24px; }
+  .modal-body h2 { font-size: 30px; margin-right: 26px; }
+  .modal-body > .eyebrow { font-size: 12px; max-width: 85%; }
+  .modal-close { width: 38px; height: 38px; top: 9px; margin: 9px 9px -47px 0; }
+  .modal-tabs { margin: 17px 0; gap: 0; }
+  .tab { font-size: 14px; padding: 10px 9px; }
+  .bag-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bag-tabs .tab { padding: 8px 4px; }
+  .modal-actions .button { font-size: 14px; padding: 10px 12px; }
+  .modal-title-row { gap: 8px; padding-right: 23px; }
+  .modal-title-row > .pill { font-size: 13px; }
+  .newgame-illustration { height: 72px; margin-bottom: 19px; }
+  .form-grid { margin-top: 19px; }
+  .field-label { margin-top: 18px; }
+  .avatar-options { gap: 10px; }
+  .avatar-options label { width: 62px; }
+  .save-choice { margin-bottom: 20px; gap: 5px; }
+  .save-choice strong { font-size: 13px; }
+  .save-choice small { font-size: 12px; }
+  .save-choice span { padding: 10px 7px; min-height: 100px; }
+  .story-layout { grid-template-columns: minmax(0, 1fr); }
+  .chapter-list { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+  .chapter-list li { padding: 9px 3px; justify-content: center; flex-direction: column; gap: 3px; }
+  .chapter-list li > span { display: none; }
+  .chapter-list li b { text-align: center; width: auto; }
+  .quest-list { grid-template-columns: minmax(0, 1fr); }
+  .quest-card h3 { font-size: 27px; }
+  .inventory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .inventory-item strong { font-size: 13px; }
+  .inventory-item { min-height: 146px; }
+  .item-details { padding: 14px; }
+  .item-details h3 { font-size: 22px; }
+  .market-banner { gap: 10px; }
+  .market-banner .portrait { width: 45px; height: 45px; }
+  .market-banner h2 { font-size: 27px; }
+  .market-banner p:not(.eyebrow) { font-size: 14px; }
+  .market-banner > .pill { font-size: 13px; }
+  .market-grid { grid-template-columns: minmax(0, 1fr); }
+  .market-item { padding: 13px 10px; gap: 9px; }
+  .market-item h3 { font-size: 15px; }
+  .market-item p, .market-item small { font-size: 13px; }
+  .market-price .button { font-size: 13px; }
+  .recipe-card { padding: 15px 13px; gap: 10px; }
+  .recipe-card { display: grid; grid-template-columns: 45px minmax(0, 1fr); }
+  .recipe-card > .item-art.large { width: 45px; height: 45px; align-self: start; }
+  .recipe-card > .item-art.large img { width: 43px; height: 43px; }
+  .recipe-card > .button { grid-column: 2; justify-self: end; }
+  .recipe-card h3 { font-size: 24px; }
+  .recipe-card p { font-size: 14px; }
+  .recipe-ingredients > span { font-size: 12px; }
+  .animal-actions .button { padding: 8px; font-size: 13px; }
+  .people-grid { gap: 10px; margin-top: 17px; }
+  .person-card { padding: 13px 8px; gap: 5px; }
+  .person-card .portrait { width: 44px; height: 44px; }
+  .person-card h3 { font-size: 23px; }
+  .person-card p, .person-card small { font-size: 13px; }
+  .person-card small > .ph { font-size: 13px; }
+  .person-card small b { margin-top: 2px; }
+  .achievement { display: grid; grid-template-columns: 27px minmax(0, 1fr); text-align: left; padding: 13px 10px; gap: 7px 9px; min-width: 0; }
+  .achievement > .ph { font-size: 25px; grid-row: span 2; }
+  .achievement h3 { margin: 0; font-size: 18px; overflow-wrap: anywhere; }
+  .achievement small { grid-column: 2; font-size: 13px; }
+  .person-banner h2 { font-size: 33px; }
+  .person-meta { font-size: 14px; }
+  .favorites > span { font-size: 13px; }
+  .calendar-day { height: 77px; padding: 6px 3px; gap: 2px; }
+  .calendar-day > b { font-size: 15px; }
+  .calendar-day small { font-size: 10px; }
+  .calendar-weekday { font-size: 10px; }
+  .calendar-note b, .calendar-note p { font-size: 14px; }
+  .travel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .travel-place { padding: 12px 9px; gap: 8px; }
+  .travel-place > .ph:first-child { font-size: 23px; }
+  .travel-place > .ph:last-child { display: none; }
+  .travel-place b { font-size: 14px; }
+  .travel-place small { font-size: 12px; }
+  .crop-entry { padding: 15px 9px; }
+  .crop-entry h3 { font-size: 22px; }
+  .crop-entry p, .crop-entry small, .crop-entry > span { font-size: 13px; }
+  .upgrade-card { display: grid; grid-template-columns: 35px minmax(0, 1fr); padding: 16px; gap: 12px; }
+  .upgrade-card > .ph { align-self: start; }
+  .upgrade-card > .button { grid-column: 2; justify-self: end; }
+  .setting-row { gap: 12px; }
+  .setting-row label { font-size: 15px; }
+  .setting-row select { width: 137px; font-size: 14px; }
+  .setting-row input[type=range] { width: 137px; }
+  .home-details > span { font-size: 12px; }
+  .home-details b { font-size: 20px; }
+  .shipping-row { grid-template-columns: 35px minmax(0, 1fr) auto; gap: 8px; }
+  .shipping-row .button-subtle { display: none; }
+  .shipping-row b { font-size: 14px; }
+  .shipping-row small { font-size: 12px; }
+  .shipping-row .button { font-size: 13px; padding: 8px; }
+  .toast { font-size: 14px; }
+  .game-running #toast-container { bottom: 210px; }
+}
+@media (max-width: 360px) {
+  .game-running .brand-word { font-size: 20px; }
+  .game-running .brand-mark { display: none; }
+  .game-running .game-shell { padding-left: 9px; padding-right: 9px; }
+  .game-running .welcome-row h1 { font-size: 20px; }
+  .time-card { min-width: 140px; }
+  .season-symbol { display: none; }
+  .tool-label, .large-text .tool-label { font-size: 12px; }
+  .inventory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .setting-row select, .setting-row input[type=range] { width: 115px; }
+  .newgame-illustration { display: none; }
+  .newgame-illustration ~ .modal-intro { display: none; }
+  .people-grid { margin-top: 15px; gap: 8px; }
+  .person-card { padding: 10px 7px; gap: 4px; }
+  .person-card .portrait { width: 36px; height: 36px; }
+  .person-card p { font-size: 12px; line-height: 1.4; }
+  .person-card small { font-size: 12px; line-height: 1.4; }
+  .person-card .friendship-track { margin: 0; }
+  .modal-body > .eyebrow { letter-spacing: 1px; }
+  .home-banner { height: 90px; margin-bottom: 18px; }
+  .home-actions { margin-top: 18px; }
+  .home-actions .button { padding: 10px 12px; }
+  .setting-row { padding-top: 13px; padding-bottom: 13px; }
+  .setting-row label small { display: none; }
+}
+@media (pointer: coarse) {
+  .d-pad { grid-template-columns: repeat(3, 42px); grid-template-rows: repeat(2, 42px); gap: 4px; opacity: .85; }
+  .d-pad button { border-radius: 7px; }
+  .touch-interact { width: 59px; height: 59px; opacity: .95; }
+}
+@media (max-height: 640px) and (max-width: 900px) {
+  .game-running .tool-label { font-size: 12px; }
+  .game-running .tool-key { display: none; }
+  .game-running .tool-button { padding: 7px 2px; gap: 4px; }
+  .game-running .bag-button { min-width: 55px; }
+  .title-description, .title-save-note { display: none; }
+}

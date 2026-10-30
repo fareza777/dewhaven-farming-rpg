@@ -1,0 +1,54 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+# Licensed raw sprites are restored locally by their licensed owner.
+public/assets/pack/
+public/assets/world/
+unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Atlases/
+unity/Dewhaven/Assets/Dewhaven/Resources/Dewhaven/Art/Animals/
+docs/unity/atlas.html
+*.log
+tools/.cache/
+tools/asset-reference.png
+asset-houses-inspection.png
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/build/
+android/app/src/main/assets/public/
+*.jks
+*.keystore
+
+# Reproducible Unity editor/build caches.
+unity/**/[Ll]ibrary/
+unity/**/[Tt]emp/
+unity/**/[Oo]bj/
+unity/**/[Ll]ogs/
+unity/**/[Uu]ser[Ss]ettings/
+unity/**/[Bb]uild/
+unity/**/[Bb]uilds/
+
+# Local processes, Python caches and machine-specific IDE state.
+tools/runtime/
+__pycache__/
+*.pyc
+*.pyo
+*.pid
+.DS_Store
+Thumbs.db
+.idea/
+.vs/
+
+# Local credentials and private signing material. Public certificates may be committed.
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+**/local.properties
+**/key.properties
+**/keystore.properties
+**/credentials*.json
+**/service-account*.json

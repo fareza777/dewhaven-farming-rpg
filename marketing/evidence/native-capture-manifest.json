@@ -1,0 +1,98 @@
+{
+  "game": "Dewhaven",
+  "version": "2.4.0 source",
+  "capturedAtUtc": "2026-10-23T04:28:28.8631374Z",
+  "source": "Dedicated native Unity editor, in-memory staged demonstration save",
+  "shippingCodeChanged": false,
+  "shots": [
+    {
+      "id": "01-farm",
+      "area": "farm",
+      "frames": 36,
+      "screenshot": "01-farm.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "02-village",
+      "area": "village",
+      "frames": 52,
+      "screenshot": "02-village.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "03-lake",
+      "area": "lake",
+      "frames": 54,
+      "screenshot": "03-lake.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "04-barn",
+      "area": "barn",
+      "frames": 61,
+      "screenshot": "04-barn.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "05-sunridge",
+      "area": "sunridge",
+      "frames": 61,
+      "screenshot": "05-sunridge.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "06-forest",
+      "area": "forest",
+      "frames": 59,
+      "screenshot": "06-forest.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "07-vault",
+      "area": "tide-vault-2",
+      "frames": 54,
+      "screenshot": "07-vault.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    },
+    {
+      "id": "08-homestead",
+      "area": "farm",
+      "frames": 50,
+      "screenshot": "08-homestead.png",
+      "portrait": "720x1080",
+      "landscape": "1440x810",
+      "canvasSize": "(390.00, 585.00)",
+      "face": "player facing up / rear view",
+      "stagedSave": true
+    }
+  ],
+  "farmRecapturedAtUtc": "2026-10-23T04:32:19.5455975Z"
+}

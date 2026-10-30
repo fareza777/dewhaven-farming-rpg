@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"name\":\"result\",\"typeName\":\"System.String\",\"value\":\"Dewhaven play mode requested.\"}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "name": "result",
+      "typeName": "System.String",
+      "value": "Dewhaven play mode requested."
+    }
+  },
+  "isError": false
+}

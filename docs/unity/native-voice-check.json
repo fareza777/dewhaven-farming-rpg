@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "error": null,
+  "device": false,
+  "questRequirementsFixture": true,
+  "realAdImpression": false,
+  "checks": [
+    "intro speech and next-page cancellation",
+    "main objective/opening/completion and replay",
+    "retained spoken dialogue pauses/resumes without clock movement",
+    "ordinary shop still closes on background",
+    "mute cancels speech",
+    "only one loaded speech clip"
+  ]
+}

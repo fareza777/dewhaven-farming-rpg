@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "mira",
+    "name": "Mira",
+    "role": "The seedkeeper",
+    "age": 27,
+    "town": "village",
+    "home": "seedkeepers-cottage",
+    "work": "market",
+    "roaming": false,
+    "sprite": "chara_13",
+    "romance": true,
+    "loves": [
+      "flower",
+      "bouquet",
+      "turnip"
+    ],
+    "dialogue": [
+      "Aya said someone had opened the old farmhouse. Gather what is ripe first; the new seed packets are here on the counter.",
+      "Plant while the rain is steady. It will water the new rows, so you can spend the afternoon on another job.",
+      "Your grandmother labelled every seed jar with its growing season. I kept the jars; you can see them above the back shelf."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "seedkeepers-cottage",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "market",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "seedkeepers-cottage",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "seedkeepers-cottage",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "rowan",
+    "name": "Rowan",
+    "role": "Woodland ranger",
+    "age": 29,
+    "town": "forest",
+    "home": "ranger-house",
+    "work": "ranger-house",
+    "roaming": true,
+    "sprite": "chara_29",
+    "romance": true,
+    "loves": [
+      "mushroom",
+      "stew",
+      "wood"
+    ],
+    "dialogue": [
+      "The cart track through Copperleaf Pass ends at the mine head. Take food, a pickaxe and room for ore.",
+      "After rain, use the raised woodland path. The lower crossing can wait until the stream settles.",
+      "I check the trail markers before opening the cabin. A mark is useful only if the next one can be seen from it."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "ranger-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "forest",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "forest",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "forest",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "ranger-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "ranger-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "elias",
+    "name": "Elias",
+    "role": "Village mayor",
+    "age": 34,
+    "town": "village",
+    "home": "riverstone-house",
+    "work": "townhall",
+    "roaming": false,
+    "sprite": "chara_3",
+    "romance": false,
+    "loves": [
+      "soup",
+      "corn",
+      "jam"
+    ],
+    "dialogue": [
+      "The town records are in the hall, and Aya collects the letters at Letter Court. Come in when you have found your feet.",
+      "The bridge repair will shorten the delivery route. Bring the timber and stone to the work site, not to a shop counter.",
+      "We have room for a shared kitchen again. First we need people who can keep it supplied after the opening day."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "riverstone-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "townhall",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "riverstone-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "riverstone-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "cleo",
+    "name": "Cleo",
+    "role": "Café owner",
+    "age": 28,
+    "town": "village",
+    "home": "cafe",
+    "work": "cafe",
+    "roaming": false,
+    "sprite": "chara_18",
+    "romance": true,
+    "loves": [
+      "egg",
+      "berry",
+      "jam"
+    ],
+    "dialogue": [
+      "The kitchen is open from seven. There are warm meals at the counter if you are heading beyond the village.",
+      "Bring your harvest to the shipping crate before bed. I collect the kitchen order from the morning delivery.",
+      "I wrote the farm's name beside today's soup. People should know where their food came from."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 390,
+        "area": "cafe",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 390,
+        "to": 420,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 420,
+        "to": 1260,
+        "area": "cafe",
+        "activity": "Serve meals and work on the premises"
+      },
+      {
+        "from": 1260,
+        "to": 1290,
+        "area": "village",
+        "activity": "Closing walk"
+      },
+      {
+        "from": 1290,
+        "to": 1320,
+        "area": "cafe",
+        "activity": "Return home"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "cafe",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "role": "Lake wanderer",
+    "age": 30,
+    "town": "lake",
+    "home": "lake-house",
+    "work": "lake-house",
+    "roaming": true,
+    "sprite": "chara_23",
+    "romance": true,
+    "loves": [
+      "trout",
+      "moonfish",
+      "fish_dinner"
+    ],
+    "dialogue": [
+      "Try the sheltered pier first. Watch the current beside the reeds before you cast.",
+      "Moonfish pass through after six in the evening. Leave room in your pack; a good catch is no use if you cannot carry it.",
+      "The marsh boardwalk reaches the harbour. Take the raised route after rain and keep an eye on the worn planks."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "lake-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "lake",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "lake",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "lake",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "lake-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "lake-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "orin",
+    "name": "Orin",
+    "role": "Blacksmith",
+    "age": 34,
+    "town": "village",
+    "home": "forge",
+    "work": "forge",
+    "roaming": false,
+    "sprite": "chara_4",
+    "romance": false,
+    "loves": [
+      "iron",
+      "crystal",
+      "stew"
+    ],
+    "dialogue": [
+      "The first tool reinforcement takes five copper and 700 gold. Set the tools on the order desk when you are ready.",
+      "Copperleaf Mine is beyond the forest pass. My workshop is here in town, so bring the ore back before closing.",
+      "The lens was made for a weather instrument. Once it is clean, we can compare its markings with the old chart."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "forge",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "forge",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "forge",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "forge",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "sera",
+    "name": "Sera",
+    "role": "Boatbuilder",
+    "age": 31,
+    "town": "aster-quay",
+    "home": "quay-workshop",
+    "work": "quay-workshop",
+    "roaming": false,
+    "sprite": "chara_6",
+    "romance": true,
+    "loves": [
+      "wood",
+      "copper",
+      "fish_dinner"
+    ],
+    "dialogue": [
+      "The old delivery chart was kept in the cliff vault. I still have the ledger that tells us how to read it.",
+      "Follow the east harbour road to Saltwind Cliffs. The winch shelter is above the steps to the vault gate.",
+      "The harbour needs a dependable route before it needs another boat. Let us check the landings first."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "quay-workshop",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "aster-quay",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "quay-workshop",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "aster-quay",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "quay-workshop",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "quay-workshop",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "tamsin",
+    "name": "Tamsin",
+    "role": "Orchard keeper",
+    "age": 26,
+    "town": "sunridge",
+    "home": "orchard-house",
+    "work": "orchard-house",
+    "roaming": false,
+    "sprite": "chara_14",
+    "romance": true,
+    "loves": [
+      "jam",
+      "flower",
+      "pumpkin"
+    ],
+    "dialogue": [
+      "Cedar has checked the lower rows. The preserves are in the orchard kitchen if you need food for the quarry trail.",
+      "The shared table is set out on the fourth day each week. Bring preserves, corn or a pumpkin; we will find room for it.",
+      "Winterglass keeps the seed beds sheltered. Pavel handles the supplies, and I start the trays for the outer farms."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "orchard-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "sunridge",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "orchard-house",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "sunridge",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "orchard-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "orchard-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "ilan",
+    "name": "Ilan",
+    "role": "Keeper of the atlas",
+    "age": 34,
+    "town": "briar-hollow",
+    "home": "archive-house",
+    "work": "library",
+    "roaming": false,
+    "sprite": "chara_30",
+    "romance": false,
+    "loves": [
+      "crystal",
+      "soup",
+      "ancient_chart"
+    ],
+    "dialogue": [
+      "Set the chart beside the archive map. The blank corners show which roads we still need to check.",
+      "The observatory measured weather and safe bearings. Its shutters turn by hand; Vesper knows the climb.",
+      "Jun is copying the route notes. We will mark the shelters as carefully as the roads before Aya sends a cart."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "archive-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "briar-hollow",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "library",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "briar-hollow",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "archive-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "archive-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "nora",
+    "name": "Nora",
+    "role": "Rancher",
+    "age": 34,
+    "town": "village",
+    "home": "ranch",
+    "work": "ranch",
+    "roaming": false,
+    "sprite": "chara_1",
+    "romance": false,
+    "loves": [
+      "feed",
+      "egg",
+      "flower"
+    ],
+    "dialogue": [
+      "Pip came from my first spring brood. A meal and a gentle hand will keep her laying.",
+      "The ranch has room for chickens, rabbits and truffle pigs. Look around before you choose.",
+      "I take the animals out after breakfast. They know the way to the meadow better than I do."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "ranch",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "ranch",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "ranch",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "ranch",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "gareth",
+    "name": "Gareth",
+    "role": "Carpenter",
+    "age": 38,
+    "town": "village",
+    "home": "carpenter",
+    "work": "carpenter",
+    "roaming": false,
+    "sprite": "chara_2",
+    "romance": false,
+    "loves": [
+      "wood",
+      "stew",
+      "stone"
+    ],
+    "dialogue": [
+      "Bring the timber to my yard. We will measure the farmhouse before we start cutting.",
+      "A bigger garden needs good drainage first. The new rows belong south of your first patch.",
+      "I still use your grandmother's measuring rule. She always marked the grain before the cut."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "carpenter",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "carpenter",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "carpenter",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "carpenter",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "ellis",
+    "name": "Ellis",
+    "role": "Tailor & pack maker",
+    "age": 32,
+    "town": "village",
+    "home": "clothier",
+    "work": "clothier",
+    "roaming": false,
+    "sprite": "chara_7",
+    "romance": false,
+    "loves": [
+      "wool",
+      "bouquet",
+      "jam"
+    ],
+    "dialogue": [
+      "Set your pack on the counter. I can add pockets without making it drag on your shoulders.",
+      "I mend the delivery sacks every autumn. A loose stitch can lose a whole packet of seeds.",
+      "The clothier is west of the seedhouse. Look for the spool above the door."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "clothier",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "clothier",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "clothier",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "clothier",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "aya",
+    "name": "Aya",
+    "role": "Valley courier",
+    "age": 26,
+    "town": "village",
+    "home": "courier-lodge",
+    "work": "post-office",
+    "roaming": true,
+    "sprite": "chara_8",
+    "romance": false,
+    "loves": [
+      "berry",
+      "flower",
+      "soup"
+    ],
+    "dialogue": [
+      "The harbour letters leave at midday. I walk the east road when the bridge is dry.",
+      "Your grandmother's address is still in my ledger. I have changed the name, not the place.",
+      "If you get turned around, open your map. The shops are marked by what they sell."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "courier-lodge",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "village",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "village",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "village",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "courier-lodge",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "courier-lodge",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "marin",
+    "name": "Marin",
+    "role": "Innkeeper",
+    "age": 46,
+    "town": "aster-quay",
+    "home": "quay-inn",
+    "work": "quay-inn",
+    "roaming": false,
+    "sprite": "chara_9",
+    "romance": false,
+    "loves": [
+      "soup",
+      "jam",
+      "flower"
+    ],
+    "dialogue": [
+      "I put the kettle on before the boats arrive. There is a clean table by the window.",
+      "Saltglass gets its name from the old sea bottles on the mantel. Most washed up after winter storms.",
+      "The cliffs are beyond the eastern harbour road. Take food; there are no shops out there."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 390,
+        "area": "quay-inn",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 390,
+        "to": 420,
+        "area": "aster-quay",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 420,
+        "to": 1260,
+        "area": "quay-inn",
+        "activity": "Serve meals and work on the premises"
+      },
+      {
+        "from": 1260,
+        "to": 1290,
+        "area": "aster-quay",
+        "activity": "Closing walk"
+      },
+      {
+        "from": 1290,
+        "to": 1320,
+        "area": "quay-inn",
+        "activity": "Return home"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "quay-inn",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "cato",
+    "name": "Cato",
+    "role": "Fishmonger",
+    "age": 35,
+    "town": "aster-quay",
+    "home": "netmakers-house",
+    "work": "fishmonger",
+    "roaming": false,
+    "sprite": "chara_10",
+    "romance": false,
+    "loves": [
+      "carp",
+      "trout",
+      "corn"
+    ],
+    "dialogue": [
+      "Today's catch is on ice inside. The silver carp came in just before dawn.",
+      "For a fresh meal, try the Saltglass Inn. Marin knows exactly when to stop cooking a trout.",
+      "Watch the pier after rain. The small fish gather where the freshwater reaches the harbour."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "netmakers-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "aster-quay",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "fishmonger",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "aster-quay",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "netmakers-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "netmakers-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "nemi",
+    "name": "Nemi",
+    "role": "Harbour shopkeeper",
+    "age": 28,
+    "town": "aster-quay",
+    "home": "seashell-house",
+    "work": "quay-market",
+    "roaming": false,
+    "sprite": "chara_12",
+    "romance": false,
+    "loves": [
+      "wood",
+      "jam",
+      "bouquet"
+    ],
+    "dialogue": [
+      "Seeds, feed and spare timber are inside. I keep a little of everything for the outlying farms.",
+      "Sera's yard is across the canal. The bridge is wide enough for a full delivery cart.",
+      "The Tide Vault is a cliff storehouse, not a town cellar. Follow the coastal steps east."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "seashell-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "aster-quay",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "quay-market",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "aster-quay",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "seashell-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "seashell-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "role": "Harbour master",
+    "age": 44,
+    "town": "aster-quay",
+    "home": "mariners-house",
+    "work": "harbour-office",
+    "roaming": true,
+    "sprite": "chara_15",
+    "romance": false,
+    "loves": [
+      "fish_dinner",
+      "copper",
+      "berry"
+    ],
+    "dialogue": [
+      "Leave the hauling lane clear, please. The morning cargo is still coming off the pier.",
+      "These mooring posts are older than the quay. We check every rope before a storm.",
+      "Sera keeps the old delivery ledger. Ask her about the chart before you explore the cliffs."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "mariners-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "aster-quay",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "aster-quay",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "aster-quay",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "mariners-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "mariners-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "lyra",
+    "name": "Lyra",
+    "role": "Florist",
+    "age": 29,
+    "town": "sunridge",
+    "home": "lyras-cottage",
+    "work": "flower-shop",
+    "roaming": false,
+    "sprite": "chara_16",
+    "romance": false,
+    "loves": [
+      "flower",
+      "bouquet",
+      "jam"
+    ],
+    "dialogue": [
+      "The pale flowers by the door like morning light. I turn their pots before opening.",
+      "Five daisies make a good bouquet. Leave the long stems so I can bind them neatly.",
+      "I walk to the orchard after closing. The blossom path smells different every season."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "lyras-cottage",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "sunridge",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "flower-shop",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "sunridge",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "lyras-cottage",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "lyras-cottage",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "pavel",
+    "name": "Pavel",
+    "role": "Garden supplier",
+    "age": 41,
+    "town": "sunridge",
+    "home": "apiary",
+    "work": "apiary",
+    "roaming": false,
+    "sprite": "chara_28",
+    "romance": false,
+    "loves": [
+      "berry",
+      "corn",
+      "wood"
+    ],
+    "dialogue": [
+      "The feed sacks stay dry in the back room. Fertilizer is beside the potting bench.",
+      "The conservatory belongs to the whole town. Tamsin starts the seedlings; I repair the beds.",
+      "The old glassworks is beyond the quarry trail. The orange stone is easy to recognise."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "apiary",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "sunridge",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "apiary",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "sunridge",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "apiary",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "apiary",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "ada",
+    "name": "Ada",
+    "role": "Pantry keeper",
+    "age": 33,
+    "town": "sunridge",
+    "home": "bakery",
+    "work": "bakery",
+    "roaming": false,
+    "sprite": "chara_19",
+    "romance": false,
+    "loves": [
+      "egg",
+      "jam",
+      "potato"
+    ],
+    "dialogue": [
+      "I have warm omelets and preserves on the counter. You can eat before heading up the trail.",
+      "Tamsin brings the fruit before breakfast. The good jars go straight into the cool pantry.",
+      "There is a little table under the south trees. I take my lunch there on clear days."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 390,
+        "area": "bakery",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 390,
+        "to": 420,
+        "area": "sunridge",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 420,
+        "to": 1260,
+        "area": "bakery",
+        "activity": "Serve meals and work on the premises"
+      },
+      {
+        "from": 1260,
+        "to": 1290,
+        "area": "sunridge",
+        "activity": "Closing walk"
+      },
+      {
+        "from": 1290,
+        "to": 1320,
+        "area": "bakery",
+        "activity": "Return home"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "bakery",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "cedar",
+    "name": "Cedar",
+    "role": "Orchard hand",
+    "age": 24,
+    "town": "sunridge",
+    "home": "orchard-cottage",
+    "work": "orchard-cottage",
+    "roaming": true,
+    "sprite": "chara_20",
+    "romance": false,
+    "loves": [
+      "corn",
+      "soup",
+      "flower"
+    ],
+    "dialogue": [
+      "I am checking the lower orchard today. The roots need space between the paths.",
+      "The quarry steps begin north of the conservatory. Stay on the cut stone when it rains.",
+      "Tamsin taught me to leave one basket for the shared table. It is a habit worth keeping."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "orchard-cottage",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "sunridge",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "sunridge",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "sunridge",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "orchard-cottage",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "orchard-cottage",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "bea",
+    "name": "Bea",
+    "role": "Herbalist",
+    "age": 39,
+    "town": "briar-hollow",
+    "home": "drying-house",
+    "work": "apothecary",
+    "roaming": false,
+    "sprite": "chara_21",
+    "romance": false,
+    "loves": [
+      "mushroom",
+      "berry",
+      "flower"
+    ],
+    "dialogue": [
+      "I dry the herbs above the stove. The jars at the counter are ready for the mountain road.",
+      "A warm meal helps more than bravado on a cold climb. Vesper will tell you the same.",
+      "The stream runs behind the archive. That is where I gather after a wet morning."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "drying-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "briar-hollow",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "apothecary",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "briar-hollow",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "drying-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "drying-house",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "tobin",
+    "name": "Tobin",
+    "role": "Outfitter",
+    "age": 36,
+    "town": "briar-hollow",
+    "home": "outfitters",
+    "work": "outfitters",
+    "roaming": false,
+    "sprite": "chara_22",
+    "romance": false,
+    "loves": [
+      "wool",
+      "iron",
+      "stew"
+    ],
+    "dialogue": [
+      "Try the pack straps before buying. You should feel the weight at your hips.",
+      "Copper, iron and trail supplies are inside. Orin handles the actual tool forging in Dewhaven.",
+      "The observatory path is north-east. It turns twice before the upper stair."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "outfitters",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "briar-hollow",
+        "activity": "Walk to work"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "outfitters",
+        "activity": "Serve customers and work on the premises"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "briar-hollow",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "outfitters",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "outfitters",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "role": "Mountain guide",
+    "age": 37,
+    "town": "briar-hollow",
+    "home": "guides-hut",
+    "work": "mountain-lodge",
+    "roaming": true,
+    "sprite": "chara_25",
+    "romance": false,
+    "loves": [
+      "stew",
+      "crystal",
+      "fish_dinner"
+    ],
+    "dialogue": [
+      "I check the rise every morning. The last stair is exposed, so finish your climb before dark.",
+      "The observatory was built for weather, not prophecy. Its shutters still turn by hand.",
+      "There is a meal waiting at the lodge. Sit down before you start telling me how far you walked."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "guides-hut",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "briar-hollow",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "briar-hollow",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "briar-hollow",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "guides-hut",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "guides-hut",
+        "activity": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": "jun",
+    "name": "Jun",
+    "role": "Archive scribe",
+    "age": 27,
+    "town": "briar-hollow",
+    "home": "archive-house",
+    "work": "archive-house",
+    "roaming": true,
+    "sprite": "chara_31",
+    "romance": false,
+    "loves": [
+      "flower",
+      "soup",
+      "wood"
+    ],
+    "dialogue": [
+      "I copy the damaged pages before they fade. Ilan works out where the roads belong.",
+      "Your grandmother's notes name people as often as places. That makes the atlas unusually useful.",
+      "The little reading garden is open. Please keep your cup on the stone ledge."
+    ],
+    "schedule": [
+      {
+        "from": 360,
+        "to": 420,
+        "area": "archive-house",
+        "activity": "Breakfast and preparation"
+      },
+      {
+        "from": 420,
+        "to": 480,
+        "area": "briar-hollow",
+        "activity": "Morning rounds"
+      },
+      {
+        "from": 480,
+        "to": 1080,
+        "area": "briar-hollow",
+        "activity": "Work and errands along public routes"
+      },
+      {
+        "from": 1080,
+        "to": 1200,
+        "area": "briar-hollow",
+        "activity": "Evening walk or shared table"
+      },
+      {
+        "from": 1200,
+        "to": 1320,
+        "area": "archive-house",
+        "activity": "Return home and unwind"
+      },
+      {
+        "from": 1320,
+        "to": 1800,
+        "area": "archive-house",
+        "activity": "Sleep"
+      }
+    ]
+  }
+]

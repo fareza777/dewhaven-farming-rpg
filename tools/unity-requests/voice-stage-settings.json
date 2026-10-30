@@ -1,0 +1,8 @@
+{
+  "name": "script-execute",
+  "arguments": {
+    "csharpCode": "using System; using System.IO; using System.Linq; using System.Reflection; using UnityEngine; using UnityEngine.UI; using TMPro; public static class DewhavenVoiceStage { public static string Run(){ Dewhaven.Editor.EditorBridge.EnsureProject(); var game=Dewhaven.DewhavenGame.Instance; typeof(Dewhaven.GameUI).GetMethod(\"Settings\",BindingFlags.NonPublic|BindingFlags.Instance).Invoke(game.UI,new object[]{7}); return \"Voice settings at 135% text\"; }}",
+    "className": "DewhavenVoiceStage",
+    "methodName": "Run"
+  }
+}

@@ -1,0 +1,1495 @@
+[
+  {
+    "id": "market",
+    "name": "Mira’s Seedhouse",
+    "position": [
+      58,
+      30
+    ],
+    "frame": "house_01",
+    "style": "shop",
+    "owner": "mira",
+    "shop": "seedhouse",
+    "icon": "plant",
+    "town": "village",
+    "size": [
+      36,
+      28
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      18,
+      24
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "customer aisle",
+      "service counter",
+      "stock room",
+      "private room"
+    ]
+  },
+  {
+    "id": "townhall",
+    "name": "Dewhaven Hall",
+    "position": [
+      110,
+      30
+    ],
+    "frame": "house_25",
+    "style": "hall",
+    "owner": "elias",
+    "shop": null,
+    "icon": "scroll",
+    "town": "village",
+    "size": [
+      44,
+      36
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      22,
+      32
+    ],
+    "counter": null,
+    "spaces": [
+      "entry hall",
+      "public desk",
+      "reading room",
+      "records room"
+    ]
+  },
+  {
+    "id": "cafe",
+    "name": "The Copper Kettle",
+    "position": [
+      58,
+      88
+    ],
+    "frame": "house_06",
+    "style": "kitchen",
+    "owner": "cleo",
+    "shop": "kettle",
+    "icon": "coffee",
+    "town": "village",
+    "size": [
+      40,
+      30
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      20,
+      26
+    ],
+    "counter": [
+      20,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "ranch",
+    "name": "Nora’s Meadow Ranch",
+    "position": [
+      35,
+      88
+    ],
+    "frame": "house_19",
+    "style": "barn",
+    "owner": "nora",
+    "shop": "ranch",
+    "icon": "paw-print",
+    "town": "village",
+    "size": [
+      42,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      21,
+      28
+    ],
+    "counter": null,
+    "spaces": [
+      "feed store",
+      "animal stalls",
+      "wash station",
+      "working aisle"
+    ]
+  },
+  {
+    "id": "forge",
+    "name": "Copper & Coal",
+    "position": [
+      136,
+      56
+    ],
+    "frame": "house_09",
+    "style": "forge",
+    "owner": "orin",
+    "shop": "forge",
+    "icon": "hammer",
+    "town": "village",
+    "size": [
+      38,
+      32
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      19,
+      28
+    ],
+    "counter": [
+      19,
+      12
+    ],
+    "spaces": [
+      "service desk",
+      "anvil bay",
+      "material store",
+      "assembly bench"
+    ]
+  },
+  {
+    "id": "carpenter",
+    "name": "Gareth’s Timberyard",
+    "position": [
+      136,
+      88
+    ],
+    "frame": "house_08",
+    "style": "forge",
+    "owner": "gareth",
+    "shop": "builder",
+    "icon": "house",
+    "town": "village",
+    "size": [
+      38,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      19,
+      28
+    ],
+    "counter": [
+      19,
+      12
+    ],
+    "spaces": [
+      "service desk",
+      "anvil bay",
+      "material store",
+      "assembly bench"
+    ]
+  },
+  {
+    "id": "clothier",
+    "name": "Thread & Thimble",
+    "position": [
+      35,
+      30
+    ],
+    "frame": "house_10",
+    "style": "tailor",
+    "owner": "ellis",
+    "shop": "clothier",
+    "icon": "backpack",
+    "town": "village",
+    "size": [
+      36,
+      30
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      18,
+      26
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "post-office",
+    "name": "The Letter House",
+    "position": [
+      110,
+      88
+    ],
+    "frame": "house_24",
+    "style": "study",
+    "owner": "aya",
+    "shop": null,
+    "icon": "envelope",
+    "town": "village",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "willow-house",
+    "name": "Willow Cottage",
+    "position": [
+      35,
+      112
+    ],
+    "frame": "house_02",
+    "style": "home",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "seedkeepers-cottage",
+    "name": "The Seedkeeper’s Cottage",
+    "position": [
+      58,
+      112
+    ],
+    "frame": "house_03",
+    "style": "home",
+    "owner": "mira",
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "riverstone-house",
+    "name": "Riverstone House",
+    "position": [
+      110,
+      112
+    ],
+    "frame": "house_12",
+    "style": "home",
+    "owner": "elias",
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "clinic",
+    "name": "The Hearth Clinic",
+    "position": [
+      35,
+      56
+    ],
+    "frame": "house_07",
+    "style": "botanical",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "community-kitchen",
+    "name": "The Community Kitchen",
+    "position": [
+      58,
+      56
+    ],
+    "frame": "house_24",
+    "style": "kitchen",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      40,
+      30
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      20,
+      26
+    ],
+    "counter": [
+      20,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "courier-lodge",
+    "name": "The Courier Lodge",
+    "position": [
+      136,
+      30
+    ],
+    "frame": "house_11",
+    "style": "study",
+    "owner": "aya",
+    "shop": null,
+    "icon": "house",
+    "town": "village",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "quay-inn",
+    "name": "The Saltglass Inn",
+    "position": [
+      44,
+      38
+    ],
+    "frame": "house_08",
+    "style": "inn",
+    "owner": "marin",
+    "shop": "saltglass",
+    "icon": "bed",
+    "town": "aster-quay",
+    "size": [
+      42,
+      36
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      21,
+      32
+    ],
+    "counter": [
+      21,
+      12
+    ],
+    "spaces": [
+      "front desk",
+      "dining room",
+      "guest rooms",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "quay-workshop",
+    "name": "Sera’s Boatworks",
+    "position": [
+      144,
+      62
+    ],
+    "frame": "house_14",
+    "style": "forge",
+    "owner": "sera",
+    "shop": null,
+    "icon": "anchor",
+    "town": "aster-quay",
+    "size": [
+      38,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      19,
+      28
+    ],
+    "counter": [
+      19,
+      12
+    ],
+    "spaces": [
+      "service desk",
+      "anvil bay",
+      "material store",
+      "assembly bench"
+    ]
+  },
+  {
+    "id": "quay-market",
+    "name": "The Quayside Exchange",
+    "position": [
+      80,
+      38
+    ],
+    "frame": "house_06",
+    "style": "shop",
+    "owner": "nemi",
+    "shop": "exchange",
+    "icon": "basket",
+    "town": "aster-quay",
+    "size": [
+      36,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      18,
+      24
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "customer aisle",
+      "service counter",
+      "stock room",
+      "private room"
+    ]
+  },
+  {
+    "id": "fishmonger",
+    "name": "Cato’s Fresh Catch",
+    "position": [
+      144,
+      100
+    ],
+    "frame": "house_15",
+    "style": "shop",
+    "owner": "cato",
+    "shop": "fishmonger",
+    "icon": "fish",
+    "town": "aster-quay",
+    "size": [
+      36,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      24
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "customer aisle",
+      "service counter",
+      "stock room",
+      "private room"
+    ]
+  },
+  {
+    "id": "harbour-office",
+    "name": "The Harbour House",
+    "position": [
+      44,
+      100
+    ],
+    "frame": "house_24",
+    "style": "harbour",
+    "owner": "basil",
+    "shop": null,
+    "icon": "compass",
+    "town": "aster-quay",
+    "size": [
+      44,
+      34
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      22,
+      30
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "quay-house",
+    "name": "Seaglass Cottage",
+    "position": [
+      80,
+      100
+    ],
+    "frame": "house_12",
+    "style": "home",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "lighthouse",
+    "name": "The Lowlight Lighthouse",
+    "position": [
+      168,
+      100
+    ],
+    "frame": "house_25",
+    "style": "study",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "netmakers-house",
+    "name": "The Netmaker’s House",
+    "position": [
+      80,
+      62
+    ],
+    "frame": "house_04",
+    "style": "tailor",
+    "owner": "cato",
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      36,
+      30
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      18,
+      26
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "quay-storehouse",
+    "name": "The Delivery Storehouse",
+    "position": [
+      116,
+      38
+    ],
+    "frame": "house_26",
+    "style": "harbour",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      44,
+      34
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      22,
+      30
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "seashell-house",
+    "name": "Seashell House",
+    "position": [
+      44,
+      62
+    ],
+    "frame": "house_03",
+    "style": "home",
+    "owner": "nemi",
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "mariners-house",
+    "name": "The Mariner’s House",
+    "position": [
+      116,
+      100
+    ],
+    "frame": "house_12",
+    "style": "home",
+    "owner": "basil",
+    "shop": null,
+    "icon": "house",
+    "town": "aster-quay",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "orchard-house",
+    "name": "Tamsin’s Orchard Kitchen",
+    "position": [
+      62,
+      34
+    ],
+    "frame": "house_10",
+    "style": "kitchen",
+    "owner": "tamsin",
+    "shop": "orchard",
+    "icon": "cherries",
+    "town": "sunridge",
+    "size": [
+      40,
+      30
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      20,
+      26
+    ],
+    "counter": [
+      20,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "glasshouse",
+    "name": "The Winterglass Conservatory",
+    "position": [
+      122,
+      34
+    ],
+    "frame": "house_23",
+    "style": "glasshouse",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": null,
+    "spaces": [
+      "potting bench",
+      "seed beds",
+      "water channel",
+      "tool store"
+    ]
+  },
+  {
+    "id": "flower-shop",
+    "name": "Lyra’s Wildflower House",
+    "position": [
+      32,
+      71
+    ],
+    "frame": "house_05",
+    "style": "botanical",
+    "owner": "lyra",
+    "shop": "flowers",
+    "icon": "flower",
+    "town": "sunridge",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "bakery",
+    "name": "The Hearth Pantry",
+    "position": [
+      94,
+      61
+    ],
+    "frame": "house_01",
+    "style": "kitchen",
+    "owner": "ada",
+    "shop": "pantry",
+    "icon": "cooking-pot",
+    "town": "sunridge",
+    "size": [
+      40,
+      30
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      20,
+      26
+    ],
+    "counter": [
+      20,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "apiary",
+    "name": "Pavel’s Garden House",
+    "position": [
+      146,
+      101
+    ],
+    "frame": "house_17",
+    "style": "botanical",
+    "owner": "pavel",
+    "shop": "garden",
+    "icon": "leaf",
+    "town": "sunridge",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "orchard-cottage",
+    "name": "The Orchard Cottage",
+    "position": [
+      62,
+      121
+    ],
+    "frame": "house_03",
+    "style": "home",
+    "owner": "cedar",
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "seed-library",
+    "name": "The Seed Library",
+    "position": [
+      40,
+      34
+    ],
+    "frame": "house_24",
+    "style": "study",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "presshouse",
+    "name": "The Fruit Presshouse",
+    "position": [
+      118,
+      84
+    ],
+    "frame": "house_08",
+    "style": "forge",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      38,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      19,
+      28
+    ],
+    "counter": [
+      19,
+      12
+    ],
+    "spaces": [
+      "service desk",
+      "anvil bay",
+      "material store",
+      "assembly bench"
+    ]
+  },
+  {
+    "id": "orchard-barn",
+    "name": "The Orchard Barn",
+    "position": [
+      146,
+      61
+    ],
+    "frame": "house_19",
+    "style": "barn",
+    "owner": "cedar",
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      42,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      21,
+      28
+    ],
+    "counter": null,
+    "spaces": [
+      "feed store",
+      "animal stalls",
+      "wash station",
+      "working aisle"
+    ]
+  },
+  {
+    "id": "lyras-cottage",
+    "name": "Lyra’s Cottage",
+    "position": [
+      112,
+      121
+    ],
+    "frame": "house_02",
+    "style": "home",
+    "owner": "lyra",
+    "shop": null,
+    "icon": "house",
+    "town": "sunridge",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "library",
+    "name": "The Briar Archive",
+    "position": [
+      58,
+      44
+    ],
+    "frame": "house_25",
+    "style": "hall",
+    "owner": "ilan",
+    "shop": null,
+    "icon": "book-open",
+    "town": "briar-hollow",
+    "size": [
+      44,
+      36
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      22,
+      32
+    ],
+    "counter": null,
+    "spaces": [
+      "entry hall",
+      "public desk",
+      "reading room",
+      "records room"
+    ]
+  },
+  {
+    "id": "archive-house",
+    "name": "The Cartographer’s House",
+    "position": [
+      105,
+      44
+    ],
+    "frame": "house_08",
+    "style": "study",
+    "owner": "jun",
+    "shop": null,
+    "icon": "house",
+    "town": "briar-hollow",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "apothecary",
+    "name": "Bea’s Herb & Hearth",
+    "position": [
+      40,
+      84
+    ],
+    "frame": "house_11",
+    "style": "botanical",
+    "owner": "bea",
+    "shop": "herbalist",
+    "icon": "leaf",
+    "town": "briar-hollow",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "outfitters",
+    "name": "The Ridge Outfitter",
+    "position": [
+      112,
+      84
+    ],
+    "frame": "house_09",
+    "style": "tailor",
+    "owner": "tobin",
+    "shop": "outfitter",
+    "icon": "backpack",
+    "town": "briar-hollow",
+    "size": [
+      36,
+      30
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      26
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "mountain-lodge",
+    "name": "The Wayfarer Lodge",
+    "position": [
+      140,
+      122
+    ],
+    "frame": "house_19",
+    "style": "inn",
+    "owner": "vesper",
+    "shop": "lodge",
+    "icon": "mountains",
+    "town": "briar-hollow",
+    "size": [
+      42,
+      36
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      21,
+      32
+    ],
+    "counter": [
+      21,
+      12
+    ],
+    "spaces": [
+      "front desk",
+      "dining room",
+      "guest rooms",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "hollow-house",
+    "name": "Heather Cottage",
+    "position": [
+      58,
+      122
+    ],
+    "frame": "house_07",
+    "style": "home",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "briar-hollow",
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "drying-house",
+    "name": "The Herb Drying House",
+    "position": [
+      30,
+      122
+    ],
+    "frame": "house_17",
+    "style": "botanical",
+    "owner": "bea",
+    "shop": null,
+    "icon": "house",
+    "town": "briar-hollow",
+    "size": [
+      36,
+      32
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      18,
+      28
+    ],
+    "counter": [
+      18,
+      12
+    ],
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "masons-yard",
+    "name": "The Mason’s Yard",
+    "position": [
+      100,
+      122
+    ],
+    "frame": "house_14",
+    "style": "forge",
+    "owner": null,
+    "shop": null,
+    "icon": "house",
+    "town": "briar-hollow",
+    "size": [
+      38,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      19,
+      28
+    ],
+    "counter": [
+      19,
+      12
+    ],
+    "spaces": [
+      "service desk",
+      "anvil bay",
+      "material store",
+      "assembly bench"
+    ]
+  },
+  {
+    "id": "guides-hut",
+    "name": "The Guide’s Hut",
+    "position": [
+      128,
+      28
+    ],
+    "frame": "house_15",
+    "style": "study",
+    "owner": "vesper",
+    "shop": null,
+    "icon": "house",
+    "town": "briar-hollow",
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "farmhouse",
+    "name": "Your Farmhouse",
+    "town": "farm",
+    "style": "home",
+    "owner": null,
+    "shop": null,
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  },
+  {
+    "id": "barn",
+    "name": "The Homestead Barn",
+    "town": "farm",
+    "style": "barn",
+    "owner": null,
+    "shop": null,
+    "size": [
+      42,
+      32
+    ],
+    "layoutVariant": 0,
+    "entry": [
+      21,
+      28
+    ],
+    "counter": null,
+    "spaces": [
+      "feed store",
+      "animal stalls",
+      "wash station",
+      "working aisle"
+    ]
+  },
+  {
+    "id": "ranger-house",
+    "name": "Rowan’s Cabin",
+    "town": "forest",
+    "style": "study",
+    "owner": "rowan",
+    "shop": null,
+    "size": [
+      32,
+      28
+    ],
+    "layoutVariant": 1,
+    "entry": [
+      16,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "work area",
+      "display room",
+      "private room"
+    ]
+  },
+  {
+    "id": "lake-house",
+    "name": "Finn’s Lakeside Home",
+    "town": "lake",
+    "style": "home",
+    "owner": "finn",
+    "shop": null,
+    "size": [
+      34,
+      28
+    ],
+    "layoutVariant": 2,
+    "entry": [
+      17,
+      24
+    ],
+    "counter": null,
+    "spaces": [
+      "entry",
+      "kitchen",
+      "sitting room",
+      "bedroom",
+      "storage"
+    ]
+  }
+]

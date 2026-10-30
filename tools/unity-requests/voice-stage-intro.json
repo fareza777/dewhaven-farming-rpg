@@ -1,0 +1,8 @@
+{
+  "name": "script-execute",
+  "arguments": {
+    "csharpCode": "using System; using System.IO; using System.Linq; using System.Reflection; using UnityEngine; using UnityEngine.UI; using TMPro; public static class DewhavenVoiceStage { public static string Run(){ Dewhaven.Editor.EditorBridge.EnsureProject(); var game=Dewhaven.DewhavenGame.Instance; typeof(Dewhaven.DewhavenGame).GetProperty(\"Saves\").SetValue(game,new Dewhaven.SaveService(Path.Combine(Path.GetTempPath(),\"Dewhaven-voice-visual\"))); game.Preferences.fontScale=1.35f;game.Preferences.instantText=true;Dewhaven.UIFactory.FontScale=1.35f; game.NewGame(\"Robin\",\"Amber\",\"look-fieldkeeper\",0); game.UI.Intro(0); return \"Intro staged at 135% text\"; }}",
+    "className": "DewhavenVoiceStage",
+    "methodName": "Run"
+  }
+}

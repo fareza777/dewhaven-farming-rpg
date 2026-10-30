@@ -1,0 +1,6 @@
+{
+  "name": "Dewhaven.Runtime",
+  "rootNamespace": "Dewhaven",
+  "references": ["Unity.TextMeshPro", "Unity.InputSystem", "Unity.ugui"],
+  "autoReferenced": true
+}

@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "Dewhaven.Editor.EditorBridge.EnsureProject(); UnityEditor.EditorApplication.isPlaying=false;", "isMethodBody": true}}

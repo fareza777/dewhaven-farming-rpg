@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "public static class QuietWorldCommand{public static string Run(){Dewhaven.Editor.EditorBridge.EnsureProject();return Dewhaven.Editor.ImportSettings.QueueFinishingAssets(\"quiet-world-asset-import.json\");}}", "className": "QuietWorldCommand", "methodName": "Run"}}

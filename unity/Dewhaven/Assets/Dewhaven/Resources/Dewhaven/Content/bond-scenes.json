@@ -1,0 +1,794 @@
+[
+  {
+    "id": "bond-mira-chapter-1",
+    "person": "mira",
+    "chapter": 1,
+    "points": 100,
+    "title": "The packet shelf",
+    "outline": "Help sort the seed packets and learn why Mira records where each variety came from.",
+    "legacyId": null,
+    "choices": [
+      "Sort the packets by growing season.",
+      "Ask which varieties need saving."
+    ],
+    "memoryKey": "mira-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "I keep the grower's name on every packet. If a variety fails, I can ask what happened. If it thrives, I know whom to thank. Would you help with this shelf?",
+    "responses": [
+      "Spring packets on the left, then. Your grandmother sorted them that way too. I'll leave a space for your first saved seeds.",
+      "These little radishes. Only two gardens still grow them. I'd rather share the packets than let a name vanish from the shelf."
+    ]
+  },
+  {
+    "id": "bond-mira-chapter-2",
+    "person": "mira",
+    "chapter": 2,
+    "points": 200,
+    "title": "Flowers by the well",
+    "outline": "Replant the old well garden together; Mira shares a memory of Grandmother.",
+    "legacyId": "bond-mira-0",
+    "choices": [
+      "Plant the flowers she remembers.",
+      "Leave space for something she chooses."
+    ],
+    "memoryKey": "mira-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "She used to leave flowers by the well before opening the farm gate. I thought it was for the visitors. Later she told me she liked seeing them herself. What shall we plant?",
+    "responses": [
+      "Daisies, then. I remember her carrying them in an old flour tin. We can find a better pot, but let's keep that part.",
+      "Something I choose? I'd like the small autumn flowers. It can be a place that remembers her and still changes with us."
+    ]
+  },
+  {
+    "id": "bond-mira-chapter-3",
+    "person": "mira",
+    "chapter": 3,
+    "points": 350,
+    "title": "After closing",
+    "outline": "Mend a warped shelf while Mira decides whether to expand the seedhouse.",
+    "legacyId": null,
+    "choices": [
+      "Help measure the new shelf.",
+      "Ask what she wants the seedhouse to become."
+    ],
+    "memoryKey": "mira-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "This shelf sticks every time it rains. I've been measuring a bigger seed room, then putting the measurements away. More space means more work. I haven't decided whether I want that.",
+    "responses": [
+      "Hold the tape there. Knowing the size doesn't mean we have to build it tomorrow. Thank you for letting it be a plan first.",
+      "A room where people can bring seeds of their own. Perhaps I've been planning a bigger shop when I really wanted a shared one."
+    ]
+  },
+  {
+    "id": "bond-mira-chapter-4",
+    "person": "mira",
+    "chapter": 4,
+    "points": 450,
+    "title": "The winter trays",
+    "outline": "Choose which seedlings the conservatory should save for the outlying homes.",
+    "legacyId": "bond-mira-1",
+    "choices": [
+      "Save more trays for the outer farms.",
+      "Teach the neighbours to start their own."
+    ],
+    "memoryKey": "mira-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "The conservatory can hold twelve winter trays. The outer farms need starts, but carrying every tray there would take days. I keep going over the list.",
+    "responses": [
+      "Then we'll label the outer farms first. I'll ask Aya for room on the cart. It's easier to choose when I know someone will help carry it through.",
+      "A lesson and a handful of seeds for each house. That would last longer than our twelve trays. Will you help me write the first growing notes?"
+    ]
+  },
+  {
+    "id": "bond-mira-chapter-5",
+    "person": "mira",
+    "chapter": 5,
+    "points": 600,
+    "title": "A place at the table",
+    "outline": "Mira asks whether the homestead could host the first spring seed exchange.",
+    "legacyId": null,
+    "choices": [
+      "Host the exchange at the homestead.",
+      "Build a shared space beside the seedhouse."
+    ],
+    "memoryKey": "mira-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "People have asked about a spring seed exchange. I said I'd think about a place. I was really wondering whether we might make it something we do together.",
+    "responses": [
+      "At the farm? I'd like that. We can put the packets on the long bench and keep the kitchen free for anyone who needs warmth.",
+      "A shared corner beside the seedhouse would be lovely. Somewhere neither of us has to own alone. Let's measure it after closing."
+    ]
+  },
+  {
+    "id": "bond-mira-chapter-6",
+    "person": "mira",
+    "chapter": 6,
+    "points": 700,
+    "title": "Next spring",
+    "outline": "Plan a shared garden while acknowledging the work and space each person needs.",
+    "legacyId": "bond-mira-2",
+    "choices": [
+      "Plan a garden together.",
+      "Make room for both of your separate projects."
+    ],
+    "memoryKey": "mira-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "market",
+    "place": "Mira’s Seedhouse",
+    "line": "I made two lists for next spring: the seedhouse, and the garden I'd like to grow with you. I don't want either list to swallow the other. Is there room for both?",
+    "responses": [
+      "Then let's draw the paths before the beds. I'd like a place we can return to, even on days when all we have time for is watering.",
+      "Yes. Your rows, my trials, and a table between them. Sharing a future shouldn't mean becoming the same person."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-1",
+    "person": "rowan",
+    "chapter": 1,
+    "points": 100,
+    "title": "The ranger’s loop",
+    "outline": "Walk the short woodland loop and learn Rowan’s trail marks.",
+    "legacyId": null,
+    "choices": [
+      "Learn the marks before setting out.",
+      "Ask which route needs another pair of hands."
+    ],
+    "memoryKey": "rowan-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "See the cut on that post? One mark means a clear trail. Two means a return route nearby. I check them after every storm. People stop noticing a safe path; that's usually a good sign.",
+    "responses": [
+      "Good. We'll take the short loop and come back before dark. You don't have to keep up with anyone else's pace.",
+      "The northern turn needs clearing. I'll show you the roots before we start. Another pair of hands helps most when both people get home safely."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-2",
+    "person": "rowan",
+    "chapter": 2,
+    "points": 200,
+    "title": "A sheltered clearing",
+    "outline": "Restore a picnic shelter and talk about the responsibility of keeping a route safe.",
+    "legacyId": "bond-rowan-0",
+    "choices": [
+      "Repair the shelter roof first.",
+      "Clear a safe path to the shelter."
+    ],
+    "memoryKey": "rowan-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "The shelter still has a dry bench. Its roof needs work, and the path has almost disappeared. I used to come here when I needed an hour without being useful to anyone.",
+    "responses": [
+      "I'll brace it while you fasten the new piece. Perhaps when we're done, we can sit here without inventing another job.",
+      "A clear path first. You're right; a shelter nobody can reach isn't much comfort. We'll leave the old roots where they are."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-3",
+    "person": "rowan",
+    "chapter": 3,
+    "points": 350,
+    "title": "After the rain",
+    "outline": "Clear fallen branches together and choose which side trail can wait.",
+    "legacyId": null,
+    "choices": [
+      "Reopen the main trail today.",
+      "Protect the old trees and use the detour."
+    ],
+    "memoryKey": "rowan-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "Three branches came down in last night's rain. We could force the side trail open, or let it rest and use the ridge. I don't like cutting a living tree to save ten minutes.",
+    "responses": [
+      "The main trail will carry everyone for now. I'll put the detour mark where it can be seen. Thank you for thinking about the people after us.",
+      "Let's take the ridge. Some repairs are better made by leaving enough space. I like that you saw the trees before the delay."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-4",
+    "person": "rowan",
+    "chapter": 4,
+    "points": 450,
+    "title": "The long way home",
+    "outline": "Rowan explains why he returned to the valley instead of taking a distant post.",
+    "legacyId": "bond-rowan-1",
+    "choices": [
+      "Ask what brought him home.",
+      "Tell him what you were hoping to find here."
+    ],
+    "memoryKey": "rowan-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "I was offered a post beyond the coast. Better pay, a room above the station. I came back here instead. I've never been very good at explaining that decision.",
+    "responses": [
+      "My father couldn't walk the long trail anymore. I wanted there to be someone who knew where he might stop. Then I realised I wanted to stay for myself too.",
+      "A beginning, perhaps? That was what I wanted when I came home. Hearing you say it makes this feel less like the place people return to after failing."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-5",
+    "person": "rowan",
+    "chapter": 5,
+    "points": 600,
+    "title": "Two sets of plans",
+    "outline": "Compare the farm calendar and patrol schedule before committing to more time together.",
+    "legacyId": null,
+    "choices": [
+      "Set aside one evening each week.",
+      "Join a patrol when the farm work allows."
+    ],
+    "memoryKey": "rowan-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "Your harvest doesn't move for my patrol, and the weather doesn't move for either of us. I want to see you more often. I'd rather make a small promise I can keep.",
+    "responses": [
+      "One evening each week. I'll finish the shorter loop that day. If the weather changes it, I'll tell you instead of simply not arriving.",
+      "Come when the rows are done. We can carry a supper and take the sheltered route. I don't need every evening; I want the ones we choose."
+    ]
+  },
+  {
+    "id": "bond-rowan-chapter-6",
+    "person": "rowan",
+    "chapter": 6,
+    "points": 700,
+    "title": "A path we know",
+    "outline": "Choose a shared trail project and make a practical promise to keep showing up.",
+    "legacyId": "bond-rowan-2",
+    "choices": [
+      "Keep the woodland route together.",
+      "Start a new path between the cabin and farm."
+    ],
+    "memoryKey": "rowan-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "ranger-house",
+    "place": "Rowan’s Cabin",
+    "line": "This turn is where the cabin path meets your farm road. I've walked it alone for years. I'd like that to change, without asking either of us to leave our work behind.",
+    "responses": [
+      "We'll keep the old loop clear. And when it doesn't need us, we'll walk it anyway. I think that's a promise worth making.",
+      "A path between the cabin and farm. Not a grand project, just a way of making it easier to keep coming back to each other."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-1",
+    "person": "cleo",
+    "chapter": 1,
+    "points": 100,
+    "title": "Before breakfast",
+    "outline": "Prepare vegetables at the Copper Kettle and learn Cleo’s opening routine.",
+    "legacyId": null,
+    "choices": [
+      "Prepare the vegetables beside her.",
+      "Set the tables before the doors open."
+    ],
+    "memoryKey": "cleo-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "Before the first customer, I chop the vegetables, set four tables, and forget my own breakfast. You arrived at exactly the right time to catch me doing the third thing.",
+    "responses": [
+      "Take the carrots. I'll find another knife, and two bowls for us. Work is better company when breakfast is part of it.",
+      "The window table first, please. Then sit at it. I can accept help without making you work through your whole morning."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-2",
+    "person": "cleo",
+    "chapter": 2,
+    "points": 200,
+    "title": "A table by the window",
+    "outline": "Choose a seasonal meal for neighbours who cannot travel to the café.",
+    "legacyId": "bond-cleo-0",
+    "choices": [
+      "Cook a meal that travels well.",
+      "Invite the neighbours for a quieter breakfast."
+    ],
+    "memoryKey": "cleo-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "Mrs Vale can't manage the hill now. I thought of sending a meal, then wondered if she misses the room more than the food. There's a difference, isn't there?",
+    "responses": [
+      "A thick soup will travel well. We can include a note asking when she'd like company. Help should leave people a choice.",
+      "I'll open the back room before the rush. We can bring her up slowly and give her the window table. Thank you for thinking of the person before the basket."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-3",
+    "person": "cleo",
+    "chapter": 3,
+    "points": 350,
+    "title": "The recipe drawer",
+    "outline": "Read a family recipe and talk about changes Cleo wants to make to the kitchen.",
+    "legacyId": null,
+    "choices": [
+      "Keep the family recipe as it is.",
+      "Try her new seasonal variation."
+    ],
+    "memoryKey": "cleo-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "My father wrote this recipe on a receipt. I've changed the herbs three times, but I still make his version when I'm tired. I used to think changing it meant losing him.",
+    "responses": [
+      "Let's make his version today. Keeping something can be a choice, too. Tomorrow I might feel brave enough for the new herbs.",
+      "Then taste this before I add the last pinch. If it works, I'll write my name under his. There's room on the back of the receipt."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-4",
+    "person": "cleo",
+    "chapter": 4,
+    "points": 450,
+    "title": "A full dining room",
+    "outline": "Help with the evening rush and discuss what support feels useful to each of you.",
+    "legacyId": "bond-cleo-1",
+    "choices": [
+      "Take over the dishes.",
+      "Ask which job would help her most."
+    ],
+    "memoryKey": "cleo-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "I can handle a full room. It's the moment everyone leaves that catches me: plates, accounts, tomorrow's dough. Sometimes I need help before I remember to ask.",
+    "responses": [
+      "Thank you. I'll finish the accounts while you wash, and then we both stop. Neither of us has to earn the right to rest tonight.",
+      "Would you stack the clean bowls? The noise of the washing can wait. I wanted someone beside me more than I wanted a faster kitchen."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-5",
+    "person": "cleo",
+    "chapter": 5,
+    "points": 600,
+    "title": "A quieter morning",
+    "outline": "Share breakfast after the deliveries and make room for life outside work.",
+    "legacyId": null,
+    "choices": [
+      "Leave the ledger closed for breakfast.",
+      "Talk about one change that would free more time."
+    ],
+    "memoryKey": "cleo-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "The deliveries are counted. The next batch can wait twenty minutes. I made breakfast for two and, for once, neither plate is for a customer.",
+    "responses": [
+      "Closed, then. Tell me something about your morning that has nothing to do with crop prices. I'll try to do the same.",
+      "One afternoon closed each week. I've written it down and crossed it out twice. Perhaps the first step is leaving it on the page."
+    ]
+  },
+  {
+    "id": "bond-cleo-chapter-6",
+    "person": "cleo",
+    "chapter": 6,
+    "points": 700,
+    "title": "The next menu",
+    "outline": "Plan meals from the homestead’s next season and discuss a future shared household.",
+    "legacyId": "bond-cleo-2",
+    "choices": [
+      "Plan the next season’s crops with her.",
+      "Make space for her kitchen ideas at the farm."
+    ],
+    "memoryKey": "cleo-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "cafe",
+    "place": "The Copper Kettle",
+    "line": "I drew next season's menu around what your farm can grow. Then I started drawing a kitchen beside it. I should ask before I turn our future into another work list.",
+    "responses": [
+      "We'll plan the beds, and leave some rows for surprises. I'd like to cook what you grow, and also have evenings when neither of us has to produce anything.",
+      "A kitchen with a table we actually sit at. Yes. I want a home with you, not a second café. Let's keep that in the drawing."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-1",
+    "person": "finn",
+    "chapter": 1,
+    "points": 100,
+    "title": "The first cast",
+    "outline": "Learn Finn’s patient way of reading the water at the near pier.",
+    "legacyId": null,
+    "choices": [
+      "Watch the water before casting.",
+      "Ask him to show you the current."
+    ],
+    "memoryKey": "finn-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "Don't cast yet. Watch where the water folds near that stone. Fish spend less energy there. Most of fishing is learning when to leave things alone.",
+    "responses": [
+      "There. You saw it before I pointed. We'll cast once, then let the water settle. There's no prize for making the most splashes.",
+      "The dark line is the fast current; the still edge is where we want to be. Come closer. I'll show you without throwing another stone."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-2",
+    "person": "finn",
+    "chapter": 2,
+    "points": 200,
+    "title": "The quiet bridge",
+    "outline": "Repair a loose plank and share a conversation without a fishing contest.",
+    "legacyId": "bond-finn-0",
+    "choices": [
+      "Sit and listen for a while.",
+      "Tell him about your first week at the farm."
+    ],
+    "memoryKey": "finn-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "I fixed the loose plank. We could go fishing, but I brought nothing to prove today. Would you sit a while? The bridge is good for that too.",
+    "responses": [
+      "Thank you. Some days I can hear myself think better when someone is there without expecting a story.",
+      "I wondered how the first week felt from your side of the hill. Tell me. The fish will still be here another evening."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-3",
+    "person": "finn",
+    "chapter": 3,
+    "points": 350,
+    "title": "A shore after rain",
+    "outline": "Walk the marsh edge and compare the places each of you calls home.",
+    "legacyId": null,
+    "choices": [
+      "Ask which shore feels like home.",
+      "Show him your favourite view of the valley."
+    ],
+    "memoryKey": "finn-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "I've worked three coasts and never kept a room long. Here, I know where the rain collects on the path. It's a strange thing to call home, isn't it?",
+    "responses": [
+      "This shore, I think. Not because it's the prettiest. Because someone notices when I don't come back along it.",
+      "Lead the way. I'd like to know what you stop to look at when nobody is waiting for you. Perhaps next time I'll recognise the place myself."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-4",
+    "person": "finn",
+    "chapter": 4,
+    "points": 450,
+    "title": "The evening catch",
+    "outline": "Cook a meal and hear why Finn keeps returning to Moonwater.",
+    "legacyId": "bond-finn-1",
+    "choices": [
+      "Cook the catch together.",
+      "Invite him to the farmhouse kitchen."
+    ],
+    "memoryKey": "finn-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "I kept enough of the catch for two. Usually I give the last fish away and call it supper. I wanted to make an evening of it this time.",
+    "responses": [
+      "You prepare the vegetables; I'll clean the fish. It feels different making something we both intend to stay for.",
+      "Your kitchen would be good. I'll bring the fish and wash the pan. I'd like to learn which cupboard holds the bowls without asking every time."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-5",
+    "person": "finn",
+    "chapter": 5,
+    "points": 600,
+    "title": "A boat kept ready",
+    "outline": "Help maintain the small boat while talking about dependable daily commitments.",
+    "legacyId": null,
+    "choices": [
+      "Help maintain the boat regularly.",
+      "Keep a shared list of the work it needs."
+    ],
+    "memoryKey": "finn-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "The boat is ready whenever I need it because I mend things before they fail. I'm less good at doing that with plans. I don't want to drift through this with you.",
+    "responses": [
+      "Then we'll check it together after the weekly catch. A small routine. I think I could build a life out of those.",
+      "A list would help. Put time together on it too, before I fill every line with rope and paint. I mean that."
+    ]
+  },
+  {
+    "id": "bond-finn-chapter-6",
+    "person": "finn",
+    "chapter": 6,
+    "points": 700,
+    "title": "A place to return",
+    "outline": "Choose a shore walk together and discuss making the homestead a shared home.",
+    "legacyId": "bond-finn-2",
+    "choices": [
+      "Make the shore walk a weekly habit.",
+      "Ask about sharing a home after the season."
+    ],
+    "memoryKey": "finn-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "lake-house",
+    "place": "Finn’s Lakeside Home",
+    "line": "I've been thinking about where to leave the boat in winter. The practical question became a different one: where I'd like to come home to afterwards.",
+    "responses": [
+      "The shore walk, every week we can. And when we can't, we tell each other. I want something that lasts through ordinary weather.",
+      "I would like that. After the season, with room for both our work. It feels good to say it plainly instead of hoping the tide will carry us there."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-1",
+    "person": "sera",
+    "chapter": 1,
+    "points": 100,
+    "title": "The workbench ledger",
+    "outline": "Help label a timber delivery and learn the boatworks routine.",
+    "legacyId": null,
+    "choices": [
+      "Label the timber by destination.",
+      "Ask who is waiting for each delivery."
+    ],
+    "memoryKey": "sera-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "The timber looks identical until a boat needs a curved rib and gets a straight board. These labels save days of arguing with wood. Will you help me finish the ledger?",
+    "responses": [
+      "Destination first. Good. The inland houses get the shorter lengths; the landing crew needs the long ones. I'll keep your farm mark on the new page.",
+      "A family at the ridge, the orchard pantry, and Basil's crew. It is easier to finish a list when it sounds like people."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-2",
+    "person": "sera",
+    "chapter": 2,
+    "points": 200,
+    "title": "A sound hull",
+    "outline": "Fit the last plank while Sera talks about reopening the winter delivery route.",
+    "legacyId": "bond-sera-0",
+    "choices": [
+      "Help fit the final plank.",
+      "Check the cargo space against the ledger."
+    ],
+    "memoryKey": "sera-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "That final plank used to feel like the end. Now I look at the empty hold and think about everything the boat is supposed to carry. Hold this end for me?",
+    "responses": [
+      "Steady there. Yes, that's the line. A sound hull is a small beginning, but I'd rather make it beside someone who stays for the hard part.",
+      "The crates fit with space for a dry passage. You thought of the person unloading them. I like the way you work."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-3",
+    "person": "sera",
+    "chapter": 3,
+    "points": 350,
+    "title": "Waiting for the tide",
+    "outline": "Check the launch schedule and discuss the difference between caution and delay.",
+    "legacyId": null,
+    "choices": [
+      "Wait for the safer tide.",
+      "Use the time to finish the route checks."
+    ],
+    "memoryKey": "sera-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "We could launch now, or wait for the turn. I used to call waiting a failure. Basil says a boat that arrives tomorrow is better than a promise that sinks today.",
+    "responses": [
+      "We'll wait. I'll put the kettle on and stop pretending I can hurry the sea. Thank you for making caution feel like a shared decision.",
+      "The landing ropes need checking. We can use the hour well without pretending the tide has changed. I'll take the upper steps with you."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-4",
+    "person": "sera",
+    "chapter": 4,
+    "points": 450,
+    "title": "The first crossing",
+    "outline": "Join a safe local delivery and decide how to share responsibility.",
+    "legacyId": "bond-sera-1",
+    "choices": [
+      "Take responsibility for the cargo list.",
+      "Work beside her on the landing."
+    ],
+    "memoryKey": "sera-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "The first local load is small on purpose. A short crossing, known weather, two people who know the way back. Which part would you like to own?",
+    "responses": [
+      "You keep the list; I'll take the lines. If something doesn't match, we stop together. I don't need you to agree with me just because it's my boat.",
+      "Then we'll unload side by side. I want this to be something we make work, not a journey where you wait for me to finish."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-5",
+    "person": "sera",
+    "chapter": 5,
+    "points": 600,
+    "title": "A workshop door",
+    "outline": "Sera asks for help arranging a workspace that leaves room for another person.",
+    "legacyId": null,
+    "choices": [
+      "Bring a bench from the homestead.",
+      "Ask how she wants the room arranged."
+    ],
+    "memoryKey": "sera-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "I cleared that corner twice and filled it with spare ribs twice. I said there wasn't space for another bench. I think I was avoiding what the space was for.",
+    "responses": [
+      "Bring the bench. I'll clear the ribs properly this time. A place for you should be more than the bit of floor I haven't used yet.",
+      "I'd like the benches facing the same window. We could work on separate things and still share the afternoon. Thank you for asking."
+    ]
+  },
+  {
+    "id": "bond-sera-chapter-6",
+    "person": "sera",
+    "chapter": 6,
+    "points": 700,
+    "title": "A shore and a home",
+    "outline": "Plan the next season’s deliveries around time together at the homestead.",
+    "legacyId": "bond-sera-2",
+    "choices": [
+      "Keep a day free after each delivery.",
+      "Plan the farm and harbour work together."
+    ],
+    "memoryKey": "sera-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "quay-workshop",
+    "place": "Sera’s Boatworks",
+    "line": "The winter runs will take me away for days. I want a home with you, and I won't pretend the harbour stops needing me. Can we plan for both?",
+    "responses": [
+      "A day after each return, before I take another order. I can keep that promise if I make it part of the schedule now.",
+      "Yes. Put both lists on the table. The farm and the harbour brought us together; they shouldn't become things we hide from each other."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-1",
+    "person": "tamsin",
+    "chapter": 1,
+    "points": 100,
+    "title": "The lower rows",
+    "outline": "Walk the orchard and learn how Tamsin judges the trees after winter.",
+    "legacyId": null,
+    "choices": [
+      "Learn the signs on the older trees.",
+      "Help check the newly planted rows."
+    ],
+    "memoryKey": "tamsin-chapter-1-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "The oldest trees flower last. Every spring someone asks if they're dying, and every spring they make the best fruit. I still check them, though. Hope isn't the same as looking closely.",
+    "responses": [
+      "Come along this row. The bark is rough, but the new shoots are sound. I'll show you the cut that tells us when to stop pruning.",
+      "The new rows need the most attention. Hold this stake while I tie it loosely. Trees grow better with support that leaves room."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-2",
+    "person": "tamsin",
+    "chapter": 2,
+    "points": 200,
+    "title": "Blankets in the cupboard",
+    "outline": "Prepare the orchard gathering and hear about the years the table stayed empty.",
+    "legacyId": "bond-tamsin-0",
+    "choices": [
+      "Lay out the blankets with her.",
+      "Invite a neighbour who has not returned yet."
+    ],
+    "memoryKey": "tamsin-chapter-2-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "I kept these blankets even when nobody came to the orchard table. Folding them was easier than admitting I'd stopped expecting visitors. Today I counted enough for everyone.",
+    "responses": [
+      "The blue ones along this side. We can sit at the end when the plates are full. I'd like to remember the table with you in it.",
+      "Ada hasn't stayed for a meal in years. Let's ask without making her explain why she stayed away. There's a place ready if she wants it."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-3",
+    "person": "tamsin",
+    "chapter": 3,
+    "points": 350,
+    "title": "The first preserves",
+    "outline": "Work a batch at the presshouse and discuss a plan that went wrong.",
+    "legacyId": null,
+    "choices": [
+      "Ask what she learned from that season.",
+      "Share a mistake from your own first harvest."
+    ],
+    "memoryKey": "tamsin-chapter-3-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "I lost a whole batch the first year I ran the presshouse. Too much heat, too much pride to ask for help. I still smell that burnt pan when I'm tired.",
+    "responses": [
+      "That a season isn't ruined by one pan. And that asking early costs less than starting over alone. I wish I'd learned the second part sooner.",
+      "You too? Tell me while we stir. Perhaps the next batch will taste better if we stop keeping a tally of our worst mornings."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-4",
+    "person": "tamsin",
+    "chapter": 4,
+    "points": 450,
+    "title": "The long table",
+    "outline": "Host neighbours together and choose how to make visitors feel included.",
+    "legacyId": "bond-tamsin-1",
+    "choices": [
+      "Prepare an extra place at the table.",
+      "Welcome the late arrivals together."
+    ],
+    "memoryKey": "tamsin-chapter-4-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "Everyone arrived at once, then Cedar brought two people nobody expected. I used to worry about making the table look complete. Now I'm glad we left a gap.",
+    "responses": [
+      "An extra place, always. Even if nobody takes it today, it says something about the room. I'll remember that when I lay the next table.",
+      "Come with me. We can make arriving late feel like arriving, instead of apologising. I'm glad you're here for this part."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-5",
+    "person": "tamsin",
+    "chapter": 5,
+    "points": 600,
+    "title": "An orchard in winter",
+    "outline": "Repair the conservatory beds and talk about making plans beyond the harvest.",
+    "legacyId": null,
+    "choices": [
+      "Repair the beds before planting.",
+      "Make a plan that leaves time to rest."
+    ],
+    "memoryKey": "tamsin-chapter-5-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "Winter makes me plan too much. New beds, repaired glass, another pantry shelf. Then I realise I haven't left an afternoon that belongs to us.",
+    "responses": [
+      "We'll repair what is needed and leave the rest for spring. I don't want to build a future that we're too tired to live in.",
+      "Let's put rest on the calendar first. Then the beds. It's a little frightening to leave work unfinished, but less so with you beside me."
+    ]
+  },
+  {
+    "id": "bond-tamsin-chapter-6",
+    "person": "tamsin",
+    "chapter": 6,
+    "points": 700,
+    "title": "Room to grow together",
+    "outline": "Choose a shared orchard project and discuss a home that respects both people’s work.",
+    "legacyId": "bond-tamsin-2",
+    "choices": [
+      "Grow a new orchard row together.",
+      "Plan a shared home without giving up either garden."
+    ],
+    "memoryKey": "tamsin-chapter-6-choice",
+    "outcome": "One persisted scene completion, a small bounded friendship gain and a new contextual conversation; no repeat reward.",
+    "area": "orchard-house",
+    "place": "Tamsin’s Orchard Kitchen",
+    "line": "I want to grow old trees here. I want a life with you too. For a long time I treated those as two plans that might not fit on the same piece of ground.",
+    "responses": [
+      "One new row together. We'll choose trees that will still be here long after the first harvest. I like the patience in that promise.",
+      "A shared home, two gardens, and paths between them. Yes. We can belong together without giving up the places that taught us who we are."
+    ]
+  }
+]

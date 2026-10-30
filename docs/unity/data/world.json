@@ -1,0 +1,497 @@
+{
+  "schema": 1,
+  "status": "Native runtime catalogue",
+  "designedAt": "2026-10-22",
+  "name": "Dewhaven — The Lantern Promise",
+  "engine": "Unity 6.3 LTS 6000.3.20f1 (installed locally)",
+  "platform": "Android portrait",
+  "areaCounts": {
+    "exteriors": 13,
+    "interiors": 48,
+    "dungeonChambers": 15,
+    "mineFloors": 5,
+    "total": 81
+  },
+  "exteriors": [
+    {
+      "id": "farm",
+      "name": "Amber Homestead",
+      "size": [
+        128,
+        96
+      ],
+      "purpose": "fields, house, barn, pond and expansion meadow",
+      "chunkSize": 32
+    },
+    {
+      "id": "village",
+      "name": "Dewhaven",
+      "size": [
+        72,
+        72
+      ],
+      "purpose": "gardens and trades",
+      "chunkSize": 32
+    },
+    {
+      "id": "forest",
+      "name": "Whispering Woods",
+      "size": [
+        144,
+        128
+      ],
+      "purpose": "ranger trails, glades and renewable forage",
+      "chunkSize": 32
+    },
+    {
+      "id": "lake",
+      "name": "Moonwater Lake",
+      "size": [
+        144,
+        112
+      ],
+      "purpose": "shore walks, fishing piers and a lakeside home",
+      "chunkSize": 32
+    },
+    {
+      "id": "aster-quay",
+      "name": "Aster Quay",
+      "size": [
+        76,
+        68
+      ],
+      "purpose": "harbour and canal districts",
+      "chunkSize": 32
+    },
+    {
+      "id": "sunridge",
+      "name": "Sunridge",
+      "size": [
+        68,
+        68
+      ],
+      "purpose": "terraced orchard town",
+      "chunkSize": 32
+    },
+    {
+      "id": "briar-hollow",
+      "name": "Briar Hollow",
+      "size": [
+        68,
+        72
+      ],
+      "purpose": "archive town and mountain terraces",
+      "chunkSize": 32
+    },
+    {
+      "id": "saltwind-cliffs",
+      "name": "Saltwind Cliffs",
+      "size": [
+        128,
+        112
+      ],
+      "purpose": "cliff stairs, tide pools, winch landing and vault gate",
+      "chunkSize": 32
+    },
+    {
+      "id": "ember-trail",
+      "name": "Ember Trail",
+      "size": [
+        128,
+        128
+      ],
+      "purpose": "quarry track, broken aqueduct and abandoned glassworks",
+      "chunkSize": 32
+    },
+    {
+      "id": "observatory-rise",
+      "name": "Observatory Rise",
+      "size": [
+        112,
+        160
+      ],
+      "purpose": "switchbacks, sheltered rest stop and observatory court",
+      "chunkSize": 32
+    },
+    {
+      "id": "copperleaf-pass",
+      "name": "Copperleaf Pass",
+      "size": [
+        128,
+        128
+      ],
+      "purpose": "pine foothills, cart track and mine head",
+      "chunkSize": 32
+    },
+    {
+      "id": "cedar-downs",
+      "name": "Cedar Downs",
+      "size": [
+        144,
+        112
+      ],
+      "purpose": "orchard route, picnic clearings and seasonal forage",
+      "chunkSize": 32
+    },
+    {
+      "id": "reedwater-marsh",
+      "name": "Reedwater Marsh",
+      "size": [
+        144,
+        128
+      ],
+      "purpose": "lake-to-harbour boardwalks, reeds and fishing bends",
+      "chunkSize": 32
+    }
+  ],
+  "links": [
+    [
+      "farm",
+      "village"
+    ],
+    [
+      "farm",
+      "forest"
+    ],
+    [
+      "farm",
+      "lake"
+    ],
+    [
+      "village",
+      "forest"
+    ],
+    [
+      "village",
+      "lake"
+    ],
+    [
+      "village",
+      "aster-quay"
+    ],
+    [
+      "forest",
+      "cedar-downs"
+    ],
+    [
+      "cedar-downs",
+      "sunridge"
+    ],
+    [
+      "lake",
+      "reedwater-marsh"
+    ],
+    [
+      "reedwater-marsh",
+      "aster-quay"
+    ],
+    [
+      "forest",
+      "copperleaf-pass"
+    ],
+    [
+      "copperleaf-pass",
+      "briar-hollow"
+    ],
+    [
+      "sunridge",
+      "briar-hollow"
+    ],
+    [
+      "aster-quay",
+      "saltwind-cliffs"
+    ],
+    [
+      "sunridge",
+      "ember-trail"
+    ],
+    [
+      "briar-hollow",
+      "observatory-rise"
+    ]
+  ],
+  "dungeonLinks": [
+    [
+      "saltwind-cliffs",
+      "tide-vault"
+    ],
+    [
+      "ember-trail",
+      "ember-vault"
+    ],
+    [
+      "observatory-rise",
+      "sky-vault"
+    ]
+  ],
+  "mineLink": [
+    "copperleaf-pass",
+    "mine"
+  ],
+  "worldPositions": {
+    "farm": [
+      270,
+      200
+    ],
+    "village": [
+      355,
+      330
+    ],
+    "forest": [
+      140,
+      250
+    ],
+    "lake": [
+      435,
+      200
+    ],
+    "aster-quay": [
+      645,
+      340
+    ],
+    "sunridge": [
+      350,
+      90
+    ],
+    "briar-hollow": [
+      610,
+      95
+    ],
+    "saltwind-cliffs": [
+      795,
+      280
+    ],
+    "ember-trail": [
+      450,
+      30
+    ],
+    "observatory-rise": [
+      710,
+      32
+    ],
+    "copperleaf-pass": [
+      190,
+      110
+    ],
+    "cedar-downs": [
+      235,
+      75
+    ],
+    "reedwater-marsh": [
+      545,
+      270
+    ]
+  },
+  "designRules": [
+    "Physical commerce and upgrades",
+    "All visible houses have interiors",
+    "Distinct playable sprites, no hue recolours",
+    "Nature ambience and physical SFX only",
+    "Generated paintings contain scenery and still life only",
+    "Do not connect to a Unity editor occupied by another agent"
+  ],
+  "portalEntries": [
+    {
+      "from": "saltwind-cliffs",
+      "group": "tide-vault",
+      "targetArea": "tide-vault-1"
+    },
+    {
+      "from": "ember-trail",
+      "group": "ember-vault",
+      "targetArea": "ember-vault-1"
+    },
+    {
+      "from": "observatory-rise",
+      "group": "sky-vault",
+      "targetArea": "sky-vault-1"
+    },
+    {
+      "from": "copperleaf-pass",
+      "group": "mine",
+      "targetArea": "mine-floor-1"
+    }
+  ],
+  "mineFloors": [
+    {
+      "id": "mine-floor-1",
+      "floor": 1,
+      "name": "Copper floor",
+      "size": [
+        48,
+        40
+      ],
+      "returnArea": "copperleaf-pass"
+    },
+    {
+      "id": "mine-floor-2",
+      "floor": 2,
+      "name": "Mixed seam",
+      "size": [
+        48,
+        40
+      ],
+      "returnArea": "copperleaf-pass"
+    },
+    {
+      "id": "mine-floor-3",
+      "floor": 3,
+      "name": "Iron galleries",
+      "size": [
+        48,
+        40
+      ],
+      "returnArea": "copperleaf-pass"
+    },
+    {
+      "id": "mine-floor-4",
+      "floor": 4,
+      "name": "Crystal pockets",
+      "size": [
+        48,
+        40
+      ],
+      "returnArea": "copperleaf-pass"
+    },
+    {
+      "id": "mine-floor-5",
+      "floor": 5,
+      "name": "The deep seam",
+      "size": [
+        48,
+        40
+      ],
+      "returnArea": "copperleaf-pass"
+    }
+  ],
+  "passages": [
+    {
+      "a": "farm",
+      "aSide": "south",
+      "aOffset": 64,
+      "b": "village",
+      "bSide": "north",
+      "bOffset": 36
+    },
+    {
+      "a": "farm",
+      "aSide": "west",
+      "aOffset": 58,
+      "b": "forest",
+      "bSide": "east",
+      "bOffset": 64
+    },
+    {
+      "a": "farm",
+      "aSide": "east",
+      "aOffset": 58,
+      "b": "lake",
+      "bSide": "west",
+      "bOffset": 54
+    },
+    {
+      "a": "village",
+      "aSide": "west",
+      "aOffset": 38,
+      "b": "forest",
+      "bSide": "east",
+      "bOffset": 100
+    },
+    {
+      "a": "village",
+      "aSide": "east",
+      "aOffset": 38,
+      "b": "lake",
+      "bSide": "west",
+      "bOffset": 90
+    },
+    {
+      "a": "village",
+      "aSide": "south",
+      "aOffset": 56,
+      "b": "aster-quay",
+      "bSide": "north",
+      "bOffset": 20
+    },
+    {
+      "a": "forest",
+      "aSide": "west",
+      "aOffset": 64,
+      "b": "cedar-downs",
+      "bSide": "east",
+      "bOffset": 64
+    },
+    {
+      "a": "cedar-downs",
+      "aSide": "south",
+      "aOffset": 72,
+      "b": "sunridge",
+      "bSide": "north",
+      "bOffset": 34
+    },
+    {
+      "a": "lake",
+      "aSide": "south",
+      "aOffset": 104,
+      "b": "reedwater-marsh",
+      "bSide": "north",
+      "bOffset": 38
+    },
+    {
+      "a": "reedwater-marsh",
+      "aSide": "east",
+      "aOffset": 64,
+      "b": "aster-quay",
+      "bSide": "west",
+      "bOffset": 48
+    },
+    {
+      "a": "forest",
+      "aSide": "north",
+      "aOffset": 70,
+      "b": "copperleaf-pass",
+      "bSide": "south",
+      "bOffset": 64
+    },
+    {
+      "a": "copperleaf-pass",
+      "aSide": "east",
+      "aOffset": 64,
+      "b": "briar-hollow",
+      "bSide": "west",
+      "bOffset": 50
+    },
+    {
+      "a": "sunridge",
+      "aSide": "east",
+      "aOffset": 36,
+      "b": "briar-hollow",
+      "bSide": "west",
+      "bOffset": 24
+    },
+    {
+      "a": "aster-quay",
+      "aSide": "east",
+      "aOffset": 36,
+      "b": "saltwind-cliffs",
+      "bSide": "west",
+      "bOffset": 64
+    },
+    {
+      "a": "sunridge",
+      "aSide": "south",
+      "aOffset": 54,
+      "b": "ember-trail",
+      "bSide": "north",
+      "bOffset": 64
+    },
+    {
+      "a": "briar-hollow",
+      "aSide": "north",
+      "aOffset": 52,
+      "b": "observatory-rise",
+      "bSide": "south",
+      "bOffset": 56
+    }
+  ]
+}

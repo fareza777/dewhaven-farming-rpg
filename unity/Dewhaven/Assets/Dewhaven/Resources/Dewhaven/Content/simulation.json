@@ -1,0 +1,2158 @@
+{
+  "items": {
+    "turnip": {
+      "id": "turnip",
+      "name": {
+        "en": "Turnip",
+        "id": "Lobak"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 65,
+      "icon": "plant",
+      "color": "#efe1d0",
+      "frame": "crop_06/4"
+    },
+    "turnip_seed": {
+      "id": "turnip_seed",
+      "name": {
+        "en": "Turnip seeds",
+        "id": "Benih lobak"
+      },
+      "category": "seed",
+      "price": 20,
+      "sell": 10,
+      "icon": "bag-simple",
+      "color": "#efe1d0"
+    },
+    "potato": {
+      "id": "potato",
+      "name": {
+        "en": "Potato",
+        "id": "Kentang"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 110,
+      "icon": "plant",
+      "color": "#b78958",
+      "frame": "crop_05/4"
+    },
+    "potato_seed": {
+      "id": "potato_seed",
+      "name": {
+        "en": "Potato seeds",
+        "id": "Benih kentang"
+      },
+      "category": "seed",
+      "price": 40,
+      "sell": 20,
+      "icon": "bag-simple",
+      "color": "#b78958"
+    },
+    "carrot": {
+      "id": "carrot",
+      "name": {
+        "en": "Carrot",
+        "id": "Wortel"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 95,
+      "icon": "plant",
+      "color": "#e48842",
+      "frame": "crop_15/5"
+    },
+    "carrot_seed": {
+      "id": "carrot_seed",
+      "name": {
+        "en": "Carrot seeds",
+        "id": "Benih wortel"
+      },
+      "category": "seed",
+      "price": 30,
+      "sell": 15,
+      "icon": "bag-simple",
+      "color": "#e48842"
+    },
+    "cabbage": {
+      "id": "cabbage",
+      "name": {
+        "en": "Cabbage",
+        "id": "Kubis"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 180,
+      "icon": "plant",
+      "color": "#87aa5b",
+      "frame": "crop_16/5"
+    },
+    "cabbage_seed": {
+      "id": "cabbage_seed",
+      "name": {
+        "en": "Cabbage seeds",
+        "id": "Benih kubis"
+      },
+      "category": "seed",
+      "price": 60,
+      "sell": 30,
+      "icon": "bag-simple",
+      "color": "#87aa5b"
+    },
+    "radish": {
+      "id": "radish",
+      "name": {
+        "en": "Radish",
+        "id": "Radis"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 100,
+      "icon": "plant",
+      "color": "#cb6579",
+      "frame": "crop_11/5"
+    },
+    "radish_seed": {
+      "id": "radish_seed",
+      "name": {
+        "en": "Radish seeds",
+        "id": "Benih radis"
+      },
+      "category": "seed",
+      "price": 35,
+      "sell": 17,
+      "icon": "bag-simple",
+      "color": "#cb6579"
+    },
+    "corn": {
+      "id": "corn",
+      "name": {
+        "en": "Sweet corn",
+        "id": "Jagung"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 150,
+      "icon": "plant",
+      "color": "#e4c154",
+      "frame": "crop_08/5"
+    },
+    "corn_seed": {
+      "id": "corn_seed",
+      "name": {
+        "en": "Sweet corn seeds",
+        "id": "Benih jagung"
+      },
+      "category": "seed",
+      "price": 65,
+      "sell": 32,
+      "icon": "bag-simple",
+      "color": "#e4c154"
+    },
+    "pumpkin": {
+      "id": "pumpkin",
+      "name": {
+        "en": "Pumpkin",
+        "id": "Labu"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 280,
+      "icon": "plant",
+      "color": "#d38542",
+      "frame": "crop_07/5"
+    },
+    "pumpkin_seed": {
+      "id": "pumpkin_seed",
+      "name": {
+        "en": "Pumpkin seeds",
+        "id": "Benih labu"
+      },
+      "category": "seed",
+      "price": 85,
+      "sell": 42,
+      "icon": "bag-simple",
+      "color": "#d38542"
+    },
+    "cauliflower": {
+      "id": "cauliflower",
+      "name": {
+        "en": "Cauliflower",
+        "id": "Kembang kol"
+      },
+      "category": "crop",
+      "price": 0,
+      "sell": 250,
+      "icon": "plant",
+      "color": "#c7d8a3",
+      "frame": "crop_17/5"
+    },
+    "cauliflower_seed": {
+      "id": "cauliflower_seed",
+      "name": {
+        "en": "Cauliflower seeds",
+        "id": "Benih kembang kol"
+      },
+      "category": "seed",
+      "price": 80,
+      "sell": 40,
+      "icon": "bag-simple",
+      "color": "#c7d8a3"
+    },
+    "wood": {
+      "id": "wood",
+      "name": {
+        "en": "Timber",
+        "id": "Kayu"
+      },
+      "category": "material",
+      "price": 25,
+      "sell": 8,
+      "icon": "tree",
+      "color": "#a17a50"
+    },
+    "stone": {
+      "id": "stone",
+      "name": {
+        "en": "Stone",
+        "id": "Batu"
+      },
+      "category": "material",
+      "price": 20,
+      "sell": 6,
+      "icon": "cube",
+      "color": "#8a9296"
+    },
+    "copper": {
+      "id": "copper",
+      "name": {
+        "en": "Copper ore",
+        "id": "Bijih tembaga"
+      },
+      "category": "material",
+      "price": 90,
+      "sell": 35,
+      "icon": "diamond",
+      "color": "#c98458"
+    },
+    "iron": {
+      "id": "iron",
+      "name": {
+        "en": "Iron ore",
+        "id": "Bijih besi"
+      },
+      "category": "material",
+      "price": 150,
+      "sell": 55,
+      "icon": "diamond",
+      "color": "#82969e"
+    },
+    "crystal": {
+      "id": "crystal",
+      "name": {
+        "en": "Moon crystal",
+        "id": "Kristal bulan"
+      },
+      "category": "material",
+      "price": 0,
+      "sell": 210,
+      "icon": "diamond",
+      "color": "#9abebf"
+    },
+    "berry": {
+      "id": "berry",
+      "name": {
+        "en": "Wild berries",
+        "id": "Buah beri"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 25,
+      "icon": "cherries",
+      "color": "#bf7082",
+      "energy": 12
+    },
+    "mushroom": {
+      "id": "mushroom",
+      "name": {
+        "en": "Forest mushroom",
+        "id": "Jamur hutan"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 40,
+      "icon": "acorn",
+      "color": "#ad8562",
+      "energy": 10
+    },
+    "flower": {
+      "id": "flower",
+      "name": {
+        "en": "Daisy",
+        "id": "Bunga daisy"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 15,
+      "icon": "flower",
+      "color": "#e2bf62"
+    },
+    "egg": {
+      "id": "egg",
+      "name": {
+        "en": "Fresh egg",
+        "id": "Telur segar"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 45,
+      "icon": "egg",
+      "color": "#e5d9b9",
+      "energy": 8
+    },
+    "truffle": {
+      "id": "truffle",
+      "name": {
+        "en": "Wild truffle",
+        "id": "Truffle"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 180,
+      "icon": "acorn",
+      "color": "#9c8473",
+      "energy": 16
+    },
+    "wool": {
+      "id": "wool",
+      "name": {
+        "en": "Soft wool",
+        "id": "Wol lembut"
+      },
+      "category": "material",
+      "price": 0,
+      "sell": 95,
+      "icon": "cloud",
+      "color": "#dfddcb"
+    },
+    "feed": {
+      "id": "feed",
+      "name": {
+        "en": "Animal feed",
+        "id": "Pakan ternak"
+      },
+      "category": "animal",
+      "price": 15,
+      "sell": 5,
+      "icon": "grains",
+      "color": "#c2ab6c"
+    },
+    "fertilizer": {
+      "id": "fertilizer",
+      "name": {
+        "en": "Fertilizer",
+        "id": "Pupuk"
+      },
+      "category": "special",
+      "price": 50,
+      "sell": 20,
+      "icon": "sparkle",
+      "color": "#9baa62"
+    },
+    "sprinkler": {
+      "id": "sprinkler",
+      "name": {
+        "en": "Copper sprinkler",
+        "id": "Sprinkler tembaga"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 250,
+      "icon": "drop",
+      "color": "#8cacb2"
+    },
+    "scarecrow": {
+      "id": "scarecrow",
+      "name": {
+        "en": "Scarecrow",
+        "id": "Orang-orangan sawah"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 160,
+      "icon": "person-arms-spread",
+      "color": "#a3885a"
+    },
+    "bouquet": {
+      "id": "bouquet",
+      "name": {
+        "en": "Wildflower bouquet",
+        "id": "Buket bunga"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 120,
+      "icon": "flower",
+      "color": "#bd93a5"
+    },
+    "ring": {
+      "id": "ring",
+      "name": {
+        "en": "Moonstone ring",
+        "id": "Cincin batu bulan"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 800,
+      "icon": "circle",
+      "color": "#d6b25c"
+    },
+    "soup": {
+      "id": "soup",
+      "name": {
+        "en": "Garden soup",
+        "id": "Sup kebun"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 180,
+      "icon": "bowl-food",
+      "color": "#c5a76d",
+      "energy": 40
+    },
+    "omelet": {
+      "id": "omelet",
+      "name": {
+        "en": "Farmhouse omelet",
+        "id": "Omelet farm"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 150,
+      "icon": "cooking-pot",
+      "color": "#debc69",
+      "energy": 32
+    },
+    "stew": {
+      "id": "stew",
+      "name": {
+        "en": "Woodland stew",
+        "id": "Semur hutan"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 230,
+      "icon": "bowl-food",
+      "color": "#9b8b69",
+      "energy": 55
+    },
+    "fish_dinner": {
+      "id": "fish_dinner",
+      "name": {
+        "en": "Lakeside dinner",
+        "id": "Hidangan ikan"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 240,
+      "icon": "fish",
+      "color": "#99aea0",
+      "energy": 45
+    },
+    "jam": {
+      "id": "jam",
+      "name": {
+        "en": "Berry preserves",
+        "id": "Selai beri"
+      },
+      "category": "food",
+      "price": 0,
+      "sell": 140,
+      "icon": "jar",
+      "color": "#bb7b8d",
+      "energy": 24
+    },
+    "carp": {
+      "id": "carp",
+      "name": {
+        "en": "Silver carp",
+        "id": "Ikan mas perak"
+      },
+      "category": "fish",
+      "price": 0,
+      "sell": 65,
+      "icon": "fish",
+      "color": "#a0b6bb"
+    },
+    "perch": {
+      "id": "perch",
+      "name": {
+        "en": "Golden perch",
+        "id": "Ikan perch"
+      },
+      "category": "fish",
+      "price": 0,
+      "sell": 95,
+      "icon": "fish",
+      "color": "#c7b567"
+    },
+    "trout": {
+      "id": "trout",
+      "name": {
+        "en": "Rainbow trout",
+        "id": "Ikan trout"
+      },
+      "category": "fish",
+      "price": 0,
+      "sell": 145,
+      "icon": "fish",
+      "color": "#b59cab"
+    },
+    "moonfish": {
+      "id": "moonfish",
+      "name": {
+        "en": "Moonfish",
+        "id": "Ikan bulan"
+      },
+      "category": "fish",
+      "price": 0,
+      "sell": 310,
+      "icon": "fish",
+      "color": "#9aabbf"
+    },
+    "ancient_chart": {
+      "id": "ancient_chart",
+      "name": {
+        "en": "The tide chart",
+        "id": "Peta pasang"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 0,
+      "icon": "map-trifold",
+      "color": "#c9af80"
+    },
+    "glass_lens": {
+      "id": "glass_lens",
+      "name": {
+        "en": "The ember lens",
+        "id": "Lensa bara"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 0,
+      "icon": "magnifying-glass",
+      "color": "#b4c7cd"
+    },
+    "brass_compass": {
+      "id": "brass_compass",
+      "name": {
+        "en": "The sky compass",
+        "id": "Kompas langit"
+      },
+      "category": "special",
+      "price": 0,
+      "sell": 0,
+      "icon": "compass",
+      "color": "#b99b62"
+    }
+  },
+  "crops": {
+    "turnip": {
+      "id": "turnip",
+      "name": {
+        "en": "Turnip",
+        "id": "Lobak"
+      },
+      "days": 3,
+      "seasons": [
+        0,
+        2
+      ],
+      "sell": 65,
+      "seed": 20,
+      "sheet": "crop_06",
+      "stages": 5
+    },
+    "potato": {
+      "id": "potato",
+      "name": {
+        "en": "Potato",
+        "id": "Kentang"
+      },
+      "days": 5,
+      "seasons": [
+        0
+      ],
+      "sell": 110,
+      "seed": 40,
+      "sheet": "crop_05",
+      "stages": 5
+    },
+    "carrot": {
+      "id": "carrot",
+      "name": {
+        "en": "Carrot",
+        "id": "Wortel"
+      },
+      "days": 4,
+      "seasons": [
+        0,
+        2
+      ],
+      "sell": 95,
+      "seed": 30,
+      "sheet": "crop_15",
+      "stages": 6
+    },
+    "cabbage": {
+      "id": "cabbage",
+      "name": {
+        "en": "Cabbage",
+        "id": "Kubis"
+      },
+      "days": 6,
+      "seasons": [
+        0,
+        1
+      ],
+      "sell": 180,
+      "seed": 60,
+      "sheet": "crop_16",
+      "stages": 6
+    },
+    "radish": {
+      "id": "radish",
+      "name": {
+        "en": "Radish",
+        "id": "Radis"
+      },
+      "days": 4,
+      "seasons": [
+        1,
+        2
+      ],
+      "sell": 100,
+      "seed": 35,
+      "sheet": "crop_11",
+      "stages": 6
+    },
+    "corn": {
+      "id": "corn",
+      "name": {
+        "en": "Sweet corn",
+        "id": "Jagung"
+      },
+      "days": 7,
+      "seasons": [
+        1,
+        2
+      ],
+      "sell": 150,
+      "seed": 65,
+      "sheet": "crop_08",
+      "stages": 6,
+      "regrow": 3
+    },
+    "pumpkin": {
+      "id": "pumpkin",
+      "name": {
+        "en": "Pumpkin",
+        "id": "Labu"
+      },
+      "days": 8,
+      "seasons": [
+        2
+      ],
+      "sell": 280,
+      "seed": 85,
+      "sheet": "crop_07",
+      "stages": 6
+    },
+    "cauliflower": {
+      "id": "cauliflower",
+      "name": {
+        "en": "Cauliflower",
+        "id": "Kembang kol"
+      },
+      "days": 8,
+      "seasons": [
+        0
+      ],
+      "sell": 250,
+      "seed": 80,
+      "sheet": "crop_17",
+      "stages": 6
+    }
+  },
+  "recipes": [
+    {
+      "id": "soup",
+      "name": {
+        "en": "Garden soup",
+        "id": "Sup kebun"
+      },
+      "ingredients": {
+        "turnip": 2,
+        "carrot": 1
+      },
+      "output": "soup",
+      "quantity": 1,
+      "description": {
+        "en": "A bowl of home. Restores 40 energy.",
+        "id": "Semangkuk kehangatan. Memulihkan 40 energi."
+      }
+    },
+    {
+      "id": "omelet",
+      "name": {
+        "en": "Farmhouse omelet",
+        "id": "Omelet farm"
+      },
+      "ingredients": {
+        "egg": 2
+      },
+      "output": "omelet",
+      "quantity": 1,
+      "description": {
+        "en": "Simple, golden, lovely. Restores 32 energy.",
+        "id": "Sederhana dan lezat. Memulihkan 32 energi."
+      }
+    },
+    {
+      "id": "stew",
+      "name": {
+        "en": "Woodland stew",
+        "id": "Semur hutan"
+      },
+      "ingredients": {
+        "mushroom": 2,
+        "potato": 1
+      },
+      "output": "stew",
+      "quantity": 1,
+      "description": {
+        "en": "Flavors of the forest. Restores 55 energy.",
+        "id": "Cita rasa hutan. Memulihkan 55 energi."
+      }
+    },
+    {
+      "id": "fish_dinner",
+      "name": {
+        "en": "Lakeside dinner",
+        "id": "Hidangan ikan"
+      },
+      "ingredients": {
+        "carp": 1,
+        "carrot": 1
+      },
+      "output": "fish_dinner",
+      "quantity": 1,
+      "description": {
+        "en": "A slow evening by the lake. Restores 45 energy.",
+        "id": "Malam tenang di danau. Memulihkan 45 energi."
+      }
+    },
+    {
+      "id": "jam",
+      "name": {
+        "en": "Berry preserves",
+        "id": "Selai beri"
+      },
+      "ingredients": {
+        "berry": 4
+      },
+      "output": "jam",
+      "quantity": 1,
+      "description": {
+        "en": "Summer, saved in a jar. Restores 24 energy.",
+        "id": "Musim panas dalam toples. Memulihkan 24 energi."
+      }
+    },
+    {
+      "id": "sprinkler",
+      "name": {
+        "en": "Copper sprinkler",
+        "id": "Sprinkler tembaga"
+      },
+      "ingredients": {
+        "copper": 5,
+        "iron": 2,
+        "stone": 5
+      },
+      "output": "sprinkler",
+      "quantity": 1,
+      "skill": "mining",
+      "level": 2,
+      "description": {
+        "en": "Place on your farm to water every planted tile each dawn.",
+        "id": "Pasang di kebun untuk menyiram semua tanaman setiap pagi."
+      }
+    },
+    {
+      "id": "scarecrow",
+      "name": {
+        "en": "Scarecrow",
+        "id": "Orang-orangan sawah"
+      },
+      "ingredients": {
+        "wood": 10,
+        "wool": 1
+      },
+      "output": "scarecrow",
+      "quantity": 1,
+      "description": {
+        "en": "A friendly guardian. Crops gain one bonus growth day when placed.",
+        "id": "Penjaga kebun. Tanaman mendapat bonus satu hari pertumbuhan saat dipasang."
+      }
+    },
+    {
+      "id": "bouquet",
+      "name": {
+        "en": "Wildflower bouquet",
+        "id": "Buket bunga"
+      },
+      "ingredients": {
+        "flower": 5
+      },
+      "output": "bouquet",
+      "quantity": 1,
+      "description": {
+        "en": "Five flowers, one thoughtful gift.",
+        "id": "Lima bunga, satu hadiah penuh makna."
+      }
+    },
+    {
+      "id": "ring",
+      "name": {
+        "en": "Moonstone ring",
+        "id": "Cincin batu bulan"
+      },
+      "ingredients": {
+        "crystal": 3,
+        "iron": 5
+      },
+      "output": "ring",
+      "quantity": 1,
+      "skill": "mining",
+      "level": 3,
+      "description": {
+        "en": "A promise for a villager with eight hearts.",
+        "id": "Janji untuk warga yang sudah memiliki delapan hati."
+      }
+    },
+    {
+      "id": "feed",
+      "name": {
+        "en": "Animal feed",
+        "id": "Pakan ternak"
+      },
+      "ingredients": {
+        "corn": 1
+      },
+      "output": "feed",
+      "quantity": 8,
+      "description": {
+        "en": "Turn a little corn into a week of happy mornings.",
+        "id": "Ubah jagung menjadi pakan untuk pagi yang bahagia."
+      }
+    }
+  ],
+  "legacyQuests": [
+    {
+      "id": "new-roots",
+      "main": true,
+      "title": {
+        "en": "New roots",
+        "id": "Tempat untuk berakar"
+      },
+      "description": {
+        "en": "Grandmother left you more than a farm. Plant 3 seeds and begin your own little chapter.",
+        "id": "Nenek meninggalkan lebih dari sekadar kebun. Tanam 3 benih dan mulai kisahmu."
+      },
+      "giver": "Grandmother's letter",
+      "requirements": [
+        {
+          "stat": "planted",
+          "amount": 3
+        }
+      ],
+      "reward": {
+        "gold": 150,
+        "items": {
+          "carrot_seed": 4
+        }
+      }
+    },
+    {
+      "id": "first-harvest",
+      "main": true,
+      "title": {
+        "en": "First harvest",
+        "id": "Panen pertama"
+      },
+      "description": {
+        "en": "Harvest 5 crops. Every small beginning deserves a little celebration.",
+        "id": "Panen 5 tanaman. Setiap awal kecil layak dirayakan."
+      },
+      "giver": "Mira",
+      "requirements": [
+        {
+          "stat": "harvested",
+          "amount": 5
+        }
+      ],
+      "reward": {
+        "gold": 300,
+        "items": {
+          "potato_seed": 5
+        }
+      }
+    },
+    {
+      "id": "good-neighbors",
+      "main": true,
+      "title": {
+        "en": "Meet the valley",
+        "id": "Mengenal para tetangga"
+      },
+      "description": {
+        "en": "Meet six neighbours. A home is made of the people who share it.",
+        "id": "Kenali enam tetangga. Orang-oranglah yang membuat rumah terasa hangat."
+      },
+      "giver": "Elias",
+      "requirements": [
+        {
+          "stat": "met",
+          "amount": 6
+        }
+      ],
+      "reward": {
+        "gold": 400,
+        "items": {
+          "feed": 10
+        }
+      }
+    },
+    {
+      "id": "market-day",
+      "main": true,
+      "title": {
+        "en": "Market day",
+        "id": "Dari kebun dengan cinta"
+      },
+      "description": {
+        "en": "Earn 1,000 gold from shipping. The valley is ready to taste what you have grown.",
+        "id": "Hasilkan 1.000 emas dari pengiriman. Lembah menanti hasil kebunmu."
+      },
+      "giver": "Cleo",
+      "requirements": [
+        {
+          "stat": "earned",
+          "amount": 1000
+        }
+      ],
+      "reward": {
+        "gold": 600,
+        "items": {
+          "fertilizer": 5
+        }
+      }
+    },
+    {
+      "id": "mend-bridge",
+      "main": true,
+      "title": {
+        "en": "The old bridge",
+        "id": "Jembatan penghubung"
+      },
+      "description": {
+        "en": "Bring 20 timber and 15 stone to repair the old village bridge.",
+        "id": "Bawa 20 kayu dan 15 batu untuk memperbaiki jembatan desa."
+      },
+      "giver": "Rowan",
+      "requirements": [
+        {
+          "item": "wood",
+          "amount": 20
+        },
+        {
+          "item": "stone",
+          "amount": 15
+        }
+      ],
+      "reward": {
+        "gold": 750
+      }
+    },
+    {
+      "id": "garden-awakens",
+      "main": true,
+      "title": {
+        "en": "Community garden",
+        "id": "Kebun kembali hidup"
+      },
+      "description": {
+        "en": "Craft 3 things and bring 6 copper ore. Help Orin restore the community greenhouse.",
+        "id": "Buat 3 barang dan bawa 6 bijih tembaga. Bantu Orin memperbaiki rumah kaca."
+      },
+      "giver": "Orin",
+      "requirements": [
+        {
+          "stat": "crafted",
+          "amount": 3
+        },
+        {
+          "item": "copper",
+          "amount": 6
+        }
+      ],
+      "reward": {
+        "gold": 1000,
+        "items": {
+          "sprinkler": 1
+        }
+      }
+    },
+    {
+      "id": "lantern-promise",
+      "main": true,
+      "title": {
+        "en": "The lantern promise",
+        "id": "Janji lentera"
+      },
+      "description": {
+        "en": "Share a feast: 5 crops, 3 fresh eggs, a trout and a bouquet. Bring light back to Dewhaven.",
+        "id": "Siapkan perjamuan: 5 lobak, 3 telur, seekor trout dan buket bunga. Terangi Dewhaven lagi."
+      },
+      "giver": "Elias",
+      "requirements": [
+        {
+          "item": "turnip",
+          "amount": 5
+        },
+        {
+          "item": "egg",
+          "amount": 3
+        },
+        {
+          "item": "trout",
+          "amount": 1
+        },
+        {
+          "item": "bouquet",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 2500,
+        "items": {
+          "ring": 1
+        }
+      }
+    },
+    {
+      "id": "miras-basket",
+      "main": false,
+      "title": {
+        "en": "Mira's market basket",
+        "id": "Keranjang Mira"
+      },
+      "description": {
+        "en": "Mira needs 3 turnips for a neighbor who cannot make it to the market.",
+        "id": "Mira perlu 3 lobak untuk tetangga yang tak bisa pergi ke pasar."
+      },
+      "giver": "Mira",
+      "requirements": [
+        {
+          "item": "turnip",
+          "amount": 3
+        }
+      ],
+      "reward": {
+        "gold": 300,
+        "items": {
+          "flower": 3
+        }
+      }
+    },
+    {
+      "id": "breakfast-club",
+      "main": false,
+      "title": {
+        "en": "The breakfast club",
+        "id": "Klub sarapan"
+      },
+      "description": {
+        "en": "Bring Cleo 3 eggs. Tomorrow's breakfast is on you.",
+        "id": "Bawakan 3 telur untuk Cleo. Sarapan besok berkat bantuanmu."
+      },
+      "giver": "Cleo",
+      "requirements": [
+        {
+          "item": "egg",
+          "amount": 3
+        }
+      ],
+      "reward": {
+        "gold": 250,
+        "items": {
+          "omelet": 1
+        }
+      }
+    },
+    {
+      "id": "woodland-kindness",
+      "main": false,
+      "title": {
+        "en": "A little woodland kindness",
+        "id": "Kebaikan di hutan"
+      },
+      "description": {
+        "en": "Bring Rowan 5 berries and 2 mushrooms for the woodland picnic.",
+        "id": "Bawa 5 beri dan 2 jamur untuk piknik Rowan."
+      },
+      "giver": "Rowan",
+      "requirements": [
+        {
+          "item": "berry",
+          "amount": 5
+        },
+        {
+          "item": "mushroom",
+          "amount": 2
+        }
+      ],
+      "reward": {
+        "gold": 320,
+        "items": {
+          "stew": 1
+        }
+      }
+    },
+    {
+      "id": "finns-catch",
+      "main": false,
+      "title": {
+        "en": "The one that got away",
+        "id": "Ikan yang terlepas"
+      },
+      "description": {
+        "en": "Catch 5 fish. Finn thinks you might be a natural.",
+        "id": "Tangkap 5 ikan. Finn yakin kamu punya bakat."
+      },
+      "giver": "Finn",
+      "requirements": [
+        {
+          "stat": "fish",
+          "amount": 5
+        }
+      ],
+      "reward": {
+        "gold": 350,
+        "items": {
+          "fish_dinner": 1
+        }
+      }
+    },
+    {
+      "id": "stone-song",
+      "main": false,
+      "title": {
+        "en": "The song of stone",
+        "id": "Nyanyian batu"
+      },
+      "description": {
+        "en": "Orin needs 8 iron ore for the town's new bell.",
+        "id": "Orin perlu 8 bijih besi untuk lonceng desa."
+      },
+      "giver": "Orin",
+      "requirements": [
+        {
+          "item": "iron",
+          "amount": 8
+        }
+      ],
+      "reward": {
+        "gold": 800,
+        "items": {
+          "crystal": 2
+        }
+      }
+    },
+    {
+      "id": "wild-flowers",
+      "main": false,
+      "title": {
+        "en": "Flowers on the windowsill",
+        "id": "Bunga di jendela"
+      },
+      "description": {
+        "en": "A dozen daisies would brighten up the town hall. Bring 6.",
+        "id": "Bunga daisy akan menghiasi balai desa. Bawakan 6 bunga."
+      },
+      "giver": "Elias",
+      "requirements": [
+        {
+          "item": "flower",
+          "amount": 6
+        }
+      ],
+      "reward": {
+        "gold": 220,
+        "items": {
+          "carrot_seed": 6
+        }
+      }
+    },
+    {
+      "id": "animal-friend",
+      "main": false,
+      "title": {
+        "en": "Small paws, big hearts",
+        "id": "Kaki kecil, hati besar"
+      },
+      "description": {
+        "en": "Care for your animals 12 times. They notice every little kindness.",
+        "id": "Rawat hewanmu 12 kali. Mereka mengingat setiap kebaikan."
+      },
+      "giver": "Mira",
+      "requirements": [
+        {
+          "stat": "care",
+          "amount": 12
+        }
+      ],
+      "reward": {
+        "gold": 450,
+        "items": {
+          "feed": 15
+        }
+      }
+    },
+    {
+      "id": "kitchen-stories",
+      "main": false,
+      "title": {
+        "en": "Stories from the kitchen",
+        "id": "Kisah dari dapur"
+      },
+      "description": {
+        "en": "Make 5 recipes. Good food brings people together.",
+        "id": "Buat 5 resep. Makanan enak menyatukan orang."
+      },
+      "giver": "Cleo",
+      "requirements": [
+        {
+          "stat": "crafted",
+          "amount": 5
+        }
+      ],
+      "reward": {
+        "gold": 550,
+        "items": {
+          "bouquet": 1
+        }
+      }
+    },
+    {
+      "id": "big-little-farm",
+      "main": false,
+      "title": {
+        "en": "Room to grow",
+        "id": "Ruang untuk tumbuh"
+      },
+      "description": {
+        "en": "Expand your growing patch. There is room for a bigger dream.",
+        "id": "Perluas lahan tanam. Masih ada ruang untuk mimpi yang besar."
+      },
+      "giver": "Rowan",
+      "requirements": [
+        {
+          "upgrade": "expansion",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 500,
+        "items": {
+          "cabbage_seed": 8
+        }
+      }
+    },
+    {
+      "id": "moonlit-secret",
+      "main": false,
+      "title": {
+        "en": "A moonlit secret",
+        "id": "Rahasia cahaya bulan"
+      },
+      "description": {
+        "en": "Bring Finn a moonfish, found at the lake after 6 pm.",
+        "id": "Bawa ikan bulan untuk Finn. Ikan ini ada di danau setelah jam 6 sore."
+      },
+      "giver": "Finn",
+      "requirements": [
+        {
+          "item": "moonfish",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 850,
+        "items": {
+          "ring": 1
+        }
+      }
+    },
+    {
+      "id": "letters-across-water",
+      "main": true,
+      "title": {
+        "en": "Letters across water",
+        "id": "Surat menyeberangi air"
+      },
+      "description": {
+        "en": "A letter in the repaired greenhouse names a boatbuilder at Aster Quay. Follow the harbour road and find the other half of Grandmother's delivery ledger.",
+        "id": "Surat di rumah kaca menyebut pembuat kapal di Dermaga Aster. Ikuti jalan pelabuhan untuk mencari separuh buku kiriman Nenek."
+      },
+      "giver": "Sera",
+      "requirements": [
+        {
+          "stat": "quay",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 500
+      }
+    },
+    {
+      "id": "tide-remembers",
+      "main": true,
+      "title": {
+        "en": "What the tide kept",
+        "id": "Yang disimpan pasang"
+      },
+      "description": {
+        "en": "Three counterweights protect an old chart in the Tide Vault. Restore the mechanisms and recover the chart before the next harbour gathering.",
+        "id": "Tiga penyeimbang melindungi peta di Ruang Pasang. Pulihkan mekanismenya dan ambil peta."
+      },
+      "giver": "Sera",
+      "requirements": [
+        {
+          "stat": "tideVault",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 650,
+        "items": {
+          "copper": 5
+        }
+      }
+    },
+    {
+      "id": "orchard-road",
+      "main": true,
+      "title": {
+        "en": "The orchard road",
+        "id": "Jalan menuju kebun"
+      },
+      "description": {
+        "en": "Visit Sunridge and harvest 40 crops in total. Tamsin wants the old delivery route to carry fresh food again, not just stories about better years.",
+        "id": "Kunjungi Sunridge dan panen total 40 tanaman. Tamsin ingin jalur lama kembali membawa makanan segar."
+      },
+      "giver": "Tamsin",
+      "requirements": [
+        {
+          "stat": "sunridge",
+          "amount": 1
+        },
+        {
+          "stat": "harvested",
+          "amount": 40
+        }
+      ],
+      "reward": {
+        "gold": 850,
+        "items": {
+          "corn_seed": 6
+        }
+      }
+    },
+    {
+      "id": "a-long-table",
+      "main": true,
+      "title": {
+        "en": "Room at the table",
+        "id": "Tempat di meja"
+      },
+      "description": {
+        "en": "Bring three jars of preserves and five ears of sweet corn. There is room for every neighbour at the orchard's first shared supper.",
+        "id": "Bawa tiga selai dan lima jagung. Setiap tetangga mendapat tempat dalam makan bersama kebun."
+      },
+      "giver": "Tamsin",
+      "requirements": [
+        {
+          "item": "jam",
+          "amount": 3
+        },
+        {
+          "item": "corn",
+          "amount": 5
+        }
+      ],
+      "reward": {
+        "gold": 1000
+      }
+    },
+    {
+      "id": "warm-glass",
+      "main": true,
+      "title": {
+        "en": "Glass that holds the light",
+        "id": "Kaca penyimpan cahaya"
+      },
+      "description": {
+        "en": "Recover the lens from the Ember Gallery and craft eight things in total. Orin can fit the lens into the valley's old weather station.",
+        "id": "Ambil lensa di Galeri Bara dan buat total delapan barang. Orin akan memasangnya pada stasiun cuaca tua."
+      },
+      "giver": "Orin",
+      "requirements": [
+        {
+          "stat": "emberVault",
+          "amount": 1
+        },
+        {
+          "stat": "crafted",
+          "amount": 8
+        }
+      ],
+      "reward": {
+        "gold": 1100,
+        "items": {
+          "iron": 5
+        }
+      }
+    },
+    {
+      "id": "unwritten-atlas",
+      "main": true,
+      "title": {
+        "en": "The unwritten atlas",
+        "id": "Atlas yang belum selesai"
+      },
+      "description": {
+        "en": "Visit Briar Hollow and meet nine neighbours. Ilan has kept the last blank pages for people who still have somewhere to go.",
+        "id": "Kunjungi Briar Hollow dan kenali sembilan tetangga. Ilan menyimpan halaman kosong untuk perjalanan baru."
+      },
+      "giver": "Ilan",
+      "requirements": [
+        {
+          "stat": "briar",
+          "amount": 1
+        },
+        {
+          "stat": "met",
+          "amount": 9
+        }
+      ],
+      "reward": {
+        "gold": 1200
+      }
+    },
+    {
+      "id": "sky-road",
+      "main": true,
+      "title": {
+        "en": "A road beneath the sky",
+        "id": "Jalan di bawah langit"
+      },
+      "description": {
+        "en": "Open the observatory's three shutters and recover its compass. Gather 25 ore in total to restore the old survey markers.",
+        "id": "Buka tiga penutup observatorium dan ambil kompas. Kumpulkan total 25 bijih untuk penanda jalur."
+      },
+      "giver": "Ilan",
+      "requirements": [
+        {
+          "stat": "skyVault",
+          "amount": 1
+        },
+        {
+          "stat": "mined",
+          "amount": 25
+        }
+      ],
+      "reward": {
+        "gold": 1400
+      }
+    },
+    {
+      "id": "rooms-for-everyone",
+      "main": true,
+      "title": {
+        "en": "A place for everyone",
+        "id": "Tempat untuk semua"
+      },
+      "description": {
+        "en": "Join three town gatherings and give eight thoughtful gifts. A road only matters when people have a reason to visit one another.",
+        "id": "Ikuti tiga pertemuan kota dan berikan delapan hadiah. Jalan bermakna saat orang saling berkunjung."
+      },
+      "giver": "Elias",
+      "requirements": [
+        {
+          "stat": "communityEvents",
+          "amount": 3
+        },
+        {
+          "stat": "gifts",
+          "amount": 8
+        }
+      ],
+      "reward": {
+        "gold": 1800
+      }
+    },
+    {
+      "id": "farther-lights",
+      "main": true,
+      "title": {
+        "en": "Many lights, one home",
+        "id": "Banyak cahaya, satu rumah"
+      },
+      "description": {
+        "en": "Complete all three vaults and earn 10,000 gold from shipping. The atlas can finally leave the archive: its next chapter belongs to everyone.",
+        "id": "Selesaikan tiga ruang penjelajahan dan hasilkan 10.000 emas dari pengiriman. Bab atlas berikutnya menjadi milik semua orang."
+      },
+      "giver": "Grandmother's atlas",
+      "requirements": [
+        {
+          "stat": "tideVault",
+          "amount": 1
+        },
+        {
+          "stat": "emberVault",
+          "amount": 1
+        },
+        {
+          "stat": "skyVault",
+          "amount": 1
+        },
+        {
+          "stat": "earned",
+          "amount": 10000
+        }
+      ],
+      "reward": {
+        "gold": 3200
+      }
+    },
+    {
+      "id": "quay-timber",
+      "main": false,
+      "title": {
+        "en": "A boat worth building",
+        "id": "Kapal yang layak dibuat"
+      },
+      "description": {
+        "en": "Sera needs twelve timber and four copper ore for a little delivery boat.",
+        "id": "Sera membutuhkan dua belas kayu dan empat tembaga untuk kapal pengiriman."
+      },
+      "giver": "Sera",
+      "requirements": [
+        {
+          "item": "wood",
+          "amount": 12
+        },
+        {
+          "item": "copper",
+          "amount": 4
+        }
+      ],
+      "reward": {
+        "gold": 420
+      }
+    },
+    {
+      "id": "quay-supper",
+      "main": false,
+      "title": {
+        "en": "Supper by the water",
+        "id": "Makan di tepi air"
+      },
+      "description": {
+        "en": "Bring two lakeside dinners for the boatbuilders working late.",
+        "id": "Bawa dua hidangan ikan untuk pembuat kapal."
+      },
+      "giver": "Sera",
+      "requirements": [
+        {
+          "item": "fish_dinner",
+          "amount": 2
+        }
+      ],
+      "reward": {
+        "gold": 550
+      }
+    },
+    {
+      "id": "orchard-preserves",
+      "main": false,
+      "title": {
+        "en": "A taste of summer",
+        "id": "Rasa musim panas"
+      },
+      "description": {
+        "en": "Tamsin would like four jars of preserves for the winter pantry.",
+        "id": "Tamsin membutuhkan empat selai untuk persediaan musim dingin."
+      },
+      "giver": "Tamsin",
+      "requirements": [
+        {
+          "item": "jam",
+          "amount": 4
+        }
+      ],
+      "reward": {
+        "gold": 500
+      }
+    },
+    {
+      "id": "orchard-flowers",
+      "main": false,
+      "title": {
+        "en": "Flowers at every place",
+        "id": "Bunga di setiap tempat"
+      },
+      "description": {
+        "en": "Bring eight daisies for the next orchard picnic.",
+        "id": "Bawa delapan bunga untuk piknik kebun berikutnya."
+      },
+      "giver": "Tamsin",
+      "requirements": [
+        {
+          "item": "flower",
+          "amount": 8
+        }
+      ],
+      "reward": {
+        "gold": 360
+      }
+    },
+    {
+      "id": "archive-crystals",
+      "main": false,
+      "title": {
+        "en": "Clear as glass",
+        "id": "Jernih seperti kaca"
+      },
+      "description": {
+        "en": "Bring three moon crystals for Ilan's magnifying instruments.",
+        "id": "Bawa tiga kristal bulan untuk alat pembesar Ilan."
+      },
+      "giver": "Ilan",
+      "requirements": [
+        {
+          "item": "crystal",
+          "amount": 3
+        }
+      ],
+      "reward": {
+        "gold": 800
+      }
+    },
+    {
+      "id": "archive-stew",
+      "main": false,
+      "title": {
+        "en": "A warm evening",
+        "id": "Sore yang hangat"
+      },
+      "description": {
+        "en": "Bring two woodland stews for the volunteers repairing the archive.",
+        "id": "Bawa dua semur hutan untuk para perawat arsip."
+      },
+      "giver": "Ilan",
+      "requirements": [
+        {
+          "item": "stew",
+          "amount": 2
+        }
+      ],
+      "reward": {
+        "gold": 500
+      }
+    },
+    {
+      "id": "closer-stories",
+      "main": false,
+      "title": {
+        "en": "Time, freely given",
+        "id": "Waktu yang diberikan"
+      },
+      "description": {
+        "en": "Share two friendship moments. Some stories need a little time together.",
+        "id": "Bagikan dua momen pertemanan. Beberapa cerita membutuhkan waktu bersama."
+      },
+      "giver": "Cleo",
+      "requirements": [
+        {
+          "stat": "bondEvents",
+          "amount": 2
+        }
+      ],
+      "reward": {
+        "gold": 450
+      }
+    },
+    {
+      "id": "every-table",
+      "main": false,
+      "title": {
+        "en": "Every table, a welcome",
+        "id": "Sambutan di setiap meja"
+      },
+      "description": {
+        "en": "Join six community gatherings across the new towns.",
+        "id": "Ikuti enam pertemuan komunitas di kota-kota baru."
+      },
+      "giver": "Elias",
+      "requirements": [
+        {
+          "stat": "communityEvents",
+          "amount": 6
+        }
+      ],
+      "reward": {
+        "gold": 900
+      }
+    },
+    {
+      "id": "deep-discoveries",
+      "main": false,
+      "title": {
+        "en": "A patient explorer",
+        "id": "Penjelajah yang sabar"
+      },
+      "description": {
+        "en": "Recover the chart, lens and compass from all three vaults.",
+        "id": "Temukan peta, lensa, dan kompas di tiga ruang penjelajahan."
+      },
+      "giver": "Ilan",
+      "requirements": [
+        {
+          "stat": "tideVault",
+          "amount": 1
+        },
+        {
+          "stat": "emberVault",
+          "amount": 1
+        },
+        {
+          "stat": "skyVault",
+          "amount": 1
+        }
+      ],
+      "reward": {
+        "gold": 1200
+      }
+    }
+  ],
+  "villagers": [
+    {
+      "id": "mira",
+      "name": "Mira",
+      "role": {
+        "en": "The seedkeeper",
+        "id": "Penjaga benih"
+      },
+      "sprite": "chara_13",
+      "area": "village",
+      "x": 18,
+      "y": 17,
+      "birthday": [
+        0,
+        8
+      ],
+      "loves": [
+        "flower",
+        "bouquet",
+        "turnip"
+      ],
+      "color": "#b8907c",
+      "romance": true,
+      "dialogue": [
+        {
+          "en": "You can tell a lot about a person by the way they tend a garden. I think yours will be lovely.",
+          "id": "Kebun mencerminkan orang yang merawatnya. Kebunmu pasti akan indah."
+        },
+        {
+          "en": "A little rain, a little patience. That is all a seed really asks of us.",
+          "id": "Sedikit hujan, sedikit kesabaran. Hanya itu yang diminta benih."
+        },
+        {
+          "en": "Grandmother used to leave flowers by the old well. Maybe we can bring that tradition back.",
+          "id": "Nenek dulu menaruh bunga di sumur tua. Mungkin kita bisa menghidupkan tradisi itu kembali."
+        }
+      ]
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "role": {
+        "en": "Woodland ranger",
+        "id": "Penjaga hutan"
+      },
+      "sprite": "chara_29",
+      "area": "forest",
+      "x": 20,
+      "y": 17,
+      "birthday": [
+        2,
+        12
+      ],
+      "loves": [
+        "mushroom",
+        "stew",
+        "wood"
+      ],
+      "color": "#82a47a",
+      "romance": true,
+      "dialogue": [
+        {
+          "en": "The woods have their own rhythm. Walk slowly, and they will show you their secrets.",
+          "id": "Hutan punya iramanya sendiri. Berjalanlah perlahan untuk menemukan rahasianya."
+        },
+        {
+          "en": "I marked a few berry bushes along the trail. Help yourself, but leave some for the birds.",
+          "id": "Aku menandai semak beri di jalur. Ambil secukupnya dan sisakan untuk burung."
+        },
+        {
+          "en": "When the valley blooms again, I want to see it with someone who understands this place.",
+          "id": "Saat lembah kembali mekar, aku ingin melihatnya bersama orang yang memahami tempat ini."
+        }
+      ]
+    },
+    {
+      "id": "elias",
+      "name": "Elias",
+      "role": {
+        "en": "Village mayor",
+        "id": "Kepala desa"
+      },
+      "sprite": "chara_3",
+      "area": "village",
+      "x": 29,
+      "y": 15,
+      "birthday": [
+        1,
+        5
+      ],
+      "loves": [
+        "soup",
+        "corn",
+        "jam"
+      ],
+      "color": "#9b99b0",
+      "romance": false,
+      "dialogue": [
+        {
+          "en": "Your grandmother believed this valley could become a home for everyone. You have her spirit.",
+          "id": "Nenekmu percaya lembah ini bisa menjadi rumah bagi semua orang. Kamu mewarisi semangatnya."
+        },
+        {
+          "en": "The old community garden has seen better days. Every harvest gets us a little closer.",
+          "id": "Kebun komunitas tua perlu dirawat. Setiap panen membawa kita lebih dekat."
+        },
+        {
+          "en": "The Lantern Festival is our promise to one another: no one in Dewhaven is alone.",
+          "id": "Festival Lentera adalah janji kami: tak seorang pun di Dewhaven sendirian."
+        }
+      ]
+    },
+    {
+      "id": "cleo",
+      "name": "Cleo",
+      "role": {
+        "en": "Café owner",
+        "id": "Pemilik kafe"
+      },
+      "sprite": "chara_18",
+      "area": "village",
+      "x": 24,
+      "y": 21,
+      "birthday": [
+        1,
+        19
+      ],
+      "loves": [
+        "egg",
+        "berry",
+        "jam"
+      ],
+      "color": "#7e9ab3",
+      "romance": true,
+      "dialogue": [
+        {
+          "en": "Come in whenever you like. There is always room at my table, especially for a farmer.",
+          "id": "Mampirlah kapan saja. Selalu ada kursi di mejaku, terutama untuk seorang petani."
+        },
+        {
+          "en": "Nothing beats cooking with something you grew yourself. Try the farmhouse omelet!",
+          "id": "Memasak hasil kebun sendiri rasanya paling enak. Cobalah omelet farm!"
+        },
+        {
+          "en": "I have a recipe for every season. The best ingredient is still good company.",
+          "id": "Aku punya resep untuk setiap musim. Bahan terbaik tetap teman yang baik."
+        }
+      ]
+    },
+    {
+      "id": "finn",
+      "name": "Finn",
+      "role": {
+        "en": "Lake wanderer",
+        "id": "Penjelajah danau"
+      },
+      "sprite": "chara_23",
+      "area": "lake",
+      "x": 20,
+      "y": 20,
+      "birthday": [
+        0,
+        22
+      ],
+      "loves": [
+        "trout",
+        "moonfish",
+        "fish_dinner"
+      ],
+      "color": "#85aaa9",
+      "romance": true,
+      "dialogue": [
+        {
+          "en": "Watch the float, not the clock. The lake rewards a calm heart.",
+          "id": "Perhatikan pelampung, bukan jam. Danau menghargai hati yang tenang."
+        },
+        {
+          "en": "After sunset, something silver glides beneath the lilies. A moonfish, if the stories are true.",
+          "id": "Setelah senja, sesuatu berwarna perak berenang di bawah teratai. Ikan bulan, menurut cerita."
+        },
+        {
+          "en": "The bridge is a fine place to sit together and say absolutely nothing.",
+          "id": "Jembatan adalah tempat yang indah untuk duduk bersama tanpa berkata apa pun."
+        }
+      ]
+    },
+    {
+      "id": "orin",
+      "name": "Orin",
+      "role": {
+        "en": "Blacksmith",
+        "id": "Pandai besi"
+      },
+      "sprite": "chara_4",
+      "area": "mine",
+      "x": 16,
+      "y": 19,
+      "birthday": [
+        3,
+        11
+      ],
+      "loves": [
+        "iron",
+        "crystal",
+        "stew"
+      ],
+      "color": "#b89068",
+      "romance": false,
+      "dialogue": [
+        {
+          "en": "Good tools deserve good hands. Bring me copper and we will give yours a little more strength.",
+          "id": "Alat bagus layak di tangan yang baik. Bawa tembaga agar alatmu semakin kuat."
+        },
+        {
+          "en": "There is moonstone deep in the mine. Bring a full stomach and a steady pickaxe.",
+          "id": "Ada batu bulan di kedalaman tambang. Bawa perut kenyang dan beliung yang kuat."
+        },
+        {
+          "en": "Stone remembers everything. This valley has a few stories left to tell.",
+          "id": "Batu mengingat segalanya. Lembah ini masih punya cerita untuk dibagikan."
+        }
+      ]
+    },
+    {
+      "id": "sera",
+      "name": "Sera",
+      "role": {
+        "en": "Boatbuilder",
+        "id": "Pembuat kapal"
+      },
+      "sprite": "chara_18",
+      "hue": 38,
+      "area": "aster-quay",
+      "x": 18,
+      "y": 17,
+      "birthday": [
+        1,
+        12
+      ],
+      "loves": [
+        "wood",
+        "copper",
+        "fish_dinner"
+      ],
+      "color": "#9c8171",
+      "romance": true,
+      "newcomer": true,
+      "dialogue": [
+        {
+          "en": "A boat is a promise that the shore is not the end of the world. I would like to build a good one.",
+          "id": "Kapal adalah janji bahwa pantai bukan akhir dunia. Aku ingin membuat kapal yang baik."
+        },
+        {
+          "en": "Your grandmother kept the delivery ledger here. Every name had a little note beside it.",
+          "id": "Nenekmu menyimpan buku kiriman di sini. Setiap nama punya catatan kecil."
+        },
+        {
+          "en": "I saved the smoothest piece of driftwood. There is a place for it in the new boat.",
+          "id": "Aku menyimpan kayu apung terhalus. Ada tempat untuknya di kapal baru."
+        }
+      ]
+    },
+    {
+      "id": "tamsin",
+      "name": "Tamsin",
+      "role": {
+        "en": "Orchard keeper",
+        "id": "Penjaga kebun buah"
+      },
+      "sprite": "chara_13",
+      "hue": 72,
+      "area": "sunridge",
+      "x": 29,
+      "y": 18,
+      "birthday": [
+        2,
+        3
+      ],
+      "loves": [
+        "jam",
+        "flower",
+        "pumpkin"
+      ],
+      "color": "#ba9263",
+      "romance": true,
+      "newcomer": true,
+      "dialogue": [
+        {
+          "en": "The orchard takes its time. I am learning to do the same. Come sit when your chores are done.",
+          "id": "Kebun tumbuh perlahan. Aku belajar mengikutinya. Mampirlah setelah pekerjaanmu selesai."
+        },
+        {
+          "en": "We used to set one long table between the trees. Everyone brought something small.",
+          "id": "Dulu kami menata meja panjang di antara pohon. Semua membawa sesuatu."
+        },
+        {
+          "en": "I planted a new row this morning. Some plans are worth waiting several seasons for.",
+          "id": "Aku menanam baris baru pagi ini. Beberapa rencana pantas ditunggu hingga beberapa musim."
+        }
+      ]
+    },
+    {
+      "id": "ilan",
+      "name": "Ilan",
+      "role": {
+        "en": "Keeper of the atlas",
+        "id": "Penjaga atlas"
+      },
+      "sprite": "chara_4",
+      "hue": 155,
+      "area": "briar-hollow",
+      "x": 25,
+      "y": 18,
+      "birthday": [
+        3,
+        17
+      ],
+      "loves": [
+        "crystal",
+        "soup",
+        "ancient_chart"
+      ],
+      "color": "#8794a9",
+      "romance": false,
+      "newcomer": true,
+      "dialogue": [
+        {
+          "en": "Maps remember where the roads went. Letters remember why anyone took them. We need both.",
+          "id": "Peta mengingat arah jalan. Surat mengingat alasan orang menempuhnya. Keduanya penting."
+        },
+        {
+          "en": "The old observatory measured the seasons, not fortunes. Its lens has been missing for years.",
+          "id": "Observatorium tua mengukur musim, bukan nasib. Lensanya hilang bertahun-tahun."
+        },
+        {
+          "en": "Leave a little space in every map. There should always be somewhere left to discover.",
+          "id": "Sisakan ruang di setiap peta. Selalu ada tempat yang belum ditemukan."
+        }
+      ]
+    }
+  ],
+  "appearances": [
+    {
+      "id": 0,
+      "frame": "farmer/walk/down/1",
+      "sprite": "farmer",
+      "name": {
+        "en": "Fieldkeeper",
+        "id": "Penjaga ladang"
+      },
+      "note": {
+        "en": "Straw hat · canvas overalls",
+        "id": "Topi jerami · baju kebun"
+      }
+    },
+    {
+      "id": 1,
+      "frame": "chara_5/down/1",
+      "sprite": "chara_5",
+      "name": {
+        "en": "Sunfarer",
+        "id": "Penjelajah mentari"
+      },
+      "note": {
+        "en": "Copper hair · working apron",
+        "id": "Rambut tembaga · apron"
+      }
+    },
+    {
+      "id": 2,
+      "frame": "chara_17/down/1",
+      "sprite": "chara_17",
+      "name": {
+        "en": "Wayfarer",
+        "id": "Pengembara"
+      },
+      "note": {
+        "en": "Silver hair · travelling coat",
+        "id": "Rambut perak · mantel"
+      }
+    },
+    {
+      "id": 3,
+      "frame": "chara_26/down/1",
+      "sprite": "chara_26",
+      "name": {
+        "en": "Trailkeeper",
+        "id": "Penjaga jalur"
+      },
+      "note": {
+        "en": "Rust hood · leather gear",
+        "id": "Hood merah bata · pakaian kulit"
+      }
+    }
+  ]
+}

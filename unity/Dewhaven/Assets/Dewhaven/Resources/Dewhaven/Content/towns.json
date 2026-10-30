@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "village",
+    "name": "Dewhaven",
+    "subtitle": "Gardens, workshops and the first road home",
+    "size": [
+      72,
+      72
+    ],
+    "entry": [
+      36,
+      8
+    ],
+    "plaza": [
+      37,
+      38
+    ],
+    "districts": [
+      [
+        "Seed Lane",
+        24,
+        18
+      ],
+      [
+        "Letter Court",
+        47,
+        52
+      ],
+      [
+        "Willow Gardens",
+        24,
+        66
+      ]
+    ],
+    "roads": [
+      [
+        [
+          36,
+          0
+        ],
+        [
+          36,
+          10
+        ],
+        [
+          34,
+          22
+        ],
+        [
+          37,
+          31
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          34,
+          48
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          40,
+          65
+        ],
+        [
+          56,
+          65
+        ],
+        [
+          56,
+          72
+        ]
+      ],
+      [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          38
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          29,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          45,
+          36
+        ],
+        [
+          54,
+          38
+        ],
+        [
+          72,
+          38
+        ]
+      ],
+      [
+        [
+          10,
+          17
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          35,
+          20
+        ],
+        [
+          47,
+          17
+        ],
+        [
+          58,
+          19
+        ],
+        [
+          61,
+          17
+        ]
+      ],
+      [
+        [
+          9,
+          38
+        ],
+        [
+          10,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          24,
+          33
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          37,
+          38
+        ]
+      ],
+      [
+        [
+          61,
+          33
+        ],
+        [
+          62,
+          38
+        ]
+      ],
+      [
+        [
+          10,
+          51
+        ],
+        [
+          20,
+          53
+        ],
+        [
+          24,
+          51
+        ],
+        [
+          35,
+          52
+        ],
+        [
+          47,
+          51
+        ],
+        [
+          58,
+          53
+        ],
+        [
+          61,
+          51
+        ]
+      ],
+      [
+        [
+          10,
+          51
+        ],
+        [
+          8,
+          58
+        ],
+        [
+          10,
+          66
+        ],
+        [
+          22,
+          67
+        ],
+        [
+          24,
+          66
+        ],
+        [
+          35,
+          65
+        ],
+        [
+          47,
+          66
+        ],
+        [
+          56,
+          65
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "rect": [
+          53,
+          0,
+          3,
+          72
+        ]
+      }
+    ],
+    "gardens": [
+      [
+        5,
+        21,
+        7,
+        4
+      ],
+      [
+        22,
+        55,
+        8,
+        3
+      ],
+      [
+        42,
+        56,
+        8,
+        3
+      ]
+    ],
+    "exits": [
+      [
+        "farm",
+        36,
+        2.8
+      ],
+      [
+        "forest",
+        2.8,
+        38
+      ],
+      [
+        "lake",
+        69.2,
+        38
+      ],
+      [
+        "aster-quay",
+        56,
+        69.2
+      ]
+    ],
+    "palette": [
+      "#e2d5b6",
+      "#8f9b7c",
+      "#a27851"
+    ],
+    "buildings": [
+      {
+        "id": "market",
+        "name": "Mira's Seedhouse",
+        "position": [
+          24,
+          13
+        ],
+        "frame": "house_01",
+        "style": "shop",
+        "owner": "mira",
+        "shop": "seedhouse",
+        "icon": "plant"
+      },
+      {
+        "id": "townhall",
+        "name": "Dewhaven Hall",
+        "position": [
+          47,
+          13
+        ],
+        "frame": "house_25",
+        "style": "hall",
+        "owner": "elias",
+        "shop": null,
+        "icon": "scroll"
+      },
+      {
+        "id": "cafe",
+        "name": "The Copper Kettle",
+        "position": [
+          24,
+          47
+        ],
+        "frame": "house_06",
+        "style": "kitchen",
+        "owner": "cleo",
+        "shop": "kettle",
+        "icon": "coffee"
+      },
+      {
+        "id": "ranch",
+        "name": "Nora's Meadow Ranch",
+        "position": [
+          10,
+          47
+        ],
+        "frame": "house_19",
+        "style": "barn",
+        "owner": "nora",
+        "shop": "ranch",
+        "icon": "paw-print"
+      },
+      {
+        "id": "forge",
+        "name": "Copper & Coal",
+        "position": [
+          61,
+          29
+        ],
+        "frame": "house_09",
+        "style": "forge",
+        "owner": "orin",
+        "shop": "forge",
+        "icon": "hammer"
+      },
+      {
+        "id": "carpenter",
+        "name": "Gareth's Timberyard",
+        "position": [
+          61,
+          47
+        ],
+        "frame": "house_08",
+        "style": "forge",
+        "owner": "gareth",
+        "shop": "builder",
+        "icon": "house"
+      },
+      {
+        "id": "clothier",
+        "name": "Thread & Thimble",
+        "position": [
+          10,
+          13
+        ],
+        "frame": "house_10",
+        "style": "tailor",
+        "owner": "ellis",
+        "shop": "clothier",
+        "icon": "backpack"
+      },
+      {
+        "id": "post-office",
+        "name": "The Letter House",
+        "position": [
+          47,
+          47
+        ],
+        "frame": "house_24",
+        "style": "study",
+        "owner": "aya",
+        "shop": null,
+        "icon": "envelope"
+      },
+      {
+        "id": "willow-house",
+        "name": "Willow Cottage",
+        "position": [
+          10,
+          62
+        ],
+        "frame": "house_02",
+        "style": "home",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "seedkeepers-cottage",
+        "name": "The Seedkeeper's Cottage",
+        "position": [
+          24,
+          62
+        ],
+        "frame": "house_03",
+        "style": "home",
+        "owner": "mira",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "riverstone-house",
+        "name": "Riverstone House",
+        "position": [
+          47,
+          62
+        ],
+        "frame": "house_12",
+        "style": "home",
+        "owner": "elias",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "clinic",
+        "name": "The Hearth Clinic",
+        "position": [
+          10,
+          29
+        ],
+        "frame": "house_07",
+        "style": "botanical",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "community-kitchen",
+        "name": "The Community Kitchen",
+        "position": [
+          24,
+          29
+        ],
+        "frame": "house_24",
+        "style": "kitchen",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "courier-lodge",
+        "name": "The Courier Lodge",
+        "position": [
+          61,
+          13
+        ],
+        "frame": "house_11",
+        "style": "study",
+        "owner": "aya",
+        "shop": null,
+        "icon": "house"
+      }
+    ],
+    "signLimit": 3,
+    "minimumAisleTiles": 2,
+    "bridges": []
+  },
+  {
+    "id": "aster-quay",
+    "name": "Aster Quay",
+    "subtitle": "A working harbour, sheltered canals and salt-worn stone",
+    "size": [
+      76,
+      68
+    ],
+    "entry": [
+      20,
+      8
+    ],
+    "plaza": [
+      27,
+      38
+    ],
+    "districts": [
+      [
+        "Canal Market",
+        27,
+        18
+      ],
+      [
+        "Harbour Walk",
+        47,
+        52
+      ],
+      [
+        "Lighthouse Court",
+        68,
+        18
+      ]
+    ],
+    "roads": [
+      [
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          26,
+          38
+        ],
+        [
+          22,
+          46
+        ],
+        [
+          20,
+          51
+        ]
+      ],
+      [
+        [
+          75,
+          36
+        ],
+        [
+          66,
+          36
+        ],
+        [
+          56,
+          35
+        ],
+        [
+          45,
+          37
+        ],
+        [
+          36,
+          38
+        ],
+        [
+          27,
+          38
+        ]
+      ],
+      [
+        [
+          12,
+          17
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          28,
+          17
+        ],
+        [
+          40,
+          19
+        ],
+        [
+          47,
+          17
+        ],
+        [
+          59,
+          19
+        ],
+        [
+          68,
+          17
+        ]
+      ],
+      [
+        [
+          12,
+          33
+        ],
+        [
+          18,
+          35
+        ],
+        [
+          28,
+          33
+        ],
+        [
+          41,
+          35
+        ],
+        [
+          59,
+          33
+        ]
+      ],
+      [
+        [
+          12,
+          48
+        ],
+        [
+          25,
+          49
+        ],
+        [
+          28,
+          48
+        ],
+        [
+          40,
+          50
+        ],
+        [
+          47,
+          48
+        ],
+        [
+          59,
+          48
+        ]
+      ],
+      [
+        [
+          59,
+          33
+        ],
+        [
+          64,
+          26
+        ],
+        [
+          68,
+          17
+        ]
+      ],
+      [
+        [
+          0,
+          48
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          20,
+          51
+        ],
+        [
+          35,
+          50
+        ],
+        [
+          50,
+          52
+        ],
+        [
+          68,
+          50
+        ]
+      ],
+      [
+        [
+          59,
+          48
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          66,
+          36
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "rect": [
+          35,
+          0,
+          4,
+          68
+        ]
+      },
+      {
+        "rect": [
+          0,
+          55,
+          76,
+          13
+        ]
+      }
+    ],
+    "gardens": [
+      [
+        5,
+        22,
+        6,
+        3
+      ],
+      [
+        45,
+        22,
+        7,
+        3
+      ]
+    ],
+    "exits": [
+      [
+        "village",
+        20,
+        2.8
+      ],
+      [
+        "reedwater-marsh",
+        2.8,
+        48
+      ],
+      [
+        "saltwind-cliffs",
+        73.2,
+        36
+      ]
+    ],
+    "palette": [
+      "#ddd6c4",
+      "#91b0b2",
+      "#8a6c50"
+    ],
+    "buildings": [
+      {
+        "id": "quay-inn",
+        "name": "The Saltglass Inn",
+        "position": [
+          12,
+          13
+        ],
+        "frame": "house_08",
+        "style": "inn",
+        "owner": "marin",
+        "shop": "saltglass",
+        "icon": "bed"
+      },
+      {
+        "id": "quay-workshop",
+        "name": "Sera's Boatworks",
+        "position": [
+          59,
+          29
+        ],
+        "frame": "house_14",
+        "style": "forge",
+        "owner": "sera",
+        "shop": null,
+        "icon": "anchor"
+      },
+      {
+        "id": "quay-market",
+        "name": "The Quayside Exchange",
+        "position": [
+          28,
+          13
+        ],
+        "frame": "house_06",
+        "style": "shop",
+        "owner": "nemi",
+        "shop": "exchange",
+        "icon": "basket"
+      },
+      {
+        "id": "fishmonger",
+        "name": "Cato's Fresh Catch",
+        "position": [
+          59,
+          44
+        ],
+        "frame": "house_15",
+        "style": "shop",
+        "owner": "cato",
+        "shop": "fishmonger",
+        "icon": "fish"
+      },
+      {
+        "id": "harbour-office",
+        "name": "The Harbour House",
+        "position": [
+          12,
+          44
+        ],
+        "frame": "house_24",
+        "style": "harbour",
+        "owner": "basil",
+        "shop": null,
+        "icon": "compass"
+      },
+      {
+        "id": "quay-house",
+        "name": "Seaglass Cottage",
+        "position": [
+          28,
+          44
+        ],
+        "frame": "house_12",
+        "style": "home",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "lighthouse",
+        "name": "The Lowlight Lighthouse",
+        "position": [
+          68,
+          13
+        ],
+        "frame": "house_25",
+        "style": "study",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "netmakers-house",
+        "name": "The Netmaker's House",
+        "position": [
+          28,
+          29
+        ],
+        "frame": "house_04",
+        "style": "tailor",
+        "owner": "cato",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "quay-storehouse",
+        "name": "The Delivery Storehouse",
+        "position": [
+          47,
+          13
+        ],
+        "frame": "house_26",
+        "style": "harbour",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "seashell-house",
+        "name": "Seashell House",
+        "position": [
+          12,
+          29
+        ],
+        "frame": "house_03",
+        "style": "home",
+        "owner": "nemi",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "mariners-house",
+        "name": "The Mariner's House",
+        "position": [
+          47,
+          44
+        ],
+        "frame": "house_12",
+        "style": "home",
+        "owner": "basil",
+        "shop": null,
+        "icon": "house"
+      }
+    ],
+    "signLimit": 3,
+    "minimumAisleTiles": 2,
+    "bridges": []
+  },
+  {
+    "id": "sunridge",
+    "name": "Sunridge",
+    "subtitle": "Terraced orchards, warm stone and glass in the afternoon light",
+    "size": [
+      68,
+      68
+    ],
+    "entry": [
+      34,
+      8
+    ],
+    "plaza": [
+      30,
+      36
+    ],
+    "districts": [
+      [
+        "Blossom Court",
+        30,
+        36
+      ],
+      [
+        "Orchard Walk",
+        24,
+        50
+      ],
+      [
+        "Glasshouse Lane",
+        51,
+        18
+      ]
+    ],
+    "roads": [
+      [
+        [
+          34,
+          0
+        ],
+        [
+          34,
+          10
+        ],
+        [
+          31,
+          22
+        ],
+        [
+          30,
+          36
+        ],
+        [
+          34,
+          44
+        ],
+        [
+          39,
+          52
+        ],
+        [
+          42,
+          62
+        ],
+        [
+          54,
+          64
+        ],
+        [
+          54,
+          68
+        ]
+      ],
+      [
+        [
+          30,
+          36
+        ],
+        [
+          44,
+          37
+        ],
+        [
+          55,
+          36
+        ],
+        [
+          68,
+          36
+        ]
+      ],
+      [
+        [
+          10,
+          17
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          34,
+          18
+        ],
+        [
+          45,
+          19
+        ],
+        [
+          51,
+          17
+        ]
+      ],
+      [
+        [
+          10,
+          17
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          10,
+          33
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          30,
+          36
+        ]
+      ],
+      [
+        [
+          42,
+          33
+        ],
+        [
+          49,
+          35
+        ],
+        [
+          57,
+          33
+        ]
+      ],
+      [
+        [
+          57,
+          49
+        ],
+        [
+          49,
+          51
+        ],
+        [
+          38,
+          49
+        ],
+        [
+          24,
+          49
+        ]
+      ],
+      [
+        [
+          24,
+          49
+        ],
+        [
+          22,
+          54
+        ],
+        [
+          24,
+          60
+        ],
+        [
+          18,
+          64
+        ]
+      ],
+      [
+        [
+          10,
+          62
+        ],
+        [
+          18,
+          64
+        ],
+        [
+          28,
+          62
+        ],
+        [
+          42,
+          62
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          18,
+          54,
+          5,
+          4
+        ]
+      }
+    ],
+    "gardens": [
+      [
+        5,
+        22,
+        7,
+        3
+      ],
+      [
+        40,
+        21,
+        8,
+        4
+      ],
+      [
+        25,
+        53,
+        6,
+        6
+      ]
+    ],
+    "exits": [
+      [
+        "cedar-downs",
+        34,
+        2.8
+      ],
+      [
+        "briar-hollow",
+        65.2,
+        36
+      ],
+      [
+        "ember-trail",
+        54,
+        65.2
+      ]
+    ],
+    "palette": [
+      "#e6d6b6",
+      "#acb08a",
+      "#b18a57"
+    ],
+    "buildings": [
+      {
+        "id": "orchard-house",
+        "name": "Tamsin's Orchard Kitchen",
+        "position": [
+          24,
+          13
+        ],
+        "frame": "house_10",
+        "style": "kitchen",
+        "owner": "tamsin",
+        "shop": "orchard",
+        "icon": "cherries"
+      },
+      {
+        "id": "glasshouse",
+        "name": "The Winterglass Conservatory",
+        "position": [
+          51,
+          13
+        ],
+        "frame": "house_23",
+        "style": "glasshouse",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "flower-shop",
+        "name": "Lyra's Wildflower House",
+        "position": [
+          10,
+          29
+        ],
+        "frame": "house_05",
+        "style": "botanical",
+        "owner": "lyra",
+        "shop": "flowers",
+        "icon": "flower"
+      },
+      {
+        "id": "bakery",
+        "name": "The Hearth Pantry",
+        "position": [
+          42,
+          29
+        ],
+        "frame": "house_01",
+        "style": "kitchen",
+        "owner": "ada",
+        "shop": "pantry",
+        "icon": "cooking-pot"
+      },
+      {
+        "id": "apiary",
+        "name": "Pavel's Garden House",
+        "position": [
+          57,
+          45
+        ],
+        "frame": "house_17",
+        "style": "botanical",
+        "owner": "pavel",
+        "shop": "garden",
+        "icon": "leaf"
+      },
+      {
+        "id": "orchard-cottage",
+        "name": "The Orchard Cottage",
+        "position": [
+          10,
+          58
+        ],
+        "frame": "house_03",
+        "style": "home",
+        "owner": "cedar",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "seed-library",
+        "name": "The Seed Library",
+        "position": [
+          10,
+          13
+        ],
+        "frame": "house_24",
+        "style": "study",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "presshouse",
+        "name": "The Fruit Presshouse",
+        "position": [
+          24,
+          45
+        ],
+        "frame": "house_08",
+        "style": "forge",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "orchard-barn",
+        "name": "The Orchard Barn",
+        "position": [
+          57,
+          29
+        ],
+        "frame": "house_19",
+        "style": "barn",
+        "owner": "cedar",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "lyras-cottage",
+        "name": "Lyra's Cottage",
+        "position": [
+          42,
+          58
+        ],
+        "frame": "house_02",
+        "style": "home",
+        "owner": "lyra",
+        "shop": null,
+        "icon": "house"
+      }
+    ],
+    "signLimit": 3,
+    "minimumAisleTiles": 2,
+    "bridges": []
+  },
+  {
+    "id": "briar-hollow",
+    "name": "Briar Hollow",
+    "subtitle": "Archive terraces, mountain paths and a stream through grey stone",
+    "size": [
+      68,
+      72
+    ],
+    "entry": [
+      8,
+      24
+    ],
+    "plaza": [
+      31,
+      38
+    ],
+    "districts": [
+      [
+        "Archive Court",
+        31,
+        24
+      ],
+      [
+        "Stream Walk",
+        12,
+        38
+      ],
+      [
+        "Mountain Steps",
+        59,
+        66
+      ]
+    ],
+    "roads": [
+      [
+        [
+          0,
+          24
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          33
+        ],
+        [
+          26,
+          38
+        ],
+        [
+          31,
+          38
+        ],
+        [
+          35,
+          46
+        ],
+        [
+          34,
+          56
+        ],
+        [
+          43,
+          63
+        ],
+        [
+          59,
+          66
+        ]
+      ],
+      [
+        [
+          52,
+          0
+        ],
+        [
+          52,
+          9
+        ],
+        [
+          50,
+          18
+        ],
+        [
+          39,
+          20
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      [
+        [
+          50,
+          18
+        ],
+        [
+          59,
+          17
+        ]
+      ],
+      [
+        [
+          12,
+          33
+        ],
+        [
+          19,
+          35
+        ],
+        [
+          31,
+          38
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          46,
+          33
+        ]
+      ],
+      [
+        [
+          0,
+          50
+        ],
+        [
+          11,
+          50
+        ],
+        [
+          18,
+          52
+        ],
+        [
+          28,
+          51
+        ],
+        [
+          35,
+          49
+        ],
+        [
+          46,
+          51
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "rect": [
+          7,
+          0,
+          3,
+          72
+        ]
+      }
+    ],
+    "gardens": [
+      [
+        23,
+        23,
+        7,
+        5
+      ],
+      [
+        40,
+        55,
+        9,
+        4
+      ]
+    ],
+    "exits": [
+      [
+        "copperleaf-pass",
+        2.8,
+        50
+      ],
+      [
+        "sunridge",
+        2.8,
+        24
+      ],
+      [
+        "observatory-rise",
+        52,
+        2.8
+      ]
+    ],
+    "palette": [
+      "#d8d9d2",
+      "#8e9f9e",
+      "#8c8170"
+    ],
+    "buildings": [
+      {
+        "id": "library",
+        "name": "The Briar Archive",
+        "position": [
+          24,
+          13
+        ],
+        "frame": "house_25",
+        "style": "hall",
+        "owner": "ilan",
+        "shop": null,
+        "icon": "book-open"
+      },
+      {
+        "id": "archive-house",
+        "name": "The Cartographer's House",
+        "position": [
+          46,
+          13
+        ],
+        "frame": "house_08",
+        "style": "study",
+        "owner": "jun",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "apothecary",
+        "name": "Bea's Herb & Hearth",
+        "position": [
+          12,
+          29
+        ],
+        "frame": "house_11",
+        "style": "botanical",
+        "owner": "bea",
+        "shop": "herbalist",
+        "icon": "leaf"
+      },
+      {
+        "id": "outfitters",
+        "name": "The Ridge Outfitter",
+        "position": [
+          46,
+          29
+        ],
+        "frame": "house_09",
+        "style": "tailor",
+        "owner": "tobin",
+        "shop": "outfitter",
+        "icon": "backpack"
+      },
+      {
+        "id": "mountain-lodge",
+        "name": "The Wayfarer Lodge",
+        "position": [
+          59,
+          62
+        ],
+        "frame": "house_19",
+        "style": "inn",
+        "owner": "vesper",
+        "shop": "lodge",
+        "icon": "mountains"
+      },
+      {
+        "id": "hollow-house",
+        "name": "Heather Cottage",
+        "position": [
+          28,
+          47
+        ],
+        "frame": "house_07",
+        "style": "home",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "drying-house",
+        "name": "The Herb Drying House",
+        "position": [
+          12,
+          47
+        ],
+        "frame": "house_17",
+        "style": "botanical",
+        "owner": "bea",
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "masons-yard",
+        "name": "The Mason's Yard",
+        "position": [
+          46,
+          47
+        ],
+        "frame": "house_14",
+        "style": "forge",
+        "owner": null,
+        "shop": null,
+        "icon": "house"
+      },
+      {
+        "id": "guides-hut",
+        "name": "The Guide's Hut",
+        "position": [
+          59,
+          13
+        ],
+        "frame": "house_15",
+        "style": "study",
+        "owner": "vesper",
+        "shop": null,
+        "icon": "house"
+      }
+    ],
+    "signLimit": 3,
+    "minimumAisleTiles": 2,
+    "bridges": []
+  }
+]

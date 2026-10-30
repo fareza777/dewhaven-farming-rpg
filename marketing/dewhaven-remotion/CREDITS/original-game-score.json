@@ -1,0 +1,226 @@
+{
+  "authorship": "Original Dewhaven procedural compositions; all oscillators and note events authored locally for this game.",
+  "arrangement": "Slow warm sustained harmony and sparse soft tones; no percussion, vocals or external samples.",
+  "files": [
+    {
+      "name": "daylight",
+      "seconds": 96,
+      "sampleRate": 24000,
+      "channels": 2,
+      "peak": 0.36,
+      "rms": 0.0807,
+      "bytes": 494915,
+      "sha256": "0e328e80f0913c30447dd79e152ac9bdfcee13e8006f619f42fbf395e525b5d6",
+      "chords": [
+        [
+          50,
+          57,
+          61,
+          66
+        ],
+        [
+          43,
+          54,
+          59,
+          62
+        ],
+        [
+          47,
+          54,
+          57,
+          62
+        ],
+        [
+          45,
+          52,
+          59,
+          64
+        ]
+      ],
+      "melody": [
+        [
+          8,
+          66
+        ],
+        [
+          17,
+          64
+        ],
+        [
+          37,
+          69
+        ],
+        [
+          59,
+          66
+        ],
+        [
+          78,
+          64
+        ],
+        [
+          87,
+          62
+        ]
+      ]
+    },
+    {
+      "name": "evening",
+      "seconds": 104,
+      "sampleRate": 24000,
+      "channels": 2,
+      "peak": 0.3429,
+      "rms": 0.082,
+      "bytes": 544642,
+      "sha256": "93f74c9f3a51a1a2c3bdaeecc99485408f63fdc65135417d2e2a797cfa70cb9c",
+      "chords": [
+        [
+          43,
+          50,
+          57,
+          62
+        ],
+        [
+          47,
+          54,
+          57,
+          62
+        ],
+        [
+          50,
+          57,
+          61,
+          64
+        ],
+        [
+          45,
+          52,
+          57,
+          62
+        ]
+      ],
+      "melody": [
+        [
+          14,
+          62
+        ],
+        [
+          43,
+          66
+        ],
+        [
+          72,
+          64
+        ],
+        [
+          94,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "trail",
+      "seconds": 96,
+      "sampleRate": 24000,
+      "channels": 2,
+      "peak": 0.337,
+      "rms": 0.082,
+      "bytes": 499516,
+      "sha256": "ab5e074cc580e4c50d112a22e73a4e03ef6dbf2810ac55aa2f7b05d9968e12b2",
+      "chords": [
+        [
+          50,
+          57,
+          62,
+          64
+        ],
+        [
+          48,
+          55,
+          60,
+          67
+        ],
+        [
+          43,
+          50,
+          57,
+          62
+        ],
+        [
+          45,
+          52,
+          59,
+          64
+        ]
+      ],
+      "melody": [
+        [
+          12,
+          69
+        ],
+        [
+          39,
+          67
+        ],
+        [
+          63,
+          66
+        ],
+        [
+          84,
+          64
+        ]
+      ]
+    },
+    {
+      "name": "cavern",
+      "seconds": 112,
+      "sampleRate": 24000,
+      "channels": 2,
+      "peak": 0.36,
+      "rms": 0.0764,
+      "bytes": 579417,
+      "sha256": "b383c995f11f322de865a71c577bf8d30da1e13d497a1cf7a00e8a40089553c1",
+      "chords": [
+        [
+          38,
+          50,
+          57,
+          64
+        ],
+        [
+          41,
+          48,
+          55,
+          62
+        ],
+        [
+          43,
+          50,
+          57,
+          62
+        ],
+        [
+          45,
+          52,
+          57,
+          64
+        ]
+      ],
+      "melody": [
+        [
+          20,
+          64
+        ],
+        [
+          54,
+          62
+        ],
+        [
+          87,
+          61
+        ]
+      ]
+    }
+  ]
+}

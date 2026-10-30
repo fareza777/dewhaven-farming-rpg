@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"public static class DewhavenCampaignRun { public static string Run() { return Dewhaven.Editor.CampaignCheck.Start(); }}","className":"DewhavenCampaignRun","methodName":"Run"}}

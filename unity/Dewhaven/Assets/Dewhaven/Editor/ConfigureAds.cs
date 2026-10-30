@@ -1,0 +1,30 @@
+using System;
+using System.IO;
+using System.Linq;
+using UnityEditor;
+using UnityEngine;
+namespace Dewhaven.Editor
+{
+    public static class ConfigureAds
+    {
+        public static string Run()
+        {
+            EditorBridge.EnsureProject();
+            var type=AppDomain.CurrentDomain.GetAssemblies().Select(a=>a.GetType("GoogleMobileAds.Editor.GoogleMobileAdsSettings")).FirstOrDefault(t=>t!=null);
+            if(type==null)throw new InvalidOperationException("Google's Unity package is still importing.");
+            var instance=(ScriptableObject)type.GetMethod("LoadInstance",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.NonPublic).Invoke(null,null);
+            var data=new SerializedObject(instance);data.FindProperty("adMobAndroidAppId").stringValue="ca-app-pub-6279186647593327~1148808908";
+            data.FindProperty("adMobIOSAppId").stringValue="ca-app-pub-3940256099942544~1458002511";data.ApplyModifiedPropertiesWithoutUndo();EditorUtility.SetDirty(instance);AssetDatabase.SaveAssets();
+            var picker=AssetImporter.GetAtPath("Assets/Plugins/Android/SavePicker.java") as PluginImporter;
+            if(picker!=null){picker.SetCompatibleWithAnyPlatform(false);picker.SetCompatibleWithEditor(false);picker.SetCompatibleWithPlatform(BuildTarget.Android,true);picker.SaveAndReimport();}
+            var rabbit=AssetImporter.GetAtPath("Assets/Dewhaven/Resources/Dewhaven/Art/Animals/rabbit.png") as TextureImporter;
+            if(rabbit!=null){rabbit.textureType=TextureImporterType.Default;rabbit.filterMode=FilterMode.Point;rabbit.mipmapEnabled=false;rabbit.maxTextureSize=128;rabbit.textureCompression=TextureImporterCompression.Uncompressed;rabbit.SaveAndReimport();}
+            foreach(string name in new[]{"paving","stone"})
+            {
+                var texture=AssetImporter.GetAtPath("Assets/Dewhaven/Resources/Dewhaven/Art/Surfaces/"+name+".png") as TextureImporter;
+                if(texture!=null){texture.textureType=TextureImporterType.Default;texture.filterMode=FilterMode.Point;texture.mipmapEnabled=false;texture.maxTextureSize=128;texture.textureCompression=TextureImporterCompression.Uncompressed;texture.SaveAndReimport();}
+            }
+            return "Google Mobile Ads Unity 11.6.0 configured with the Dewhaven production app ID.";
+        }
+    }
+}

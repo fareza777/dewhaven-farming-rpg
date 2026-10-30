@@ -1,0 +1,105 @@
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00000.jpg'
+duration 0.13208008
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00001.jpg'
+duration 0.08563232
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00002.jpg'
+duration 0.07696533
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00003.jpg'
+duration 0.13641357
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00004.jpg'
+duration 0.07421876
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00005.jpg'
+duration 0.08343504
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00006.jpg'
+duration 0.07366945
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00007.jpg'
+duration 0.16552735
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00008.jpg'
+duration 0.07324220
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00009.jpg'
+duration 0.07086180
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00010.jpg'
+duration 0.07458496
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00011.jpg'
+duration 0.07928467
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00012.jpg'
+duration 0.07281494
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00013.jpg'
+duration 0.08087153
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00014.jpg'
+duration 0.07672124
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00015.jpg'
+duration 0.12573242
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00016.jpg'
+duration 0.13885498
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00017.jpg'
+duration 0.11541749
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00018.jpg'
+duration 0.07745361
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00019.jpg'
+duration 0.07940674
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00020.jpg'
+duration 0.07232666
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00021.jpg'
+duration 0.07415771
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00022.jpg'
+duration 0.07714844
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00023.jpg'
+duration 0.06982422
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00024.jpg'
+duration 0.06787109
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00025.jpg'
+duration 0.06817627
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00026.jpg'
+duration 0.07452393
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00027.jpg'
+duration 0.07000732
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00028.jpg'
+duration 0.07891846
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00029.jpg'
+duration 0.06933594
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00030.jpg'
+duration 0.07159423
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00031.jpg'
+duration 0.06927491
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00032.jpg'
+duration 0.07525634
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00033.jpg'
+duration 0.08129883
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00034.jpg'
+duration 0.07421875
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00035.jpg'
+duration 0.07226563
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00036.jpg'
+duration 0.07360840
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00037.jpg'
+duration 0.07244873
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00038.jpg'
+duration 0.07366943
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00039.jpg'
+duration 0.07336423
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00040.jpg'
+duration 0.07348636
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00041.jpg'
+duration 0.07464599
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00042.jpg'
+duration 0.08612065
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00043.jpg'
+duration 0.09057613
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00044.jpg'
+duration 0.08911133
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00045.jpg'
+duration 0.13653554
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00046.jpg'
+duration 0.13891600
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00047.jpg'
+duration 0.09668000
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00048.jpg'
+duration 0.16400127
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00049.jpg'
+duration 0.08642573
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00050.jpg'
+duration 0.10278325
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00051.jpg'
+duration 0.13458275
+file 'E:/Harvest Moon GPT 61/marketing/captures/02-village/portrait/00051.jpg'

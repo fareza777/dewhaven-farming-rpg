@@ -1,0 +1,182 @@
+[
+  {
+    "id": "blossom-picnic",
+    "name": "Blossom Picnic",
+    "area": "village",
+    "date": "Spring 14",
+    "activity": "Lay flowers by the garden's first shared meal.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "flower": 3
+    },
+    "produce": {
+      "bouquet": 1
+    }
+  },
+  {
+    "id": "lakefire-evening",
+    "name": "Lakefire Evening",
+    "area": "lake",
+    "date": "Summer 14",
+    "activity": "Prepare the evening catch by the lake.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "carp": 2
+    },
+    "produce": {
+      "fish_dinner": 1
+    }
+  },
+  {
+    "id": "harvest-gathering",
+    "name": "Harvest Gathering",
+    "area": "sunridge",
+    "date": "Autumn 14",
+    "activity": "Add fresh corn to the orchard harvest baskets.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "corn": 3
+    },
+    "produce": {
+      "jam": 2
+    }
+  },
+  {
+    "id": "starlight-night",
+    "name": "Starlight Night",
+    "area": "briar-hollow",
+    "date": "Winter 14",
+    "activity": "Carry warm bowls to the archive's sheltered walk.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "soup": 2
+    },
+    "produce": {
+      "wool": 2
+    }
+  },
+  {
+    "id": "seed-exchange",
+    "name": "Seed Exchange",
+    "area": "village",
+    "date": "Spring 7",
+    "activity": "Exchange three turnip packets for four carrot packets.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "turnip_seed": 3
+    },
+    "produce": {
+      "carrot_seed": 4
+    }
+  },
+  {
+    "id": "harbour-opening",
+    "name": "Harbour Opening",
+    "area": "aster-quay",
+    "date": "Spring 21",
+    "activity": "Help fit out the first spring delivery boat.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "wood": 6
+    },
+    "produce": {
+      "copper": 3
+    }
+  },
+  {
+    "id": "quay-supper",
+    "name": "Quayside Supper",
+    "area": "aster-quay",
+    "date": "Summer 7",
+    "activity": "Prepare a harbour supper from the day's catch.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "trout": 1
+    },
+    "produce": {
+      "fish_dinner": 2
+    }
+  },
+  {
+    "id": "glasshouse-open-day",
+    "name": "Glasshouse Open Day",
+    "area": "sunridge",
+    "date": "Summer 21",
+    "activity": "Tend the public seed beds and take home a spring variety.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "fertilizer": 2
+    },
+    "produce": {
+      "cauliflower_seed": 4
+    }
+  },
+  {
+    "id": "presshouse-day",
+    "name": "Presshouse Day",
+    "area": "sunridge",
+    "date": "Autumn 7",
+    "activity": "Help turn the last summer berries into preserves.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "berry": 4
+    },
+    "produce": {
+      "jam": 2
+    }
+  },
+  {
+    "id": "mapmakers-walk",
+    "name": "Mapmakers’ Walk",
+    "area": "briar-hollow",
+    "date": "Autumn 21",
+    "activity": "Walk the archive route and leave flowers at the sheltered rest stop.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "flower": 2
+    },
+    "produce": {
+      "crystal": 1
+    }
+  },
+  {
+    "id": "winter-delivery",
+    "name": "Winter Delivery",
+    "area": "village",
+    "date": "Winter 7",
+    "activity": "Pack warm food for the outer farms' winter cart.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "soup": 2
+    },
+    "produce": {
+      "feed": 8
+    }
+  },
+  {
+    "id": "lowlight-evening",
+    "name": "Lowlight Evening",
+    "area": "aster-quay",
+    "date": "Winter 21",
+    "activity": "Repair the fixed lantern brackets before the harbour meal.",
+    "from": 960,
+    "to": 1200,
+    "consume": {
+      "copper": 2
+    },
+    "produce": {
+      "stew": 2
+    }
+  }
+]

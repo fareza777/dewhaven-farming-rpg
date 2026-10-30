@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"public static class DewhavenAndroidRun { public static string Run() { return Dewhaven.Editor.BuildProject.QueueAndroid(); } }","className":"DewhavenAndroidRun","methodName":"Run"}}

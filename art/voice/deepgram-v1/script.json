@@ -1,0 +1,2598 @@
+{
+  "manifest": {
+    "version": 1,
+    "provider": "Deepgram Aura-2",
+    "language": "en",
+    "entries": [
+      {
+        "key": "intro-0",
+        "text": "Your grandmother left you the homestead—and a key wrapped in a delivery ledger. Her note is brief: “The garden can feed more than one household. Start there.”",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "c6fda33953751d329aa237d7",
+            "text": "Your grandmother left you the homestead—and a key wrapped in a delivery ledger.",
+            "path": "Dewhaven/Audio/Voice/c6fda33953751d329aa237d7"
+          },
+          {
+            "id": "df67defb36193f135239713b",
+            "text": "Her note is brief: “The garden can feed more than one household.",
+            "path": "Dewhaven/Audio/Voice/df67defb36193f135239713b"
+          },
+          {
+            "id": "9f80357cfb0a2eaf6dad7455",
+            "text": "Start there.”",
+            "path": "Dewhaven/Audio/Voice/9f80357cfb0a2eaf6dad7455"
+          }
+        ]
+      },
+      {
+        "key": "intro-1",
+        "text": "Beyond Dewhaven, three towns still rely on roads the winter storms have damaged. Aya, the valley courier, brings you as far as the old bridge.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "ff7fbe31828125430e531116",
+            "text": "Beyond Dewhaven, three towns still rely on roads the winter storms have damaged.",
+            "path": "Dewhaven/Audio/Voice/ff7fbe31828125430e531116"
+          },
+          {
+            "id": "813730325108acab8183f9ef",
+            "text": "Aya, the valley courier, brings you as far as the old bridge.",
+            "path": "Dewhaven/Audio/Voice/813730325108acab8183f9ef"
+          }
+        ]
+      },
+      {
+        "key": "intro-2",
+        "text": "The farmhouse is standing. The beds need tending, the shipping crate needs a hinge, and a few of Grandmother's crops are ready to gather.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "6f222b50c746de039a6677f0",
+            "text": "The farmhouse is standing.",
+            "path": "Dewhaven/Audio/Voice/6f222b50c746de039a6677f0"
+          },
+          {
+            "id": "4fcde428e5d59cdb3da7a07b",
+            "text": "The beds need tending, the shipping crate needs a hinge, and a few of Grandmother's crops are ready to gather.",
+            "path": "Dewhaven/Audio/Voice/4fcde428e5d59cdb3da7a07b"
+          }
+        ]
+      },
+      {
+        "key": "intro-3",
+        "text": "At six, sunlight reaches the bedroom floor. Mira opens the seedhouse at eight. There is time to plant your first rows before walking into town.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "a3c0b8ae56151aef6da2abb5",
+            "text": "At six, sunlight reaches the bedroom floor.",
+            "path": "Dewhaven/Audio/Voice/a3c0b8ae56151aef6da2abb5"
+          },
+          {
+            "id": "4590308e70d0bf48449de0e1",
+            "text": "Mira opens the seedhouse at eight.",
+            "path": "Dewhaven/Audio/Voice/4590308e70d0bf48449de0e1"
+          },
+          {
+            "id": "db64838ed51e8b71b2e55cd5",
+            "text": "There is time to plant your first rows before walking into town.",
+            "path": "Dewhaven/Audio/Voice/db64838ed51e8b71b2e55cd5"
+          }
+        ]
+      },
+      {
+        "key": "quest-new-roots-objective",
+        "text": "Plant three seeds and leave the house by the garden door.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "1eb54fbf6447278b9cce10ac",
+            "text": "Plant three seeds and leave the house by the garden door.",
+            "path": "Dewhaven/Audio/Voice/1eb54fbf6447278b9cce10ac"
+          }
+        ]
+      },
+      {
+        "key": "quest-new-roots-opening",
+        "text": "If this letter has found you, the house is yours. Start with three rows. A place becomes home through the small things you return to each morning.",
+        "speaker": "letter",
+        "model": "aura-2-athena-en",
+        "segments": [
+          {
+            "id": "13e604260cb89725bf24e239",
+            "text": "If this letter has found you, the house is yours.",
+            "path": "Dewhaven/Audio/Voice/13e604260cb89725bf24e239"
+          },
+          {
+            "id": "931065623febf04467b6b43a",
+            "text": "Start with three rows.",
+            "path": "Dewhaven/Audio/Voice/931065623febf04467b6b43a"
+          },
+          {
+            "id": "3fd581bc66ad7af7a1e19ac0",
+            "text": "A place becomes home through the small things you return to each morning.",
+            "path": "Dewhaven/Audio/Voice/3fd581bc66ad7af7a1e19ac0"
+          }
+        ]
+      },
+      {
+        "key": "quest-new-roots-completion",
+        "text": "Three rows, a little water, and a beginning. The next page names Mira at the seedhouse. Take your first harvest into town.",
+        "speaker": "letter",
+        "model": "aura-2-athena-en",
+        "segments": [
+          {
+            "id": "df71bcb266e6ef57a4057125",
+            "text": "Three rows, a little water, and a beginning.",
+            "path": "Dewhaven/Audio/Voice/df71bcb266e6ef57a4057125"
+          },
+          {
+            "id": "66c15ea239dbc8193be476d9",
+            "text": "The next page names Mira at the seedhouse.",
+            "path": "Dewhaven/Audio/Voice/66c15ea239dbc8193be476d9"
+          },
+          {
+            "id": "2e34bccd0ed9e550292e18d0",
+            "text": "Take your first harvest into town.",
+            "path": "Dewhaven/Audio/Voice/2e34bccd0ed9e550292e18d0"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-harvest-objective",
+        "text": "Harvest five crops and bring a basket to Mira’s counter.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "6848778765271b3ba48bdc99",
+            "text": "Harvest five crops and bring a basket to Mira’s counter.",
+            "path": "Dewhaven/Audio/Voice/6848778765271b3ba48bdc99"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-harvest-opening",
+        "text": "Those pale turnips came from your grandmother's seed tin. Bring in five crops when they're ready. I want to know which of the old varieties survived.",
+        "speaker": "Mira",
+        "model": "aura-2-cora-en",
+        "segments": [
+          {
+            "id": "15e268bff0410a514b784e4c",
+            "text": "Those pale turnips came from your grandmother's seed tin.",
+            "path": "Dewhaven/Audio/Voice/15e268bff0410a514b784e4c"
+          },
+          {
+            "id": "1a9ac7361ff195c41dff16f1",
+            "text": "Bring in five crops when they're ready.",
+            "path": "Dewhaven/Audio/Voice/1a9ac7361ff195c41dff16f1"
+          },
+          {
+            "id": "5ab2f87d6181b7d3b9f9a289",
+            "text": "I want to know which of the old varieties survived.",
+            "path": "Dewhaven/Audio/Voice/5ab2f87d6181b7d3b9f9a289"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-harvest-completion",
+        "text": "There they are. She kept these seeds through three lean winters. Keep a packet for next season. Elias has been asking who opened the farm.",
+        "speaker": "Mira",
+        "model": "aura-2-cora-en",
+        "segments": [
+          {
+            "id": "e9242f4b065c6c033bab8688",
+            "text": "There they are.",
+            "path": "Dewhaven/Audio/Voice/e9242f4b065c6c033bab8688"
+          },
+          {
+            "id": "5fc4f74339d58c72f6e77521",
+            "text": "She kept these seeds through three lean winters.",
+            "path": "Dewhaven/Audio/Voice/5fc4f74339d58c72f6e77521"
+          },
+          {
+            "id": "a3b50a5cbdbd961f6437476b",
+            "text": "Keep a packet for next season.",
+            "path": "Dewhaven/Audio/Voice/a3b50a5cbdbd961f6437476b"
+          },
+          {
+            "id": "1fc6ce35f9a8b64e3bf2bf22",
+            "text": "Elias has been asking who opened the farm.",
+            "path": "Dewhaven/Audio/Voice/1fc6ce35f9a8b64e3bf2bf22"
+          }
+        ]
+      },
+      {
+        "key": "quest-good-neighbors-objective",
+        "text": "Meet six residents at work or along their daily routes.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "1f68eee87c31b6542a69bd0c",
+            "text": "Meet six residents at work or along their daily routes.",
+            "path": "Dewhaven/Audio/Voice/1f68eee87c31b6542a69bd0c"
+          }
+        ]
+      },
+      {
+        "key": "quest-good-neighbors-opening",
+        "text": "There are people here who remember the farm, and people who arrived after it closed. Meet six of us. You won't learn a valley from a map alone.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "ab6e004c3c0bc7472f65360e",
+            "text": "There are people here who remember the farm, and people who arrived after it closed.",
+            "path": "Dewhaven/Audio/Voice/ab6e004c3c0bc7472f65360e"
+          },
+          {
+            "id": "c6debd437830ad22bbff88e8",
+            "text": "Meet six of us.",
+            "path": "Dewhaven/Audio/Voice/c6debd437830ad22bbff88e8"
+          },
+          {
+            "id": "782a707e82a6ca58b14af5b7",
+            "text": "You won't learn a valley from a map alone.",
+            "path": "Dewhaven/Audio/Voice/782a707e82a6ca58b14af5b7"
+          }
+        ]
+      },
+      {
+        "key": "quest-good-neighbors-completion",
+        "text": "Now there are names behind the doors. Cleo could use a steady grower again. Speak to her about the kitchen deliveries.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "8df4d0877ef349e90508b18b",
+            "text": "Now there are names behind the doors.",
+            "path": "Dewhaven/Audio/Voice/8df4d0877ef349e90508b18b"
+          },
+          {
+            "id": "a8f2dec6eb6e1cb0221537f8",
+            "text": "Cleo could use a steady grower again.",
+            "path": "Dewhaven/Audio/Voice/a8f2dec6eb6e1cb0221537f8"
+          },
+          {
+            "id": "01156ee954c0bd6fa2cd479a",
+            "text": "Speak to her about the kitchen deliveries.",
+            "path": "Dewhaven/Audio/Voice/01156ee954c0bd6fa2cd479a"
+          }
+        ]
+      },
+      {
+        "key": "quest-market-day-objective",
+        "text": "Earn 1,000 gold through the physical shipping bin.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "0a5716da7cea7f66bf90bc67",
+            "text": "Earn 1,000 gold through the physical shipping bin.",
+            "path": "Dewhaven/Audio/Voice/0a5716da7cea7f66bf90bc67"
+          }
+        ]
+      },
+      {
+        "key": "quest-market-day-opening",
+        "text": "The kettle is full, but my pantry isn't. Ship a thousand gold of produce from your crate. The morning cart still stops at the old gate.",
+        "speaker": "Cleo",
+        "model": "aura-2-vesta-en",
+        "segments": [
+          {
+            "id": "fc2928d5c1d245fe02ad2d57",
+            "text": "The kettle is full, but my pantry isn't.",
+            "path": "Dewhaven/Audio/Voice/fc2928d5c1d245fe02ad2d57"
+          },
+          {
+            "id": "efeba580168b765ac376f550",
+            "text": "Ship a thousand gold of produce from your crate.",
+            "path": "Dewhaven/Audio/Voice/efeba580168b765ac376f550"
+          },
+          {
+            "id": "32e8b8455be57fc11cc22db6",
+            "text": "The morning cart still stops at the old gate.",
+            "path": "Dewhaven/Audio/Voice/32e8b8455be57fc11cc22db6"
+          }
+        ]
+      },
+      {
+        "key": "quest-market-day-completion",
+        "text": "Your vegetables made it onto today's menu. Rowan says the river crossing needs timber. Fix it and the cart can use the shorter road.",
+        "speaker": "Cleo",
+        "model": "aura-2-vesta-en",
+        "segments": [
+          {
+            "id": "84ddc902e985d55a449f5d4c",
+            "text": "Your vegetables made it onto today's menu.",
+            "path": "Dewhaven/Audio/Voice/84ddc902e985d55a449f5d4c"
+          },
+          {
+            "id": "92163862f1370549998c0347",
+            "text": "Rowan says the river crossing needs timber.",
+            "path": "Dewhaven/Audio/Voice/92163862f1370549998c0347"
+          },
+          {
+            "id": "32682b3efadf8e26bb9b54b5",
+            "text": "Fix it and the cart can use the shorter road.",
+            "path": "Dewhaven/Audio/Voice/32682b3efadf8e26bb9b54b5"
+          }
+        ]
+      },
+      {
+        "key": "quest-mend-bridge-objective",
+        "text": "Deliver twenty timber and fifteen stone to the bridge work site.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "a5dbb1a46d4d4e71ef5fd4ac",
+            "text": "Deliver twenty timber and fifteen stone to the bridge work site.",
+            "path": "Dewhaven/Audio/Voice/a5dbb1a46d4d4e71ef5fd4ac"
+          }
+        ]
+      },
+      {
+        "key": "quest-mend-bridge-opening",
+        "text": "The west footbridge has sound foundations and rotten boards. Twenty timber and fifteen stone will do it. I'll take the materials here and finish the crossing.",
+        "speaker": "Rowan",
+        "model": "aura-2-pluto-en",
+        "segments": [
+          {
+            "id": "2942afd7e8678843af6b09bd",
+            "text": "The west footbridge has sound foundations and rotten boards.",
+            "path": "Dewhaven/Audio/Voice/2942afd7e8678843af6b09bd"
+          },
+          {
+            "id": "2ac125bfaa70639df32bb3ec",
+            "text": "Twenty timber and fifteen stone will do it.",
+            "path": "Dewhaven/Audio/Voice/2ac125bfaa70639df32bb3ec"
+          },
+          {
+            "id": "3b614a641731824e6be0d7db",
+            "text": "I'll take the materials here and finish the crossing.",
+            "path": "Dewhaven/Audio/Voice/3b614a641731824e6be0d7db"
+          }
+        ]
+      },
+      {
+        "key": "quest-mend-bridge-completion",
+        "text": "The new boards are down. No more picking through the riverbank. Orin found something in the conservatory while we were clearing the approach.",
+        "speaker": "Rowan",
+        "model": "aura-2-pluto-en",
+        "segments": [
+          {
+            "id": "2c947485106d055e1b35d73d",
+            "text": "The new boards are down.",
+            "path": "Dewhaven/Audio/Voice/2c947485106d055e1b35d73d"
+          },
+          {
+            "id": "359f06f4fc2de54204cb87a3",
+            "text": "No more picking through the riverbank.",
+            "path": "Dewhaven/Audio/Voice/359f06f4fc2de54204cb87a3"
+          },
+          {
+            "id": "f9a7a4dcdf22b43f8dc01bf7",
+            "text": "Orin found something in the conservatory while we were clearing the approach.",
+            "path": "Dewhaven/Audio/Voice/f9a7a4dcdf22b43f8dc01bf7"
+          }
+        ]
+      },
+      {
+        "key": "quest-garden-awakens-objective",
+        "text": "Craft three items and deliver six copper to the conservatory repair.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "84d2d878956d53475a01e427",
+            "text": "Craft three items and deliver six copper to the conservatory repair.",
+            "path": "Dewhaven/Audio/Voice/84d2d878956d53475a01e427"
+          }
+        ]
+      },
+      {
+        "key": "quest-garden-awakens-opening",
+        "text": "The garden frame is worth saving. Bring six copper, and get some practice at your workbench. Three finished pieces should tell us what you can handle.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "3728412ca8a424102feacf9e",
+            "text": "The garden frame is worth saving.",
+            "path": "Dewhaven/Audio/Voice/3728412ca8a424102feacf9e"
+          },
+          {
+            "id": "de068cd0ce932c4958a5a3c1",
+            "text": "Bring six copper, and get some practice at your workbench.",
+            "path": "Dewhaven/Audio/Voice/de068cd0ce932c4958a5a3c1"
+          },
+          {
+            "id": "ab2039213ece598574be19bc",
+            "text": "Three finished pieces should tell us what you can handle.",
+            "path": "Dewhaven/Audio/Voice/ab2039213ece598574be19bc"
+          }
+        ]
+      },
+      {
+        "key": "quest-garden-awakens-completion",
+        "text": "The pipes hold. We found a letter tucked behind the old pump: a harbour stamp, four towns, and a promise to keep the winter cupboards full.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "23ec97c4cc0e3b3a2e3777e8",
+            "text": "The pipes hold.",
+            "path": "Dewhaven/Audio/Voice/23ec97c4cc0e3b3a2e3777e8"
+          },
+          {
+            "id": "4cae3fd63cb0f8738cb4826a",
+            "text": "We found a letter tucked behind the old pump: a harbour stamp, four towns, and a promise to keep the winter cupboards full.",
+            "path": "Dewhaven/Audio/Voice/4cae3fd63cb0f8738cb4826a"
+          }
+        ]
+      },
+      {
+        "key": "quest-lantern-promise-objective",
+        "text": "Supply the first village feast and meet the courier at Letter Court.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "fab970551894eb4e6c392ebc",
+            "text": "Supply the first village feast and meet the courier at Letter Court.",
+            "path": "Dewhaven/Audio/Voice/fab970551894eb4e6c392ebc"
+          }
+        ]
+      },
+      {
+        "key": "quest-lantern-promise-opening",
+        "text": "Before we ask the harbour for help, let's keep a promise here. Five turnips, three eggs, a trout, and flowers for the long table. Simple food, enough to share.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "945b109ca94ca2d1bef23c25",
+            "text": "Before we ask the harbour for help, let's keep a promise here.",
+            "path": "Dewhaven/Audio/Voice/945b109ca94ca2d1bef23c25"
+          },
+          {
+            "id": "f21bf6359afa85715f567fd0",
+            "text": "Five turnips, three eggs, a trout, and flowers for the long table.",
+            "path": "Dewhaven/Audio/Voice/f21bf6359afa85715f567fd0"
+          },
+          {
+            "id": "02edf5249e09d89abf4a0357",
+            "text": "Simple food, enough to share.",
+            "path": "Dewhaven/Audio/Voice/02edf5249e09d89abf4a0357"
+          }
+        ]
+      },
+      {
+        "key": "quest-lantern-promise-completion",
+        "text": "Aya brought the old delivery book to supper. Your grandmother's name is beside every winter run. Sera at Aster Quay has the other half of the ledger.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "52222e9c19bd43bb0302047d",
+            "text": "Aya brought the old delivery book to supper.",
+            "path": "Dewhaven/Audio/Voice/52222e9c19bd43bb0302047d"
+          },
+          {
+            "id": "8eabd0b980293220dec22c40",
+            "text": "Your grandmother's name is beside every winter run.",
+            "path": "Dewhaven/Audio/Voice/8eabd0b980293220dec22c40"
+          },
+          {
+            "id": "cd715f5d6d48e4319ad4a873",
+            "text": "Sera at Aster Quay has the other half of the ledger.",
+            "path": "Dewhaven/Audio/Voice/cd715f5d6d48e4319ad4a873"
+          }
+        ]
+      },
+      {
+        "key": "quest-letters-across-water-objective",
+        "text": "Visit Aster Quay and examine Sera’s delivery ledger.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "f3e2947c98cfdab2adf1a198",
+            "text": "Visit Aster Quay and examine Sera’s delivery ledger.",
+            "path": "Dewhaven/Audio/Voice/f3e2947c98cfdab2adf1a198"
+          }
+        ]
+      },
+      {
+        "key": "quest-letters-across-water-opening",
+        "text": "I thought that farm mark had disappeared. Read the ledger on my workbench. The boats carried food inland before the cliff landing failed.",
+        "speaker": "Sera",
+        "model": "aura-2-helena-en",
+        "segments": [
+          {
+            "id": "4ba253fab9467eebe1741875",
+            "text": "I thought that farm mark had disappeared.",
+            "path": "Dewhaven/Audio/Voice/4ba253fab9467eebe1741875"
+          },
+          {
+            "id": "79ca84b21b1dc51772f17566",
+            "text": "Read the ledger on my workbench.",
+            "path": "Dewhaven/Audio/Voice/79ca84b21b1dc51772f17566"
+          },
+          {
+            "id": "09be71c0420ee4193ac1b71a",
+            "text": "The boats carried food inland before the cliff landing failed.",
+            "path": "Dewhaven/Audio/Voice/09be71c0420ee4193ac1b71a"
+          }
+        ]
+      },
+      {
+        "key": "quest-letters-across-water-completion",
+        "text": "Your grandmother planned a route between four public kitchens. Basil can repair the landing winch. We could start with one safe crossing.",
+        "speaker": "Sera",
+        "model": "aura-2-helena-en",
+        "segments": [
+          {
+            "id": "a2ffa38212f057185cd15656",
+            "text": "Your grandmother planned a route between four public kitchens.",
+            "path": "Dewhaven/Audio/Voice/a2ffa38212f057185cd15656"
+          },
+          {
+            "id": "e02a51a0cb7404c234e56b78",
+            "text": "Basil can repair the landing winch.",
+            "path": "Dewhaven/Audio/Voice/e02a51a0cb7404c234e56b78"
+          },
+          {
+            "id": "6202bcbd26f666b99105669f",
+            "text": "We could start with one safe crossing.",
+            "path": "Dewhaven/Audio/Voice/6202bcbd26f666b99105669f"
+          }
+        ]
+      },
+      {
+        "key": "quest-safe-harbour-objective",
+        "text": "Repair the landing winch with four copper and ten timber.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "2c4ac6ef53cf8c49c32ec1c0",
+            "text": "Repair the landing winch with four copper and ten timber.",
+            "path": "Dewhaven/Audio/Voice/2c4ac6ef53cf8c49c32ec1c0"
+          }
+        ]
+      },
+      {
+        "key": "quest-safe-harbour-opening",
+        "text": "The brake has seized, but the frame is sound. Four copper and ten timber will make the landing usable. Then you can reach the archive beneath the cliffs.",
+        "speaker": "Basil",
+        "model": "aura-2-jupiter-en",
+        "segments": [
+          {
+            "id": "153540a522bf922d66bc1744",
+            "text": "The brake has seized, but the frame is sound.",
+            "path": "Dewhaven/Audio/Voice/153540a522bf922d66bc1744"
+          },
+          {
+            "id": "fc142fb94a4d4d66db5ce903",
+            "text": "Four copper and ten timber will make the landing usable.",
+            "path": "Dewhaven/Audio/Voice/fc142fb94a4d4d66db5ce903"
+          },
+          {
+            "id": "c9e6b00fc3e119793aabb59d",
+            "text": "Then you can reach the archive beneath the cliffs.",
+            "path": "Dewhaven/Audio/Voice/c9e6b00fc3e119793aabb59d"
+          }
+        ]
+      },
+      {
+        "key": "quest-safe-harbour-completion",
+        "text": "Try the brake. It holds. The cliff landing is open, and Marin has the safest path to the old archive.",
+        "speaker": "Basil",
+        "model": "aura-2-jupiter-en",
+        "segments": [
+          {
+            "id": "c393d77e56c5c0b95d56f825",
+            "text": "Try the brake.",
+            "path": "Dewhaven/Audio/Voice/c393d77e56c5c0b95d56f825"
+          },
+          {
+            "id": "f0475912dfa24c85a1138a0e",
+            "text": "It holds.",
+            "path": "Dewhaven/Audio/Voice/f0475912dfa24c85a1138a0e"
+          },
+          {
+            "id": "f08a58f0303a4341c7186898",
+            "text": "The cliff landing is open, and Marin has the safest path to the old archive.",
+            "path": "Dewhaven/Audio/Voice/f08a58f0303a4341c7186898"
+          }
+        ]
+      },
+      {
+        "key": "quest-under-the-cliffs-objective",
+        "text": "Walk the Saltwind trail and inspect the vault’s water diagram.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "9bb83ce1a22b2173038960bd",
+            "text": "Walk the Saltwind trail and inspect the vault’s water diagram.",
+            "path": "Dewhaven/Audio/Voice/9bb83ce1a22b2173038960bd"
+          }
+        ]
+      },
+      {
+        "key": "quest-under-the-cliffs-opening",
+        "text": "Keep to the dry stair on Saltwind Cliffs. In the first room, read the water diagram before touching the wheels. The archive was built to work with the tide.",
+        "speaker": "Marin",
+        "model": "aura-2-janus-en",
+        "segments": [
+          {
+            "id": "4b809ad84e77519ce0cfce43",
+            "text": "Keep to the dry stair on Saltwind Cliffs.",
+            "path": "Dewhaven/Audio/Voice/4b809ad84e77519ce0cfce43"
+          },
+          {
+            "id": "4b35b9a544dad0cc1eeac41a",
+            "text": "In the first room, read the water diagram before touching the wheels.",
+            "path": "Dewhaven/Audio/Voice/4b35b9a544dad0cc1eeac41a"
+          },
+          {
+            "id": "127a69bb8dc3b85102ce832a",
+            "text": "The archive was built to work with the tide.",
+            "path": "Dewhaven/Audio/Voice/127a69bb8dc3b85102ce832a"
+          }
+        ]
+      },
+      {
+        "key": "quest-under-the-cliffs-completion",
+        "text": "You've seen how the channels fit together. Sera needs the chart case beyond the pump, carts and salt lock. Take your time; the way out stays open.",
+        "speaker": "Marin",
+        "model": "aura-2-janus-en",
+        "segments": [
+          {
+            "id": "2b32ea49db8f5a9cd6dae253",
+            "text": "You've seen how the channels fit together.",
+            "path": "Dewhaven/Audio/Voice/2b32ea49db8f5a9cd6dae253"
+          },
+          {
+            "id": "1a94de7df06f9418ba253789",
+            "text": "Sera needs the chart case beyond the pump, carts and salt lock.",
+            "path": "Dewhaven/Audio/Voice/1a94de7df06f9418ba253789"
+          },
+          {
+            "id": "37b33d4a2460ac52d78c20d4",
+            "text": "Take your time; the way out stays open.",
+            "path": "Dewhaven/Audio/Voice/37b33d4a2460ac52d78c20d4"
+          }
+        ]
+      },
+      {
+        "key": "quest-tide-remembers-objective",
+        "text": "Complete the Tide Vault and return its chart to the boatworks.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "64b537c5dacff98c85d70b07",
+            "text": "Complete the Tide Vault and return its chart to the boatworks.",
+            "path": "Dewhaven/Audio/Voice/64b537c5dacff98c85d70b07"
+          }
+        ]
+      },
+      {
+        "key": "quest-tide-remembers-opening",
+        "text": "The coast changes with every storm. That chart is our missing record. Recover it from the case, and bring it here so we can read the orchard route.",
+        "speaker": "Sera",
+        "model": "aura-2-helena-en",
+        "segments": [
+          {
+            "id": "16c02922381f14a2ccfbb5c0",
+            "text": "The coast changes with every storm.",
+            "path": "Dewhaven/Audio/Voice/16c02922381f14a2ccfbb5c0"
+          },
+          {
+            "id": "3cdafed295d398bb16c1fcc6",
+            "text": "That chart is our missing record.",
+            "path": "Dewhaven/Audio/Voice/3cdafed295d398bb16c1fcc6"
+          },
+          {
+            "id": "ee78eb7c73fc3063cdecc925",
+            "text": "Recover it from the case, and bring it here so we can read the orchard route.",
+            "path": "Dewhaven/Audio/Voice/ee78eb7c73fc3063cdecc925"
+          }
+        ]
+      },
+      {
+        "key": "quest-tide-remembers-completion",
+        "text": "Cedar Downs, then Sunridge. The orchard kitchens sent preserves on every autumn run. Keep the chart; you'll need all three instruments to rebuild the atlas.",
+        "speaker": "Sera",
+        "model": "aura-2-helena-en",
+        "segments": [
+          {
+            "id": "75ba047518e989799d199ef1",
+            "text": "Cedar Downs, then Sunridge.",
+            "path": "Dewhaven/Audio/Voice/75ba047518e989799d199ef1"
+          },
+          {
+            "id": "d217d2cc80cfa24d18134c36",
+            "text": "The orchard kitchens sent preserves on every autumn run.",
+            "path": "Dewhaven/Audio/Voice/d217d2cc80cfa24d18134c36"
+          },
+          {
+            "id": "413fd7dd6dab0ff4f9d4eba8",
+            "text": "Keep the chart; you'll need all three instruments to rebuild the atlas.",
+            "path": "Dewhaven/Audio/Voice/413fd7dd6dab0ff4f9d4eba8"
+          }
+        ]
+      },
+      {
+        "key": "quest-orchard-road-objective",
+        "text": "Follow Cedar Downs to Sunridge and visit the orchard kitchen.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "6c1c923a06a9ae87e6161604",
+            "text": "Follow Cedar Downs to Sunridge and visit the orchard kitchen.",
+            "path": "Dewhaven/Audio/Voice/6c1c923a06a9ae87e6161604"
+          }
+        ]
+      },
+      {
+        "key": "quest-orchard-road-opening",
+        "text": "Sera wrote ahead. Come inside the orchard house. I kept the long table, even after the deliveries stopped. It seemed wrong to turn it into firewood.",
+        "speaker": "Tamsin",
+        "model": "aura-2-minerva-en",
+        "segments": [
+          {
+            "id": "81673a5e1982efb22cb012ae",
+            "text": "Sera wrote ahead.",
+            "path": "Dewhaven/Audio/Voice/81673a5e1982efb22cb012ae"
+          },
+          {
+            "id": "759384cdf85345d66bac8961",
+            "text": "Come inside the orchard house.",
+            "path": "Dewhaven/Audio/Voice/759384cdf85345d66bac8961"
+          },
+          {
+            "id": "eb5e7e4f3010e4159851c693",
+            "text": "I kept the long table, even after the deliveries stopped.",
+            "path": "Dewhaven/Audio/Voice/eb5e7e4f3010e4159851c693"
+          },
+          {
+            "id": "d72522bebe54a25dede1fc32",
+            "text": "It seemed wrong to turn it into firewood.",
+            "path": "Dewhaven/Audio/Voice/d72522bebe54a25dede1fc32"
+          }
+        ]
+      },
+      {
+        "key": "quest-orchard-road-completion",
+        "text": "We still have the table. Now we need a reason to fill it. Two jars of preserves and four ears of corn would make a start.",
+        "speaker": "Tamsin",
+        "model": "aura-2-minerva-en",
+        "segments": [
+          {
+            "id": "26c825b15dd557954a08cac2",
+            "text": "We still have the table.",
+            "path": "Dewhaven/Audio/Voice/26c825b15dd557954a08cac2"
+          },
+          {
+            "id": "aaa1c1a074a2187b91cbaf1a",
+            "text": "Now we need a reason to fill it.",
+            "path": "Dewhaven/Audio/Voice/aaa1c1a074a2187b91cbaf1a"
+          },
+          {
+            "id": "bacb2e9420416741d2bb8cf7",
+            "text": "Two jars of preserves and four ears of corn would make a start.",
+            "path": "Dewhaven/Audio/Voice/bacb2e9420416741d2bb8cf7"
+          }
+        ]
+      },
+      {
+        "key": "quest-a-long-table-objective",
+        "text": "Bring two preserves and four corn for the orchard table.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "7cd0ebce0b06e41aa47dbed5",
+            "text": "Bring two preserves and four corn for the orchard table.",
+            "path": "Dewhaven/Audio/Voice/7cd0ebce0b06e41aa47dbed5"
+          }
+        ]
+      },
+      {
+        "key": "quest-a-long-table-opening",
+        "text": "The orchard workers have been eating on the steps. Bring two preserves and four corn. We'll lay the table properly and leave room for late arrivals.",
+        "speaker": "Tamsin",
+        "model": "aura-2-minerva-en",
+        "segments": [
+          {
+            "id": "6e1e6ea31844d0313d971f4b",
+            "text": "The orchard workers have been eating on the steps.",
+            "path": "Dewhaven/Audio/Voice/6e1e6ea31844d0313d971f4b"
+          },
+          {
+            "id": "ef7da4810c74af29aba8fd06",
+            "text": "Bring two preserves and four corn.",
+            "path": "Dewhaven/Audio/Voice/ef7da4810c74af29aba8fd06"
+          },
+          {
+            "id": "bebb07c343de05222a829c9e",
+            "text": "We'll lay the table properly and leave room for late arrivals.",
+            "path": "Dewhaven/Audio/Voice/bebb07c343de05222a829c9e"
+          }
+        ]
+      },
+      {
+        "key": "quest-a-long-table-completion",
+        "text": "Ada stayed for seconds. Pavel even put his tools down. He knows the quarry gate, where the old weather lens was made.",
+        "speaker": "Tamsin",
+        "model": "aura-2-minerva-en",
+        "segments": [
+          {
+            "id": "3569e899c18e03051a2c40d6",
+            "text": "Ada stayed for seconds.",
+            "path": "Dewhaven/Audio/Voice/3569e899c18e03051a2c40d6"
+          },
+          {
+            "id": "a11f424c77ac64fffe0fe809",
+            "text": "Pavel even put his tools down.",
+            "path": "Dewhaven/Audio/Voice/a11f424c77ac64fffe0fe809"
+          },
+          {
+            "id": "cad33ef73f95af62de331485",
+            "text": "He knows the quarry gate, where the old weather lens was made.",
+            "path": "Dewhaven/Audio/Voice/cad33ef73f95af62de331485"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-quarry-gate-objective",
+        "text": "Clear and repair the glassworks approach using six timber and ten stone.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "2d22c7e3c29c33e0f5c15bb7",
+            "text": "Clear and repair the glassworks approach using six timber and ten stone.",
+            "path": "Dewhaven/Audio/Voice/2d22c7e3c29c33e0f5c15bb7"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-quarry-gate-opening",
+        "text": "The glassworks road is buried under loose stone. Six timber for the supports, ten stone for the drain. I'll clear a safe approach to the freight lift.",
+        "speaker": "Pavel",
+        "model": "aura-2-mars-en",
+        "segments": [
+          {
+            "id": "3a4fb9cffe624ee5d1809928",
+            "text": "The glassworks road is buried under loose stone.",
+            "path": "Dewhaven/Audio/Voice/3a4fb9cffe624ee5d1809928"
+          },
+          {
+            "id": "4407f430d26ce5676076efc5",
+            "text": "Six timber for the supports, ten stone for the drain.",
+            "path": "Dewhaven/Audio/Voice/4407f430d26ce5676076efc5"
+          },
+          {
+            "id": "0c417982f76e7b1ecb732e16",
+            "text": "I'll clear a safe approach to the freight lift.",
+            "path": "Dewhaven/Audio/Voice/0c417982f76e7b1ecb732e16"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-quarry-gate-completion",
+        "text": "The quarry drain is running again. The Ember Gallery is open. Orin can tell you which part of the weather instrument we're looking for.",
+        "speaker": "Pavel",
+        "model": "aura-2-mars-en",
+        "segments": [
+          {
+            "id": "181d3cecd0036cc08c3b0618",
+            "text": "The quarry drain is running again.",
+            "path": "Dewhaven/Audio/Voice/181d3cecd0036cc08c3b0618"
+          },
+          {
+            "id": "00b5cf19c59528dde732fa0d",
+            "text": "The Ember Gallery is open.",
+            "path": "Dewhaven/Audio/Voice/00b5cf19c59528dde732fa0d"
+          },
+          {
+            "id": "8fa463a13a9ab505f599b053",
+            "text": "Orin can tell you which part of the weather instrument we're looking for.",
+            "path": "Dewhaven/Audio/Voice/8fa463a13a9ab505f599b053"
+          }
+        ]
+      },
+      {
+        "key": "quest-warm-glass-objective",
+        "text": "Recover the protected lens from the Ember Gallery.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "a30c928badadbfd09383bbd3",
+            "text": "Recover the protected lens from the Ember Gallery.",
+            "path": "Dewhaven/Audio/Voice/a30c928badadbfd09383bbd3"
+          }
+        ]
+      },
+      {
+        "key": "quest-warm-glass-opening",
+        "text": "A wrapped lens was left in the insulated chamber. Balance the lift, vent the cooling hall, then align the reflector. It is engineering, not a treasure hunt.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "7b1e289760212798b04a2360",
+            "text": "A wrapped lens was left in the insulated chamber.",
+            "path": "Dewhaven/Audio/Voice/7b1e289760212798b04a2360"
+          },
+          {
+            "id": "5da64e70ac3ad70fa8bb3e32",
+            "text": "Balance the lift, vent the cooling hall, then align the reflector.",
+            "path": "Dewhaven/Audio/Voice/5da64e70ac3ad70fa8bb3e32"
+          },
+          {
+            "id": "bbb74977f7e366a02f257c3f",
+            "text": "It is engineering, not a treasure hunt.",
+            "path": "Dewhaven/Audio/Voice/bbb74977f7e366a02f257c3f"
+          }
+        ]
+      },
+      {
+        "key": "quest-warm-glass-completion",
+        "text": "No chips in the glass. Excellent. Bring it to the weather bench here; the chart's markings will make more sense with the lens fitted.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "5956bd9580864cf664d52e5c",
+            "text": "No chips in the glass.",
+            "path": "Dewhaven/Audio/Voice/5956bd9580864cf664d52e5c"
+          },
+          {
+            "id": "feef11250d5d0c2d3e7f8928",
+            "text": "Excellent.",
+            "path": "Dewhaven/Audio/Voice/feef11250d5d0c2d3e7f8928"
+          },
+          {
+            "id": "257cb88688571c0fd9e0f4b4",
+            "text": "Bring it to the weather bench here; the chart's markings will make more sense with the lens fitted.",
+            "path": "Dewhaven/Audio/Voice/257cb88688571c0fd9e0f4b4"
+          }
+        ]
+      },
+      {
+        "key": "quest-weather-not-wishes-objective",
+        "text": "Fit the lens to a bench instrument and compare its markings with the chart.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "0729fc66c0f981004f4d715e",
+            "text": "Fit the lens to a bench instrument and compare its markings with the chart.",
+            "path": "Dewhaven/Audio/Voice/0729fc66c0f981004f4d715e"
+          }
+        ]
+      },
+      {
+        "key": "quest-weather-not-wishes-opening",
+        "text": "The bench needs two copper and a crystal mount. Fit them here, compare the coastal marks, and we'll know which route can carry winter supplies.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "8517e65090c4429768bbd6c6",
+            "text": "The bench needs two copper and a crystal mount.",
+            "path": "Dewhaven/Audio/Voice/8517e65090c4429768bbd6c6"
+          },
+          {
+            "id": "96629f8612c0540e454bd004",
+            "text": "Fit them here, compare the coastal marks, and we'll know which route can carry winter supplies.",
+            "path": "Dewhaven/Audio/Voice/96629f8612c0540e454bd004"
+          }
+        ]
+      },
+      {
+        "key": "quest-weather-not-wishes-completion",
+        "text": "The lines meet at Briar Hollow. Ilan has your grandmother's unfinished atlas. Take both instruments to the archive.",
+        "speaker": "Orin",
+        "model": "aura-2-zeus-en",
+        "segments": [
+          {
+            "id": "6e77baf3033e479de292fbfe",
+            "text": "The lines meet at Briar Hollow.",
+            "path": "Dewhaven/Audio/Voice/6e77baf3033e479de292fbfe"
+          },
+          {
+            "id": "549bb2cef7b13b3a4bbfc5ea",
+            "text": "Ilan has your grandmother's unfinished atlas.",
+            "path": "Dewhaven/Audio/Voice/549bb2cef7b13b3a4bbfc5ea"
+          },
+          {
+            "id": "e4a9b3c3b5e96274e9dacc1c",
+            "text": "Take both instruments to the archive.",
+            "path": "Dewhaven/Audio/Voice/e4a9b3c3b5e96274e9dacc1c"
+          }
+        ]
+      },
+      {
+        "key": "quest-unwritten-atlas-objective",
+        "text": "Bring the chart and lens to the Briar Archive.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "f811c9edc9cafb9da7303645",
+            "text": "Bring the chart and lens to the Briar Archive.",
+            "path": "Dewhaven/Audio/Voice/f811c9edc9cafb9da7303645"
+          }
+        ]
+      },
+      {
+        "key": "quest-unwritten-atlas-opening",
+        "text": "She left the mountain section blank on purpose. An untested route is worse than an empty page. Vesper can reopen the sheltered upper stair.",
+        "speaker": "Ilan",
+        "model": "aura-2-odysseus-en",
+        "segments": [
+          {
+            "id": "d6f6586927287829a8979570",
+            "text": "She left the mountain section blank on purpose.",
+            "path": "Dewhaven/Audio/Voice/d6f6586927287829a8979570"
+          },
+          {
+            "id": "5845135a9b487a964566ac83",
+            "text": "An untested route is worse than an empty page.",
+            "path": "Dewhaven/Audio/Voice/5845135a9b487a964566ac83"
+          },
+          {
+            "id": "c8b31f3e63b27bab41ac8324",
+            "text": "Vesper can reopen the sheltered upper stair.",
+            "path": "Dewhaven/Audio/Voice/c8b31f3e63b27bab41ac8324"
+          }
+        ]
+      },
+      {
+        "key": "quest-unwritten-atlas-completion",
+        "text": "The chart gives us distances; the lens gives us weather readings. We still need the observatory's compass. First, make the upper road safe.",
+        "speaker": "Ilan",
+        "model": "aura-2-odysseus-en",
+        "segments": [
+          {
+            "id": "b0fb721e28a2075037adf520",
+            "text": "The chart gives us distances; the lens gives us weather readings.",
+            "path": "Dewhaven/Audio/Voice/b0fb721e28a2075037adf520"
+          },
+          {
+            "id": "01516bd8380536fa46275a7d",
+            "text": "We still need the observatory's compass.",
+            "path": "Dewhaven/Audio/Voice/01516bd8380536fa46275a7d"
+          },
+          {
+            "id": "0822b8d3da6cc17e44492c50",
+            "text": "First, make the upper road safe.",
+            "path": "Dewhaven/Audio/Voice/0822b8d3da6cc17e44492c50"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-upper-road-objective",
+        "text": "Repair the sheltered stair with eight timber and two iron.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "2f047548f6c13a56f688af7b",
+            "text": "Repair the sheltered stair with eight timber and two iron.",
+            "path": "Dewhaven/Audio/Voice/2f047548f6c13a56f688af7b"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-upper-road-opening",
+        "text": "Eight timber and two iron will give the stair solid rails. I won't send anyone up a route I can't bring them down from.",
+        "speaker": "Vesper",
+        "model": "aura-2-orion-en",
+        "segments": [
+          {
+            "id": "c8cbc5de1e81a43573fd6d32",
+            "text": "Eight timber and two iron will give the stair solid rails.",
+            "path": "Dewhaven/Audio/Voice/c8cbc5de1e81a43573fd6d32"
+          },
+          {
+            "id": "fb1e4b1be5df1bb980e459fe",
+            "text": "I won't send anyone up a route I can't bring them down from.",
+            "path": "Dewhaven/Audio/Voice/fb1e4b1be5df1bb980e459fe"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-upper-road-completion",
+        "text": "The rails and rest landings are ready. Read the gust markings before crossing the observatory platforms. The descent stays available throughout.",
+        "speaker": "Vesper",
+        "model": "aura-2-orion-en",
+        "segments": [
+          {
+            "id": "2bdc187755ce37a91555d227",
+            "text": "The rails and rest landings are ready.",
+            "path": "Dewhaven/Audio/Voice/2bdc187755ce37a91555d227"
+          },
+          {
+            "id": "ac16ce74bfd0e1f4fd5d0aa7",
+            "text": "Read the gust markings before crossing the observatory platforms.",
+            "path": "Dewhaven/Audio/Voice/ac16ce74bfd0e1f4fd5d0aa7"
+          },
+          {
+            "id": "5fbb1180ee523d580cc01868",
+            "text": "The descent stays available throughout.",
+            "path": "Dewhaven/Audio/Voice/5fbb1180ee523d580cc01868"
+          }
+        ]
+      },
+      {
+        "key": "quest-sky-road-objective",
+        "text": "Complete the Observatory and recover the brass compass.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "22b890dabd6cc81abbeaa627",
+            "text": "Complete the Observatory and recover the brass compass.",
+            "path": "Dewhaven/Audio/Voice/22b890dabd6cc81abbeaa627"
+          }
+        ]
+      },
+      {
+        "key": "quest-sky-road-opening",
+        "text": "The observatory was a weather station. Open its shutters, seat the gears, and align the meridian plates. Bring back the brass compass in the final gallery.",
+        "speaker": "Ilan",
+        "model": "aura-2-odysseus-en",
+        "segments": [
+          {
+            "id": "5acc8c5bd74ff4a4481d256d",
+            "text": "The observatory was a weather station.",
+            "path": "Dewhaven/Audio/Voice/5acc8c5bd74ff4a4481d256d"
+          },
+          {
+            "id": "1cd52a41609193d96a0ffff6",
+            "text": "Open its shutters, seat the gears, and align the meridian plates.",
+            "path": "Dewhaven/Audio/Voice/1cd52a41609193d96a0ffff6"
+          },
+          {
+            "id": "3516c82557a77d4517f75be4",
+            "text": "Bring back the brass compass in the final gallery.",
+            "path": "Dewhaven/Audio/Voice/3516c82557a77d4517f75be4"
+          }
+        ]
+      },
+      {
+        "key": "quest-sky-road-completion",
+        "text": "Three instruments, at last. Jun wants to test the route against the map before a cart follows it. Start at the three survey points on Observatory Rise.",
+        "speaker": "Ilan",
+        "model": "aura-2-odysseus-en",
+        "segments": [
+          {
+            "id": "eb79577601685667ff7362a3",
+            "text": "Three instruments, at last.",
+            "path": "Dewhaven/Audio/Voice/eb79577601685667ff7362a3"
+          },
+          {
+            "id": "a726619170c48f601619e786",
+            "text": "Jun wants to test the route against the map before a cart follows it.",
+            "path": "Dewhaven/Audio/Voice/a726619170c48f601619e786"
+          },
+          {
+            "id": "8cd79f2ae575002d2db95112",
+            "text": "Start at the three survey points on Observatory Rise.",
+            "path": "Dewhaven/Audio/Voice/8cd79f2ae575002d2db95112"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-winter-trial-objective",
+        "text": "Trace three marked route checks with Jun in one visit.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "de1f6b9f3573121ce153f48d",
+            "text": "Trace three marked route checks with Jun in one visit.",
+            "path": "Dewhaven/Audio/Voice/de1f6b9f3573121ce153f48d"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-winter-trial-opening",
+        "text": "Don't wait for winter to find a bad landing. Check the three survey stations on the rise. Compare the slope, shelter, and return path at each.",
+        "speaker": "Jun",
+        "model": "aura-2-hermes-en",
+        "segments": [
+          {
+            "id": "531cd8b0310f13a43415f875",
+            "text": "Don't wait for winter to find a bad landing.",
+            "path": "Dewhaven/Audio/Voice/531cd8b0310f13a43415f875"
+          },
+          {
+            "id": "0a5cc22766be033cfd7e90f9",
+            "text": "Check the three survey stations on the rise.",
+            "path": "Dewhaven/Audio/Voice/0a5cc22766be033cfd7e90f9"
+          },
+          {
+            "id": "2163bc7d1b3f0a3f447ad940",
+            "text": "Compare the slope, shelter, and return path at each.",
+            "path": "Dewhaven/Audio/Voice/2163bc7d1b3f0a3f447ad940"
+          }
+        ]
+      },
+      {
+        "key": "quest-the-winter-trial-completion",
+        "text": "The notes agree with the ground. Now the route needs people at both ends. Join the harbour, orchard, and archive tables so the hosts can plan together.",
+        "speaker": "Jun",
+        "model": "aura-2-hermes-en",
+        "segments": [
+          {
+            "id": "2e9fc9ff360c3b64e822cff5",
+            "text": "The notes agree with the ground.",
+            "path": "Dewhaven/Audio/Voice/2e9fc9ff360c3b64e822cff5"
+          },
+          {
+            "id": "25f459291591fef4d5a59168",
+            "text": "Now the route needs people at both ends.",
+            "path": "Dewhaven/Audio/Voice/25f459291591fef4d5a59168"
+          },
+          {
+            "id": "e97bb0c02eca078bf81f760d",
+            "text": "Join the harbour, orchard, and archive tables so the hosts can plan together.",
+            "path": "Dewhaven/Audio/Voice/e97bb0c02eca078bf81f760d"
+          }
+        ]
+      },
+      {
+        "key": "quest-rooms-for-everyone-objective",
+        "text": "Participate in the harbour, orchard and archive gatherings.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "bd7ec44bd2c963ef730e6c03",
+            "text": "Participate in the harbour, orchard and archive gatherings.",
+            "path": "Dewhaven/Audio/Voice/bd7ec44bd2c963ef730e6c03"
+          }
+        ]
+      },
+      {
+        "key": "quest-rooms-for-everyone-opening",
+        "text": "A delivery needs a welcome as much as a road. Sit at the three weekly tables, bring a dish, and hear what each town can offer.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "c2b51a12e6ee51c87cc38c29",
+            "text": "A delivery needs a welcome as much as a road.",
+            "path": "Dewhaven/Audio/Voice/c2b51a12e6ee51c87cc38c29"
+          },
+          {
+            "id": "054df31b38cfafe47b106c18",
+            "text": "Sit at the three weekly tables, bring a dish, and hear what each town can offer.",
+            "path": "Dewhaven/Audio/Voice/054df31b38cfafe47b106c18"
+          }
+        ]
+      },
+      {
+        "key": "quest-rooms-for-everyone-completion",
+        "text": "The kitchens have agreed on their part. Marin has a list of repairs for the four shared rooms. They should be ready before the first convoy.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "0d8a04fac17f63697f5cc975",
+            "text": "The kitchens have agreed on their part.",
+            "path": "Dewhaven/Audio/Voice/0d8a04fac17f63697f5cc975"
+          },
+          {
+            "id": "221fe50b2af87a0dbf252f54",
+            "text": "Marin has a list of repairs for the four shared rooms.",
+            "path": "Dewhaven/Audio/Voice/221fe50b2af87a0dbf252f54"
+          },
+          {
+            "id": "c3c34aa9357b425cfcec22d3",
+            "text": "They should be ready before the first convoy.",
+            "path": "Dewhaven/Audio/Voice/c3c34aa9357b425cfcec22d3"
+          }
+        ]
+      },
+      {
+        "key": "quest-four-open-doors-objective",
+        "text": "Reopen one shared public room in each town with local deliveries.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "3f1b31d9c9cb37471b861913",
+            "text": "Reopen one shared public room in each town with local deliveries.",
+            "path": "Dewhaven/Audio/Voice/3f1b31d9c9cb37471b861913"
+          }
+        ]
+      },
+      {
+        "key": "quest-four-open-doors-opening",
+        "text": "Four rooms, four doors left open. Each host has a repair basket at their shared room. Timber, stone, and a little care will put them back into daily use.",
+        "speaker": "Marin",
+        "model": "aura-2-janus-en",
+        "segments": [
+          {
+            "id": "28c2a73f3cc1b7fafe0e4e4b",
+            "text": "Four rooms, four doors left open.",
+            "path": "Dewhaven/Audio/Voice/28c2a73f3cc1b7fafe0e4e4b"
+          },
+          {
+            "id": "0a3363b90453199ebdbaed88",
+            "text": "Each host has a repair basket at their shared room.",
+            "path": "Dewhaven/Audio/Voice/0a3363b90453199ebdbaed88"
+          },
+          {
+            "id": "9c39fe1d1412e3351afee058",
+            "text": "Timber, stone, and a little care will put them back into daily use.",
+            "path": "Dewhaven/Audio/Voice/9c39fe1d1412e3351afee058"
+          }
+        ]
+      },
+      {
+        "key": "quest-four-open-doors-completion",
+        "text": "The rooms are furnished and the cupboards are dry. Aya can label the first three supply crates at your farmhouse. After you pack them, let the morning cart do its work.",
+        "speaker": "Marin",
+        "model": "aura-2-janus-en",
+        "segments": [
+          {
+            "id": "5f1f3f1b2b2bc3b8a803ed3f",
+            "text": "The rooms are furnished and the cupboards are dry.",
+            "path": "Dewhaven/Audio/Voice/5f1f3f1b2b2bc3b8a803ed3f"
+          },
+          {
+            "id": "2682a5e62ef7b54fc20cb427",
+            "text": "Aya can label the first three supply crates at your farmhouse.",
+            "path": "Dewhaven/Audio/Voice/2682a5e62ef7b54fc20cb427"
+          },
+          {
+            "id": "702cf7bdf6331441c84acd1a",
+            "text": "After you pack them, let the morning cart do its work.",
+            "path": "Dewhaven/Audio/Voice/702cf7bdf6331441c84acd1a"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-convoy-objective",
+        "text": "Prepare three labelled deliveries, ship them and meet the convoy next morning.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "3001c60b49eee1ea83c048f3",
+            "text": "Prepare three labelled deliveries, ship them and meet the convoy next morning.",
+            "path": "Dewhaven/Audio/Voice/3001c60b49eee1ea83c048f3"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-convoy-opening",
+        "text": "At your shipping crate: pack one pantry box, one orchard box, and one repair box. I'll collect them at dawn. Meet me after the next morning's delivery.",
+        "speaker": "Aya",
+        "model": "aura-2-cordelia-en",
+        "segments": [
+          {
+            "id": "03d91a1dda9950aceccb187f",
+            "text": "At your shipping crate: pack one pantry box, one orchard box, and one repair box.",
+            "path": "Dewhaven/Audio/Voice/03d91a1dda9950aceccb187f"
+          },
+          {
+            "id": "8dfa5d8a4995c785c4ceff72",
+            "text": "I'll collect them at dawn.",
+            "path": "Dewhaven/Audio/Voice/8dfa5d8a4995c785c4ceff72"
+          },
+          {
+            "id": "5b8492fa6ced4b0bd893f85a",
+            "text": "Meet me after the next morning's delivery.",
+            "path": "Dewhaven/Audio/Voice/5b8492fa6ced4b0bd893f85a"
+          }
+        ]
+      },
+      {
+        "key": "quest-first-convoy-completion",
+        "text": "All three crates arrived. Nothing lost, nobody stranded. Your grandmother started this route with a borrowed cart. We started it again with yours.",
+        "speaker": "Aya",
+        "model": "aura-2-cordelia-en",
+        "segments": [
+          {
+            "id": "10d81ef0f559e73d6771bff0",
+            "text": "All three crates arrived.",
+            "path": "Dewhaven/Audio/Voice/10d81ef0f559e73d6771bff0"
+          },
+          {
+            "id": "0db9d45914a51bc9ed74c459",
+            "text": "Nothing lost, nobody stranded.",
+            "path": "Dewhaven/Audio/Voice/0db9d45914a51bc9ed74c459"
+          },
+          {
+            "id": "2a1f68628fed15a2ae024941",
+            "text": "Your grandmother started this route with a borrowed cart.",
+            "path": "Dewhaven/Audio/Voice/2a1f68628fed15a2ae024941"
+          },
+          {
+            "id": "1826cdc311e4eb445969f55c",
+            "text": "We started it again with yours.",
+            "path": "Dewhaven/Audio/Voice/1826cdc311e4eb445969f55c"
+          }
+        ]
+      },
+      {
+        "key": "quest-farther-lights-objective",
+        "text": "Return the finished atlas to the village table and complete the homecoming.",
+        "speaker": "narrator",
+        "model": "aura-2-draco-en",
+        "segments": [
+          {
+            "id": "f0ea50508818f2131290b4ca",
+            "text": "Return the finished atlas to the village table and complete the homecoming.",
+            "path": "Dewhaven/Audio/Voice/f0ea50508818f2131290b4ca"
+          }
+        ]
+      },
+      {
+        "key": "quest-farther-lights-opening",
+        "text": "Bring the three instruments to the village table. The last page belongs to everyone who kept a door open, including you.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "1a02cac3b3b5c33bf6657d0f",
+            "text": "Bring the three instruments to the village table.",
+            "path": "Dewhaven/Audio/Voice/1a02cac3b3b5c33bf6657d0f"
+          },
+          {
+            "id": "071663cdfed73f3e1256f475",
+            "text": "The last page belongs to everyone who kept a door open, including you.",
+            "path": "Dewhaven/Audio/Voice/071663cdfed73f3e1256f475"
+          }
+        ]
+      },
+      {
+        "key": "quest-farther-lights-completion",
+        "text": "The atlas is finished, but the valley isn't. Crops still need water. Someone is setting another place at a table. Tomorrow, choose the part of this life you want to grow.",
+        "speaker": "Elias",
+        "model": "aura-2-orpheus-en",
+        "segments": [
+          {
+            "id": "5a0c75251dbd59e47ab422da",
+            "text": "The atlas is finished, but the valley isn't.",
+            "path": "Dewhaven/Audio/Voice/5a0c75251dbd59e47ab422da"
+          },
+          {
+            "id": "2e1af05551900d7d8f9915d4",
+            "text": "Crops still need water.",
+            "path": "Dewhaven/Audio/Voice/2e1af05551900d7d8f9915d4"
+          },
+          {
+            "id": "67f6072a06fb1e412815046d",
+            "text": "Someone is setting another place at a table.",
+            "path": "Dewhaven/Audio/Voice/67f6072a06fb1e412815046d"
+          },
+          {
+            "id": "61254970f4b9a996704fb511",
+            "text": "Tomorrow, choose the part of this life you want to grow.",
+            "path": "Dewhaven/Audio/Voice/61254970f4b9a996704fb511"
+          }
+        ]
+      }
+    ]
+  },
+  "intro": {
+    "pages": [
+      {
+        "art": "letter",
+        "title": "A key. A garden. A beginning.",
+        "text": "Your grandmother left you the homestead—and a key wrapped in a delivery ledger. Her note is brief: “The garden can feed more than one household. Start there.”",
+        "voiceKey": "intro-0"
+      },
+      {
+        "art": "valley",
+        "title": "The roads between us.",
+        "text": "Beyond Dewhaven, three towns still rely on roads the winter storms have damaged. Aya, the valley courier, brings you as far as the old bridge.",
+        "voiceKey": "intro-1"
+      },
+      {
+        "art": "homestead",
+        "title": "What she left growing.",
+        "text": "The farmhouse is standing. The beds need tending, the shipping crate needs a hinge, and a few of Grandmother's crops are ready to gather.",
+        "voiceKey": "intro-2"
+      },
+      {
+        "art": "dawn",
+        "title": "Your first morning.",
+        "text": "At six, sunlight reaches the bedroom floor. Mira opens the seedhouse at eight. There is time to plant your first rows before walking into town.",
+        "voiceKey": "intro-3"
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": "c6fda33953751d329aa237d7",
+      "text": "Your grandmother left you the homestead—and a key wrapped in a delivery ledger.",
+      "path": "Dewhaven/Audio/Voice/c6fda33953751d329aa237d7",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "df67defb36193f135239713b",
+      "text": "Her note is brief: “The garden can feed more than one household.",
+      "path": "Dewhaven/Audio/Voice/df67defb36193f135239713b",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "9f80357cfb0a2eaf6dad7455",
+      "text": "Start there.”",
+      "path": "Dewhaven/Audio/Voice/9f80357cfb0a2eaf6dad7455",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "ff7fbe31828125430e531116",
+      "text": "Beyond Dewhaven, three towns still rely on roads the winter storms have damaged.",
+      "path": "Dewhaven/Audio/Voice/ff7fbe31828125430e531116",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "813730325108acab8183f9ef",
+      "text": "Aya, the valley courier, brings you as far as the old bridge.",
+      "path": "Dewhaven/Audio/Voice/813730325108acab8183f9ef",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "6f222b50c746de039a6677f0",
+      "text": "The farmhouse is standing.",
+      "path": "Dewhaven/Audio/Voice/6f222b50c746de039a6677f0",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "4fcde428e5d59cdb3da7a07b",
+      "text": "The beds need tending, the shipping crate needs a hinge, and a few of Grandmother's crops are ready to gather.",
+      "path": "Dewhaven/Audio/Voice/4fcde428e5d59cdb3da7a07b",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "a3c0b8ae56151aef6da2abb5",
+      "text": "At six, sunlight reaches the bedroom floor.",
+      "path": "Dewhaven/Audio/Voice/a3c0b8ae56151aef6da2abb5",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "4590308e70d0bf48449de0e1",
+      "text": "Mira opens the seedhouse at eight.",
+      "path": "Dewhaven/Audio/Voice/4590308e70d0bf48449de0e1",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "db64838ed51e8b71b2e55cd5",
+      "text": "There is time to plant your first rows before walking into town.",
+      "path": "Dewhaven/Audio/Voice/db64838ed51e8b71b2e55cd5",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "1eb54fbf6447278b9cce10ac",
+      "text": "Plant three seeds and leave the house by the garden door.",
+      "path": "Dewhaven/Audio/Voice/1eb54fbf6447278b9cce10ac",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "13e604260cb89725bf24e239",
+      "text": "If this letter has found you, the house is yours.",
+      "path": "Dewhaven/Audio/Voice/13e604260cb89725bf24e239",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "931065623febf04467b6b43a",
+      "text": "Start with three rows.",
+      "path": "Dewhaven/Audio/Voice/931065623febf04467b6b43a",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "3fd581bc66ad7af7a1e19ac0",
+      "text": "A place becomes home through the small things you return to each morning.",
+      "path": "Dewhaven/Audio/Voice/3fd581bc66ad7af7a1e19ac0",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "df71bcb266e6ef57a4057125",
+      "text": "Three rows, a little water, and a beginning.",
+      "path": "Dewhaven/Audio/Voice/df71bcb266e6ef57a4057125",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "66c15ea239dbc8193be476d9",
+      "text": "The next page names Mira at the seedhouse.",
+      "path": "Dewhaven/Audio/Voice/66c15ea239dbc8193be476d9",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "2e34bccd0ed9e550292e18d0",
+      "text": "Take your first harvest into town.",
+      "path": "Dewhaven/Audio/Voice/2e34bccd0ed9e550292e18d0",
+      "model": "aura-2-athena-en"
+    },
+    {
+      "id": "6848778765271b3ba48bdc99",
+      "text": "Harvest five crops and bring a basket to Mira’s counter.",
+      "path": "Dewhaven/Audio/Voice/6848778765271b3ba48bdc99",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "15e268bff0410a514b784e4c",
+      "text": "Those pale turnips came from your grandmother's seed tin.",
+      "path": "Dewhaven/Audio/Voice/15e268bff0410a514b784e4c",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "1a9ac7361ff195c41dff16f1",
+      "text": "Bring in five crops when they're ready.",
+      "path": "Dewhaven/Audio/Voice/1a9ac7361ff195c41dff16f1",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "5ab2f87d6181b7d3b9f9a289",
+      "text": "I want to know which of the old varieties survived.",
+      "path": "Dewhaven/Audio/Voice/5ab2f87d6181b7d3b9f9a289",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "e9242f4b065c6c033bab8688",
+      "text": "There they are.",
+      "path": "Dewhaven/Audio/Voice/e9242f4b065c6c033bab8688",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "5fc4f74339d58c72f6e77521",
+      "text": "She kept these seeds through three lean winters.",
+      "path": "Dewhaven/Audio/Voice/5fc4f74339d58c72f6e77521",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "a3b50a5cbdbd961f6437476b",
+      "text": "Keep a packet for next season.",
+      "path": "Dewhaven/Audio/Voice/a3b50a5cbdbd961f6437476b",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "1fc6ce35f9a8b64e3bf2bf22",
+      "text": "Elias has been asking who opened the farm.",
+      "path": "Dewhaven/Audio/Voice/1fc6ce35f9a8b64e3bf2bf22",
+      "model": "aura-2-cora-en"
+    },
+    {
+      "id": "1f68eee87c31b6542a69bd0c",
+      "text": "Meet six residents at work or along their daily routes.",
+      "path": "Dewhaven/Audio/Voice/1f68eee87c31b6542a69bd0c",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "ab6e004c3c0bc7472f65360e",
+      "text": "There are people here who remember the farm, and people who arrived after it closed.",
+      "path": "Dewhaven/Audio/Voice/ab6e004c3c0bc7472f65360e",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "c6debd437830ad22bbff88e8",
+      "text": "Meet six of us.",
+      "path": "Dewhaven/Audio/Voice/c6debd437830ad22bbff88e8",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "782a707e82a6ca58b14af5b7",
+      "text": "You won't learn a valley from a map alone.",
+      "path": "Dewhaven/Audio/Voice/782a707e82a6ca58b14af5b7",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "8df4d0877ef349e90508b18b",
+      "text": "Now there are names behind the doors.",
+      "path": "Dewhaven/Audio/Voice/8df4d0877ef349e90508b18b",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "a8f2dec6eb6e1cb0221537f8",
+      "text": "Cleo could use a steady grower again.",
+      "path": "Dewhaven/Audio/Voice/a8f2dec6eb6e1cb0221537f8",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "01156ee954c0bd6fa2cd479a",
+      "text": "Speak to her about the kitchen deliveries.",
+      "path": "Dewhaven/Audio/Voice/01156ee954c0bd6fa2cd479a",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "0a5716da7cea7f66bf90bc67",
+      "text": "Earn 1,000 gold through the physical shipping bin.",
+      "path": "Dewhaven/Audio/Voice/0a5716da7cea7f66bf90bc67",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "fc2928d5c1d245fe02ad2d57",
+      "text": "The kettle is full, but my pantry isn't.",
+      "path": "Dewhaven/Audio/Voice/fc2928d5c1d245fe02ad2d57",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "efeba580168b765ac376f550",
+      "text": "Ship a thousand gold of produce from your crate.",
+      "path": "Dewhaven/Audio/Voice/efeba580168b765ac376f550",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "32e8b8455be57fc11cc22db6",
+      "text": "The morning cart still stops at the old gate.",
+      "path": "Dewhaven/Audio/Voice/32e8b8455be57fc11cc22db6",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "84ddc902e985d55a449f5d4c",
+      "text": "Your vegetables made it onto today's menu.",
+      "path": "Dewhaven/Audio/Voice/84ddc902e985d55a449f5d4c",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "92163862f1370549998c0347",
+      "text": "Rowan says the river crossing needs timber.",
+      "path": "Dewhaven/Audio/Voice/92163862f1370549998c0347",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "32682b3efadf8e26bb9b54b5",
+      "text": "Fix it and the cart can use the shorter road.",
+      "path": "Dewhaven/Audio/Voice/32682b3efadf8e26bb9b54b5",
+      "model": "aura-2-vesta-en"
+    },
+    {
+      "id": "a5dbb1a46d4d4e71ef5fd4ac",
+      "text": "Deliver twenty timber and fifteen stone to the bridge work site.",
+      "path": "Dewhaven/Audio/Voice/a5dbb1a46d4d4e71ef5fd4ac",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "2942afd7e8678843af6b09bd",
+      "text": "The west footbridge has sound foundations and rotten boards.",
+      "path": "Dewhaven/Audio/Voice/2942afd7e8678843af6b09bd",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "2ac125bfaa70639df32bb3ec",
+      "text": "Twenty timber and fifteen stone will do it.",
+      "path": "Dewhaven/Audio/Voice/2ac125bfaa70639df32bb3ec",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "3b614a641731824e6be0d7db",
+      "text": "I'll take the materials here and finish the crossing.",
+      "path": "Dewhaven/Audio/Voice/3b614a641731824e6be0d7db",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "2c947485106d055e1b35d73d",
+      "text": "The new boards are down.",
+      "path": "Dewhaven/Audio/Voice/2c947485106d055e1b35d73d",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "359f06f4fc2de54204cb87a3",
+      "text": "No more picking through the riverbank.",
+      "path": "Dewhaven/Audio/Voice/359f06f4fc2de54204cb87a3",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "f9a7a4dcdf22b43f8dc01bf7",
+      "text": "Orin found something in the conservatory while we were clearing the approach.",
+      "path": "Dewhaven/Audio/Voice/f9a7a4dcdf22b43f8dc01bf7",
+      "model": "aura-2-pluto-en"
+    },
+    {
+      "id": "84d2d878956d53475a01e427",
+      "text": "Craft three items and deliver six copper to the conservatory repair.",
+      "path": "Dewhaven/Audio/Voice/84d2d878956d53475a01e427",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "3728412ca8a424102feacf9e",
+      "text": "The garden frame is worth saving.",
+      "path": "Dewhaven/Audio/Voice/3728412ca8a424102feacf9e",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "de068cd0ce932c4958a5a3c1",
+      "text": "Bring six copper, and get some practice at your workbench.",
+      "path": "Dewhaven/Audio/Voice/de068cd0ce932c4958a5a3c1",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "ab2039213ece598574be19bc",
+      "text": "Three finished pieces should tell us what you can handle.",
+      "path": "Dewhaven/Audio/Voice/ab2039213ece598574be19bc",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "23ec97c4cc0e3b3a2e3777e8",
+      "text": "The pipes hold.",
+      "path": "Dewhaven/Audio/Voice/23ec97c4cc0e3b3a2e3777e8",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "4cae3fd63cb0f8738cb4826a",
+      "text": "We found a letter tucked behind the old pump: a harbour stamp, four towns, and a promise to keep the winter cupboards full.",
+      "path": "Dewhaven/Audio/Voice/4cae3fd63cb0f8738cb4826a",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "fab970551894eb4e6c392ebc",
+      "text": "Supply the first village feast and meet the courier at Letter Court.",
+      "path": "Dewhaven/Audio/Voice/fab970551894eb4e6c392ebc",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "945b109ca94ca2d1bef23c25",
+      "text": "Before we ask the harbour for help, let's keep a promise here.",
+      "path": "Dewhaven/Audio/Voice/945b109ca94ca2d1bef23c25",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "f21bf6359afa85715f567fd0",
+      "text": "Five turnips, three eggs, a trout, and flowers for the long table.",
+      "path": "Dewhaven/Audio/Voice/f21bf6359afa85715f567fd0",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "02edf5249e09d89abf4a0357",
+      "text": "Simple food, enough to share.",
+      "path": "Dewhaven/Audio/Voice/02edf5249e09d89abf4a0357",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "52222e9c19bd43bb0302047d",
+      "text": "Aya brought the old delivery book to supper.",
+      "path": "Dewhaven/Audio/Voice/52222e9c19bd43bb0302047d",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "8eabd0b980293220dec22c40",
+      "text": "Your grandmother's name is beside every winter run.",
+      "path": "Dewhaven/Audio/Voice/8eabd0b980293220dec22c40",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "cd715f5d6d48e4319ad4a873",
+      "text": "Sera at Aster Quay has the other half of the ledger.",
+      "path": "Dewhaven/Audio/Voice/cd715f5d6d48e4319ad4a873",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "f3e2947c98cfdab2adf1a198",
+      "text": "Visit Aster Quay and examine Sera’s delivery ledger.",
+      "path": "Dewhaven/Audio/Voice/f3e2947c98cfdab2adf1a198",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "4ba253fab9467eebe1741875",
+      "text": "I thought that farm mark had disappeared.",
+      "path": "Dewhaven/Audio/Voice/4ba253fab9467eebe1741875",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "79ca84b21b1dc51772f17566",
+      "text": "Read the ledger on my workbench.",
+      "path": "Dewhaven/Audio/Voice/79ca84b21b1dc51772f17566",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "09be71c0420ee4193ac1b71a",
+      "text": "The boats carried food inland before the cliff landing failed.",
+      "path": "Dewhaven/Audio/Voice/09be71c0420ee4193ac1b71a",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "a2ffa38212f057185cd15656",
+      "text": "Your grandmother planned a route between four public kitchens.",
+      "path": "Dewhaven/Audio/Voice/a2ffa38212f057185cd15656",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "e02a51a0cb7404c234e56b78",
+      "text": "Basil can repair the landing winch.",
+      "path": "Dewhaven/Audio/Voice/e02a51a0cb7404c234e56b78",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "6202bcbd26f666b99105669f",
+      "text": "We could start with one safe crossing.",
+      "path": "Dewhaven/Audio/Voice/6202bcbd26f666b99105669f",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "2c4ac6ef53cf8c49c32ec1c0",
+      "text": "Repair the landing winch with four copper and ten timber.",
+      "path": "Dewhaven/Audio/Voice/2c4ac6ef53cf8c49c32ec1c0",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "153540a522bf922d66bc1744",
+      "text": "The brake has seized, but the frame is sound.",
+      "path": "Dewhaven/Audio/Voice/153540a522bf922d66bc1744",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "fc142fb94a4d4d66db5ce903",
+      "text": "Four copper and ten timber will make the landing usable.",
+      "path": "Dewhaven/Audio/Voice/fc142fb94a4d4d66db5ce903",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "c9e6b00fc3e119793aabb59d",
+      "text": "Then you can reach the archive beneath the cliffs.",
+      "path": "Dewhaven/Audio/Voice/c9e6b00fc3e119793aabb59d",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "c393d77e56c5c0b95d56f825",
+      "text": "Try the brake.",
+      "path": "Dewhaven/Audio/Voice/c393d77e56c5c0b95d56f825",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "f0475912dfa24c85a1138a0e",
+      "text": "It holds.",
+      "path": "Dewhaven/Audio/Voice/f0475912dfa24c85a1138a0e",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "f08a58f0303a4341c7186898",
+      "text": "The cliff landing is open, and Marin has the safest path to the old archive.",
+      "path": "Dewhaven/Audio/Voice/f08a58f0303a4341c7186898",
+      "model": "aura-2-jupiter-en"
+    },
+    {
+      "id": "9bb83ce1a22b2173038960bd",
+      "text": "Walk the Saltwind trail and inspect the vault’s water diagram.",
+      "path": "Dewhaven/Audio/Voice/9bb83ce1a22b2173038960bd",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "4b809ad84e77519ce0cfce43",
+      "text": "Keep to the dry stair on Saltwind Cliffs.",
+      "path": "Dewhaven/Audio/Voice/4b809ad84e77519ce0cfce43",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "4b35b9a544dad0cc1eeac41a",
+      "text": "In the first room, read the water diagram before touching the wheels.",
+      "path": "Dewhaven/Audio/Voice/4b35b9a544dad0cc1eeac41a",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "127a69bb8dc3b85102ce832a",
+      "text": "The archive was built to work with the tide.",
+      "path": "Dewhaven/Audio/Voice/127a69bb8dc3b85102ce832a",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "2b32ea49db8f5a9cd6dae253",
+      "text": "You've seen how the channels fit together.",
+      "path": "Dewhaven/Audio/Voice/2b32ea49db8f5a9cd6dae253",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "1a94de7df06f9418ba253789",
+      "text": "Sera needs the chart case beyond the pump, carts and salt lock.",
+      "path": "Dewhaven/Audio/Voice/1a94de7df06f9418ba253789",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "37b33d4a2460ac52d78c20d4",
+      "text": "Take your time; the way out stays open.",
+      "path": "Dewhaven/Audio/Voice/37b33d4a2460ac52d78c20d4",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "64b537c5dacff98c85d70b07",
+      "text": "Complete the Tide Vault and return its chart to the boatworks.",
+      "path": "Dewhaven/Audio/Voice/64b537c5dacff98c85d70b07",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "16c02922381f14a2ccfbb5c0",
+      "text": "The coast changes with every storm.",
+      "path": "Dewhaven/Audio/Voice/16c02922381f14a2ccfbb5c0",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "3cdafed295d398bb16c1fcc6",
+      "text": "That chart is our missing record.",
+      "path": "Dewhaven/Audio/Voice/3cdafed295d398bb16c1fcc6",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "ee78eb7c73fc3063cdecc925",
+      "text": "Recover it from the case, and bring it here so we can read the orchard route.",
+      "path": "Dewhaven/Audio/Voice/ee78eb7c73fc3063cdecc925",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "75ba047518e989799d199ef1",
+      "text": "Cedar Downs, then Sunridge.",
+      "path": "Dewhaven/Audio/Voice/75ba047518e989799d199ef1",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "d217d2cc80cfa24d18134c36",
+      "text": "The orchard kitchens sent preserves on every autumn run.",
+      "path": "Dewhaven/Audio/Voice/d217d2cc80cfa24d18134c36",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "413fd7dd6dab0ff4f9d4eba8",
+      "text": "Keep the chart; you'll need all three instruments to rebuild the atlas.",
+      "path": "Dewhaven/Audio/Voice/413fd7dd6dab0ff4f9d4eba8",
+      "model": "aura-2-helena-en"
+    },
+    {
+      "id": "6c1c923a06a9ae87e6161604",
+      "text": "Follow Cedar Downs to Sunridge and visit the orchard kitchen.",
+      "path": "Dewhaven/Audio/Voice/6c1c923a06a9ae87e6161604",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "81673a5e1982efb22cb012ae",
+      "text": "Sera wrote ahead.",
+      "path": "Dewhaven/Audio/Voice/81673a5e1982efb22cb012ae",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "759384cdf85345d66bac8961",
+      "text": "Come inside the orchard house.",
+      "path": "Dewhaven/Audio/Voice/759384cdf85345d66bac8961",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "eb5e7e4f3010e4159851c693",
+      "text": "I kept the long table, even after the deliveries stopped.",
+      "path": "Dewhaven/Audio/Voice/eb5e7e4f3010e4159851c693",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "d72522bebe54a25dede1fc32",
+      "text": "It seemed wrong to turn it into firewood.",
+      "path": "Dewhaven/Audio/Voice/d72522bebe54a25dede1fc32",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "26c825b15dd557954a08cac2",
+      "text": "We still have the table.",
+      "path": "Dewhaven/Audio/Voice/26c825b15dd557954a08cac2",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "aaa1c1a074a2187b91cbaf1a",
+      "text": "Now we need a reason to fill it.",
+      "path": "Dewhaven/Audio/Voice/aaa1c1a074a2187b91cbaf1a",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "bacb2e9420416741d2bb8cf7",
+      "text": "Two jars of preserves and four ears of corn would make a start.",
+      "path": "Dewhaven/Audio/Voice/bacb2e9420416741d2bb8cf7",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "7cd0ebce0b06e41aa47dbed5",
+      "text": "Bring two preserves and four corn for the orchard table.",
+      "path": "Dewhaven/Audio/Voice/7cd0ebce0b06e41aa47dbed5",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "6e1e6ea31844d0313d971f4b",
+      "text": "The orchard workers have been eating on the steps.",
+      "path": "Dewhaven/Audio/Voice/6e1e6ea31844d0313d971f4b",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "ef7da4810c74af29aba8fd06",
+      "text": "Bring two preserves and four corn.",
+      "path": "Dewhaven/Audio/Voice/ef7da4810c74af29aba8fd06",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "bebb07c343de05222a829c9e",
+      "text": "We'll lay the table properly and leave room for late arrivals.",
+      "path": "Dewhaven/Audio/Voice/bebb07c343de05222a829c9e",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "3569e899c18e03051a2c40d6",
+      "text": "Ada stayed for seconds.",
+      "path": "Dewhaven/Audio/Voice/3569e899c18e03051a2c40d6",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "a11f424c77ac64fffe0fe809",
+      "text": "Pavel even put his tools down.",
+      "path": "Dewhaven/Audio/Voice/a11f424c77ac64fffe0fe809",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "cad33ef73f95af62de331485",
+      "text": "He knows the quarry gate, where the old weather lens was made.",
+      "path": "Dewhaven/Audio/Voice/cad33ef73f95af62de331485",
+      "model": "aura-2-minerva-en"
+    },
+    {
+      "id": "2d22c7e3c29c33e0f5c15bb7",
+      "text": "Clear and repair the glassworks approach using six timber and ten stone.",
+      "path": "Dewhaven/Audio/Voice/2d22c7e3c29c33e0f5c15bb7",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "3a4fb9cffe624ee5d1809928",
+      "text": "The glassworks road is buried under loose stone.",
+      "path": "Dewhaven/Audio/Voice/3a4fb9cffe624ee5d1809928",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "4407f430d26ce5676076efc5",
+      "text": "Six timber for the supports, ten stone for the drain.",
+      "path": "Dewhaven/Audio/Voice/4407f430d26ce5676076efc5",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "0c417982f76e7b1ecb732e16",
+      "text": "I'll clear a safe approach to the freight lift.",
+      "path": "Dewhaven/Audio/Voice/0c417982f76e7b1ecb732e16",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "181d3cecd0036cc08c3b0618",
+      "text": "The quarry drain is running again.",
+      "path": "Dewhaven/Audio/Voice/181d3cecd0036cc08c3b0618",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "00b5cf19c59528dde732fa0d",
+      "text": "The Ember Gallery is open.",
+      "path": "Dewhaven/Audio/Voice/00b5cf19c59528dde732fa0d",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "8fa463a13a9ab505f599b053",
+      "text": "Orin can tell you which part of the weather instrument we're looking for.",
+      "path": "Dewhaven/Audio/Voice/8fa463a13a9ab505f599b053",
+      "model": "aura-2-mars-en"
+    },
+    {
+      "id": "a30c928badadbfd09383bbd3",
+      "text": "Recover the protected lens from the Ember Gallery.",
+      "path": "Dewhaven/Audio/Voice/a30c928badadbfd09383bbd3",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "7b1e289760212798b04a2360",
+      "text": "A wrapped lens was left in the insulated chamber.",
+      "path": "Dewhaven/Audio/Voice/7b1e289760212798b04a2360",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "5da64e70ac3ad70fa8bb3e32",
+      "text": "Balance the lift, vent the cooling hall, then align the reflector.",
+      "path": "Dewhaven/Audio/Voice/5da64e70ac3ad70fa8bb3e32",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "bbb74977f7e366a02f257c3f",
+      "text": "It is engineering, not a treasure hunt.",
+      "path": "Dewhaven/Audio/Voice/bbb74977f7e366a02f257c3f",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "5956bd9580864cf664d52e5c",
+      "text": "No chips in the glass.",
+      "path": "Dewhaven/Audio/Voice/5956bd9580864cf664d52e5c",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "feef11250d5d0c2d3e7f8928",
+      "text": "Excellent.",
+      "path": "Dewhaven/Audio/Voice/feef11250d5d0c2d3e7f8928",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "257cb88688571c0fd9e0f4b4",
+      "text": "Bring it to the weather bench here; the chart's markings will make more sense with the lens fitted.",
+      "path": "Dewhaven/Audio/Voice/257cb88688571c0fd9e0f4b4",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "0729fc66c0f981004f4d715e",
+      "text": "Fit the lens to a bench instrument and compare its markings with the chart.",
+      "path": "Dewhaven/Audio/Voice/0729fc66c0f981004f4d715e",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "8517e65090c4429768bbd6c6",
+      "text": "The bench needs two copper and a crystal mount.",
+      "path": "Dewhaven/Audio/Voice/8517e65090c4429768bbd6c6",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "96629f8612c0540e454bd004",
+      "text": "Fit them here, compare the coastal marks, and we'll know which route can carry winter supplies.",
+      "path": "Dewhaven/Audio/Voice/96629f8612c0540e454bd004",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "6e77baf3033e479de292fbfe",
+      "text": "The lines meet at Briar Hollow.",
+      "path": "Dewhaven/Audio/Voice/6e77baf3033e479de292fbfe",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "549bb2cef7b13b3a4bbfc5ea",
+      "text": "Ilan has your grandmother's unfinished atlas.",
+      "path": "Dewhaven/Audio/Voice/549bb2cef7b13b3a4bbfc5ea",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "e4a9b3c3b5e96274e9dacc1c",
+      "text": "Take both instruments to the archive.",
+      "path": "Dewhaven/Audio/Voice/e4a9b3c3b5e96274e9dacc1c",
+      "model": "aura-2-zeus-en"
+    },
+    {
+      "id": "f811c9edc9cafb9da7303645",
+      "text": "Bring the chart and lens to the Briar Archive.",
+      "path": "Dewhaven/Audio/Voice/f811c9edc9cafb9da7303645",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "d6f6586927287829a8979570",
+      "text": "She left the mountain section blank on purpose.",
+      "path": "Dewhaven/Audio/Voice/d6f6586927287829a8979570",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "5845135a9b487a964566ac83",
+      "text": "An untested route is worse than an empty page.",
+      "path": "Dewhaven/Audio/Voice/5845135a9b487a964566ac83",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "c8b31f3e63b27bab41ac8324",
+      "text": "Vesper can reopen the sheltered upper stair.",
+      "path": "Dewhaven/Audio/Voice/c8b31f3e63b27bab41ac8324",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "b0fb721e28a2075037adf520",
+      "text": "The chart gives us distances; the lens gives us weather readings.",
+      "path": "Dewhaven/Audio/Voice/b0fb721e28a2075037adf520",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "01516bd8380536fa46275a7d",
+      "text": "We still need the observatory's compass.",
+      "path": "Dewhaven/Audio/Voice/01516bd8380536fa46275a7d",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "0822b8d3da6cc17e44492c50",
+      "text": "First, make the upper road safe.",
+      "path": "Dewhaven/Audio/Voice/0822b8d3da6cc17e44492c50",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "2f047548f6c13a56f688af7b",
+      "text": "Repair the sheltered stair with eight timber and two iron.",
+      "path": "Dewhaven/Audio/Voice/2f047548f6c13a56f688af7b",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "c8cbc5de1e81a43573fd6d32",
+      "text": "Eight timber and two iron will give the stair solid rails.",
+      "path": "Dewhaven/Audio/Voice/c8cbc5de1e81a43573fd6d32",
+      "model": "aura-2-orion-en"
+    },
+    {
+      "id": "fb1e4b1be5df1bb980e459fe",
+      "text": "I won't send anyone up a route I can't bring them down from.",
+      "path": "Dewhaven/Audio/Voice/fb1e4b1be5df1bb980e459fe",
+      "model": "aura-2-orion-en"
+    },
+    {
+      "id": "2bdc187755ce37a91555d227",
+      "text": "The rails and rest landings are ready.",
+      "path": "Dewhaven/Audio/Voice/2bdc187755ce37a91555d227",
+      "model": "aura-2-orion-en"
+    },
+    {
+      "id": "ac16ce74bfd0e1f4fd5d0aa7",
+      "text": "Read the gust markings before crossing the observatory platforms.",
+      "path": "Dewhaven/Audio/Voice/ac16ce74bfd0e1f4fd5d0aa7",
+      "model": "aura-2-orion-en"
+    },
+    {
+      "id": "5fbb1180ee523d580cc01868",
+      "text": "The descent stays available throughout.",
+      "path": "Dewhaven/Audio/Voice/5fbb1180ee523d580cc01868",
+      "model": "aura-2-orion-en"
+    },
+    {
+      "id": "22b890dabd6cc81abbeaa627",
+      "text": "Complete the Observatory and recover the brass compass.",
+      "path": "Dewhaven/Audio/Voice/22b890dabd6cc81abbeaa627",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "5acc8c5bd74ff4a4481d256d",
+      "text": "The observatory was a weather station.",
+      "path": "Dewhaven/Audio/Voice/5acc8c5bd74ff4a4481d256d",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "1cd52a41609193d96a0ffff6",
+      "text": "Open its shutters, seat the gears, and align the meridian plates.",
+      "path": "Dewhaven/Audio/Voice/1cd52a41609193d96a0ffff6",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "3516c82557a77d4517f75be4",
+      "text": "Bring back the brass compass in the final gallery.",
+      "path": "Dewhaven/Audio/Voice/3516c82557a77d4517f75be4",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "eb79577601685667ff7362a3",
+      "text": "Three instruments, at last.",
+      "path": "Dewhaven/Audio/Voice/eb79577601685667ff7362a3",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "a726619170c48f601619e786",
+      "text": "Jun wants to test the route against the map before a cart follows it.",
+      "path": "Dewhaven/Audio/Voice/a726619170c48f601619e786",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "8cd79f2ae575002d2db95112",
+      "text": "Start at the three survey points on Observatory Rise.",
+      "path": "Dewhaven/Audio/Voice/8cd79f2ae575002d2db95112",
+      "model": "aura-2-odysseus-en"
+    },
+    {
+      "id": "de1f6b9f3573121ce153f48d",
+      "text": "Trace three marked route checks with Jun in one visit.",
+      "path": "Dewhaven/Audio/Voice/de1f6b9f3573121ce153f48d",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "531cd8b0310f13a43415f875",
+      "text": "Don't wait for winter to find a bad landing.",
+      "path": "Dewhaven/Audio/Voice/531cd8b0310f13a43415f875",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "0a5cc22766be033cfd7e90f9",
+      "text": "Check the three survey stations on the rise.",
+      "path": "Dewhaven/Audio/Voice/0a5cc22766be033cfd7e90f9",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "2163bc7d1b3f0a3f447ad940",
+      "text": "Compare the slope, shelter, and return path at each.",
+      "path": "Dewhaven/Audio/Voice/2163bc7d1b3f0a3f447ad940",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "2e9fc9ff360c3b64e822cff5",
+      "text": "The notes agree with the ground.",
+      "path": "Dewhaven/Audio/Voice/2e9fc9ff360c3b64e822cff5",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "25f459291591fef4d5a59168",
+      "text": "Now the route needs people at both ends.",
+      "path": "Dewhaven/Audio/Voice/25f459291591fef4d5a59168",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "e97bb0c02eca078bf81f760d",
+      "text": "Join the harbour, orchard, and archive tables so the hosts can plan together.",
+      "path": "Dewhaven/Audio/Voice/e97bb0c02eca078bf81f760d",
+      "model": "aura-2-hermes-en"
+    },
+    {
+      "id": "bd7ec44bd2c963ef730e6c03",
+      "text": "Participate in the harbour, orchard and archive gatherings.",
+      "path": "Dewhaven/Audio/Voice/bd7ec44bd2c963ef730e6c03",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "c2b51a12e6ee51c87cc38c29",
+      "text": "A delivery needs a welcome as much as a road.",
+      "path": "Dewhaven/Audio/Voice/c2b51a12e6ee51c87cc38c29",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "054df31b38cfafe47b106c18",
+      "text": "Sit at the three weekly tables, bring a dish, and hear what each town can offer.",
+      "path": "Dewhaven/Audio/Voice/054df31b38cfafe47b106c18",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "0d8a04fac17f63697f5cc975",
+      "text": "The kitchens have agreed on their part.",
+      "path": "Dewhaven/Audio/Voice/0d8a04fac17f63697f5cc975",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "221fe50b2af87a0dbf252f54",
+      "text": "Marin has a list of repairs for the four shared rooms.",
+      "path": "Dewhaven/Audio/Voice/221fe50b2af87a0dbf252f54",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "c3c34aa9357b425cfcec22d3",
+      "text": "They should be ready before the first convoy.",
+      "path": "Dewhaven/Audio/Voice/c3c34aa9357b425cfcec22d3",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "3f1b31d9c9cb37471b861913",
+      "text": "Reopen one shared public room in each town with local deliveries.",
+      "path": "Dewhaven/Audio/Voice/3f1b31d9c9cb37471b861913",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "28c2a73f3cc1b7fafe0e4e4b",
+      "text": "Four rooms, four doors left open.",
+      "path": "Dewhaven/Audio/Voice/28c2a73f3cc1b7fafe0e4e4b",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "0a3363b90453199ebdbaed88",
+      "text": "Each host has a repair basket at their shared room.",
+      "path": "Dewhaven/Audio/Voice/0a3363b90453199ebdbaed88",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "9c39fe1d1412e3351afee058",
+      "text": "Timber, stone, and a little care will put them back into daily use.",
+      "path": "Dewhaven/Audio/Voice/9c39fe1d1412e3351afee058",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "5f1f3f1b2b2bc3b8a803ed3f",
+      "text": "The rooms are furnished and the cupboards are dry.",
+      "path": "Dewhaven/Audio/Voice/5f1f3f1b2b2bc3b8a803ed3f",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "2682a5e62ef7b54fc20cb427",
+      "text": "Aya can label the first three supply crates at your farmhouse.",
+      "path": "Dewhaven/Audio/Voice/2682a5e62ef7b54fc20cb427",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "702cf7bdf6331441c84acd1a",
+      "text": "After you pack them, let the morning cart do its work.",
+      "path": "Dewhaven/Audio/Voice/702cf7bdf6331441c84acd1a",
+      "model": "aura-2-janus-en"
+    },
+    {
+      "id": "3001c60b49eee1ea83c048f3",
+      "text": "Prepare three labelled deliveries, ship them and meet the convoy next morning.",
+      "path": "Dewhaven/Audio/Voice/3001c60b49eee1ea83c048f3",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "03d91a1dda9950aceccb187f",
+      "text": "At your shipping crate: pack one pantry box, one orchard box, and one repair box.",
+      "path": "Dewhaven/Audio/Voice/03d91a1dda9950aceccb187f",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "8dfa5d8a4995c785c4ceff72",
+      "text": "I'll collect them at dawn.",
+      "path": "Dewhaven/Audio/Voice/8dfa5d8a4995c785c4ceff72",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "5b8492fa6ced4b0bd893f85a",
+      "text": "Meet me after the next morning's delivery.",
+      "path": "Dewhaven/Audio/Voice/5b8492fa6ced4b0bd893f85a",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "10d81ef0f559e73d6771bff0",
+      "text": "All three crates arrived.",
+      "path": "Dewhaven/Audio/Voice/10d81ef0f559e73d6771bff0",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "0db9d45914a51bc9ed74c459",
+      "text": "Nothing lost, nobody stranded.",
+      "path": "Dewhaven/Audio/Voice/0db9d45914a51bc9ed74c459",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "2a1f68628fed15a2ae024941",
+      "text": "Your grandmother started this route with a borrowed cart.",
+      "path": "Dewhaven/Audio/Voice/2a1f68628fed15a2ae024941",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "1826cdc311e4eb445969f55c",
+      "text": "We started it again with yours.",
+      "path": "Dewhaven/Audio/Voice/1826cdc311e4eb445969f55c",
+      "model": "aura-2-cordelia-en"
+    },
+    {
+      "id": "f0ea50508818f2131290b4ca",
+      "text": "Return the finished atlas to the village table and complete the homecoming.",
+      "path": "Dewhaven/Audio/Voice/f0ea50508818f2131290b4ca",
+      "model": "aura-2-draco-en"
+    },
+    {
+      "id": "1a02cac3b3b5c33bf6657d0f",
+      "text": "Bring the three instruments to the village table.",
+      "path": "Dewhaven/Audio/Voice/1a02cac3b3b5c33bf6657d0f",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "071663cdfed73f3e1256f475",
+      "text": "The last page belongs to everyone who kept a door open, including you.",
+      "path": "Dewhaven/Audio/Voice/071663cdfed73f3e1256f475",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "5a0c75251dbd59e47ab422da",
+      "text": "The atlas is finished, but the valley isn't.",
+      "path": "Dewhaven/Audio/Voice/5a0c75251dbd59e47ab422da",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "2e1af05551900d7d8f9915d4",
+      "text": "Crops still need water.",
+      "path": "Dewhaven/Audio/Voice/2e1af05551900d7d8f9915d4",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "67f6072a06fb1e412815046d",
+      "text": "Someone is setting another place at a table.",
+      "path": "Dewhaven/Audio/Voice/67f6072a06fb1e412815046d",
+      "model": "aura-2-orpheus-en"
+    },
+    {
+      "id": "61254970f4b9a996704fb511",
+      "text": "Tomorrow, choose the part of this life you want to grow.",
+      "path": "Dewhaven/Audio/Voice/61254970f4b9a996704fb511",
+      "model": "aura-2-orpheus-en"
+    }
+  ],
+  "passageCount": 76,
+  "segmentCount": 177,
+  "characters": 8726,
+  "sourceDigest": "957f7fdc9ab2278a657dc692a4b4b45009755321b7c92a97d4fe9d2700eb2128"
+}

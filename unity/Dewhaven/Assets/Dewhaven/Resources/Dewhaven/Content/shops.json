@@ -1,0 +1,472 @@
+[
+  {
+    "id": "seedhouse",
+    "room": "market",
+    "owner": "mira",
+    "name": "Mira's Seedhouse",
+    "stock": [
+      {
+        "id": "turnip_seed",
+        "price": 20
+      },
+      {
+        "id": "potato_seed",
+        "price": 40
+      },
+      {
+        "id": "carrot_seed",
+        "price": 30
+      },
+      {
+        "id": "cabbage_seed",
+        "price": 60
+      },
+      {
+        "id": "radish_seed",
+        "price": 35
+      },
+      {
+        "id": "corn_seed",
+        "price": 65
+      },
+      {
+        "id": "pumpkin_seed",
+        "price": 85
+      },
+      {
+        "id": "cauliflower_seed",
+        "price": 80
+      },
+      {
+        "id": "fertilizer",
+        "price": 50
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "kettle",
+    "room": "cafe",
+    "owner": "cleo",
+    "name": "The Copper Kettle",
+    "stock": [
+      {
+        "id": "soup",
+        "price": 325
+      },
+      {
+        "id": "omelet",
+        "price": 270
+      },
+      {
+        "id": "stew",
+        "price": 415
+      },
+      {
+        "id": "fish_dinner",
+        "price": 435
+      },
+      {
+        "id": "jam",
+        "price": 255
+      }
+    ],
+    "upgrades": [],
+    "open": 420,
+    "close": 1260,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "ranch",
+    "room": "ranch",
+    "owner": "nora",
+    "name": "Nora's Meadow Ranch",
+    "stock": [
+      {
+        "id": "feed",
+        "price": 15
+      }
+    ],
+    "upgrades": [],
+    "animals": true,
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "forge",
+    "room": "forge",
+    "owner": "orin",
+    "name": "Copper & Coal",
+    "stock": [
+      {
+        "id": "copper",
+        "price": 90
+      },
+      {
+        "id": "iron",
+        "price": 150
+      },
+      {
+        "id": "stone",
+        "price": 20
+      }
+    ],
+    "upgrades": [
+      "tools"
+    ],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "builder",
+    "room": "carpenter",
+    "owner": "gareth",
+    "name": "Gareth's Timberyard",
+    "stock": [
+      {
+        "id": "wood",
+        "price": 25
+      },
+      {
+        "id": "stone",
+        "price": 20
+      }
+    ],
+    "upgrades": [
+      "house",
+      "expansion"
+    ],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "clothier",
+    "room": "clothier",
+    "owner": "ellis",
+    "name": "Thread & Thimble",
+    "stock": [
+      {
+        "id": "bouquet",
+        "price": 220
+      },
+      {
+        "id": "ring",
+        "price": 1440
+      }
+    ],
+    "upgrades": [
+      "backpack"
+    ],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "saltglass",
+    "room": "quay-inn",
+    "owner": "marin",
+    "name": "The Saltglass Inn",
+    "stock": [
+      {
+        "id": "soup",
+        "price": 325
+      },
+      {
+        "id": "fish_dinner",
+        "price": 435
+      },
+      {
+        "id": "jam",
+        "price": 255
+      }
+    ],
+    "upgrades": [],
+    "open": 420,
+    "close": 1260,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "exchange",
+    "room": "quay-market",
+    "owner": "nemi",
+    "name": "The Quayside Exchange",
+    "stock": [
+      {
+        "id": "turnip_seed",
+        "price": 20
+      },
+      {
+        "id": "carrot_seed",
+        "price": 30
+      },
+      {
+        "id": "corn_seed",
+        "price": 65
+      },
+      {
+        "id": "feed",
+        "price": 15
+      },
+      {
+        "id": "fertilizer",
+        "price": 50
+      },
+      {
+        "id": "wood",
+        "price": 25
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "fishmonger",
+    "room": "fishmonger",
+    "owner": "cato",
+    "name": "Cato's Fresh Catch",
+    "stock": [
+      {
+        "id": "carp",
+        "price": 120
+      },
+      {
+        "id": "perch",
+        "price": 175
+      },
+      {
+        "id": "trout",
+        "price": 265
+      },
+      {
+        "id": "fish_dinner",
+        "price": 435
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "orchard",
+    "room": "orchard-house",
+    "owner": "tamsin",
+    "name": "Tamsin's Orchard Kitchen",
+    "stock": [
+      {
+        "id": "jam",
+        "price": 255
+      },
+      {
+        "id": "soup",
+        "price": 325
+      },
+      {
+        "id": "berry",
+        "price": 45
+      },
+      {
+        "id": "corn_seed",
+        "price": 65
+      },
+      {
+        "id": "pumpkin_seed",
+        "price": 85
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "flowers",
+    "room": "flower-shop",
+    "owner": "lyra",
+    "name": "Lyra's Wildflower House",
+    "stock": [
+      {
+        "id": "flower",
+        "price": 30
+      },
+      {
+        "id": "bouquet",
+        "price": 220
+      },
+      {
+        "id": "fertilizer",
+        "price": 50
+      },
+      {
+        "id": "carrot_seed",
+        "price": 30
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "pantry",
+    "room": "bakery",
+    "owner": "ada",
+    "name": "The Hearth Pantry",
+    "stock": [
+      {
+        "id": "omelet",
+        "price": 270
+      },
+      {
+        "id": "jam",
+        "price": 255
+      },
+      {
+        "id": "soup",
+        "price": 325
+      },
+      {
+        "id": "egg",
+        "price": 85
+      }
+    ],
+    "upgrades": [],
+    "open": 420,
+    "close": 1260,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "garden",
+    "room": "apiary",
+    "owner": "pavel",
+    "name": "Pavel's Garden House",
+    "stock": [
+      {
+        "id": "fertilizer",
+        "price": 50
+      },
+      {
+        "id": "feed",
+        "price": 15
+      },
+      {
+        "id": "cabbage_seed",
+        "price": 60
+      },
+      {
+        "id": "cauliflower_seed",
+        "price": 80
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "herbalist",
+    "room": "apothecary",
+    "owner": "bea",
+    "name": "Bea's Herb & Hearth",
+    "stock": [
+      {
+        "id": "berry",
+        "price": 45
+      },
+      {
+        "id": "mushroom",
+        "price": 75
+      },
+      {
+        "id": "stew",
+        "price": 415
+      },
+      {
+        "id": "fertilizer",
+        "price": 50
+      }
+    ],
+    "upgrades": [],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "outfitter",
+    "room": "outfitters",
+    "owner": "tobin",
+    "name": "The Ridge Outfitter",
+    "stock": [
+      {
+        "id": "wood",
+        "price": 25
+      },
+      {
+        "id": "stone",
+        "price": 20
+      },
+      {
+        "id": "copper",
+        "price": 90
+      },
+      {
+        "id": "iron",
+        "price": 150
+      }
+    ],
+    "upgrades": [
+      "backpack"
+    ],
+    "open": 480,
+    "close": 1080,
+    "selfService": false,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  },
+  {
+    "id": "lodge",
+    "room": "mountain-lodge",
+    "owner": "vesper",
+    "name": "The Wayfarer Lodge",
+    "stock": [
+      {
+        "id": "soup",
+        "price": 325
+      },
+      {
+        "id": "stew",
+        "price": 415
+      },
+      {
+        "id": "fish_dinner",
+        "price": 435
+      }
+    ],
+    "upgrades": [],
+    "open": 420,
+    "close": 1260,
+    "selfService": true,
+    "counterRule": "Correct room, open hours, within 1.5 tiles of the service anchor; time pauses during the transaction."
+  }
+]

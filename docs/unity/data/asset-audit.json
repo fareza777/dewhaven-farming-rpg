@@ -1,0 +1,274 @@
+{
+  "source": "E:/Pixel Games Asset Master/Assets/Gif/Super_Retro_Collection/Resources",
+  "readOnly": true,
+  "folders": [
+    {
+      "folder": "Animations",
+      "png": 120,
+      "prefab": 0,
+      "anim": 0,
+      "asset": 0,
+      "controller": 0,
+      "meta": 131,
+      "bytes": 524645
+    },
+    {
+      "folder": "ARPG",
+      "png": 2464,
+      "prefab": 0,
+      "anim": 0,
+      "asset": 0,
+      "controller": 0,
+      "meta": 2496,
+      "bytes": 9941651
+    },
+    {
+      "folder": "Backgrounds",
+      "png": 11,
+      "prefab": 0,
+      "anim": 0,
+      "asset": 0,
+      "controller": 0,
+      "meta": 11,
+      "bytes": 204814
+    },
+    {
+      "folder": "Battlers",
+      "png": 57,
+      "prefab": 0,
+      "anim": 0,
+      "asset": 0,
+      "controller": 0,
+      "meta": 57,
+      "bytes": 298256
+    },
+    {
+      "folder": "Characters",
+      "png": 230,
+      "prefab": 0,
+      "anim": 8,
+      "asset": 0,
+      "controller": 1,
+      "meta": 296,
+      "bytes": 1527120
+    },
+    {
+      "folder": "Environments",
+      "png": 279,
+      "prefab": 3,
+      "anim": 0,
+      "asset": 14211,
+      "controller": 0,
+      "meta": 14506,
+      "bytes": 137769741
+    },
+    {
+      "folder": "Hero",
+      "png": 311,
+      "prefab": 0,
+      "anim": 0,
+      "asset": 0,
+      "controller": 0,
+      "meta": 408,
+      "bytes": 1868401
+    },
+    {
+      "folder": "Prefabs",
+      "png": 246,
+      "prefab": 247,
+      "anim": 21,
+      "asset": 0,
+      "controller": 21,
+      "meta": 571,
+      "bytes": 2220734
+    },
+    {
+      "folder": "Prefabs_with_behavior",
+      "png": 6,
+      "prefab": 6,
+      "anim": 7,
+      "asset": 0,
+      "controller": 3,
+      "meta": 36,
+      "bytes": 98629
+    }
+  ],
+  "existingRuntime": {
+    "worldFrames": 787,
+    "furnitureFrames": 49,
+    "generatedItemIllustrations": 32,
+    "cinematicPaintings": 4
+  },
+  "avatars": [
+    {
+      "id": 0,
+      "frame": "farmer/walk/down/1",
+      "sprite": "farmer",
+      "name": "Fieldkeeper",
+      "note": "Straw hat · canvas overalls"
+    },
+    {
+      "id": 1,
+      "frame": "chara_5/down/1",
+      "sprite": "chara_5",
+      "name": "Sunfarer",
+      "note": "Copper hair · working apron"
+    },
+    {
+      "id": 2,
+      "frame": "chara_17/down/1",
+      "sprite": "chara_17",
+      "name": "Wayfarer",
+      "note": "Silver hair · travelling coat"
+    },
+    {
+      "id": 3,
+      "frame": "chara_26/down/1",
+      "sprite": "chara_26",
+      "name": "Trailkeeper",
+      "note": "Rust hood · leather gear"
+    }
+  ],
+  "originalCrops": [
+    {
+      "id": "turnip",
+      "days": 3,
+      "seasons": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "potato",
+      "days": 5,
+      "seasons": [
+        0
+      ]
+    },
+    {
+      "id": "carrot",
+      "days": 4,
+      "seasons": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "cabbage",
+      "days": 6,
+      "seasons": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "radish",
+      "days": 4,
+      "seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "corn",
+      "days": 7,
+      "seasons": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "days": 8,
+      "seasons": [
+        2
+      ]
+    },
+    {
+      "id": "cauliflower",
+      "days": 8,
+      "seasons": [
+        0
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "soup",
+      "ingredients": {
+        "turnip": 2,
+        "carrot": 1
+      },
+      "output": "soup"
+    },
+    {
+      "id": "omelet",
+      "ingredients": {
+        "egg": 2
+      },
+      "output": "omelet"
+    },
+    {
+      "id": "stew",
+      "ingredients": {
+        "mushroom": 2,
+        "potato": 1
+      },
+      "output": "stew"
+    },
+    {
+      "id": "fish_dinner",
+      "ingredients": {
+        "carp": 1,
+        "carrot": 1
+      },
+      "output": "fish_dinner"
+    },
+    {
+      "id": "jam",
+      "ingredients": {
+        "berry": 4
+      },
+      "output": "jam"
+    },
+    {
+      "id": "sprinkler",
+      "ingredients": {
+        "copper": 5,
+        "iron": 2,
+        "stone": 5
+      },
+      "output": "sprinkler"
+    },
+    {
+      "id": "scarecrow",
+      "ingredients": {
+        "wood": 10,
+        "wool": 1
+      },
+      "output": "scarecrow"
+    },
+    {
+      "id": "bouquet",
+      "ingredients": {
+        "flower": 5
+      },
+      "output": "bouquet"
+    },
+    {
+      "id": "ring",
+      "ingredients": {
+        "crystal": 3,
+        "iron": 5
+      },
+      "output": "ring"
+    },
+    {
+      "id": "feed",
+      "ingredients": {
+        "corn": 1
+      },
+      "output": "feed"
+    }
+  ]
+}

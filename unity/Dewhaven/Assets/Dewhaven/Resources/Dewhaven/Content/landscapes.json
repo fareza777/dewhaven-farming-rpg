@@ -1,0 +1,2127 @@
+{
+  "farm": {
+    "size": [
+      104,
+      80
+    ],
+    "entry": [
+      58,
+      55
+    ],
+    "roads": [
+      [
+        [
+          49,
+          40
+        ],
+        [
+          52,
+          39
+        ],
+        [
+          58,
+          39
+        ],
+        [
+          69,
+          39
+        ],
+        [
+          80,
+          40
+        ]
+      ],
+      [
+        [
+          58,
+          39
+        ],
+        [
+          57,
+          47
+        ],
+        [
+          58,
+          54
+        ],
+        [
+          64,
+          59
+        ],
+        [
+          64,
+          68
+        ],
+        [
+          64,
+          77.2
+        ]
+      ],
+      [
+        [
+          2.8,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          23,
+          55
+        ],
+        [
+          36,
+          57
+        ],
+        [
+          47,
+          54
+        ],
+        [
+          58,
+          54
+        ]
+      ],
+      [
+        [
+          64,
+          59
+        ],
+        [
+          77,
+          57
+        ],
+        [
+          88,
+          58
+        ],
+        [
+          94,
+          58
+        ],
+        [
+          101.2,
+          58
+        ]
+      ],
+      [
+        [
+          88,
+          58
+        ],
+        [
+          90,
+          61
+        ],
+        [
+          90,
+          63
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          93,
+          68,
+          8,
+          6
+        ]
+      }
+    ],
+    "groves": [
+      [
+        15,
+        17,
+        12,
+        11,
+        "tree_03",
+        3.4
+      ],
+      [
+        31,
+        31,
+        8,
+        13,
+        "tree_03",
+        3.4
+      ],
+      [
+        14,
+        72,
+        11,
+        6,
+        "tree_03",
+        3.4
+      ],
+      [
+        43,
+        70,
+        10,
+        6,
+        "tree_03",
+        3.4
+      ],
+      [
+        89,
+        22,
+        10,
+        11,
+        "tree_03",
+        3.4
+      ],
+      [
+        90,
+        44,
+        8,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        79,
+        71,
+        6,
+        6,
+        "tree_31",
+        3.4
+      ]
+    ],
+    "clearings": [
+      [
+        52,
+        40,
+        8,
+        4,
+        0
+      ],
+      [
+        79,
+        40,
+        6,
+        4,
+        0
+      ],
+      [
+        26,
+        55,
+        8,
+        5,
+        0
+      ]
+    ],
+    "homes": [
+      [
+        "farmhouse",
+        "house_05",
+        52,
+        36
+      ],
+      [
+        "barn",
+        "house_19",
+        80,
+        38
+      ]
+    ],
+    "props": [
+      {
+        "frame": "room/bin",
+        "position": [
+          54.7,
+          39
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": "shipping",
+        "resource": null
+      },
+      {
+        "frame": "room/table",
+        "position": [
+          49,
+          39
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": "workbench",
+        "resource": null
+      },
+      {
+        "frame": "room/well",
+        "position": [
+          60,
+          44
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": "farm-well",
+        "resource": null
+      },
+      {
+        "frame": "room/logpile",
+        "position": [
+          46,
+          37
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/table",
+        "position": [
+          25,
+          52
+        ],
+        "solid": true,
+        "scale": 0.85,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          24,
+          53.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/flowers",
+        "position": [
+          27,
+          52
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          84,
+          55
+        ],
+        "solid": true,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-b",
+        "position": [
+          84,
+          63
+        ],
+        "solid": false,
+        "scale": 1.4,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "farm-pond",
+        90,
+        63
+      ]
+    ]
+  },
+  "forest": {
+    "size": [
+      80,
+      68
+    ],
+    "entry": [
+      45,
+      37
+    ],
+    "roads": [
+      [
+        [
+          2.8,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          25,
+          36
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          37
+        ],
+        [
+          56,
+          33
+        ],
+        [
+          66,
+          28
+        ],
+        [
+          77.2,
+          28
+        ]
+      ],
+      [
+        [
+          42,
+          2.8
+        ],
+        [
+          42,
+          11
+        ],
+        [
+          46,
+          21
+        ],
+        [
+          45,
+          37
+        ]
+      ],
+      [
+        [
+          45,
+          37
+        ],
+        [
+          54,
+          43
+        ],
+        [
+          65,
+          54
+        ],
+        [
+          77.2,
+          54
+        ]
+      ],
+      [
+        [
+          31,
+          29
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          45,
+          37
+        ]
+      ],
+      [
+        [
+          16,
+          35
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          26
+        ]
+      ],
+      [
+        [
+          46,
+          21
+        ],
+        [
+          52,
+          20
+        ],
+        [
+          55,
+          20
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          15,
+          19,
+          9,
+          6
+        ]
+      },
+      {
+        "stream": [
+          [
+            57,
+            4
+          ],
+          [
+            60,
+            18
+          ],
+          [
+            57,
+            30
+          ],
+          [
+            61,
+            43
+          ],
+          [
+            58,
+            55
+          ],
+          [
+            61,
+            66
+          ]
+        ],
+        "width": 4
+      }
+    ],
+    "groves": [
+      [
+        12,
+        9,
+        10,
+        6,
+        "tree_03",
+        3.4
+      ],
+      [
+        31,
+        10,
+        8,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        17,
+        53,
+        14,
+        9,
+        "tree_03",
+        3.4
+      ],
+      [
+        36,
+        56,
+        11,
+        8,
+        "tree_03",
+        3.4
+      ],
+      [
+        69,
+        10,
+        8,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        71,
+        39,
+        6,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        51,
+        59,
+        6,
+        5,
+        "tree_03",
+        3.4
+      ],
+      [
+        50,
+        26,
+        5,
+        6,
+        "tree_03",
+        3.4
+      ],
+      [
+        38,
+        46,
+        6,
+        5,
+        "tree_03",
+        3.4
+      ]
+    ],
+    "clearings": [
+      [
+        34,
+        31,
+        8,
+        5,
+        0
+      ],
+      [
+        45,
+        37,
+        7,
+        5,
+        0
+      ],
+      [
+        67,
+        17,
+        5,
+        4,
+        0
+      ]
+    ],
+    "homes": [
+      [
+        "ranger-house",
+        "house_15",
+        31,
+        27
+      ]
+    ],
+    "props": [
+      {
+        "frame": "room/well",
+        "position": [
+          28,
+          31
+        ],
+        "solid": true,
+        "scale": 0.9,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/table",
+        "position": [
+          39,
+          31
+        ],
+        "solid": true,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          38,
+          32.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stump",
+        "position": [
+          18,
+          33
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-b",
+        "position": [
+          40,
+          41
+        ],
+        "solid": false,
+        "scale": 1.3,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "woodland-pool",
+        18,
+        26
+      ]
+    ],
+    "upgradeRoads": [
+      [
+        [
+          55,
+          20
+        ],
+        [
+          59,
+          20
+        ],
+        [
+          64,
+          18
+        ],
+        [
+          68,
+          17
+        ]
+      ]
+    ]
+  },
+  "lake": {
+    "size": [
+      78,
+      68
+    ],
+    "entry": [
+      23,
+      31
+    ],
+    "roads": [
+      [
+        [
+          2.8,
+          27
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          27,
+          39
+        ],
+        [
+          29,
+          48
+        ],
+        [
+          38,
+          55
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          52,
+          65.2
+        ]
+      ],
+      [
+        [
+          2.8,
+          51
+        ],
+        [
+          15,
+          51
+        ],
+        [
+          23,
+          49
+        ],
+        [
+          29,
+          48
+        ]
+      ],
+      [
+        [
+          24,
+          24
+        ],
+        [
+          23,
+          27
+        ],
+        [
+          23,
+          31
+        ]
+      ],
+      [
+        [
+          27,
+          35
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          38,
+          35
+        ]
+      ],
+      [
+        [
+          52,
+          59
+        ],
+        [
+          58,
+          55
+        ],
+        [
+          58,
+          46
+        ]
+      ],
+      [
+        [
+          23,
+          43
+        ],
+        [
+          27,
+          43
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          48,
+          28,
+          19,
+          20
+        ]
+      },
+      {
+        "ellipse": [
+          64,
+          35,
+          11,
+          16
+        ]
+      }
+    ],
+    "groves": [
+      [
+        12,
+        12,
+        10,
+        8,
+        "tree_03",
+        3.4
+      ],
+      [
+        19,
+        61,
+        13,
+        5,
+        "tree_03",
+        3.4
+      ],
+      [
+        70,
+        60,
+        5,
+        5,
+        "tree_03",
+        3.4
+      ],
+      [
+        71,
+        10,
+        4,
+        5,
+        "tree_03",
+        3.4
+      ],
+      [
+        13,
+        39,
+        7,
+        4,
+        "tree_03",
+        3.4
+      ]
+    ],
+    "clearings": [
+      [
+        24,
+        27,
+        7,
+        5,
+        0
+      ],
+      [
+        24,
+        44,
+        6,
+        4,
+        0
+      ]
+    ],
+    "homes": [
+      [
+        "lake-house",
+        "house_02",
+        24,
+        22
+      ]
+    ],
+    "props": [
+      {
+        "frame": "room/table",
+        "position": [
+          23,
+          43
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": "lakeside-table",
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          21.6,
+          44.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          24.4,
+          44.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-a",
+        "position": [
+          29,
+          27
+        ],
+        "solid": false,
+        "scale": 1.3,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/lamp",
+        "position": [
+          35,
+          36.7
+        ],
+        "solid": false,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          56,
+          54
+        ],
+        "solid": true,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "lake-pier",
+        38,
+        35
+      ],
+      [
+        "south-pier",
+        58,
+        46
+      ]
+    ]
+  },
+  "cedar-downs": {
+    "size": [
+      68,
+      60
+    ],
+    "entry": [
+      33,
+      32
+    ],
+    "roads": [
+      [
+        [
+          65.2,
+          32
+        ],
+        [
+          54,
+          32
+        ],
+        [
+          43,
+          29
+        ],
+        [
+          33,
+          32
+        ],
+        [
+          32,
+          43
+        ],
+        [
+          34,
+          51
+        ],
+        [
+          34,
+          57.2
+        ]
+      ],
+      [
+        [
+          33,
+          32
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      [
+        [
+          33,
+          32
+        ],
+        [
+          37,
+          36
+        ],
+        [
+          42,
+          37
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          13,
+          19,
+          8,
+          5
+        ]
+      }
+    ],
+    "groves": [
+      [
+        13,
+        8,
+        9,
+        4,
+        "tree_03",
+        3.4
+      ],
+      [
+        51,
+        12,
+        13,
+        7,
+        "tree_31",
+        4
+      ],
+      [
+        12,
+        45,
+        8,
+        9,
+        "tree_31",
+        4
+      ],
+      [
+        51,
+        49,
+        11,
+        7,
+        "tree_31",
+        4
+      ],
+      [
+        31,
+        14,
+        8,
+        7,
+        "tree_31",
+        4
+      ]
+    ],
+    "clearings": [
+      [
+        36,
+        35,
+        8,
+        5,
+        0
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "room/table",
+        "position": [
+          36,
+          34
+        ],
+        "solid": true,
+        "scale": 1.1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          34.5,
+          35.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          37.5,
+          35.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          39,
+          32
+        ],
+        "solid": true,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/flowers",
+        "position": [
+          31,
+          38
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-b",
+        "position": [
+          27,
+          32
+        ],
+        "solid": false,
+        "scale": 1.5,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "orchard-pool",
+        20,
+        25
+      ]
+    ]
+  },
+  "reedwater-marsh": {
+    "size": [
+      70,
+      64
+    ],
+    "entry": [
+      32,
+      33
+    ],
+    "roads": [
+      [
+        [
+          30,
+          2.8
+        ],
+        [
+          30,
+          12
+        ],
+        [
+          35,
+          22
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          56,
+          43
+        ],
+        [
+          67.2,
+          43
+        ]
+      ],
+      [
+        [
+          32,
+          33
+        ],
+        [
+          24,
+          35
+        ],
+        [
+          19,
+          37
+        ]
+      ],
+      [
+        [
+          56,
+          43
+        ],
+        [
+          59,
+          35
+        ],
+        [
+          61,
+          27
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          18,
+          23,
+          12,
+          8
+        ]
+      },
+      {
+        "ellipse": [
+          49,
+          20,
+          12,
+          10
+        ]
+      },
+      {
+        "ellipse": [
+          31,
+          50,
+          13,
+          9
+        ]
+      },
+      {
+        "ellipse": [
+          59,
+          55,
+          10,
+          6
+        ]
+      },
+      {
+        "ellipse": [
+          14,
+          37,
+          5,
+          5
+        ]
+      },
+      {
+        "ellipse": [
+          59,
+          27,
+          7,
+          5
+        ]
+      }
+    ],
+    "groves": [
+      [
+        11,
+        9,
+        6,
+        5,
+        "tree_03",
+        4
+      ],
+      [
+        13,
+        54,
+        7,
+        5,
+        "tree_03",
+        4
+      ],
+      [
+        64,
+        9,
+        4,
+        5,
+        "tree_03",
+        4
+      ],
+      [
+        43,
+        9,
+        5,
+        4,
+        "tree_03",
+        4
+      ]
+    ],
+    "clearings": [
+      [
+        43,
+        37,
+        5,
+        4,
+        0
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "room/table",
+        "position": [
+          43,
+          35
+        ],
+        "solid": true,
+        "scale": 0.85,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          42,
+          36.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          61,
+          39
+        ],
+        "solid": true,
+        "scale": 0.8,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "reedwater-bend",
+        19,
+        37
+      ],
+      [
+        "reedwater-east",
+        61,
+        27
+      ]
+    ]
+  },
+  "copperleaf-pass": {
+    "size": [
+      66,
+      60
+    ],
+    "entry": [
+      31,
+      46
+    ],
+    "roads": [
+      [
+        [
+          31,
+          57.2
+        ],
+        [
+          31,
+          47
+        ],
+        [
+          26,
+          37
+        ],
+        [
+          29,
+          28
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          30,
+          17.2
+        ]
+      ],
+      [
+        [
+          31,
+          47
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          54,
+          40
+        ],
+        [
+          63.2,
+          40
+        ]
+      ],
+      [
+        [
+          26,
+          37
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          19,
+          31
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          13,
+          31,
+          6,
+          5
+        ]
+      }
+    ],
+    "groves": [
+      [
+        12,
+        12,
+        8,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        51,
+        16,
+        9,
+        10,
+        "tree_03",
+        3.4
+      ],
+      [
+        12,
+        49,
+        7,
+        7,
+        "tree_03",
+        3.4
+      ],
+      [
+        51,
+        52,
+        9,
+        4,
+        "tree_03",
+        3.4
+      ]
+    ],
+    "clearings": [
+      [
+        30,
+        22,
+        8,
+        6,
+        6
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "room/logpile",
+        "position": [
+          23,
+          24
+        ],
+        "solid": true,
+        "scale": 1.1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          37,
+          25
+        ],
+        "solid": true,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_21",
+        "position": [
+          21,
+          39
+        ],
+        "solid": true,
+        "scale": 1.5,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_21",
+        "position": [
+          39,
+          34
+        ],
+        "solid": true,
+        "scale": 1.8,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "quarry-pool",
+        19,
+        31
+      ]
+    ],
+    "dungeon": [
+      "mine-floor-1",
+      30,
+      15
+    ]
+  },
+  "saltwind-cliffs": {
+    "size": [
+      64,
+      58
+    ],
+    "entry": [
+      24,
+      30
+    ],
+    "roads": [
+      [
+        [
+          2.8,
+          34
+        ],
+        [
+          13,
+          34
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          33,
+          25
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          17.2
+        ]
+      ],
+      [
+        [
+          24,
+          30
+        ],
+        [
+          24,
+          35
+        ],
+        [
+          22,
+          41
+        ]
+      ],
+      [
+        [
+          33,
+          25
+        ],
+        [
+          34,
+          32
+        ],
+        [
+          36,
+          35
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "rect": [
+          0,
+          48,
+          64,
+          10
+        ]
+      },
+      {
+        "ellipse": [
+          13,
+          49,
+          18,
+          7
+        ]
+      },
+      {
+        "ellipse": [
+          49,
+          51,
+          18,
+          7
+        ]
+      }
+    ],
+    "groves": [
+      [
+        14,
+        12,
+        9,
+        8,
+        "tree_31",
+        4.2
+      ],
+      [
+        55,
+        31,
+        5,
+        8,
+        "rock_21",
+        3.2
+      ]
+    ],
+    "clearings": [
+      [
+        43,
+        22,
+        8,
+        6,
+        6
+      ],
+      [
+        35,
+        33,
+        5,
+        4,
+        0
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "room/table",
+        "position": [
+          35,
+          31
+        ],
+        "solid": true,
+        "scale": 0.85,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          34,
+          32.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_21",
+        "position": [
+          25,
+          39
+        ],
+        "solid": true,
+        "scale": 1.5,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-b",
+        "position": [
+          29,
+          34
+        ],
+        "solid": false,
+        "scale": 1.4,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          17,
+          36
+        ],
+        "solid": true,
+        "scale": 0.9,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [
+      [
+        "tide-pier",
+        22,
+        41
+      ]
+    ],
+    "dungeon": [
+      "tide-vault-1",
+      43,
+      15
+    ]
+  },
+  "ember-trail": {
+    "size": [
+      64,
+      60
+    ],
+    "entry": [
+      28,
+      31
+    ],
+    "roads": [
+      [
+        [
+          25,
+          2.8
+        ],
+        [
+          25,
+          12
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          28,
+          33
+        ],
+        [
+          41,
+          33
+        ],
+        [
+          44,
+          24
+        ],
+        [
+          44,
+          17.2
+        ]
+      ],
+      [
+        [
+          28,
+          33
+        ],
+        [
+          23,
+          37
+        ],
+        [
+          18,
+          38
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          14,
+          41,
+          7,
+          5
+        ]
+      }
+    ],
+    "groves": [
+      [
+        10,
+        12,
+        6,
+        8,
+        "tree_31",
+        4
+      ],
+      [
+        50,
+        47,
+        8,
+        8,
+        "rock_36",
+        3.3
+      ],
+      [
+        10,
+        54,
+        6,
+        3,
+        "tree_31",
+        3.4
+      ],
+      [
+        36,
+        10,
+        5,
+        4,
+        "rock_36",
+        3.5
+      ]
+    ],
+    "clearings": [
+      [
+        44,
+        22,
+        8,
+        6,
+        6
+      ],
+      [
+        28,
+        32,
+        7,
+        5,
+        0
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "rock_36",
+        "position": [
+          32,
+          25
+        ],
+        "solid": true,
+        "scale": 1.8,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_36",
+        "position": [
+          22,
+          45
+        ],
+        "solid": true,
+        "scale": 1.6,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/logpile",
+        "position": [
+          18,
+          28
+        ],
+        "solid": true,
+        "scale": 1.1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/logpile",
+        "position": [
+          52,
+          28
+        ],
+        "solid": true,
+        "scale": 1.1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/bin",
+        "position": [
+          32,
+          36
+        ],
+        "solid": true,
+        "scale": 0.9,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [],
+    "dungeon": [
+      "ember-vault-1",
+      44,
+      15
+    ]
+  },
+  "observatory-rise": {
+    "size": [
+      64,
+      72
+    ],
+    "entry": [
+      29,
+      52
+    ],
+    "roads": [
+      [
+        [
+          31,
+          69.2
+        ],
+        [
+          31,
+          60
+        ],
+        [
+          21,
+          52
+        ],
+        [
+          25,
+          43
+        ],
+        [
+          42,
+          36
+        ],
+        [
+          47,
+          28
+        ],
+        [
+          38,
+          22
+        ],
+        [
+          38,
+          17.2
+        ]
+      ]
+    ],
+    "water": [
+      {
+        "ellipse": [
+          12,
+          33,
+          6,
+          7
+        ]
+      }
+    ],
+    "groves": [
+      [
+        12,
+        62,
+        7,
+        5,
+        "tree_15",
+        4
+      ],
+      [
+        53,
+        55,
+        6,
+        9,
+        "tree_15",
+        3.4
+      ],
+      [
+        12,
+        15,
+        7,
+        8,
+        "rock_21",
+        3.6
+      ],
+      [
+        54,
+        13,
+        5,
+        8,
+        "rock_21",
+        3.5
+      ],
+      [
+        12,
+        44,
+        5,
+        5,
+        "rock_21",
+        3.2
+      ]
+    ],
+    "clearings": [
+      [
+        38,
+        22,
+        8,
+        6,
+        6
+      ],
+      [
+        46,
+        31,
+        5,
+        4,
+        0
+      ]
+    ],
+    "homes": [],
+    "props": [
+      {
+        "frame": "room/table",
+        "position": [
+          49,
+          31
+        ],
+        "solid": true,
+        "scale": 0.85,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/stool",
+        "position": [
+          48,
+          32.5
+        ],
+        "solid": false,
+        "scale": 1,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_21",
+        "position": [
+          29,
+          48
+        ],
+        "solid": true,
+        "scale": 1.5,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "rock_21",
+        "position": [
+          38,
+          43
+        ],
+        "solid": true,
+        "scale": 1.6,
+        "id": null,
+        "resource": null
+      },
+      {
+        "frame": "room/wildflowers-a",
+        "position": [
+          25,
+          58
+        ],
+        "solid": false,
+        "scale": 1.3,
+        "id": null,
+        "resource": null
+      }
+    ],
+    "fishing": [],
+    "dungeon": [
+      "sky-vault-1",
+      38,
+      15
+    ]
+  }
+}

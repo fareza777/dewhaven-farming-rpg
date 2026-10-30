@@ -1,0 +1,1 @@
+{"name":"script-execute","arguments":{"csharpCode":"public static class DewhavenPrepareRun { public static string Run() { return Dewhaven.Editor.BuildProject.Prepare(); } }","className":"DewhavenPrepareRun","methodName":"Run"}}

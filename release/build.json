@@ -1,0 +1,18 @@
+﻿{
+    "appId":  "com.fajar.dewhaven",
+    "version":  "1.3.0",
+    "orientation":  "portrait",
+    "builtAt":  "2026-10-13T12:14:39.2515783Z",
+    "artifacts":  [
+                      {
+                          "file":  "Dewhaven-debug.apk",
+                          "bytes":  17187192,
+                          "sha256":  "f6858e64404dd911b224f1689be5cfec76aa8ce94c123e8fe4a16c749f612f92"
+                      },
+                      {
+                          "file":  "Dewhaven-unsigned.aab",
+                          "bytes":  14773394,
+                          "sha256":  "a45d685299d132cf4afcdc9b10cd55eaf808c33adc328a4000a94bcea125f669"
+                      }
+                  ]
+}

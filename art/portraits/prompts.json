@@ -1,0 +1,62 @@
+[
+  {
+    "sheet": 1,
+    "ids": [
+      "mira",
+      "rowan",
+      "elias",
+      "cleo",
+      "finn",
+      "orin"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE transparent 6-portrait game sprite atlas for Dewhaven, a premium cozy fantasy farming RPG. Create a landscape 1536 x 1024 atlas, a mathematically regular 3-column by 2-row grid of equal 512-square cells. Each cell contains one separate charming hand-painted waist-up character portrait, centered in its cell with generous transparent empty margin on all sides, never touching another cell. Soft detailed gouache, warm storybook lighting, elegant confident silhouettes, crisp clean cutout edges, cohesive collectible RPG illustration. Use the supplied sprite sheet only as a clothing and hair color reference; do not copy its eye/nose features or its pixel medium. Portraits have visible lighted skin-colored faces, gently shaped cheek/chin outline, but ABSOLUTELY NO EYES, NO NOSE, NO NOSTRILS, NO EYEBROWS, NO MOUTH, NO FACIAL FEATURES, no black face, no face mask or dark shadow. Entire faces are softly illuminated smooth featureless skin, no implied eye marks or nose contour. Personality comes from hairstyle, clothes, hands and pose. Natural human adults with cozy fantasy styling. No text, letters, labels, frames, circles, borders, panels, backgrounds, scenery, watermark or drop shadows. True transparent alpha background. Keep the six complete busts separate, no overlap, hair and shoulders fully inside their own square. Cell order left to right top row, then bottom row:\n1. Mira: young female seedkeeper, chestnut shoulder-length hair, cream blouse, lilac work apron, small packet of seeds\n2. Rowan: male woodland ranger, auburn hair beneath a russet pointed travel cap, burnt-orange cloak, practical leather strap\n3. Elias: male village mayor, blue fringe, ivory hood and charcoal coat with burgundy collar, a folded civic ledger\n4. Cleo: female cafe owner, navy bob, light cream blouse, sage apron, a glazed ceramic cup\n5. Finn: male lake wanderer, swept teal-blue hair, turquoise scarf and canvas fishing vest\n6. Orin: male smith, brown hair, a raised steel brow guard that does not cover the face, charcoal work clothes and indigo leather apron"
+  },
+  {
+    "sheet": 2,
+    "ids": [
+      "sera",
+      "tamsin",
+      "ilan",
+      "nora",
+      "gareth",
+      "ellis"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE transparent 6-portrait game sprite atlas for Dewhaven, a premium cozy fantasy farming RPG. Create a landscape 1536 x 1024 atlas, a mathematically regular 3-column by 2-row grid of equal 512-square cells. Each cell contains one separate charming hand-painted waist-up character portrait, centered in its cell with generous transparent empty margin on all sides, never touching another cell. Soft detailed gouache, warm storybook lighting, elegant confident silhouettes, crisp clean cutout edges, cohesive collectible RPG illustration. Use the supplied sprite sheet only as a clothing and hair color reference; do not copy its eye/nose features or its pixel medium. Portraits have visible lighted skin-colored faces, gently shaped cheek/chin outline, but ABSOLUTELY NO EYES, NO NOSE, NO NOSTRILS, NO EYEBROWS, NO MOUTH, NO FACIAL FEATURES, no black face, no face mask or dark shadow. Entire faces are softly illuminated smooth featureless skin, no implied eye marks or nose contour. Personality comes from hairstyle, clothes, hands and pose. Natural human adults with cozy fantasy styling. No text, letters, labels, frames, circles, borders, panels, backgrounds, scenery, watermark or drop shadows. True transparent alpha background. Keep the six complete busts separate, no overlap, hair and shoulders fully inside their own square. Cell order left to right top row, then bottom row:\n1. Sera: female boatbuilder, deep navy hair tied back, warm rose scarf, dark purple work coat, a timber measuring rule\n2. Tamsin: female orchard keeper, copper-orange hair, blue overalls over pale blouse, basket strap\n3. Ilan: male atlas keeper, lavender-grey hair under a folded lilac cap, silver-grey travelling coat, rolled atlas\n4. Nora: female rancher, short icy-blue hair, rust-orange overalls and warm brown gloves\n5. Gareth: male carpenter, dark purple tousled hair, charcoal work shirt, faded red apron, timber square\n6. Ellis: androgynous adult tailor, dusty pink hair, violet coat over cream shirt, loop of measuring tape"
+  },
+  {
+    "sheet": 3,
+    "ids": [
+      "aya",
+      "marin",
+      "cato",
+      "nemi",
+      "basil",
+      "lyra"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE transparent 6-portrait game sprite atlas for Dewhaven, a premium cozy fantasy farming RPG. Create a landscape 1536 x 1024 atlas, a mathematically regular 3-column by 2-row grid of equal 512-square cells. Each cell contains one separate charming hand-painted waist-up character portrait, centered in its cell with generous transparent empty margin on all sides, never touching another cell. Soft detailed gouache, warm storybook lighting, elegant confident silhouettes, crisp clean cutout edges, cohesive collectible RPG illustration. Use the supplied sprite sheet only as a clothing and hair color reference; do not copy its eye/nose features or its pixel medium. Portraits have visible lighted skin-colored faces, gently shaped cheek/chin outline, but ABSOLUTELY NO EYES, NO NOSE, NO NOSTRILS, NO EYEBROWS, NO MOUTH, NO FACIAL FEATURES, no black face, no face mask or dark shadow. Entire faces are softly illuminated smooth featureless skin, no implied eye marks or nose contour. Personality comes from hairstyle, clothes, hands and pose. Natural human adults with cozy fantasy styling. No text, letters, labels, frames, circles, borders, panels, backgrounds, scenery, watermark or drop shadows. True transparent alpha background. Keep the six complete busts separate, no overlap, hair and shoulders fully inside their own square. Cell order left to right top row, then bottom row:\n1. Aya: female courier, dusty rose hair tied back, coral scarf and brick-red jacket, tan leather satchel strap\n2. Marin: mature female innkeeper, short copper hair, ochre blouse and burgundy apron, folded linen\n3. Cato: male fishmonger, moss-green short hair, charcoal vest over cream shirt, brown work apron\n4. Nemi: female harbour shopkeeper, red-brown hair, small steel headband, burgundy work dress and slate apron\n5. Basil: mature male harbour master, deep green hair, burnt-orange high collar, navy coat, brass clasp\n6. Lyra: female florist, golden-orange layered hair, rose wrap over ivory blouse, small bundle of wildflowers"
+  },
+  {
+    "sheet": 4,
+    "ids": [
+      "pavel",
+      "ada",
+      "cedar",
+      "bea",
+      "tobin",
+      "vesper"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE transparent 6-portrait game sprite atlas for Dewhaven, a premium cozy fantasy farming RPG. Create a landscape 1536 x 1024 atlas, a mathematically regular 3-column by 2-row grid of equal 512-square cells. Each cell contains one separate charming hand-painted waist-up character portrait, centered in its cell with generous transparent empty margin on all sides, never touching another cell. Soft detailed gouache, warm storybook lighting, elegant confident silhouettes, crisp clean cutout edges, cohesive collectible RPG illustration. Use the supplied sprite sheet only as a clothing and hair color reference; do not copy its eye/nose features or its pixel medium. Portraits have visible lighted skin-colored faces, gently shaped cheek/chin outline, but ABSOLUTELY NO EYES, NO NOSE, NO NOSTRILS, NO EYEBROWS, NO MOUTH, NO FACIAL FEATURES, no black face, no face mask or dark shadow. Entire faces are softly illuminated smooth featureless skin, no implied eye marks or nose contour. Personality comes from hairstyle, clothes, hands and pose. Natural human adults with cozy fantasy styling. No text, letters, labels, frames, circles, borders, panels, backgrounds, scenery, watermark or drop shadows. True transparent alpha background. Keep the six complete busts separate, no overlap, hair and shoulders fully inside their own square. Cell order left to right top row, then bottom row:\n1. Pavel: mature male garden supplier, amber hair, pointed ochre cap, orange vest, leather shoulder strap\n2. Ada: female pantry keeper, pale silver hair under an ivory linen headscarf, charcoal dress and burgundy apron\n3. Cedar: male orchard hand, icy-blue hair beneath a rust-red cap, blue scarf, red and cream work shirt\n4. Bea: female herbalist, auburn hair beneath a pale sky-blue hood, terracotta scarf, cream work blouse\n5. Tobin: male outfitter, short dark green hair under a pointed green travel cap, olive outer coat, brown leather gear\n6. Vesper: male mountain guide, short forest-green tousled hair, warm orange scarf, dark blue travel jacket"
+  },
+  {
+    "sheet": 5,
+    "ids": [
+      "jun",
+      "letter",
+      "visitor-leif",
+      "visitor-alba",
+      "visitor-perrin",
+      "traveller"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE transparent 6-portrait game sprite atlas for Dewhaven, a premium cozy fantasy farming RPG. Create a landscape 1536 x 1024 atlas, a mathematically regular 3-column by 2-row grid of equal 512-square cells. Each cell contains one separate charming hand-painted waist-up character portrait, centered in its cell with generous transparent empty margin on all sides, never touching another cell. Soft detailed gouache, warm storybook lighting, elegant confident silhouettes, crisp clean cutout edges, cohesive collectible RPG illustration. Use the supplied sprite sheet only as a clothing and hair color reference; do not copy its eye/nose features or its pixel medium. Portraits have visible lighted skin-colored faces, gently shaped cheek/chin outline, but ABSOLUTELY NO EYES, NO NOSE, NO NOSTRILS, NO EYEBROWS, NO MOUTH, NO FACIAL FEATURES, no black face, no face mask or dark shadow. Entire faces are softly illuminated smooth featureless skin, no implied eye marks or nose contour. Personality comes from hairstyle, clothes, hands and pose. Natural human adults with cozy fantasy styling. No text, letters, labels, frames, circles, borders, panels, backgrounds, scenery, watermark or drop shadows. True transparent alpha background. Keep the six complete busts separate, no overlap, hair and shoulders fully inside their own square. Cell order left to right top row, then bottom row:\n1. Jun: androgynous adult archive scribe, dusty pink pointed cap, rose cloak, ivory tunic, bound manuscript\n2. Grandmother: warm elderly woman, silver hair in a loose bun, oatmeal shawl over a muted rose dress, handwritten letter\n3. Leif: adult male valley walker, short dark hair, deep indigo hood lowered behind head, blue travel coat and silver clasp\n4. Alba: adult female market visitor, copper hair beneath a golden headscarf, warm ochre and red clothing, wicker basket strap\n5. Perrin: adult male travelling gardener, auburn hair, red-brown lowered hood, russet travel coat, leather gardening strap\n6. Robin: adult farmer, brown hair under straw working hat, cream shirt and faded indigo overalls"
+  }
+]

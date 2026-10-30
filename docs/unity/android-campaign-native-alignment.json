@@ -1,0 +1,8 @@
+{
+  "lib/arm64-v8a/lib_burst_generated.so": true,
+  "lib/arm64-v8a/libc++_shared.so": true,
+  "lib/arm64-v8a/libil2cpp.so": true,
+  "lib/arm64-v8a/libmain.so": true,
+  "lib/arm64-v8a/libswappywrapper.so": true,
+  "lib/arm64-v8a/libunity.so": true
+}

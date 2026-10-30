@@ -1,0 +1,16 @@
+{
+  "status": "Design consistency review only; Unity gameplay not implemented or tested",
+  "date": "2026-10-14",
+  "checks": [
+    "Counts match the design: 81 areas, four towns, 25 distinct resident sprite families, 48 interiors, 24 main and 60 side quests, 12 annual events, four weekly tables, 36 bond outlines",
+    "Every resident home/work references an existing interior definition",
+    "All shop owners, rooms and stock IDs resolve; no unique story relic appears in retail stock",
+    "Main prerequisites refer to earlier chapters; all catalogue IDs are unique",
+    "Every romance candidate is adult; staffed shop hours are covered by the declared schedule",
+    "Dungeon/mining group IDs have explicit playable entrance-area mappings"
+  ],
+  "unityEditorAccessed": false,
+  "unityProjectCreated": false,
+  "newApkCreated": false,
+  "existingApk": "release/Dewhaven-debug.apk"
+}

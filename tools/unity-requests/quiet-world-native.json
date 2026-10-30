@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "public static class QuietWorldCommand{public static string Run(){return Dewhaven.Editor.CompactCheck.Start(true);}}", "className": "QuietWorldCommand", "methodName": "Run"}}

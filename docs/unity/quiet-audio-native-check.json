@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "error": null,
+  "fullVolume": 0.65,
+  "duckedVolume": 0.103999995,
+  "attackSeconds": 0.25,
+  "physicalDevice": false,
+  "checks": [
+    "four streamed music resources",
+    "music becomes quiet within 250 ms of voice request",
+    "music recovers after narration",
+    "Music zero silences the soundtrack immediately",
+    "all sources pause and music resumes",
+    "ten source budget"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "success": true,
+  "areas": [
+    {
+      "area": "farm",
+      "width": 104,
+      "height": 80,
+      "props": 227,
+      "solid": 165,
+      "anchors": 8,
+      "automaticRoads": 3,
+      "groundChunks": 12
+    },
+    {
+      "area": "village",
+      "width": 72,
+      "height": 72,
+      "props": 130,
+      "solid": 70,
+      "anchors": 19,
+      "automaticRoads": 4,
+      "groundChunks": 9
+    },
+    {
+      "area": "forest",
+      "width": 80,
+      "height": 68,
+      "props": 175,
+      "solid": 116,
+      "anchors": 10,
+      "automaticRoads": 4,
+      "groundChunks": 9
+    },
+    {
+      "area": "lake",
+      "width": 78,
+      "height": 68,
+      "props": 85,
+      "solid": 49,
+      "anchors": 7,
+      "automaticRoads": 3,
+      "groundChunks": 9
+    },
+    {
+      "area": "aster-quay",
+      "width": 76,
+      "height": 68,
+      "props": 104,
+      "solid": 52,
+      "anchors": 17,
+      "automaticRoads": 3,
+      "groundChunks": 9
+    },
+    {
+      "area": "sunridge",
+      "width": 68,
+      "height": 68,
+      "props": 114,
+      "solid": 67,
+      "anchors": 14,
+      "automaticRoads": 3,
+      "groundChunks": 9
+    },
+    {
+      "area": "briar-hollow",
+      "width": 68,
+      "height": 72,
+      "props": 130,
+      "solid": 80,
+      "anchors": 13,
+      "automaticRoads": 3,
+      "groundChunks": 9
+    },
+    {
+      "area": "saltwind-cliffs",
+      "width": 64,
+      "height": 58,
+      "props": 54,
+      "solid": 33,
+      "anchors": 8,
+      "automaticRoads": 1,
+      "groundChunks": 4
+    },
+    {
+      "area": "ember-trail",
+      "width": 64,
+      "height": 60,
+      "props": 69,
+      "solid": 45,
+      "anchors": 4,
+      "automaticRoads": 1,
+      "groundChunks": 4
+    },
+    {
+      "area": "observatory-rise",
+      "width": 64,
+      "height": 72,
+      "props": 98,
+      "solid": 65,
+      "anchors": 10,
+      "automaticRoads": 1,
+      "groundChunks": 6
+    },
+    {
+      "area": "copperleaf-pass",
+      "width": 66,
+      "height": 60,
+      "props": 96,
+      "solid": 65,
+      "anchors": 5,
+      "automaticRoads": 2,
+      "groundChunks": 6
+    },
+    {
+      "area": "cedar-downs",
+      "width": 68,
+      "height": 60,
+      "props": 106,
+      "solid": 70,
+      "anchors": 7,
+      "automaticRoads": 2,
+      "groundChunks": 6
+    },
+    {
+      "area": "reedwater-marsh",
+      "width": 70,
+      "height": 64,
+      "props": 40,
+      "solid": 21,
+      "anchors": 6,
+      "automaticRoads": 2,
+      "groundChunks": 6
+    }
+  ]
+}

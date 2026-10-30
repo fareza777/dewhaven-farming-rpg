@@ -1,0 +1,22 @@
+{
+  "packageAndVersion": true,
+  "minimumApi26": true,
+  "targetApi36": true,
+  "arm64": true,
+  "portrait": true,
+  "nonDevelopmentPlayer": true,
+  "verifiedV2Signature": true,
+  "googleDemoApplication": true,
+  "noBroadStoragePermission": true,
+  "zipAlignment16K": true,
+  "androidSavePickerClass": true,
+  "googleAdsSdkClass": true,
+  "googleConsentSdkClass": true,
+  "fourteenGeneratedHudResources": true,
+  "campaignResource": true,
+  "bondSceneResource": true,
+  "vaultPuzzleResource": true,
+  "nativeLoadSegments16K": true,
+  "preservedWebApk": true,
+  "preservedUnityPreview": true
+}

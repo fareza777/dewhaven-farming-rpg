@@ -1,0 +1,23 @@
+{
+  "appId": "com.fajar.dewhaven",
+  "version": "1.3.0",
+  "apkSha256": "93393e76f476c9bc471efbb445ef5e786977177f043bbf5450d9651e29dfd54a",
+  "verifiedAt": "2026-10-13T06:27:15.655Z",
+  "provider": "Google Mobile Ads 25.5.0, official demo units",
+  "network": "online dedicated emulator",
+  "checks": [
+    "A real adaptive Google demo banner reserves native space below the title without covering buttons",
+    "Gameplay hides the native banner and restores the complete portrait viewport"
+  ],
+  "errors": [],
+  "banner": {
+    "testMode": true,
+    "initialized": true,
+    "bannerReady": true,
+    "bannerHeight": 96,
+    "interstitialReady": true,
+    "rewardedReady": false,
+    "privacyRequired": false,
+    "error": ""
+  }
+}

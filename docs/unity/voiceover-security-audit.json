@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Supplied credential literal marker, UTF-8 and UTF-16LE; every APK ZIP entry decompressed. No marker value recorded.",
+  "sourceRoots": [
+    "unity/Dewhaven/Assets/Dewhaven",
+    "unity/Dewhaven/Assets/Plugins",
+    "unity/Dewhaven/Packages",
+    "unity/Dewhaven/ProjectSettings",
+    "tools",
+    "docs",
+    "art/voice"
+  ],
+  "sourceFiles": 274,
+  "sourceBytes": 4384214,
+  "sourceMatches": [],
+  "sourceScanExcludes": "Tool caches, Library, dependencies and generated build intermediates; application runtime payload inspected separately in the APK.",
+  "apkEntries": 1197,
+  "apkUncompressedBytes": 217188021,
+  "apkBytes": 77208840,
+  "apkSha256": "6efc8cab12499d072635e594aa6b1ca1b684b7bc6330df00984500f135765e8e",
+  "apkMatches": [],
+  "tokenRuntimeRequired": false
+}

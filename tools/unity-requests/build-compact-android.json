@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "public static class CompactRequestBuildCompactAndroid{public static string Run(){Dewhaven.Editor.EditorBridge.EnsureProject();return Dewhaven.Editor.BuildProject.QueueAndroidCompact();}}", "className": "CompactRequestBuildCompactAndroid", "methodName": "Run"}}

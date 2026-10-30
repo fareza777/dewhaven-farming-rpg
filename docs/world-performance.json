@@ -1,0 +1,76 @@
+{
+  "environment": "Chrome desktop, isolated 390 × 844 touch viewport; CPU canvas draw timing, not a physical-phone FPS guarantee",
+  "errors": [],
+  "performance": [
+    {
+      "area": "farm",
+      "samples": 70,
+      "medianDrawMs": 0.800000011920929,
+      "p95DrawMs": 1.600000023841858,
+      "groundCaches": 1
+    },
+    {
+      "area": "village",
+      "samples": 73,
+      "medianDrawMs": 0.5,
+      "p95DrawMs": 0.8999999761581421,
+      "groundCaches": 2
+    },
+    {
+      "area": "aster-quay",
+      "samples": 72,
+      "medianDrawMs": 0.5,
+      "p95DrawMs": 0.9000000357627869,
+      "groundCaches": 3
+    },
+    {
+      "area": "sunridge",
+      "samples": 71,
+      "medianDrawMs": 0.5,
+      "p95DrawMs": 1.199999988079071,
+      "groundCaches": 3
+    },
+    {
+      "area": "briar-hollow",
+      "samples": 71,
+      "medianDrawMs": 0.5,
+      "p95DrawMs": 1,
+      "groundCaches": 3
+    },
+    {
+      "area": "farmhouse",
+      "samples": 72,
+      "medianDrawMs": 0.30000001192092896,
+      "p95DrawMs": 0.6000000238418579,
+      "groundCaches": 3
+    },
+    {
+      "area": "barn",
+      "samples": 73,
+      "medianDrawMs": 0.30000001192092896,
+      "p95DrawMs": 0.7999999523162842,
+      "groundCaches": 3
+    },
+    {
+      "area": "market",
+      "samples": 72,
+      "medianDrawMs": 0.30000001192092896,
+      "p95DrawMs": 0.800000011920929,
+      "groundCaches": 3
+    },
+    {
+      "area": "library",
+      "samples": 70,
+      "medianDrawMs": 0.40000003576278687,
+      "p95DrawMs": 0.800000011920929,
+      "groundCaches": 3
+    },
+    {
+      "area": "tide-vault",
+      "samples": 69,
+      "medianDrawMs": 0.3999999761581421,
+      "p95DrawMs": 0.800000011920929,
+      "groundCaches": 3
+    }
+  ]
+}

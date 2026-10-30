@@ -1,0 +1,40 @@
+{
+  "appId": "com.fajar.dewhaven",
+  "version": "1.3.0",
+  "apkSha256": "f6858e64404dd911b224f1689be5cfec76aa8ce94c123e8fe4a16c749f612f92",
+  "verifiedAt": "2026-10-13T12:29:59.592Z",
+  "emulator": "Pixel 6 / Android 16",
+  "avd": "dewhaven_sdk_13_qa",
+  "serial": "emulator-5572",
+  "network": "airplane mode and Wi-Fi disabled before first launch",
+  "checks": [
+    "Bundled title and artwork load offline in the native Android WebView",
+    "Four cinematic paintings and two short guides lead into the first morning offline",
+    "The world fills the portrait screen with floating tool shortcuts and no page scrolling",
+    "A physical doorway enters the furnished farmhouse offline and its bed opens the rest screen",
+    "The default floating joystick follows a touch, moves the farmer, and releases cleanly",
+    "The native tool sheet equips tools and updates the contextual action button",
+    "Android Back closes a menu, then pauses gameplay",
+    "Backgrounding saves the story, releases movement, and pauses time",
+    "Native vibration, sharing, file export and AdMob plugins are registered",
+    "Export writes a JSON save in Android cache for the native share sheet",
+    "Offline relaunch restores the saved farm and selected tool",
+    "All three additional towns are reachable from the map with bundled terrain and scenery offline",
+    "The original generated inventory atlas decodes and displays offline in the native bag",
+    "Sixteen compact chapter controls have separate 44 px targets without overflowing title text",
+    "The native keyboard resizes the form and Back restores the full screen without losing it"
+  ],
+  "runtimeErrors": [],
+  "adsDeferredOffline": true,
+  "viewport": {
+    "width": 412,
+    "height": 915,
+    "screenHeight": 915,
+    "platform": "android",
+    "native": true,
+    "devApi": false,
+    "offline": true
+  },
+  "nativeAppCrash": false,
+  "nativeAppANR": false
+}

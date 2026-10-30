@@ -1,0 +1,1 @@
+{"name": "script-execute", "arguments": {"csharpCode": "public static class QuietFinalCommand{public static string Run(){return Dewhaven.Editor.BuildProject.QueueAndroidQuietWorld();}}", "className": "QuietFinalCommand", "methodName": "Run"}}

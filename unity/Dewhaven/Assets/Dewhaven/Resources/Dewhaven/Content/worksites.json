@@ -1,0 +1,615 @@
+[
+  {
+    "id": "quay-ledger",
+    "area": "quay-workshop",
+    "position": [
+      6,
+      22
+    ],
+    "label": "Delivery ledger",
+    "copy": "Four destinations share the same farm mark. Coastal grain, orchard preserves, archive supplies, and a warm room at each end.",
+    "stat": "site:quay-ledger",
+    "materials": {},
+    "requires": "letters-across-water",
+    "energy": 0,
+    "frame": "room/table"
+  },
+  {
+    "id": "weather-bench",
+    "area": "forge",
+    "position": [
+      15,
+      22
+    ],
+    "label": "Weather bench",
+    "copy": "Fit a copper frame and a clear crystal mount. The lens stays in your atlas satchel.",
+    "stat": "site:weather-bench",
+    "materials": {
+      "copper": 2,
+      "crystal": 1
+    },
+    "requires": "weather-not-wishes",
+    "energy": 0,
+    "frame": "room/table"
+  },
+  {
+    "id": "letter-mira",
+    "area": "market",
+    "position": [
+      6,
+      21
+    ],
+    "label": "Courier pouch",
+    "copy": "Aya's sealed letter is addressed here. Leave it in the recipient's delivery tray.",
+    "stat": "letter-deliveries",
+    "materials": {},
+    "requires": "aya-request-1",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "letter-marin",
+    "area": "quay-inn",
+    "position": [
+      6,
+      18
+    ],
+    "label": "Courier pouch",
+    "copy": "Aya's sealed letter is addressed here. Leave it in the recipient's delivery tray.",
+    "stat": "letter-deliveries",
+    "materials": {},
+    "requires": "aya-request-1",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "letter-ilan",
+    "area": "library",
+    "position": [
+      6,
+      18
+    ],
+    "label": "Courier pouch",
+    "copy": "Aya's sealed letter is addressed here. Leave it in the recipient's delivery tray.",
+    "stat": "letter-deliveries",
+    "materials": {},
+    "requires": "aya-request-1",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "cargo-0",
+    "area": "quay-storehouse",
+    "position": [
+      6,
+      19
+    ],
+    "label": "Cargo bay 1",
+    "copy": "Roll the marked cargo into its matching bay. The guide rails keep the load away from the doorway.",
+    "stat": "cargo-moved",
+    "materials": {},
+    "requires": "basil-request-2",
+    "energy": 2,
+    "frame": "room/bin"
+  },
+  {
+    "id": "flowers-0",
+    "area": "cedar-downs",
+    "position": [
+      35,
+      37
+    ],
+    "label": "Rest-stop planter",
+    "copy": "A sheltered bench, a drinking jar, and room for flowers. Place one bouquet here.",
+    "stat": "rest-stop-flowers",
+    "materials": {
+      "bouquet": 1
+    },
+    "requires": "lyra-request-2",
+    "energy": 0,
+    "frame": "room/plant"
+  },
+  {
+    "id": "branch-0",
+    "area": "cedar-downs",
+    "position": [
+      26,
+      28
+    ],
+    "label": "Fallen branch",
+    "copy": "Cut and stack this fallen branch beside the path, leaving the new shoots intact.",
+    "stat": "branches-cleared",
+    "materials": {},
+    "requires": "cedar-request-1",
+    "energy": 2,
+    "frame": "room/logpile"
+  },
+  {
+    "id": "descent-0",
+    "area": "observatory-rise",
+    "position": [
+      28,
+      61
+    ],
+    "label": "Descent marker",
+    "copy": "Check the sheltered return line, then turn the fixed marker towards the next dry landing.",
+    "stat": "descent-marks",
+    "materials": {},
+    "requires": "vesper-request-2",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "survey-0",
+    "area": "observatory-rise",
+    "position": [
+      27,
+      57
+    ],
+    "label": "Route survey 1",
+    "copy": "Slope checked: the cart can climb without crossing loose ground.",
+    "stat": "route-checks",
+    "materials": {},
+    "requires": "the-winter-trial",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "bracket-0",
+    "area": "saltwind-cliffs",
+    "position": [
+      15,
+      35
+    ],
+    "label": "Landing lantern bracket",
+    "copy": "Refasten the fixed light bracket with copper and timber. It will mark the stair in poor weather.",
+    "stat": "lantern-brackets",
+    "materials": {
+      "wood": 2,
+      "copper": 1
+    },
+    "requires": "cliff-lanterns",
+    "energy": 0,
+    "frame": "room/lamp"
+  },
+  {
+    "id": "cargo-1",
+    "area": "quay-storehouse",
+    "position": [
+      10,
+      19
+    ],
+    "label": "Cargo bay 2",
+    "copy": "Roll the marked cargo into its matching bay. The guide rails keep the load away from the doorway.",
+    "stat": "cargo-moved",
+    "materials": {},
+    "requires": "basil-request-2",
+    "energy": 2,
+    "frame": "room/bin"
+  },
+  {
+    "id": "flowers-1",
+    "area": "saltwind-cliffs",
+    "position": [
+      36,
+      35
+    ],
+    "label": "Rest-stop planter",
+    "copy": "A sheltered bench, a drinking jar, and room for flowers. Place one bouquet here.",
+    "stat": "rest-stop-flowers",
+    "materials": {
+      "bouquet": 1
+    },
+    "requires": "lyra-request-2",
+    "energy": 0,
+    "frame": "room/plant"
+  },
+  {
+    "id": "branch-1",
+    "area": "cedar-downs",
+    "position": [
+      43,
+      37
+    ],
+    "label": "Fallen branch",
+    "copy": "Cut and stack this fallen branch beside the path, leaving the new shoots intact.",
+    "stat": "branches-cleared",
+    "materials": {},
+    "requires": "cedar-request-1",
+    "energy": 2,
+    "frame": "room/logpile"
+  },
+  {
+    "id": "descent-1",
+    "area": "observatory-rise",
+    "position": [
+      23,
+      49
+    ],
+    "label": "Descent marker",
+    "copy": "Check the sheltered return line, then turn the fixed marker towards the next dry landing.",
+    "stat": "descent-marks",
+    "materials": {},
+    "requires": "vesper-request-2",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "survey-1",
+    "area": "observatory-rise",
+    "position": [
+      32,
+      42
+    ],
+    "label": "Route survey 2",
+    "copy": "Shelter checked: the landing stays dry in an eastern squall.",
+    "stat": "route-checks",
+    "materials": {},
+    "requires": "the-winter-trial",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "bracket-1",
+    "area": "saltwind-cliffs",
+    "position": [
+      31,
+      27
+    ],
+    "label": "Landing lantern bracket",
+    "copy": "Refasten the fixed light bracket with copper and timber. It will mark the stair in poor weather.",
+    "stat": "lantern-brackets",
+    "materials": {
+      "wood": 2,
+      "copper": 1
+    },
+    "requires": "cliff-lanterns",
+    "energy": 0,
+    "frame": "room/lamp"
+  },
+  {
+    "id": "cargo-2",
+    "area": "quay-storehouse",
+    "position": [
+      14,
+      19
+    ],
+    "label": "Cargo bay 3",
+    "copy": "Roll the marked cargo into its matching bay. The guide rails keep the load away from the doorway.",
+    "stat": "cargo-moved",
+    "materials": {},
+    "requires": "basil-request-2",
+    "energy": 2,
+    "frame": "room/bin"
+  },
+  {
+    "id": "flowers-2",
+    "area": "observatory-rise",
+    "position": [
+      41,
+      26
+    ],
+    "label": "Rest-stop planter",
+    "copy": "A sheltered bench, a drinking jar, and room for flowers. Place one bouquet here.",
+    "stat": "rest-stop-flowers",
+    "materials": {
+      "bouquet": 1
+    },
+    "requires": "lyra-request-2",
+    "energy": 0,
+    "frame": "room/plant"
+  },
+  {
+    "id": "branch-2",
+    "area": "cedar-downs",
+    "position": [
+      50,
+      30
+    ],
+    "label": "Fallen branch",
+    "copy": "Cut and stack this fallen branch beside the path, leaving the new shoots intact.",
+    "stat": "branches-cleared",
+    "materials": {},
+    "requires": "cedar-request-1",
+    "energy": 2,
+    "frame": "room/logpile"
+  },
+  {
+    "id": "descent-2",
+    "area": "observatory-rise",
+    "position": [
+      40,
+      38
+    ],
+    "label": "Descent marker",
+    "copy": "Check the sheltered return line, then turn the fixed marker towards the next dry landing.",
+    "stat": "descent-marks",
+    "materials": {},
+    "requires": "vesper-request-2",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "survey-2",
+    "area": "observatory-rise",
+    "position": [
+      45,
+      29
+    ],
+    "label": "Route survey 3",
+    "copy": "Return checked: the descent reaches the lodge before dusk.",
+    "stat": "route-checks",
+    "materials": {},
+    "requires": "the-winter-trial",
+    "energy": 0,
+    "frame": "rock_21"
+  },
+  {
+    "id": "bracket-2",
+    "area": "saltwind-cliffs",
+    "position": [
+      42,
+      23
+    ],
+    "label": "Landing lantern bracket",
+    "copy": "Refasten the fixed light bracket with copper and timber. It will mark the stair in poor weather.",
+    "stat": "lantern-brackets",
+    "materials": {
+      "wood": 2,
+      "copper": 1
+    },
+    "requires": "cliff-lanterns",
+    "energy": 0,
+    "frame": "room/lamp"
+  },
+  {
+    "id": "trail-0",
+    "area": "forest",
+    "position": [
+      20,
+      36
+    ],
+    "label": "Ranger's trail mark",
+    "copy": "One cut means the trail continues. Two cuts mark a return loop. Compare this post with Rowan's route notes.",
+    "stat": "trail-markers",
+    "materials": {},
+    "requires": "ranger-trail",
+    "energy": 0,
+    "frame": "room/stump"
+  },
+  {
+    "id": "trail-1",
+    "area": "forest",
+    "position": [
+      33,
+      40
+    ],
+    "label": "Ranger's trail mark",
+    "copy": "One cut means the trail continues. Two cuts mark a return loop. Compare this post with Rowan's route notes.",
+    "stat": "trail-markers",
+    "materials": {},
+    "requires": "ranger-trail",
+    "energy": 0,
+    "frame": "room/stump"
+  },
+  {
+    "id": "trail-2",
+    "area": "forest",
+    "position": [
+      50,
+      41
+    ],
+    "label": "Ranger's trail mark",
+    "copy": "One cut means the trail continues. Two cuts mark a return loop. Compare this post with Rowan's route notes.",
+    "stat": "trail-markers",
+    "materials": {},
+    "requires": "ranger-trail",
+    "energy": 0,
+    "frame": "room/stump"
+  },
+  {
+    "id": "trail-3",
+    "area": "forest",
+    "position": [
+      64,
+      52
+    ],
+    "label": "Ranger's trail mark",
+    "copy": "One cut means the trail continues. Two cuts mark a return loop. Compare this post with Rowan's route notes.",
+    "stat": "trail-markers",
+    "materials": {},
+    "requires": "ranger-trail",
+    "energy": 0,
+    "frame": "room/stump"
+  },
+  {
+    "id": "boardwalk-0",
+    "area": "reedwater-marsh",
+    "position": [
+      33,
+      20
+    ],
+    "label": "Boardwalk repair",
+    "copy": "Six timber will replace the loose boardwalk section. The main bank path stays open during repairs.",
+    "stat": "boardwalks",
+    "materials": {
+      "wood": 6
+    },
+    "requires": "reedwater-bridges",
+    "energy": 0,
+    "frame": "room/logpile"
+  },
+  {
+    "id": "boardwalk-1",
+    "area": "reedwater-marsh",
+    "position": [
+      45,
+      40
+    ],
+    "label": "Boardwalk repair",
+    "copy": "Six timber will replace the loose boardwalk section. The main bank path stays open during repairs.",
+    "stat": "boardwalks",
+    "materials": {
+      "wood": 6
+    },
+    "requires": "reedwater-bridges",
+    "energy": 0,
+    "frame": "room/logpile"
+  },
+  {
+    "id": "lost-cargo",
+    "area": "quay-storehouse",
+    "position": [
+      14,
+      24
+    ],
+    "label": "Misplaced parcel",
+    "copy": "The worn label has Basil's pier number. Move this parcel to the dry pickup bay.",
+    "stat": "site:lost-cargo",
+    "materials": {},
+    "requires": "quay-cargo",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "quarry-drain",
+    "area": "ember-trail",
+    "position": [
+      23,
+      36
+    ],
+    "label": "Quarry drain",
+    "copy": "Clear the stone and sweep the narrow channel. Water can leave the quarry without crossing the footpath.",
+    "stat": "site:quarry-drain",
+    "materials": {},
+    "requires": "quarry-drain",
+    "energy": 4,
+    "frame": "rock_36"
+  },
+  {
+    "id": "shared-room-village",
+    "area": "community-kitchen",
+    "position": [
+      6,
+      24
+    ],
+    "label": "Shared-room repair",
+    "copy": "Replace the broken fittings, open the shutters, and set the room for travellers. Materials: six timber and four stone.",
+    "stat": "public-rooms",
+    "materials": {
+      "wood": 6,
+      "stone": 4
+    },
+    "requires": "four-open-doors",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "shared-room-quay",
+    "area": "quay-inn",
+    "position": [
+      6,
+      24
+    ],
+    "label": "Shared-room repair",
+    "copy": "Replace the broken fittings, open the shutters, and set the room for travellers. Materials: six timber and four stone.",
+    "stat": "public-rooms",
+    "materials": {
+      "wood": 6,
+      "stone": 4
+    },
+    "requires": "four-open-doors",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "shared-room-orchard",
+    "area": "presshouse",
+    "position": [
+      6,
+      24
+    ],
+    "label": "Shared-room repair",
+    "copy": "Replace the broken fittings, open the shutters, and set the room for travellers. Materials: six timber and four stone.",
+    "stat": "public-rooms",
+    "materials": {
+      "wood": 6,
+      "stone": 4
+    },
+    "requires": "four-open-doors",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "shared-room-archive",
+    "area": "library",
+    "position": [
+      6,
+      24
+    ],
+    "label": "Shared-room repair",
+    "copy": "Replace the broken fittings, open the shutters, and set the room for travellers. Materials: six timber and four stone.",
+    "stat": "public-rooms",
+    "materials": {
+      "wood": 6,
+      "stone": 4
+    },
+    "requires": "four-open-doors",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "convoy-0",
+    "area": "farm",
+    "position": [
+      54.7,
+      40
+    ],
+    "label": "Pantry box",
+    "copy": "Pack and label this delivery at the homestead shipping crate. Aya collects all three boxes at dawn.",
+    "stat": "convoy-packed",
+    "materials": {
+      "soup": 2,
+      "egg": 3
+    },
+    "requires": "first-convoy",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "convoy-1",
+    "area": "farm",
+    "position": [
+      54.7,
+      40
+    ],
+    "label": "Orchard box",
+    "copy": "Pack and label this delivery at the homestead shipping crate. Aya collects all three boxes at dawn.",
+    "stat": "convoy-packed",
+    "materials": {
+      "jam": 2,
+      "corn": 3
+    },
+    "requires": "first-convoy",
+    "energy": 0,
+    "frame": "room/bin"
+  },
+  {
+    "id": "convoy-2",
+    "area": "farm",
+    "position": [
+      54.7,
+      40
+    ],
+    "label": "Repair box",
+    "copy": "Pack and label this delivery at the homestead shipping crate. Aya collects all three boxes at dawn.",
+    "stat": "convoy-packed",
+    "materials": {
+      "wood": 12,
+      "iron": 2
+    },
+    "requires": "first-convoy",
+    "energy": 0,
+    "frame": "room/bin"
+  }
+]

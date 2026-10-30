@@ -1,0 +1,109 @@
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00000.jpg'
+duration 0.09667969
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00001.jpg'
+duration 0.07604980
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00002.jpg'
+duration 0.06970215
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00003.jpg'
+duration 0.07104492
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00004.jpg'
+duration 0.07257080
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00005.jpg'
+duration 0.06964111
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00006.jpg'
+duration 0.07299802
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00007.jpg'
+duration 0.06927490
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00008.jpg'
+duration 0.06811526
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00009.jpg'
+duration 0.16900634
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00010.jpg'
+duration 0.07086180
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00011.jpg'
+duration 0.07159426
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00012.jpg'
+duration 0.07147217
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00013.jpg'
+duration 0.07238770
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00014.jpg'
+duration 0.06927490
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00015.jpg'
+duration 0.06402588
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00016.jpg'
+duration 0.06719970
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00017.jpg'
+duration 0.06756592
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00018.jpg'
+duration 0.07147217
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00019.jpg'
+duration 0.06988525
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00020.jpg'
+duration 0.06848145
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00021.jpg'
+duration 0.06774902
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00022.jpg'
+duration 0.07086178
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00023.jpg'
+duration 0.06829838
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00024.jpg'
+duration 0.07293701
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00025.jpg'
+duration 0.07086182
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00026.jpg'
+duration 0.06872558
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00027.jpg'
+duration 0.06939698
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00028.jpg'
+duration 0.07830810
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00029.jpg'
+duration 0.07153313
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00030.jpg'
+duration 0.06909187
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00031.jpg'
+duration 0.06793213
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00032.jpg'
+duration 0.06951900
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00033.jpg'
+duration 0.07147221
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00034.jpg'
+duration 0.06762695
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00035.jpg'
+duration 0.06756584
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00036.jpg'
+duration 0.06994637
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00037.jpg'
+duration 0.06713863
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00038.jpg'
+duration 0.07293700
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00039.jpg'
+duration 0.07214361
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00040.jpg'
+duration 0.08764639
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00041.jpg'
+duration 0.07360849
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00042.jpg'
+duration 0.07165528
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00043.jpg'
+duration 0.07098388
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00044.jpg'
+duration 0.07055664
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00045.jpg'
+duration 0.14569092
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00046.jpg'
+duration 0.09222412
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00047.jpg'
+duration 0.07116699
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00048.jpg'
+duration 0.25585938
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00049.jpg'
+duration 0.07824707
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00050.jpg'
+duration 0.31707764
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00051.jpg'
+duration 0.10278320
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00052.jpg'
+duration 0.08782939
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00053.jpg'
+duration 0.20275900
+file 'E:/Harvest Moon GPT 61/marketing/captures/03-lake/landscape/00053.jpg'

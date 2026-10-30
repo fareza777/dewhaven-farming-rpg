@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "error": null,
+  "physicalDevice": false,
+  "simulatedInput": true,
+  "checks": [
+    "real game road coroutine farm to village and back",
+    "release during transition and input availability at arrival",
+    "background retains crossing pause until resumed",
+    "safe arrival cannot immediately return",
+    "panel blocks automatic crossing",
+    "daytime visitors use guest dialogue and preserve friendship state",
+    "painted Talk cue is readable at world scale",
+    "field audio bank and bounded source pool"
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "village": [
+    {
+      "id": "visitor-leif",
+      "name": "Leif",
+      "role": "Valley walker",
+      "sprite": "chara_11",
+      "portrait": "visitor-leif",
+      "route": [
+        [
+          36,
+          38
+        ],
+        [
+          36,
+          18
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          36,
+          38
+        ]
+      ],
+      "dialogue": [
+        "Mira keeps the seed packets inside the market on Seed Lane. I usually cross the little timber bridge on my way there.",
+        "The fountain makes a good meeting place. The post office and cafe are just along the southern lane."
+      ]
+    },
+    {
+      "id": "visitor-alba",
+      "name": "Alba",
+      "role": "Market visitor",
+      "sprite": "chara_24",
+      "portrait": "visitor-alba",
+      "route": [
+        [
+          61,
+          34
+        ],
+        [
+          67,
+          52
+        ],
+        [
+          47,
+          52
+        ],
+        [
+          36,
+          52
+        ],
+        [
+          36,
+          38
+        ]
+      ],
+      "dialogue": [
+        "The fountain makes a good meeting place. The post office and cafe are just along the southern lane.",
+        "I am taking the harbour road after lunch. Follow the southern path and keep walking when it reaches the edge."
+      ]
+    },
+    {
+      "id": "visitor-perrin",
+      "name": "Perrin",
+      "role": "Travelling gardener",
+      "sprite": "chara_27",
+      "portrait": "visitor-perrin",
+      "route": [
+        [
+          24,
+          52
+        ],
+        [
+          17,
+          66
+        ],
+        [
+          36,
+          66
+        ],
+        [
+          36,
+          38
+        ],
+        [
+          17,
+          34
+        ]
+      ],
+      "dialogue": [
+        "I am taking the harbour road after lunch. Follow the southern path and keep walking when it reaches the edge.",
+        "Mira keeps the seed packets inside the market on Seed Lane. I usually cross the little timber bridge on my way there."
+      ]
+    }
+  ],
+  "aster-quay": [
+    {
+      "id": "visitor-leif",
+      "name": "Leif",
+      "role": "Valley walker",
+      "sprite": "chara_11",
+      "portrait": "visitor-leif",
+      "route": [
+        [
+          20,
+          38
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          47,
+          18
+        ],
+        [
+          67,
+          34
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "dialogue": [
+        "You can fish from the timber piers. Cato sells supplies inside the fishmonger, just above the waterfront.",
+        "The canal bridges keep the market and harbour close together. I like the bench beside the water."
+      ]
+    },
+    {
+      "id": "visitor-alba",
+      "name": "Alba",
+      "role": "Market visitor",
+      "sprite": "chara_24",
+      "portrait": "visitor-alba",
+      "route": [
+        [
+          28,
+          48
+        ],
+        [
+          47,
+          48
+        ],
+        [
+          61,
+          52
+        ],
+        [
+          48,
+          58
+        ],
+        [
+          20,
+          52
+        ]
+      ],
+      "dialogue": [
+        "The canal bridges keep the market and harbour close together. I like the bench beside the water.",
+        "Saltwind is east along the road. The cliff trail leads to the vault courtyard; the entrance is up the steps."
+      ]
+    },
+    {
+      "id": "visitor-perrin",
+      "name": "Perrin",
+      "role": "Travelling gardener",
+      "sprite": "chara_27",
+      "portrait": "visitor-perrin",
+      "route": [
+        [
+          59,
+          34
+        ],
+        [
+          67,
+          48
+        ],
+        [
+          47,
+          48
+        ],
+        [
+          20,
+          48
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "dialogue": [
+        "Saltwind is east along the road. The cliff trail leads to the vault courtyard; the entrance is up the steps.",
+        "You can fish from the timber piers. Cato sells supplies inside the fishmonger, just above the waterfront."
+      ]
+    }
+  ],
+  "sunridge": [
+    {
+      "id": "visitor-leif",
+      "name": "Leif",
+      "role": "Valley walker",
+      "sprite": "chara_11",
+      "portrait": "visitor-leif",
+      "route": [
+        [
+          34,
+          36
+        ],
+        [
+          34,
+          18
+        ],
+        [
+          51,
+          18
+        ],
+        [
+          62,
+          34
+        ],
+        [
+          34,
+          34
+        ]
+      ],
+      "dialogue": [
+        "The orchard paths are lovely in the morning. Lyra keeps fresh flowers inside the shop by the western lane.",
+        "Ada has food ready in the bakery. I stop there before I take the long trail south."
+      ]
+    },
+    {
+      "id": "visitor-alba",
+      "name": "Alba",
+      "role": "Market visitor",
+      "sprite": "chara_24",
+      "portrait": "visitor-alba",
+      "route": [
+        [
+          24,
+          50
+        ],
+        [
+          17,
+          50
+        ],
+        [
+          17,
+          62
+        ],
+        [
+          42,
+          62
+        ],
+        [
+          34,
+          50
+        ]
+      ],
+      "dialogue": [
+        "Ada has food ready in the bakery. I stop there before I take the long trail south.",
+        "Follow the southern road for Ember Trail. You will see the old quarry before reaching the glassworks gate."
+      ]
+    },
+    {
+      "id": "visitor-perrin",
+      "name": "Perrin",
+      "role": "Travelling gardener",
+      "sprite": "chara_27",
+      "portrait": "visitor-perrin",
+      "route": [
+        [
+          42,
+          34
+        ],
+        [
+          62,
+          34
+        ],
+        [
+          62,
+          50
+        ],
+        [
+          34,
+          50
+        ],
+        [
+          34,
+          36
+        ]
+      ],
+      "dialogue": [
+        "Follow the southern road for Ember Trail. You will see the old quarry before reaching the glassworks gate.",
+        "The orchard paths are lovely in the morning. Lyra keeps fresh flowers inside the shop by the western lane."
+      ]
+    }
+  ],
+  "briar-hollow": [
+    {
+      "id": "visitor-leif",
+      "name": "Leif",
+      "role": "Valley walker",
+      "sprite": "chara_11",
+      "portrait": "visitor-leif",
+      "route": [
+        [
+          34,
+          38
+        ],
+        [
+          34,
+          18
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          34,
+          34
+        ]
+      ],
+      "dialogue": [
+        "The reading garden is beside the archive. Ilan is usually in the library while Jun walks the town lanes.",
+        "There is a warm place to rest in the mountain lodge. Tobin has trail supplies inside the outfitters."
+      ]
+    },
+    {
+      "id": "visitor-alba",
+      "name": "Alba",
+      "role": "Market visitor",
+      "sprite": "chara_24",
+      "portrait": "visitor-alba",
+      "route": [
+        [
+          46,
+          52
+        ],
+        [
+          62,
+          52
+        ],
+        [
+          62,
+          66
+        ],
+        [
+          34,
+          66
+        ],
+        [
+          34,
+          52
+        ]
+      ],
+      "dialogue": [
+        "There is a warm place to rest in the mountain lodge. Tobin has trail supplies inside the outfitters.",
+        "The northern road climbs towards the observatory. There is a sheltered court before the upper entrance."
+      ]
+    },
+    {
+      "id": "visitor-perrin",
+      "name": "Perrin",
+      "role": "Travelling gardener",
+      "sprite": "chara_27",
+      "portrait": "visitor-perrin",
+      "route": [
+        [
+          18,
+          34
+        ],
+        [
+          18,
+          52
+        ],
+        [
+          34,
+          52
+        ],
+        [
+          34,
+          38
+        ],
+        [
+          46,
+          34
+        ]
+      ],
+      "dialogue": [
+        "The northern road climbs towards the observatory. There is a sheltered court before the upper entrance.",
+        "The reading garden is beside the archive. Ilan is usually in the library while Jun walks the town lanes."
+      ]
+    }
+  ]
+}

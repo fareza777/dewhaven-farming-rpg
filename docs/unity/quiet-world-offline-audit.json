@@ -1,0 +1,7 @@
+{
+  "scope": "Prior credential audit retained for byte-identical narrator source; every current APK ZIP entry checked for speech API endpoints. No credential value copied.",
+  "priorApkSha256": "d7290de5e81434e5569f3f759bb8990a73dabd685d39873d28b0f3bc7ecb5865",
+  "apkSha256": "4e190b28ff30b9ae5c5b2f11b85a6b6d7da876d8b435cee38a9f12e1d07f8397",
+  "endpointMatches": [],
+  "offlineNarration": true
+}

@@ -1,0 +1,142 @@
+{
+  "game": "Dewhaven",
+  "language": "English",
+  "campaign": "A quiet life. A hidden adventure.",
+  "createdAtUtc": "2026-10-23T04:45:39.255879+00:00",
+  "assets": [
+    {
+      "file": "play-store/icon/dewhaven-icon-512.png",
+      "bytes": 683295,
+      "sha256": "6386bb2ea628f3a0892b3d1b44b8a132bbbc7bd6e546e8cff1de225241c30451",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "play-store/icon/dewhaven-icon-1024.png",
+      "bytes": 2569672,
+      "sha256": "aeff154c8866488ba93b905aa2d44e11377e0f6da4750d8c2d9cd11e6a84bac4",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "play-store/banner/dewhaven-feature-1024x500.png",
+      "bytes": 1292498,
+      "sha256": "5c6d71ff6c0a8d1521fb45aace157d617d000e69986aa507dacccaaadb2701ca",
+      "width": 1024,
+      "height": 500,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/banner/dewhaven-banner-master-2048x1000.png",
+      "bytes": 4894828,
+      "sha256": "2a5d8c70f835a2da8125fd09e9a2d53e1c5716c6aae2d00e54bd2324fb1ef2de",
+      "width": 2048,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/banner/dewhaven-banner-1920x1080.png",
+      "bytes": 4894153,
+      "sha256": "9153dbd9d951077b236ec372a837d81dd70f83c51efc0d58af4c4187e72d7461",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/01-fresh-start.png",
+      "bytes": 360938,
+      "sha256": "22e6bb4ace70f70fda70cfc6a57a5090c34a7b201d7cb5eac61c405dc00f68f6",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/02-four-towns.png",
+      "bytes": 389076,
+      "sha256": "afc3deca1fe9b6c9e7dba99de8742970c179f3eac5f2fa0da8275c708dd398c1",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/03-quiet-fishing.png",
+      "bytes": 358403,
+      "sha256": "c2f28a8d63a79d7b3996ecdf329336cf28761b29b3e74069a86630f364817ca8",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/04-little-friends.png",
+      "bytes": 374933,
+      "sha256": "511a089f566998531c07a8252b3837a1255878d3fa6a49ccf329e9ec81d94519",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/05-scenic-route.png",
+      "bytes": 384537,
+      "sha256": "cfe73984b6ab12bb8e43eb63911dad23eef474b33ff5273631df1dc3d0e722a8",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/06-woodland-paths.png",
+      "bytes": 390268,
+      "sha256": "8452fd4d7ebd9df24ec2fe20d7387994be87882566ff4d94ccdad871f0e0000e",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/07-hidden-mystery.png",
+      "bytes": 391769,
+      "sha256": "665738a8f378b34e5b89c941ccf2e3b917e6c602c6b773f0ee17ad640d973651",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-store/screenshots/08-your-next-chapter.png",
+      "bytes": 250396,
+      "sha256": "32216bb0bab1933ff810068d88c0c94ec93fbba93db6f11a8253bcfe4c82c14c",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "dewhaven-collection-overview.png",
+      "bytes": 690663,
+      "sha256": "57bd440cef82748710f89498a53eabc35dcca4b80def3c472e8282ebea1a1fc8",
+      "width": 1440,
+      "height": 1410,
+      "mode": "RGB"
+    },
+    {
+      "file": "video/dewhaven-trailer-landscape-1920x1080.mp4",
+      "bytes": 57679207,
+      "sha256": "f9f27e62f384fc871df5376e124acc9037f1849130c340907baf02bf28922aef",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "seconds": 30.016,
+      "videoCodec": "h264",
+      "audioCodec": "aac"
+    },
+    {
+      "file": "video/dewhaven-trailer-vertical-1080x1920.mp4",
+      "bytes": 47462975,
+      "sha256": "0d2b4abd11e735032bb266b24d33474f5f2e0f6b08d39d295af6edaa57bc5ec4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "seconds": 30.016,
+      "videoCodec": "h264",
+      "audioCodec": "aac"
+    }
+  ]
+}

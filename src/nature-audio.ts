@@ -1,0 +1,23 @@
+import type { Area, Weather } from './game/types.ts';
+export type Sound = 'click'|'success'|'error'|'water'|'harvest'|'step'|'hoe'|'axe'|'pickaxe'|'seed'|'coin'|'door';
+/** Nature only: colored noise, running water, rustling leaves and physical foley. */
+export class Soundscape {
+  ctx:AudioContext|null=null;ambient=true;effects=true;volume=.4;area:Area='farm';weather:Weather='sunny';indoor=false;
+  master:GainNode|null=null;wind:GainNode|null=null;water:GainNode|null=null;rain:GainNode|null=null;
+  sources:AudioBufferSourceNode[]=[];rustleTimer:ReturnType<typeof setInterval>|null=null;
+  async unlock() {if(!this.ctx){this.ctx=new AudioContext();this.master=this.ctx.createGain();this.master.connect(this.ctx.destination);this.layers();document.addEventListener('visibilitychange',()=>this.configure());}if(this.ctx.state==='suspended')await this.ctx.resume();this.configure();}
+  buffer(seconds:number,brown=false) {const ctx=this.ctx!,buffer=ctx.createBuffer(2,Math.ceil(ctx.sampleRate*seconds),ctx.sampleRate);for(let channel=0;channel<2;channel++){const data=buffer.getChannelData(channel);let last=0;for(let i=0;i<data.length;i++){const white=Math.random()*2-1;last=brown?(last+.025*white)/1.025:white;data[i]=brown?last*3.2:white*.35;}}return buffer;}
+  layer(low:number,high:number,brown=false) {const ctx=this.ctx!,source=ctx.createBufferSource(),gain=ctx.createGain(),lp=ctx.createBiquadFilter(),hp=ctx.createBiquadFilter();source.buffer=this.buffer(7,brown);source.loop=true;lp.type='lowpass';lp.frequency.value=low;hp.type='highpass';hp.frequency.value=high;gain.gain.value=0;source.connect(hp);hp.connect(lp);lp.connect(gain);gain.connect(this.master!);source.start();this.sources.push(source);return gain;}
+  layers() {this.wind=this.layer(700,60,true);this.water=this.layer(2600,220,true);this.rain=this.layer(7200,800);this.rustleTimer=setInterval(()=>{if(this.ambient&&!document.hidden&&!this.indoor)this.noise(.8,1300,150,.025);if(this.ambient&&!document.hidden&&this.indoor&&this.area.endsWith('vault')&&Math.random()<.25)this.noise(.16,3000,1600,.025);},4600);}
+  configure() {if(!this.ctx||!this.master)return;const t=this.ctx.currentTime;this.master.gain.setTargetAtTime(document.hidden?0:this.volume,t,.15);const active=this.ambient?1:0;this.wind?.gain.setTargetAtTime(active*(this.indoor?.02:.14),t,.65);this.water?.gain.setTargetAtTime(active*(this.indoor?0:(this.area==='lake'||this.area==='aster-quay')?.2:this.area==='farm'?.065:.01),t,.65);this.rain?.gain.setTargetAtTime(active*(this.weather==='rain'?(this.indoor?.025:.13):0),t,.65);}
+  environment(area:Area,weather:Weather,indoor=false) {if(this.area===area&&this.weather===weather&&this.indoor===indoor)return;this.area=area;this.weather=weather;this.indoor=indoor;this.configure();}
+  noise(seconds:number,low:number,high:number,loudness:number,brown=false) {if(!this.ctx||!this.master||document.hidden)return;const ctx=this.ctx,t=ctx.currentTime,source=ctx.createBufferSource(),gain=ctx.createGain(),lp=ctx.createBiquadFilter(),hp=ctx.createBiquadFilter(),pan=ctx.createStereoPanner();source.buffer=this.buffer(seconds,brown);lp.type='lowpass';lp.frequency.setValueAtTime(low,t);lp.frequency.exponentialRampToValueAtTime(Math.max(high+50,low*.65),t+seconds);hp.type='highpass';hp.frequency.value=high;pan.pan.value=(Math.random()-.5)*.4;gain.gain.setValueAtTime(.0001,t);gain.gain.exponentialRampToValueAtTime(loudness,t+Math.min(.03,seconds/4));gain.gain.exponentialRampToValueAtTime(.0001,t+seconds);source.connect(hp);hp.connect(lp);lp.connect(gain);gain.connect(pan);pan.connect(this.master);source.start(t);source.stop(t+seconds);}
+  play(kind:Sound='click') {if(!this.effects||!this.ctx)return;
+    const sounds:Record<Sound,[number,number,number,number,boolean]>={click:[.055,2600,1000,.075,false],success:[.2,1700,250,.06,true],error:[.1,500,100,.07,true],water:[.54,6200,380,.14,true],harvest:[.24,3900,600,.105,false],step:[.065,1200,150,.075,true],hoe:[.2,2600,180,.16,true],axe:[.12,1800,80,.24,true],pickaxe:[.08,5600,1600,.16,false],seed:[.13,2400,700,.08,true],coin:[.085,6600,2600,.075,false],door:[.21,1700,120,.12,true]};
+    const [duration,low,high,loudness,brown]=sounds[kind];this.noise(duration,low,high,loudness,brown);
+    if(kind==='water')for(const delay of [100,220,340,450])setTimeout(()=>{if(this.ctx?.state==='running')this.noise(.07,4700,1500,.045);},delay);
+    if(kind==='axe')setTimeout(()=>this.noise(.08,1300,100,.1,true),70);
+    if(kind==='hoe')setTimeout(()=>this.noise(.12,2200,500,.055,true),80);
+    if(kind==='coin')setTimeout(()=>this.noise(.055,4400,1300,.045),85);
+  }
+}

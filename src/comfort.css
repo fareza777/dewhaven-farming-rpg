@@ -1,0 +1,18 @@
+/* Readable phone typography and a roomy action thumb, without adding a dock. */
+.modal-body .eyebrow,.opening-kicker,.cinematic-kicker,.cinematic-top,.boot-screen small{font-size:13px}
+.opening-nature,.day-flow>span,.settings-page .setting-row output,.settings-tab,.save-choice small,.save-choice b,.quest-giver,.quest-card .pill,.quest-reward-items,.recipe-ingredients>span,.favorite-title,.gathering-offerings small,.town-event small,.travel-place small,.ad-preview-row small{font-size:14px}
+.modal-intro,.about-copy,.help-section p,.settings-note{font-size:16px;line-height:1.55}
+.inventory-item strong,.inventory-item>small,.market-item p,.market-item small,.market-price .button,.shipping-row small,.home-rest-actions>.button small{font-size:14px;line-height:1.45}
+.settings-page .setting-row label{font-size:16px}.settings-page .setting-row select{font-size:14px}.settings-tabs{gap:0;margin-inline:-4px}.settings-tab{padding-inline:0}
+.calendar-weekday{font-size:12px}.calendar-day{height:78px;padding:5px 3px;gap:3px}.calendar-day>b{font-size:16px}.calendar-day small{font-size:12px;line-height:1.25}.calendar-day>.ph{font-size:16px}
+.cinematic-top{letter-spacing:1.3px}.cinematic-top>span:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.date-button{font-size:18px}.time-energy{font-size:14px;gap:10px}#hud-clock>span{font-size:13px}#hud-energy{font-size:14px}.money-hud{font-size:18px;flex-shrink:0}
+#app{--action-base:88px}.immersive-game{--quick-size:clamp(46px,calc(48px*var(--control-size)),52px)}
+.game-running .quick-tools{gap:4px;width:calc(var(--quick-size)*3 + 8px)}
+.quick-tool .tool-art{width:34px;height:34px}.bag-shortcut>.ph{font-size:27px}
+.quick-tool{background:#252e32ed;border-color:#f0e0bf70;box-shadow:0 2px 8px #12222740}
+.quick-tool.selected{background:linear-gradient(145deg,#716047,#424644);border-color:#f2d193;box-shadow:0 0 0 2px #eccb8b25,0 3px 9px #19262444}
+.touch-interact>span{font-size:clamp(14px,calc(16px*var(--control-size)),18px)}
+.skill-row>b{font-size:14px;color:#6c5a40;background:#ece2d1}.skill-progress>span{background:#b28d58}.animal-shop-card>strong{font-size:16px}
+.person-card p,.person-card small,.person-card small b{font-size:14px;color:#6d655a}
+@media(max-width:360px){.time-energy{gap:8px}.energy-track{width:32px}.money-hud .coin-art{width:30px;height:30px}.settings-tabs{margin-inline:-6px}.inventory-item strong{font-size:14px}}
